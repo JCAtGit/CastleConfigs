@@ -1,0 +1,32 @@
+{
+	"targets":[
+		{
+			"name":"rufus_mage_build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/rufus_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/rufus_build.sh",
+			"run_bin_as_shell":true,
+			"outputFlag":"-o",
+			"active":false,
+			"run_per_file":false,
+			"comments":"TODO: split up instrumentation and build of rufus, see instrumentation entry"
+		},
+		{
+			"name":"csmith_clang",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodeScaffolder/csmith",
+			"binPath":"/usr/bin/clang",
+			"run_bin_as_shell":false,
+			"outputFlag":"-o",
+			"active":false,
+			"run_per_file":true
+		},
+		{
+			"name":"csmith_mage_clang",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleRepository/InstrumentationScaffolder/csmith_mage/",
+			"binPath":"/usr/bin/clang",
+			"run_bin_as_shell":false,
+			"outputFlag":"-o",
+			"active":true,
+			"run_per_file":true
+		}
+	]
+}

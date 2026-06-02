@@ -1,0 +1,34 @@
+{
+	"targets":[
+		{
+			"name":"rufus_mage_build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/rufus_mage_build/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":false
+		},
+		{
+			"name":"csmith_mage_clang_retdec",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/csmith_mage_clang/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/bin/retdec-decompiler",
+			"static_options":[{"--cleanup":""}, {"--silent":""}],
+			"run_bin_as_shell":false,
+			"outputFlag":"--output",
+			"redirectNull": true,
+			"active":true
+		},
+		{
+			"name":"csmith_mage_clang_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/csmith_mage_clang/",
+			"binPath":"/home/user/Desktop/CASTLE/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": true,
+			"active":true
+		}
+	]
+}
