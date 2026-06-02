@@ -1,0 +1,596 @@
+{
+  "0": {
+    "decom": {
+      "ASTNode": "BinaryOperator",
+      "children": [],
+      "properties": {
+        "contains_errors": false,
+        "has_markee": true,
+        "lhs_stmt_class": "DeclRefExpr",
+        "lhs_types": [
+          {
+            "is_const": false,
+            "is_pointer": true,
+            "type": "unsigned long *"
+          }
+        ],
+        "operator": "=",
+        "operator_opcode": 21,
+        "operator_types": [
+          {
+            "is_const": false,
+            "is_pointer": true,
+            "type": "unsigned long *"
+          }
+        ],
+        "rhs_stmt_class": "UnaryOperator",
+        "rhs_types": [
+          {
+            "is_const": false,
+            "is_pointer": true,
+            "type": "unsigned long *"
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "ASTNode": "DeclStmt",
+      "children": [],
+      "properties": {
+        "has_markee": true,
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": true,
+            "type": "struct S0 ****"
+          }
+        ],
+        "single_decl": true
+      }
+    }
+  },
+  "1": {
+    "decom": {
+      "ASTNode": "BinaryOperator",
+      "children": [],
+      "properties": {
+        "contains_errors": false,
+        "has_markee": true,
+        "lhs_stmt_class": "DeclRefExpr",
+        "lhs_types": [
+          {
+            "is_const": false,
+            "is_pointer": true,
+            "type": "unsigned char *"
+          }
+        ],
+        "operator": "=",
+        "operator_opcode": 21,
+        "operator_types": [
+          {
+            "is_const": false,
+            "is_pointer": true,
+            "type": "unsigned char *"
+          }
+        ],
+        "rhs_stmt_class": "UnaryOperator",
+        "rhs_types": [
+          {
+            "is_const": false,
+            "is_pointer": true,
+            "type": "unsigned char *"
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "ASTNode": "DeclStmt",
+      "children": [],
+      "properties": {
+        "has_markee": true,
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": true,
+            "type": "const unsigned char *"
+          }
+        ],
+        "single_decl": true
+      }
+    }
+  },
+  "2": {
+    "decom": {
+      "ASTNode": "CallExpr",
+      "children": [],
+      "properties": {
+        "contains_errors": false,
+        "has_direct_callee": true,
+        "has_markee": false,
+        "has_side_effects": true,
+        "return_type": "undefined4"
+      }
+    },
+    "oracle": {
+      "ASTNode": "DeclStmt",
+      "children": [],
+      "properties": {
+        "has_markee": true,
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          },
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          },
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "single_decl": false
+      }
+    }
+  },
+  "3": {
+    "decom": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "BinaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "UnaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    }
+  },
+  "4": {
+    "decom": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "BinaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "UnaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    }
+  },
+  "5": {
+    "decom": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "BinaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "UnaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    }
+  },
+  "6": {
+    "decom": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "BinaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "UnaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    }
+  },
+  "7": {
+    "decom": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "BinaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "UnaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    }
+  },
+  "8": {
+    "decom": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "BinaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    },
+    "oracle": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "BinaryOperator",
+        "cond_var_stmt_class": null,
+        "cond_var_types": null,
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "incr_stmt_class": "UnaryOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "0": {
+    "markee_construct": "DeclStmt",
+    "parity_init_types": false,
+    "parity_single_decl": false,
+    "recovered_construct": false
+  },
+  "1": {
+    "markee_construct": "IfStmt",
+    "parity_cond_stmt_class": false,
+    "recovered_construct": false
+  },
+  "2": {
+    "markee_construct": "CallExpr",
+    "name_preserved": true,
+    "parity_arg_types": true,
+    "parity_args_count": true,
+    "parity_has_direct_callee": true,
+    "parity_param_types": true,
+    "parity_params_count": true,
+    "parity_side_effects": true,
+    "parity_variadicity": true,
+    "recovered_construct": true
+  },
+  "3": {
+    "markee_construct": "CallExpr",
+    "name_preserved": true,
+    "parity_arg_types": true,
+    "parity_args_count": true,
+    "parity_has_direct_callee": true,
+    "parity_param_types": true,
+    "parity_params_count": true,
+    "parity_side_effects": true,
+    "parity_variadicity": true,
+    "recovered_construct": true
+  }
+}

@@ -1,0 +1,630 @@
+{
+    "0": {
+        "decom": {
+            "DeclStmt": {
+                "children": [
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    },
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    },
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    }
+                ],
+                "properties": {}
+            }
+        },
+        "oracle": {
+            "DeclStmt": {
+                "children": [
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    },
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    },
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    }
+                ],
+                "properties": {}
+            }
+        }
+    },
+    "1": {
+        "decom": {
+            "ForStmt": {
+                "children": [
+                    {
+                        "BinaryOperator": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "DeclRefExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            },
+                            {
+                                "IntegerLiteral": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "BinaryOperator": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "ImplicitCastExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                },
+                                "children": [
+                                    {
+                                        "DeclRefExpr": {
+                                            "children": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "IntegerLiteral": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "UnaryOperator": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "DeclRefExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "properties": {}
+            }
+        },
+        "oracle": {
+            "ForStmt": {
+                "children": [
+                    {
+                        "BinaryOperator": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "DeclRefExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            },
+                            {
+                                "IntegerLiteral": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "BinaryOperator": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "ImplicitCastExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                },
+                                "children": [
+                                    {
+                                        "DeclRefExpr": {
+                                            "children": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "IntegerLiteral": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "UnaryOperator": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "DeclRefExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "properties": {}
+            }
+        }
+    },
+    "2": {
+        "decom": {
+            "DeclStmt": {
+                "children": [
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    }
+                ],
+                "properties": {}
+            }
+        },
+        "oracle": {
+            "DeclStmt": {
+                "children": [
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    }
+                ],
+                "properties": {}
+            }
+        }
+    },
+    "3": {
+        "decom": {
+            "DeclStmt": {
+                "children": [
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    }
+                ],
+                "properties": {}
+            }
+        },
+        "oracle": {
+            "DeclStmt": {
+                "children": [
+                    {
+                        "Var": {
+                            "children": [],
+                            "properties": {}
+                        }
+                    }
+                ],
+                "properties": {}
+            }
+        }
+    },
+    "4": {
+        "decom": {
+            "IfStmt": {
+                "children": [
+                    {
+                        "BinaryOperator": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "BinaryOperator": {
+                                    "children": [],
+                                    "properties": {}
+                                },
+                                "children": [
+                                    {
+                                        "ImplicitCastExpr": {
+                                            "children": [],
+                                            "properties": {}
+                                        },
+                                        "children": [
+                                            {
+                                                "DeclRefExpr": {
+                                                    "children": [],
+                                                    "properties": {}
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "IntegerLiteral": {
+                                            "children": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "BinaryOperator": {
+                                    "children": [],
+                                    "properties": {}
+                                },
+                                "children": [
+                                    {
+                                        "CallExpr": {
+                                            "children": [],
+                                            "properties": {}
+                                        },
+                                        "children": [
+                                            {
+                                                "ImplicitCastExpr": {
+                                                    "children": [],
+                                                    "properties": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "DeclRefExpr": {
+                                                            "children": [],
+                                                            "properties": {}
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ImplicitCastExpr": {
+                                                    "children": [],
+                                                    "properties": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "ImplicitCastExpr": {
+                                                            "children": [],
+                                                            "properties": {}
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "ArraySubscriptExpr": {
+                                                                    "children": [],
+                                                                    "properties": {}
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "ImplicitCastExpr": {
+                                                                            "children": [],
+                                                                            "properties": {}
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "DeclRefExpr": {
+                                                                                    "children": [],
+                                                                                    "properties": {}
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "IntegerLiteral": {
+                                                                            "children": [],
+                                                                            "properties": {}
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ImplicitCastExpr": {
+                                                    "children": [],
+                                                    "properties": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "ImplicitCastExpr": {
+                                                            "children": [],
+                                                            "properties": {}
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "StringLiteral": {
+                                                                    "children": [],
+                                                                    "properties": {}
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "IntegerLiteral": {
+                                            "children": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "properties": {}
+            }
+        },
+        "oracle": {
+            "IfStmt": {
+                "children": [
+                    {
+                        "BinaryOperator": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "BinaryOperator": {
+                                    "children": [],
+                                    "properties": {}
+                                },
+                                "children": [
+                                    {
+                                        "ImplicitCastExpr": {
+                                            "children": [],
+                                            "properties": {}
+                                        },
+                                        "children": [
+                                            {
+                                                "DeclRefExpr": {
+                                                    "children": [],
+                                                    "properties": {}
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "IntegerLiteral": {
+                                            "children": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "BinaryOperator": {
+                                    "children": [],
+                                    "properties": {}
+                                },
+                                "children": [
+                                    {
+                                        "CallExpr": {
+                                            "children": [],
+                                            "properties": {}
+                                        },
+                                        "children": [
+                                            {
+                                                "ImplicitCastExpr": {
+                                                    "children": [],
+                                                    "properties": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "DeclRefExpr": {
+                                                            "children": [],
+                                                            "properties": {}
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ImplicitCastExpr": {
+                                                    "children": [],
+                                                    "properties": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "ImplicitCastExpr": {
+                                                            "children": [],
+                                                            "properties": {}
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "ArraySubscriptExpr": {
+                                                                    "children": [],
+                                                                    "properties": {}
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "ImplicitCastExpr": {
+                                                                            "children": [],
+                                                                            "properties": {}
+                                                                        },
+                                                                        "children": [
+                                                                            {
+                                                                                "DeclRefExpr": {
+                                                                                    "children": [],
+                                                                                    "properties": {}
+                                                                                }
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "IntegerLiteral": {
+                                                                            "children": [],
+                                                                            "properties": {}
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "ImplicitCastExpr": {
+                                                    "children": [],
+                                                    "properties": {}
+                                                },
+                                                "children": [
+                                                    {
+                                                        "ImplicitCastExpr": {
+                                                            "children": [],
+                                                            "properties": {}
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "StringLiteral": {
+                                                                    "children": [],
+                                                                    "properties": {}
+                                                                }
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "IntegerLiteral": {
+                                            "children": [],
+                                            "properties": {}
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "properties": {}
+            }
+        }
+    },
+    "5": {
+        "decom": {
+            "CallExpr": {
+                "children": [
+                    {
+                        "ImplicitCastExpr": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "DeclRefExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "properties": {}
+            }
+        },
+        "oracle": {
+            "CallExpr": {
+                "children": [
+                    {
+                        "ImplicitCastExpr": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "DeclRefExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "properties": {}
+            }
+        }
+    },
+    "6": {
+        "decom": {
+            "CallExpr": {
+                "children": [
+                    {
+                        "ImplicitCastExpr": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "DeclRefExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "properties": {}
+            }
+        },
+        "oracle": {
+            "CallExpr": {
+                "children": [
+                    {
+                        "ImplicitCastExpr": {
+                            "children": [],
+                            "properties": {}
+                        },
+                        "children": [
+                            {
+                                "DeclRefExpr": {
+                                    "children": [],
+                                    "properties": {}
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "properties": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+  "0": {
+    "markee_construct": "DeclStmt",
+    "parity_init_types": false,
+    "parity_single_decl": false,
+    "recovered_construct": false
+  },
+  "1": {
+    "markee_construct": "ForStmt",
+    "parity_cond_expr_types": true,
+    "parity_cond_stmt_class": true,
+    "parity_cond_var_stmt_class": true,
+    "parity_cond_var_types": true,
+    "parity_has_cond_expr": true,
+    "parity_has_cond_var": true,
+    "parity_has_incr": true,
+    "parity_has_init": true,
+    "parity_incr_expr_types": true,
+    "parity_incr_stmt_class": false,
+    "parity_init_stmt_class": true,
+    "parity_init_types": true,
+    "recovered_construct": true
+  },
+  "2": {
+    "markee_construct": "DeclStmt",
+    "parity_init_types": false,
+    "parity_single_decl": false,
+    "recovered_construct": false
+  },
+  "3": {
+    "markee_construct": "DeclStmt",
+    "parity_init_types": false,
+    "parity_single_decl": false,
+    "recovered_construct": false
+  },
+  "4": {
+    "markee_construct": "IfStmt",
+    "parity_cond_stmt_class": true,
+    "recovered_construct": true
+  },
+  "5": {
+    "markee_construct": "CallExpr",
+    "name_preserved": false,
+    "parity_arg_types": false,
+    "parity_args_count": false,
+    "parity_has_direct_callee": false,
+    "parity_param_types": false,
+    "parity_params_count": false,
+    "parity_side_effects": false,
+    "parity_variadicity": false,
+    "recovered_construct": false
+  },
+  "6": {
+    "markee_construct": "CallExpr",
+    "name_preserved": false,
+    "parity_arg_types": false,
+    "parity_args_count": false,
+    "parity_has_direct_callee": false,
+    "parity_param_types": false,
+    "parity_params_count": false,
+    "parity_side_effects": false,
+    "parity_variadicity": false,
+    "recovered_construct": false
+  }
+}

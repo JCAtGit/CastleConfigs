@@ -1,0 +1,3290 @@
+{
+    "0": {
+        "decom": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [
+                            {
+                                "ASTNode": "union U0 ****[8][6][2]",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [
+                            {
+                                "ASTNode": "union U0 ****[8][6][2]",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "1": {
+        "decom": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [
+                            {
+                                "ASTNode": "union U0 *****",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [
+                            {
+                                "ASTNode": "union U0 *****",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "124": {
+        "decom": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "125": {
+        "decom": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [
+                            {
+                                "ASTNode": "int",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [
+                            {
+                                "ASTNode": "int",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "126": {
+        "decom": {
+            "ASTNode": "IfStmt",
+            "IfStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "BinaryOperator",
+                                "children": [
+                                    {
+                                        "ASTNode": "ImplicitCastExpr",
+                                        "children": [
+                                            {
+                                                "ASTNode": "DeclRefExpr",
+                                                "children": [],
+                                                "properties": {}
+                                            }
+                                        ],
+                                        "properties": {}
+                                    },
+                                    {
+                                        "ASTNode": "IntegerLiteral",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "BinaryOperator",
+                                "children": [
+                                    {
+                                        "ASTNode": "CallExpr",
+                                        "children": [
+                                            {
+                                                "ASTNode": "ImplicitCastExpr",
+                                                "children": [
+                                                    {
+                                                        "ASTNode": "DeclRefExpr",
+                                                        "children": [],
+                                                        "properties": {}
+                                                    }
+                                                ],
+                                                "properties": {}
+                                            },
+                                            {
+                                                "ASTNode": "ImplicitCastExpr",
+                                                "children": [
+                                                    {
+                                                        "ASTNode": "ImplicitCastExpr",
+                                                        "children": [
+                                                            {
+                                                                "ASTNode": "ArraySubscriptExpr",
+                                                                "children": [
+                                                                    {
+                                                                        "ASTNode": "ImplicitCastExpr",
+                                                                        "children": [
+                                                                            {
+                                                                                "ASTNode": "DeclRefExpr",
+                                                                                "children": [],
+                                                                                "properties": {}
+                                                                            }
+                                                                        ],
+                                                                        "properties": {}
+                                                                    },
+                                                                    {
+                                                                        "ASTNode": "IntegerLiteral",
+                                                                        "children": [],
+                                                                        "properties": {}
+                                                                    }
+                                                                ],
+                                                                "properties": {}
+                                                            }
+                                                        ],
+                                                        "properties": {}
+                                                    }
+                                                ],
+                                                "properties": {}
+                                            },
+                                            {
+                                                "ASTNode": "ImplicitCastExpr",
+                                                "children": [
+                                                    {
+                                                        "ASTNode": "ImplicitCastExpr",
+                                                        "children": [
+                                                            {
+                                                                "ASTNode": "StringLiteral",
+                                                                "children": [],
+                                                                "properties": {}
+                                                            }
+                                                        ],
+                                                        "properties": {}
+                                                    }
+                                                ],
+                                                "properties": {}
+                                            }
+                                        ],
+                                        "properties": {}
+                                    },
+                                    {
+                                        "ASTNode": "IntegerLiteral",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "IfStmt",
+            "IfStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "BinaryOperator",
+                                "children": [
+                                    {
+                                        "ASTNode": "ImplicitCastExpr",
+                                        "children": [
+                                            {
+                                                "ASTNode": "DeclRefExpr",
+                                                "children": [],
+                                                "properties": {}
+                                            }
+                                        ],
+                                        "properties": {}
+                                    },
+                                    {
+                                        "ASTNode": "IntegerLiteral",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "BinaryOperator",
+                                "children": [
+                                    {
+                                        "ASTNode": "CallExpr",
+                                        "children": [
+                                            {
+                                                "ASTNode": "ImplicitCastExpr",
+                                                "children": [
+                                                    {
+                                                        "ASTNode": "DeclRefExpr",
+                                                        "children": [],
+                                                        "properties": {}
+                                                    }
+                                                ],
+                                                "properties": {}
+                                            },
+                                            {
+                                                "ASTNode": "ImplicitCastExpr",
+                                                "children": [
+                                                    {
+                                                        "ASTNode": "ImplicitCastExpr",
+                                                        "children": [
+                                                            {
+                                                                "ASTNode": "ArraySubscriptExpr",
+                                                                "children": [
+                                                                    {
+                                                                        "ASTNode": "ImplicitCastExpr",
+                                                                        "children": [
+                                                                            {
+                                                                                "ASTNode": "DeclRefExpr",
+                                                                                "children": [],
+                                                                                "properties": {}
+                                                                            }
+                                                                        ],
+                                                                        "properties": {}
+                                                                    },
+                                                                    {
+                                                                        "ASTNode": "IntegerLiteral",
+                                                                        "children": [],
+                                                                        "properties": {}
+                                                                    }
+                                                                ],
+                                                                "properties": {}
+                                                            }
+                                                        ],
+                                                        "properties": {}
+                                                    }
+                                                ],
+                                                "properties": {}
+                                            },
+                                            {
+                                                "ASTNode": "ImplicitCastExpr",
+                                                "children": [
+                                                    {
+                                                        "ASTNode": "ImplicitCastExpr",
+                                                        "children": [
+                                                            {
+                                                                "ASTNode": "StringLiteral",
+                                                                "children": [],
+                                                                "properties": {}
+                                                            }
+                                                        ],
+                                                        "properties": {}
+                                                    }
+                                                ],
+                                                "properties": {}
+                                            }
+                                        ],
+                                        "properties": {}
+                                    },
+                                    {
+                                        "ASTNode": "IntegerLiteral",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "127": {
+        "decom": {
+            "ASTNode": "CallExpr",
+            "CallExpr": {
+                "children": [
+                    {
+                        "ASTNode": "ImplicitCastExpr",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "CallExpr",
+            "CallExpr": {
+                "children": [
+                    {
+                        "ASTNode": "ImplicitCastExpr",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "128": {
+        "decom": {
+            "ASTNode": "CallExpr",
+            "CallExpr": {
+                "children": [
+                    {
+                        "ASTNode": "ImplicitCastExpr",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "CallExpr",
+            "CallExpr": {
+                "children": [
+                    {
+                        "ASTNode": "ImplicitCastExpr",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "129": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "134": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "139": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "144": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "148": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "154": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "158": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "163": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "169": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "174": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "180": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "185": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "189": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "193": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "198": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "2": {
+        "decom": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "201": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "207": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "210": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "215": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "218": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "3": {
+        "decom": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "DeclStmt",
+            "DeclStmt": {
+                "children": [
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "Var",
+                        "children": [],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "4": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "5": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    },
+    "6": {
+        "decom": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        },
+        "oracle": {
+            "ASTNode": "ForStmt",
+            "ForStmt": {
+                "children": [
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "BinaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "ImplicitCastExpr",
+                                "children": [
+                                    {
+                                        "ASTNode": "DeclRefExpr",
+                                        "children": [],
+                                        "properties": {}
+                                    }
+                                ],
+                                "properties": {}
+                            },
+                            {
+                                "ASTNode": "IntegerLiteral",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    },
+                    {
+                        "ASTNode": "UnaryOperator",
+                        "children": [
+                            {
+                                "ASTNode": "DeclRefExpr",
+                                "children": [],
+                                "properties": {}
+                            }
+                        ],
+                        "properties": {}
+                    }
+                ]
+            },
+            "children": [],
+            "properties": {}
+        }
+    }
+}
