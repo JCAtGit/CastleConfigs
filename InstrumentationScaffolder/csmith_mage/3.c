@@ -1,11 +1,11 @@
-#include "MarkerDefinition.h"
+#include "MageAlpha.h"
 /*
  * This is a RANDOMLY GENERATED PROGRAM.
  *
  * Generator: csmith 2.4.0
  * Git version: unknown
  * Options:   --seed 3 --output
- * /home/user/Desktop/CASTLE/CodeScaffolder/csmith/3.c Seed:      3
+ * /home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/csmith/3.c Seed: 3
  */
 
 #include "csmith.h"
@@ -25,7 +25,7 @@ union U1 {
 static union U1 g_2[6] = {{0xB3L}, {1L}, {0xB3L}, {0xB3L}, {1L}, {0xB3L}};
 
 /* --- FORWARD DECLARATIONS --- */
-__attribute__((optnone)) static union U1 func_1(void);
+static union U1 func_1(void);
 
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -33,30 +33,30 @@ __attribute__((optnone)) static union U1 func_1(void);
  * reads : g_2
  * writes:
  */
-__attribute__((optnone)) static union U1 func_1(void) { /* block id: 0 */ return g_2[0]; }
+static union U1 __attribute__((optimize("O0"), optnone)) func_1(void) { /* block id: 0 */ return g_2[0]; }
 
 /* ---------------------------------------- */
-__attribute__((optnone)) int main(int argc, char *argv[]) {
-  codemarker_alpha(0); 
+int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
+  mage_alpha(0); 
   int i;
-  codemarker_alpha(1); 
+  mage_alpha(1); 
   int print_hash_value = 0;
-  codemarker_alpha(2); 
+  mage_alpha(2); 
   if (argc == 2 && strcmp(argv[1], "1") == 0) {
     print_hash_value = 1;
   }
-  codemarker_alpha(3); 
+  mage_alpha(3); 
   platform_main_begin();
-  codemarker_alpha(4); 
+  mage_alpha(4); 
   crc32_gentab();
-  codemarker_alpha(5); 
+  mage_alpha(5); 
   func_1();
-  codemarker_alpha(6); 
+  mage_alpha(6); 
   for (i = 0; i < 6; i++) {
     transparent_crc(g_2[i].f0, "g_2[i].f0", print_hash_value);
-    codemarker_alpha(7); 
+    mage_alpha(7); 
     if (print_hash_value) {
-      codemarker_alpha(8); 
+      mage_alpha(8); 
       printf("index = [%d]\n", i);
     }
   }

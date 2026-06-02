@@ -1,11 +1,11 @@
-#include "MarkerDefinition.h"
+#include "MageAlpha.h"
 /*
  * This is a RANDOMLY GENERATED PROGRAM.
  *
  * Generator: csmith 2.4.0
  * Git version: unknown
  * Options:   --seed 6 --output
- * /home/user/Desktop/CASTLE/CodeScaffolder/csmith/6.c Seed:      6
+ * /home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/csmith/6.c Seed: 6
  */
 
 #include "csmith.h"
@@ -17,7 +17,7 @@ static long __undefined;
 static int32_t g_5 = 0x97A4A12BL;
 
 /* --- FORWARD DECLARATIONS --- */
-__attribute__((optnone)) static int64_t func_1(void);
+static int64_t func_1(void);
 
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -25,23 +25,23 @@ __attribute__((optnone)) static int64_t func_1(void);
  * reads : g_5
  * writes:
  */
-__attribute__((optnone)) static int64_t func_1(void) { /* block id: 0 */
+static int64_t func_1(void) { /* block id: 0 */
   uint64_t l_2 = 18446744073709551610UL;
   l_2++;
   return g_5;
 }
 
 /* ---------------------------------------- */
-__attribute__((optnone)) int main(int argc, char *argv[]) {
-  codemarker_alpha(0); 
+int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
+  mage_alpha(0); 
   int print_hash_value = 0;
-  codemarker_alpha(1); 
+  mage_alpha(1); 
   if (argc == 2 && strcmp(argv[1], "1") == 0) {
     print_hash_value = 1;
   }
-  codemarker_alpha(2); 
+  mage_alpha(2); 
   platform_main_begin();
-  codemarker_alpha(3); 
+  mage_alpha(3); 
   crc32_gentab();
   func_1();
   transparent_crc(g_5, "g_5", print_hash_value);

@@ -1,11 +1,11 @@
-#include "MarkerDefinition.h"
+#include "MageAlpha.h"
 /*
  * This is a RANDOMLY GENERATED PROGRAM.
  *
  * Generator: csmith 2.4.0
  * Git version: unknown
  * Options:   --seed 1 --output
- * /home/user/Desktop/CASTLE/CodeScaffolder/csmith/1.c Seed:      1
+ * /home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/csmith/1.c Seed: 1
  */
 
 #include "csmith.h"
@@ -18,7 +18,7 @@ static int32_t g_4 = 0x5D16DF25L;
 static int32_t *volatile g_5[6] = {&g_4, &g_4, &g_4, &g_4, &g_4, &g_4};
 
 /* --- FORWARD DECLARATIONS --- */
-__attribute__((optnone)) static int8_t func_1(void);
+static int8_t func_1(void);
 
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -26,7 +26,7 @@ __attribute__((optnone)) static int8_t func_1(void);
  * reads : g_4
  * writes: g_5
  */
-__attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
+static int8_t func_1(void) { /* block id: 0 */
   int32_t *l_3[6];
   int32_t **l_2[3][9][3] = {{{&l_3[3], (void *)0, &l_3[3]},
                              {&l_3[5], &l_3[3], (void *)0},
@@ -55,9 +55,9 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
                              {&l_3[3], &l_3[5], &l_3[2]},
                              {&l_3[3], &l_3[3], &l_3[3]},
                              {&l_3[2], &l_3[5], &l_3[3]}}};
-  codemarker_alpha(0); 
+  mage_alpha(0); 
   int i, j, k;
-  codemarker_alpha(1); 
+  mage_alpha(1); 
   for (i = 0; i < 6; i++) {
     l_3[i] = &g_4;
   }
@@ -66,18 +66,18 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
 }
 
 /* ---------------------------------------- */
-__attribute__((optnone)) int main(int argc, char *argv[]) {
-  codemarker_alpha(2); 
+int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
+  mage_alpha(2); 
   int i;
-  codemarker_alpha(3); 
+  mage_alpha(3); 
   int print_hash_value = 0;
-  codemarker_alpha(4); 
+  mage_alpha(4); 
   if (argc == 2 && strcmp(argv[1], "1") == 0) {
     print_hash_value = 1;
   }
-  codemarker_alpha(5); 
+  mage_alpha(5); 
   platform_main_begin();
-  codemarker_alpha(6); 
+  mage_alpha(6); 
   crc32_gentab();
   func_1();
   transparent_crc(g_4, "g_4", print_hash_value);

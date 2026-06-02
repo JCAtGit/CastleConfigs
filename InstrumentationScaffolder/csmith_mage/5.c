@@ -1,11 +1,11 @@
-#include "MarkerDefinition.h"
+#include "MageAlpha.h"
 /*
  * This is a RANDOMLY GENERATED PROGRAM.
  *
  * Generator: csmith 2.4.0
  * Git version: unknown
  * Options:   --seed 5 --output
- * /home/user/Desktop/CASTLE/CodeScaffolder/csmith/5.c Seed:      5
+ * /home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/csmith/5.c Seed: 5
  */
 
 #include "csmith.h"
@@ -160,17 +160,17 @@ static int16_t g_646[9][9] = {
 static struct S2 **volatile g_677 = (void *)0; /* VOLATILE GLOBAL g_677 */
 
 /* --- FORWARD DECLARATIONS --- */
-__attribute__((optnone)) static int8_t func_1(void);
-__attribute__((optnone)) static uint64_t func_6(int32_t p_7, int64_t p_8, uint8_t p_9, uint32_t p_10);
-__attribute__((optnone)) static int32_t func_11(struct S0 p_12, uint64_t p_13, int32_t p_14);
-__attribute__((optnone)) static struct S0 func_15(uint8_t p_16);
-__attribute__((optnone)) static int64_t func_22(int32_t p_23, int16_t p_24, struct S0 p_25);
-__attribute__((optnone)) static int32_t func_28(uint8_t p_29, struct S0 p_30, int32_t p_31);
-__attribute__((optnone)) static struct S0 func_33(struct S0 p_34, const uint32_t p_35);
-__attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38, struct S0 p_39,
+static int8_t func_1(void);
+static uint64_t func_6(int32_t p_7, int64_t p_8, uint8_t p_9, uint32_t p_10);
+static int32_t func_11(struct S0 p_12, uint64_t p_13, int32_t p_14);
+static struct S0 func_15(uint8_t p_16);
+static int64_t func_22(int32_t p_23, int16_t p_24, struct S0 p_25);
+static int32_t func_28(uint8_t p_29, struct S0 p_30, int32_t p_31);
+static struct S0 func_33(struct S0 p_34, const uint32_t p_35);
+static struct S0 func_36(uint16_t p_37, struct S0 p_38, struct S0 p_39,
                          int8_t p_40, uint8_t p_41);
-__attribute__((optnone)) static int32_t func_43(int16_t p_44, uint16_t p_45);
-__attribute__((optnone)) static uint32_t func_50(int8_t p_51);
+static int32_t func_43(int16_t p_44, uint16_t p_45);
+static uint32_t func_50(int8_t p_51);
 
 /* --- FUNCTIONS --- */
 /* ------------------------------------------ */
@@ -184,7 +184,7 @@ __attribute__((optnone)) static uint32_t func_50(int8_t p_51);
  * g_283 g_285 g_314 g_353 g_354 g_282.f0 g_368 g_371 g_380 g_259 g_61 g_21
  * g_258 g_73 g_531 g_533 g_646
  */
-__attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
+static int8_t func_1(void) { /* block id: 0 */
   int32_t l_32 = 8L;
   int32_t *l_369 = (void *)0;
   int32_t *l_370 = &g_371;
@@ -438,15 +438,15 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
   struct S1 l_470 = {37282, 7208, 0x96L};
   int32_t l_556 = 0xAAC4F8F9L;
   uint64_t l_578 = 0UL;
-  codemarker_alpha(0); 
+  mage_alpha(0); 
   struct S2 *l_678 = &g_357;
-  codemarker_alpha(1); 
+  mage_alpha(1); 
   int i, j, k;
-  codemarker_alpha(2); 
+  mage_alpha(2); 
   for (i = 0; i < 6; i++) {
     l_382[i] = (void *)0;
   }
-  codemarker_alpha(3); 
+  mage_alpha(3); 
   if ((safe_mul_func_uint16_t_u_u(
           (((0x58BFL !=
              (((*l_418) =
@@ -516,7 +516,7 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
     int32_t *l_500[4] = {(void *)0, (void *)0, (void *)0, (void *)0};
     int32_t *l_501 = (void *)0;
     int32_t *l_506 = &g_137;
-    codemarker_alpha(4); 
+    mage_alpha(4); 
     int i;
     l_419 = 0xC4984761L;
     if (((((safe_mod_func_uint16_t_u_u(
@@ -531,18 +531,18 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
                l_419)) >= (-1L)) ||
           3UL),
          l_419)) { /* block id: 203 */
-      codemarker_alpha(5); 
+      mage_alpha(5); 
       struct S1 **l_435 = &g_353;
     lbl_445:
       (*l_435) = (void *)0;
-      codemarker_alpha(6); 
+      mage_alpha(6); 
       for (g_259 = 0; (g_259 > 9); ++g_259) { /* block id: 207 */
         int32_t **l_438 = &g_185;
-        codemarker_alpha(7); 
+        mage_alpha(7); 
         for (g_158 = 3; (g_158 >= 0); g_158 -= 1) { /* block id: 210 */
-          codemarker_alpha(8); 
+          mage_alpha(8); 
           int i;
-          codemarker_alpha(9); 
+          mage_alpha(9); 
           if (g_58[g_158]) {
             break;
           }
@@ -701,7 +701,7 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
                                  {(void *)0, &g_214, (void *)0},
                                  {&g_214, (void *)0, &g_214}}};
     struct S1 l_654 = {32477, -7257, 0xC2L};
-    codemarker_alpha(10); 
+    mage_alpha(10); 
     int i, j, k;
     if (l_383) { /* block id: 286 */
       struct S1 l_524[4][2][4] = {{{{43033, 2061, 0x3BL},
@@ -736,12 +736,12 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
                                     {41750, 322, 251UL},
                                     {35528, 10983, 0UL},
                                     {19137, -5307, 248UL}}}};
-      codemarker_alpha(11); 
+      mage_alpha(11); 
       struct S1 ***l_527 = (void *)0;
-      codemarker_alpha(12); 
+      mage_alpha(12); 
       struct S1 ****const l_526[9] = {&l_527, &l_527, &l_527, &l_527, &l_527,
                                       &l_527, &l_527, &l_527, &l_527};
-      codemarker_alpha(13); 
+      mage_alpha(13); 
       int i, j, k;
       for (l_467 = 0; (l_467 <= 3); l_467 += 1) { /* block id: 289 */
         int32_t *l_508 = &l_383;
@@ -902,12 +902,12 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
           {(void *)0, (void *)0, &l_470.f2}, {&l_470.f2, (void *)0, (void *)0},
           {&l_470.f2, (void *)0, &g_545}};
       uint8_t l_620 = 0xA0L;
-      codemarker_alpha(14); 
+      mage_alpha(14); 
       struct S1 **l_674 = (void *)0;
       const int8_t l_676 = 0L;
-      codemarker_alpha(15); 
+      mage_alpha(15); 
       int i, j, k;
-      codemarker_alpha(16); 
+      mage_alpha(16); 
       for (i = 0; i < 6; i++) {
         l_587[i] = &g_135[3];
       }
@@ -993,10 +993,10 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
                g_282.f3)))) { /* block id: 338 */
         return l_467;
       } else { /* block id: 340 */
-        codemarker_alpha(17); 
+        mage_alpha(17); 
         struct S1 ***l_595 = (void *)0;
         int32_t l_621 = 0x56BB8287L;
-        codemarker_alpha(18); 
+        mage_alpha(18); 
         if ((l_595 == (**g_530))) { /* block id: 341 */
           const uint8_t l_598 = 1UL;
           uint16_t *l_607 = (void *)0;
@@ -1022,7 +1022,7 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
                {(-5L), 0L, 0x14A7CD7DL, 0L},
                {0L, 0x49E32046L, 0x14A7CD7DL, 0x14A7CD7DL},
                {(-5L), (-5L), 0L, 0x14A7CD7DL}}};
-          codemarker_alpha(19); 
+          mage_alpha(19); 
           int i, j, k;
           if ((((safe_mul_func_uint16_t_u_u(l_598, (-1L))) &
                 (safe_div_func_int16_t_s_s(
@@ -1097,7 +1097,7 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
                                             {(-4L)},
                                             {0x294B7474L}}};
           int32_t l_675 = 0xF443B186L;
-          codemarker_alpha(20); 
+          mage_alpha(20); 
           int i, j, k;
           l_678 =
               ((((0x0B30L |
@@ -1167,9 +1167,9 @@ __attribute__((optnone)) static int8_t func_1(void) { /* block id: 0 */
  * reads : g_417 g_168 g_169 g_170
  * writes: g_353
  */
-__attribute__((optnone)) static uint64_t func_6(int32_t p_7, int64_t p_8, uint8_t p_9,
+static uint64_t func_6(int32_t p_7, int64_t p_8, uint8_t p_9,
                        uint32_t p_10) { /* block id: 195 */
-  codemarker_alpha(21); 
+  mage_alpha(21); 
   struct S1 *l_416 = &g_73;
   (*g_417) = l_416;
   return (**g_168);
@@ -1180,7 +1180,7 @@ __attribute__((optnone)) static uint64_t func_6(int32_t p_7, int64_t p_8, uint8_
  * reads : g_185 g_137
  * writes: g_137
  */
-__attribute__((optnone)) static int32_t func_11(struct S0 p_12, uint64_t p_13,
+static int32_t func_11(struct S0 p_12, uint64_t p_13,
                        int32_t p_14) { /* block id: 191 */
   int32_t *l_400 = &g_67[0];
   int32_t *l_401 = &g_67[1];
@@ -1196,9 +1196,9 @@ __attribute__((optnone)) static int32_t func_11(struct S0 p_12, uint64_t p_13,
   int32_t *l_411 = &g_67[1];
   int32_t *l_412[3];
   uint32_t l_413 = 4294967295UL;
-  codemarker_alpha(22); 
+  mage_alpha(22); 
   int i;
-  codemarker_alpha(23); 
+  mage_alpha(23); 
   for (i = 0; i < 3; i++) {
     l_412[i] = &g_67[1];
   }
@@ -1212,7 +1212,7 @@ __attribute__((optnone)) static int32_t func_11(struct S0 p_12, uint64_t p_13,
  * reads : g_282.f0 g_371 g_184 g_185 g_392 g_137 g_42
  * writes: g_371 g_185 g_137
  */
-__attribute__((optnone)) static struct S0 func_15(uint8_t p_16) { /* block id: 177 */
+static struct S0 __attribute__((optimize("O0"), optnone)) func_15(uint8_t p_16) { /* block id: 177 */
   uint64_t l_389[10] = {9UL,
                         0x0DADCC15319E6048LL,
                         9UL,
@@ -1225,13 +1225,13 @@ __attribute__((optnone)) static struct S0 func_15(uint8_t p_16) { /* block id: 1
                         0xCD549C33F835F841LL};
   uint8_t l_396 = 0xFAL;
   struct S0 l_397 = {0x0CD88C6BB1CFBEAALL, 0L};
-  codemarker_alpha(24); 
+  mage_alpha(24); 
   int i;
-  codemarker_alpha(25); 
+  mage_alpha(25); 
   if ((safe_rshift_func_uint64_t_u_s(
           ((safe_rshift_func_int8_t_s_s(l_389[1], 2)) < g_282.f0),
           12))) { /* block id: 178 */
-    codemarker_alpha(26); 
+    mage_alpha(26); 
     for (g_371 = 21; (g_371 > (-20));
          g_371 = safe_sub_func_uint8_t_u_u(g_371, 3)) { /* block id: 181 */
       uint8_t l_393 = 255UL;
@@ -1251,11 +1251,11 @@ __attribute__((optnone)) static struct S0 func_15(uint8_t p_16) { /* block id: 1
  * reads : g_376 g_379 g_306.f2
  * writes: g_185 g_380
  */
-__attribute__((optnone)) static int64_t func_22(int32_t p_23, int16_t p_24,
+static int64_t func_22(int32_t p_23, int16_t p_24,
                        struct S0 p_25) { /* block id: 170 */
   int32_t *l_373 = &g_137;
   int32_t **l_377 = &l_373;
-  codemarker_alpha(27); 
+  mage_alpha(27); 
   struct S1 *const *l_378 = &g_353;
   (*g_376) = l_373;
   (*l_377) = l_373;
@@ -1268,7 +1268,7 @@ __attribute__((optnone)) static int64_t func_22(int32_t p_23, int16_t p_24,
  * reads :
  * writes: g_368
  */
-__attribute__((optnone)) static int32_t func_28(uint8_t p_29, struct S0 p_30,
+static int32_t func_28(uint8_t p_29, struct S0 p_30,
                        int32_t p_31) { /* block id: 166 */
   const int32_t *l_365 = (void *)0;
   const int32_t **l_366 = (void *)0;
@@ -1335,7 +1335,7 @@ __attribute__((optnone)) static int32_t func_28(uint8_t p_29, struct S0 p_30,
                                      {&l_365, &l_365, (void *)0, &l_365},
                                      {&l_365, &l_365, (void *)0, (void *)0},
                                      {&l_365, &l_365, &l_365, (void *)0}}};
-  codemarker_alpha(28); 
+  mage_alpha(28); 
   int i, j, k;
   g_368 = l_365;
   return p_30.f1;
@@ -1346,7 +1346,7 @@ __attribute__((optnone)) static int32_t func_28(uint8_t p_29, struct S0 p_30,
  * reads : g_192
  * writes: g_67 g_282.f0
  */
-__attribute__((optnone)) static struct S0 func_33(struct S0 p_34,
+static struct S0 __attribute__((optimize("O0"), optnone)) func_33(struct S0 p_34,
                          const uint32_t p_35) { /* block id: 162 */
   int32_t *l_363[5][7][4] = {{{&g_67[1], (void *)0, &g_67[2], &g_137},
                               {&g_137, (void *)0, &g_137, &g_137},
@@ -1384,7 +1384,7 @@ __attribute__((optnone)) static struct S0 func_33(struct S0 p_34,
                               {&g_137, &g_67[1], (void *)0, &g_67[0]},
                               {&g_67[1], (void *)0, (void *)0, &g_137}}};
   struct S0 l_364 = {18446744073709551609UL, 0x7EL};
-  codemarker_alpha(29); 
+  mage_alpha(29); 
   int i, j, k;
   g_282.f0 = ((*g_192) = p_34.f1);
   return l_364;
@@ -1398,7 +1398,7 @@ __attribute__((optnone)) static struct S0 func_33(struct S0 p_34,
  * g_42.f1 g_67 g_135 g_137 g_144 g_73.f2 g_73.f0 g_158 g_42 g_172 g_185 g_214
  * g_63 g_256 g_283 g_285 g_314 g_353 g_354
  */
-__attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38, struct S0 p_39,
+static struct S0 __attribute__((optimize("O0"), optnone)) func_36(uint16_t p_37, struct S0 p_38, struct S0 p_39,
                          int8_t p_40, uint8_t p_41) { /* block id: 9 */
   uint16_t *l_78 = (void *)0;
   uint16_t **l_79 = &l_78;
@@ -1498,18 +1498,18 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
        {{18446744073709551615UL, 0x07L},
         {18446744073709551615UL, 0x07L},
         {18446744073709551615UL, 0x24L}}}};
-  codemarker_alpha(30); 
+  mage_alpha(30); 
   int i, j, k;
-  codemarker_alpha(31); 
+  mage_alpha(31); 
   for (i = 0; i < 8; i++) {
     l_328[i] = &l_329;
   }
-  codemarker_alpha(32); 
+  mage_alpha(32); 
   if ((safe_rshift_func_uint16_t_u_u((g_63 > (((*l_79) = l_78) == l_80[5])),
                                      7))) { /* block id: 11 */
     uint8_t l_131 = 0x12L;
     int32_t l_151 = (-6L);
-    codemarker_alpha(33); 
+    mage_alpha(33); 
     for (p_37 = (-4); (p_37 == 9);
          p_37 = safe_add_func_int16_t_s_s(p_37, 2)) { /* block id: 14 */
       int32_t l_83 = 7L;
@@ -1519,14 +1519,14 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
       if (p_39.f1) {
         break;
       }
-      codemarker_alpha(34); 
+      mage_alpha(34); 
       for (p_38.f0 = 0; (p_38.f0 <= 1); p_38.f0 += 1) { /* block id: 18 */
         int32_t *l_97 = &g_67[1];
         struct S1 l_98 = {3663, -3953, 1UL};
         uint64_t *l_143 = &g_42[1].f0;
-        codemarker_alpha(35); 
+        mage_alpha(35); 
         if (g_21[3]) { /* block id: 19 */
-          codemarker_alpha(36); 
+          mage_alpha(36); 
           int i;
           return g_42[p_38.f0];
         } else { /* block id: 21 */
@@ -1604,9 +1604,9 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
                                      {&g_67[0]},
                                      {(void *)0},
                                      {&g_67[1]}}};
-          codemarker_alpha(37); 
+          mage_alpha(37); 
           int i, j, k;
-          codemarker_alpha(38); 
+          mage_alpha(38); 
           for (p_40 = 0; (p_40 <= 2); p_40 += 1) { /* block id: 24 */
             uint64_t *l_84[9][8][3] = {
                 {{&g_42[1].f0, &g_42[1].f0, &g_42[1].f0},
@@ -1683,9 +1683,9 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
                  {&g_42[1].f0, (void *)0, &g_42[1].f0}}};
             int32_t l_85[4];
             int8_t *l_91 = &g_42[1].f1;
-            codemarker_alpha(39); 
+            mage_alpha(39); 
             int i, j, k;
-            codemarker_alpha(40); 
+            mage_alpha(40); 
             for (i = 0; i < 4; i++) {
               l_85[i] = 0x7392D2A8L;
             }
@@ -1714,9 +1714,9 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
           uint64_t **l_145[3];
           uint8_t *l_146 = &l_94;
           int8_t *l_149 = &g_42[1].f1;
-          codemarker_alpha(41); 
+          mage_alpha(41); 
           int i;
-          codemarker_alpha(42); 
+          mage_alpha(42); 
           for (i = 0; i < 3; i++) {
             l_145[i] = (void *)0;
           }
@@ -1835,7 +1835,7 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
         break;
       }
     }
-    codemarker_alpha(43); 
+    mage_alpha(43); 
     for (g_137 = 14; (g_137 != 10); --g_137) { /* block id: 66 */
       int32_t *l_176 = (void *)0;
       int32_t *l_177 = &g_67[1];
@@ -1886,15 +1886,15 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
     int32_t l_228[8] = {0x1FA78DD7L, 0x1FA78DD7L, 0x1FA78DD7L, 0x1FA78DD7L,
                         0x1FA78DD7L, 0x1FA78DD7L, 0x1FA78DD7L, 0x1FA78DD7L};
     uint16_t l_269[1];
-    codemarker_alpha(44); 
+    mage_alpha(44); 
     struct S2 *l_281 = &g_282;
-    codemarker_alpha(45); 
+    mage_alpha(45); 
     int i, j, k;
-    codemarker_alpha(46); 
+    mage_alpha(46); 
     for (i = 0; i < 1; i++) {
       l_216[i] = &g_42[1].f0;
     }
-    codemarker_alpha(47); 
+    mage_alpha(47); 
     for (i = 0; i < 1; i++) {
       l_269[i] = 65527UL;
     }
@@ -1909,7 +1909,7 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
     (*g_192) |= (((l_186[7], l_187) < 0x7A2B99ADL),
                  (safe_lshift_func_int8_t_s_u((p_39.f1 = (l_133 = l_165[0].f2)),
                                               l_165[0].f0)));
-    codemarker_alpha(48); 
+    mage_alpha(48); 
     if ((safe_lshift_func_int16_t_s_u(
             ((p_37 <
               ((((void *)0 == &g_192),
@@ -1952,14 +1952,14 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
       int16_t *l_252 = &l_201;
       int64_t *l_253 = &g_63;
       uint16_t ***l_254 = &l_79;
-      codemarker_alpha(49); 
+      mage_alpha(49); 
       int i;
-      codemarker_alpha(50); 
+      mage_alpha(50); 
       for (i = 0; i < 7; i++) {
         l_219[i] = &g_67[1];
       }
       ++l_230;
-      codemarker_alpha(51); 
+      mage_alpha(51); 
       if (((safe_lshift_func_int64_t_s_u(
                ((*l_253) ^= (safe_sub_func_int32_t_s_s(
                     (safe_add_func_uint64_t_u_u(
@@ -2006,11 +2006,11 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
                             0x13205A4EL, 0x13205A4EL, 0x0BA1AC6AL, 0x13205A4EL};
         uint32_t **l_286 = &l_211;
         uint16_t ***const l_308 = &g_257;
-        codemarker_alpha(52); 
+        mage_alpha(52); 
         int i, j, k;
         (*g_255) = l_254;
         --l_269[0];
-        codemarker_alpha(53); 
+        mage_alpha(53); 
         if ((*g_185)) { /* block id: 97 */
           struct S1 l_274[7][5] = {{{40872, -1727, 255UL},
                                     {9546, -3284, 0UL},
@@ -2047,7 +2047,7 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
                                     {28655, 346, 0UL},
                                     {9546, -3284, 0UL},
                                     {40872, -1727, 255UL}}};
-          codemarker_alpha(54); 
+          mage_alpha(54); 
           int i, j;
           (*l_183) = ((*l_218) == 8UL);
           for (l_229 = 0; (l_229 == (-9));
@@ -2066,13 +2066,13 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
           uint8_t *l_302 = (void *)0;
           uint8_t *l_303 = &g_73.f2;
           int32_t l_307 = (-5L);
-          codemarker_alpha(55); 
+          mage_alpha(55); 
           for (p_41 = 19; (p_41 != 26);
                p_41 = safe_add_func_int32_t_s_s(p_41, 7)) { /* block id: 109 */
             uint32_t l_278 = 6UL;
-            codemarker_alpha(56); 
+            mage_alpha(56); 
             struct S2 **l_284[5] = {&l_281, &l_281, &l_281, &l_281, &l_281};
-            codemarker_alpha(57); 
+            mage_alpha(57); 
             int i;
             (*l_183) = (p_40, (-2L));
             ++l_278;
@@ -2105,7 +2105,7 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
       }
     }
   }
-  codemarker_alpha(58); 
+  mage_alpha(58); 
   if (((safe_sub_func_int16_t_s_s(
            l_262,
            (p_37 | ((*l_315) &=
@@ -2122,7 +2122,7 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
       return p_38;
     }
   }
-  codemarker_alpha(59); 
+  mage_alpha(59); 
   if ((safe_lshift_func_int8_t_s_u(
           (((g_282,
              ((((l_330 = &p_41) == (p_38.f0, &p_41)),
@@ -2130,7 +2130,7 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
               ((*l_212)--))) == (((*g_185) > (g_336 == l_338)), p_37)) < l_339),
           l_268))) { /* block id: 139 */
     uint16_t l_348 = 0xE3F8L;
-    codemarker_alpha(60); 
+    mage_alpha(60); 
     for (p_39.f0 = 0; (p_39.f0 < 59);
          p_39.f0 = safe_add_func_uint8_t_u_u(p_39.f0, 8)) { /* block id: 142 */
       int32_t *l_342 = (void *)0;
@@ -2140,7 +2140,7 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
                                  {{(void *)0, (void *)0}},
                                  {{(void *)0, (void *)0}}};
       uint64_t l_345 = 0xA0FB830CA0FBC93FLL;
-      codemarker_alpha(61); 
+      mage_alpha(61); 
       int i, j, k;
       l_345--;
     }
@@ -2153,13 +2153,13 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
     int32_t l_359[2][5] = {
         {0xDEB6840FL, 0xDEB6840FL, 0xDEB6840FL, 0xDEB6840FL, 0xDEB6840FL},
         {7L, 7L, 7L, 7L, 7L}};
-    codemarker_alpha(62); 
+    mage_alpha(62); 
     int i, j;
     (*g_352) = &l_165[2];
-    codemarker_alpha(63); 
+    mage_alpha(63); 
     for (p_37 = 0; (p_37 <= 2); p_37 += 1) { /* block id: 155 */
       int32_t *l_360 = &l_226;
-      codemarker_alpha(64); 
+      mage_alpha(64); 
       int i;
       (*l_360) &=
           ((0x848D3F0DL || g_67[p_37]) >
@@ -2184,10 +2184,10 @@ __attribute__((optnone)) static struct S0 func_36(uint16_t p_37, struct S0 p_38,
  * reads :
  * writes:
  */
-__attribute__((optnone)) static int32_t func_43(int16_t p_44, uint16_t p_45) { /* block id: 6 */
-  codemarker_alpha(65); 
+static int32_t func_43(int16_t p_44, uint16_t p_45) { /* block id: 6 */
+  mage_alpha(65); 
   struct S1 *l_72 = &g_73;
-  codemarker_alpha(66); 
+  mage_alpha(66); 
   struct S1 **l_75 = &l_72;
   (*l_75) = l_72;
   return p_45;
@@ -2198,7 +2198,7 @@ __attribute__((optnone)) static int32_t func_43(int16_t p_44, uint16_t p_45) { /
  * reads : g_42.f1 g_42.f0 g_58 g_61 g_21
  * writes: g_58 g_63 g_67
  */
-__attribute__((optnone)) static uint32_t func_50(int8_t p_51) { /* block id: 1 */
+static uint32_t func_50(int8_t p_51) { /* block id: 1 */
   uint16_t l_54 = 0UL;
   struct S0 l_55[7][6] = {{{0x3772679F1A7DFAE3LL, 0L},
                            {0x36BBBD28A2181788LL, -3L},
@@ -2246,7 +2246,7 @@ __attribute__((optnone)) static uint32_t func_50(int8_t p_51) { /* block id: 1 *
   int64_t *l_62 = &g_63;
   int32_t *l_66[8] = {&g_67[1],  (void *)0, (void *)0, &g_67[1],
                       (void *)0, (void *)0, &g_67[1],  (void *)0};
-  codemarker_alpha(67); 
+  mage_alpha(67); 
   int i, j;
   g_67[0] =
       ((g_42[1].f1,
@@ -2262,85 +2262,85 @@ __attribute__((optnone)) static uint32_t func_50(int8_t p_51) { /* block id: 1 *
 }
 
 /* ---------------------------------------- */
-__attribute__((optnone)) int main(int argc, char *argv[]) {
-  codemarker_alpha(68); 
+int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
+  mage_alpha(68); 
   int i, j, k;
-  codemarker_alpha(69); 
+  mage_alpha(69); 
   int print_hash_value = 0;
-  codemarker_alpha(70); 
+  mage_alpha(70); 
   if (argc == 2 && strcmp(argv[1], "1") == 0) {
     print_hash_value = 1;
   }
-  codemarker_alpha(71); 
+  mage_alpha(71); 
   platform_main_begin();
-  codemarker_alpha(72); 
+  mage_alpha(72); 
   crc32_gentab();
   func_1();
-  codemarker_alpha(73); 
+  mage_alpha(73); 
   for (i = 0; i < 10; i++) {
-    codemarker_alpha(74); 
+    mage_alpha(74); 
     transparent_crc(g_21[i], "g_21[i]", print_hash_value);
-    codemarker_alpha(75); 
+    mage_alpha(75); 
     if (print_hash_value) {
-      codemarker_alpha(76); 
+      mage_alpha(76); 
       printf("index = [%d]\n", i);
     }
   }
-  codemarker_alpha(77); 
+  mage_alpha(77); 
   for (i = 0; i < 2; i++) {
     transparent_crc(g_42[i].f0, "g_42[i].f0", print_hash_value);
     transparent_crc(g_42[i].f1, "g_42[i].f1", print_hash_value);
-    codemarker_alpha(78); 
+    mage_alpha(78); 
     if (print_hash_value) {
-      codemarker_alpha(79); 
+      mage_alpha(79); 
       printf("index = [%d]\n", i);
     }
   }
-  codemarker_alpha(80); 
+  mage_alpha(80); 
   for (i = 0; i < 4; i++) {
-    codemarker_alpha(81); 
+    mage_alpha(81); 
     transparent_crc(g_58[i], "g_58[i]", print_hash_value);
-    codemarker_alpha(82); 
+    mage_alpha(82); 
     if (print_hash_value) {
-      codemarker_alpha(83); 
+      mage_alpha(83); 
       printf("index = [%d]\n", i);
     }
   }
-  codemarker_alpha(84); 
+  mage_alpha(84); 
   transparent_crc(g_61.f0, "g_61.f0", print_hash_value);
-  codemarker_alpha(85); 
+  mage_alpha(85); 
   transparent_crc(g_61.f1, "g_61.f1", print_hash_value);
-  codemarker_alpha(86); 
+  mage_alpha(86); 
   transparent_crc(g_61.f2, "g_61.f2", print_hash_value);
-  codemarker_alpha(87); 
+  mage_alpha(87); 
   transparent_crc(g_61.f3, "g_61.f3", print_hash_value);
-  codemarker_alpha(88); 
+  mage_alpha(88); 
   transparent_crc(g_61.f4, "g_61.f4", print_hash_value);
-  codemarker_alpha(89); 
+  mage_alpha(89); 
   transparent_crc(g_61.f5, "g_61.f5", print_hash_value);
   transparent_crc(g_63, "g_63", print_hash_value);
-  codemarker_alpha(90); 
+  mage_alpha(90); 
   for (i = 0; i < 3; i++) {
-    codemarker_alpha(91); 
+    mage_alpha(91); 
     transparent_crc(g_67[i], "g_67[i]", print_hash_value);
-    codemarker_alpha(92); 
+    mage_alpha(92); 
     if (print_hash_value) {
-      codemarker_alpha(93); 
+      mage_alpha(93); 
       printf("index = [%d]\n", i);
     }
   }
-  codemarker_alpha(94); 
+  mage_alpha(94); 
   transparent_crc(g_73.f0, "g_73.f0", print_hash_value);
-  codemarker_alpha(95); 
+  mage_alpha(95); 
   transparent_crc(g_73.f1, "g_73.f1", print_hash_value);
   transparent_crc(g_73.f2, "g_73.f2", print_hash_value);
-  codemarker_alpha(96); 
+  mage_alpha(96); 
   for (i = 0; i < 4; i++) {
-    codemarker_alpha(97); 
+    mage_alpha(97); 
     transparent_crc(g_135[i], "g_135[i]", print_hash_value);
-    codemarker_alpha(98); 
+    mage_alpha(98); 
     if (print_hash_value) {
-      codemarker_alpha(99); 
+      mage_alpha(99); 
       printf("index = [%d]\n", i);
     }
   }
@@ -2349,92 +2349,92 @@ __attribute__((optnone)) int main(int argc, char *argv[]) {
   transparent_crc(g_170, "g_170", print_hash_value);
   transparent_crc(g_214, "g_214", print_hash_value);
   transparent_crc(g_259, "g_259", print_hash_value);
-  codemarker_alpha(100); 
+  mage_alpha(100); 
   transparent_crc(g_282.f0, "g_282.f0", print_hash_value);
-  codemarker_alpha(101); 
+  mage_alpha(101); 
   transparent_crc(g_282.f1, "g_282.f1", print_hash_value);
-  codemarker_alpha(102); 
+  mage_alpha(102); 
   transparent_crc(g_282.f2, "g_282.f2", print_hash_value);
-  codemarker_alpha(103); 
+  mage_alpha(103); 
   transparent_crc(g_282.f3, "g_282.f3", print_hash_value);
-  codemarker_alpha(104); 
+  mage_alpha(104); 
   transparent_crc(g_282.f4, "g_282.f4", print_hash_value);
-  codemarker_alpha(105); 
+  mage_alpha(105); 
   transparent_crc(g_282.f5, "g_282.f5", print_hash_value);
-  codemarker_alpha(106); 
+  mage_alpha(106); 
   transparent_crc(g_306.f0, "g_306.f0", print_hash_value);
-  codemarker_alpha(107); 
+  mage_alpha(107); 
   transparent_crc(g_306.f1, "g_306.f1", print_hash_value);
-  codemarker_alpha(108); 
+  mage_alpha(108); 
   transparent_crc(g_306.f2, "g_306.f2", print_hash_value);
-  codemarker_alpha(109); 
+  mage_alpha(109); 
   transparent_crc(g_306.f3, "g_306.f3", print_hash_value);
-  codemarker_alpha(110); 
+  mage_alpha(110); 
   transparent_crc(g_306.f4, "g_306.f4", print_hash_value);
-  codemarker_alpha(111); 
+  mage_alpha(111); 
   transparent_crc(g_306.f5, "g_306.f5", print_hash_value);
   transparent_crc(g_314, "g_314", print_hash_value);
-  codemarker_alpha(112); 
+  mage_alpha(112); 
   transparent_crc(g_354.f0, "g_354.f0", print_hash_value);
-  codemarker_alpha(113); 
+  mage_alpha(113); 
   transparent_crc(g_354.f1, "g_354.f1", print_hash_value);
-  codemarker_alpha(114); 
+  mage_alpha(114); 
   transparent_crc(g_354.f2, "g_354.f2", print_hash_value);
-  codemarker_alpha(115); 
+  mage_alpha(115); 
   transparent_crc(g_354.f3, "g_354.f3", print_hash_value);
-  codemarker_alpha(116); 
+  mage_alpha(116); 
   transparent_crc(g_354.f4, "g_354.f4", print_hash_value);
-  codemarker_alpha(117); 
+  mage_alpha(117); 
   transparent_crc(g_354.f5, "g_354.f5", print_hash_value);
-  codemarker_alpha(118); 
+  mage_alpha(118); 
   transparent_crc(g_357.f0, "g_357.f0", print_hash_value);
-  codemarker_alpha(119); 
+  mage_alpha(119); 
   transparent_crc(g_357.f1, "g_357.f1", print_hash_value);
-  codemarker_alpha(120); 
+  mage_alpha(120); 
   transparent_crc(g_357.f2, "g_357.f2", print_hash_value);
-  codemarker_alpha(121); 
+  mage_alpha(121); 
   transparent_crc(g_357.f3, "g_357.f3", print_hash_value);
-  codemarker_alpha(122); 
+  mage_alpha(122); 
   transparent_crc(g_357.f4, "g_357.f4", print_hash_value);
-  codemarker_alpha(123); 
+  mage_alpha(123); 
   transparent_crc(g_357.f5, "g_357.f5", print_hash_value);
   transparent_crc(g_371, "g_371", print_hash_value);
   transparent_crc(g_434, "g_434", print_hash_value);
-  codemarker_alpha(124); 
+  mage_alpha(124); 
   transparent_crc(g_456.f0, "g_456.f0", print_hash_value);
-  codemarker_alpha(125); 
+  mage_alpha(125); 
   transparent_crc(g_456.f1, "g_456.f1", print_hash_value);
-  codemarker_alpha(126); 
+  mage_alpha(126); 
   transparent_crc(g_456.f2, "g_456.f2", print_hash_value);
-  codemarker_alpha(127); 
+  mage_alpha(127); 
   transparent_crc(g_456.f3, "g_456.f3", print_hash_value);
-  codemarker_alpha(128); 
+  mage_alpha(128); 
   transparent_crc(g_456.f4, "g_456.f4", print_hash_value);
-  codemarker_alpha(129); 
+  mage_alpha(129); 
   transparent_crc(g_456.f5, "g_456.f5", print_hash_value);
-  codemarker_alpha(130); 
+  mage_alpha(130); 
   transparent_crc(g_475.f0, "g_475.f0", print_hash_value);
-  codemarker_alpha(131); 
+  mage_alpha(131); 
   transparent_crc(g_475.f1, "g_475.f1", print_hash_value);
-  codemarker_alpha(132); 
+  mage_alpha(132); 
   transparent_crc(g_475.f2, "g_475.f2", print_hash_value);
-  codemarker_alpha(133); 
+  mage_alpha(133); 
   transparent_crc(g_475.f3, "g_475.f3", print_hash_value);
-  codemarker_alpha(134); 
+  mage_alpha(134); 
   transparent_crc(g_475.f4, "g_475.f4", print_hash_value);
-  codemarker_alpha(135); 
+  mage_alpha(135); 
   transparent_crc(g_475.f5, "g_475.f5", print_hash_value);
   transparent_crc(g_544, "g_544", print_hash_value);
   transparent_crc(g_545, "g_545", print_hash_value);
-  codemarker_alpha(136); 
+  mage_alpha(136); 
   for (i = 0; i < 9; i++) {
-    codemarker_alpha(137); 
+    mage_alpha(137); 
     for (j = 0; j < 9; j++) {
-      codemarker_alpha(138); 
+      mage_alpha(138); 
       transparent_crc(g_646[i][j], "g_646[i][j]", print_hash_value);
-      codemarker_alpha(139); 
+      mage_alpha(139); 
       if (print_hash_value) {
-        codemarker_alpha(140); 
+        mage_alpha(140); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
