@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Fixed paths (always provided)
-ANALYZE_HEADLESS="/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/ghidra_12.0.4_PUBLIC_20260303/ghidra_12.0.4_PUBLIC/support/analyzeHeadless"
-DECOMPILE_SCRIPT="/home/user/Desktop/CASTLE/DeComScaffolder/scripts/ghidra_postscript.java"
+ANALYZE_HEADLESS="/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/ghidra_12.1.2_PUBLIC_20260605/ghidra_12.1.2_PUBLIC/support/analyzeHeadless"
+DECOMPILE_SCRIPT="/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_postscript.java"
 
 # Usage
 BINARY="$1"
