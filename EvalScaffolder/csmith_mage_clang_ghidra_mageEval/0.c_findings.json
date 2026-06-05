@@ -4,7 +4,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [

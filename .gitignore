@@ -1,6 +1,8 @@
 */Decompilers/
-CodebaseScaffolder/*
-InstrumentationScaffolder/*
-DecomScaffolder/*
+CodebaseScaffolder/
+InstrumentationScaffolder/
+DeComScaffolder/
+BuildScaffolder/
+EvalScaffolder/
 *rufus*
 .project

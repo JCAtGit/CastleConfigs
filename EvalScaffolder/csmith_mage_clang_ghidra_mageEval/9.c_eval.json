@@ -52,6 +52,7 @@
   },
   "15": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -123,6 +124,7 @@
   },
   "257": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": true,
     "recovered_construct": true
   },
@@ -212,6 +214,7 @@
   },
   "264": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -257,6 +260,7 @@
   },
   "268": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -302,6 +306,7 @@
   },
   "272": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -347,6 +352,7 @@
   },
   "276": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -392,6 +398,7 @@
   },
   "280": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -437,6 +444,7 @@
   },
   "284": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -502,6 +510,7 @@
   },
   "289": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -535,6 +544,7 @@
   },
   "292": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -580,6 +590,7 @@
   },
   "296": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -657,6 +668,7 @@
   },
   "301": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -702,6 +714,7 @@
   },
   "305": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -779,6 +792,7 @@
   },
   "311": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -812,6 +826,7 @@
   },
   "314": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -861,6 +876,7 @@
   },
   "318": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -906,6 +922,7 @@
   },
   "322": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1344,6 +1361,7 @@
   },
   "9": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1442,11 +1460,5 @@
     "parity_init_stmt_class": true,
     "parity_init_types": true,
     "recovered_construct": true
-  },
-  "96": {
-    "markee_construct": "DeclStmt",
-    "parity_init_types": false,
-    "parity_single_decl": false,
-    "recovered_construct": false
   }
 }

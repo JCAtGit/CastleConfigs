@@ -10,11 +10,14 @@
 
 // ------------------- Function Prototypes --------------------
 
-int64_t codemarker_alpha(uint32_t result);
 int64_t crc32_8bytes(uint64_t a1);
 int64_t crc32_byte(int64_t a1);
 int64_t crc32_gentab(void);
 int64_t func_1(void);
+int64_t mage_alpha0(uint32_t result);
+int64_t mage_alpha1(int64_t a1);
+int64_t mage_alpha2(int64_t a1);
+int64_t mage_alpha3(int64_t a1);
 int64_t platform_main_begin(void);
 int64_t platform_main_end(int64_t a1, int32_t a2);
 int64_t transparent_crc(int32_t a1, char * a2, int32_t a3);
@@ -28,25 +31,43 @@ int32_t * g3 = NULL; // 0x403030
 // ------------------------ Functions -------------------------
 
 // Address range: 0x400480 - 0x400492
-int64_t codemarker_alpha(uint32_t result) {
+int64_t mage_alpha0(uint32_t result) {
     // 0x400480
     return result;
 }
 
-// Address range: 0x4004a0 - 0x400555
-int main(int argc, char ** argv) {
+// Address range: 0x4004a0 - 0x4004b2
+int64_t mage_alpha1(int64_t a1) {
     // 0x4004a0
-    codemarker_alpha(0);
-    codemarker_alpha(1);
-    int32_t v1 = 0; // 0x4004d2
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4004c0 - 0x4004d2
+int64_t mage_alpha2(int64_t a1) {
+    // 0x4004c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4004e0 - 0x4004f2
+int64_t mage_alpha3(int64_t a1) {
+    // 0x4004e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400500 - 0x4005b5
+int main(int argc, char ** argv) {
+    // 0x400500
+    mage_alpha0(0);
+    mage_alpha1(1);
+    int32_t v1 = 0; // 0x400532
     if ((int32_t)argc == 2) {
-        int64_t str = *(int64_t *)((int64_t)argv + 8); // 0x4004d8
+        int64_t str = *(int64_t *)((int64_t)argv + 8); // 0x400538
         v1 = strcmp((char *)str, "1") == 0;
     }
-    // 0x4004f2
-    codemarker_alpha(2);
+    // 0x400552
+    mage_alpha2(2);
     platform_main_begin();
-    codemarker_alpha(3);
+    mage_alpha3(3);
     crc32_gentab();
     func_1();
     transparent_crc(g1, "g_5", v1);
@@ -54,62 +75,62 @@ int main(int argc, char ** argv) {
     return 0;
 }
 
-// Address range: 0x400560 - 0x400566
+// Address range: 0x4005c0 - 0x4005c6
 int64_t platform_main_begin(void) {
-    // 0x400560
-    int64_t result; // 0x400560
+    // 0x4005c0
+    int64_t result; // 0x4005c0
     return result;
 }
 
-// Address range: 0x400570 - 0x4005e8
+// Address range: 0x4005d0 - 0x400648
 int64_t crc32_gentab(void) {
     for (int64_t i = 0; i < 256; i++) {
-        int32_t v1 = 8; // 0x4005c5
-        int32_t v2 = i; // 0x400570
+        int32_t v1 = 8; // 0x400625
+        int32_t v2 = i; // 0x4005d0
         uint32_t v3 = v2 / 2;
         int32_t v4 = v2 % 2 == 0 ? v3 : v3 ^ -0x12477ce0;
         v1--;
         v2 = v4;
         while (v1 != 0) {
-            // 0x40059e
+            // 0x4005fe
             v3 = v2 / 2;
             v4 = v2 % 2 == 0 ? v3 : v3 ^ -0x12477ce0;
             v1--;
             v2 = v4;
         }
-        // 0x4005cd
+        // 0x40062d
         *(int32_t *)(4 * i + (int64_t)&g3) = v4;
     }
-    // 0x4005e6
+    // 0x400646
     return 256;
 }
 
-// Address range: 0x4005f0 - 0x400612
+// Address range: 0x400650 - 0x400672
 int64_t func_1(void) {
-    // 0x4005f0
+    // 0x400650
     return g1;
 }
 
-// Address range: 0x400620 - 0x400673
+// Address range: 0x400680 - 0x4006d3
 int64_t transparent_crc(int32_t a1, char * a2, int32_t a3) {
-    int64_t chars_printed = crc32_8bytes((int64_t)a1); // 0x400640
+    int64_t chars_printed = crc32_8bytes((int64_t)a1); // 0x4006a0
     if (a3 != 0) {
-        // 0x400642
+        // 0x4006a2
         chars_printed = printf("...checksum after hashing %s : %lX\n", a2, -1 - g2);
     }
-    // 0x40066d
+    // 0x4006cd
     return chars_printed;
 }
 
-// Address range: 0x400680 - 0x4006a8
+// Address range: 0x4006e0 - 0x400708
 int64_t platform_main_end(int64_t a1, int32_t a2) {
-    // 0x400680
+    // 0x4006e0
     return printf("checksum = %X\n", (int32_t)a1);
 }
 
-// Address range: 0x4006b0 - 0x400772
+// Address range: 0x400710 - 0x4007d2
 int64_t crc32_8bytes(uint64_t a1) {
-    // 0x4006b0
+    // 0x400710
     crc32_byte(a1 % 256);
     crc32_byte(a1 / 256 % 256);
     crc32_byte(a1 / 0x10000 % 256);
@@ -120,11 +141,11 @@ int64_t crc32_8bytes(uint64_t a1) {
     return crc32_byte(a1 / 0x100000000000000);
 }
 
-// Address range: 0x400780 - 0x4007be
+// Address range: 0x4007e0 - 0x40081e
 int64_t crc32_byte(int64_t a1) {
     uint32_t v1 = g2;
-    int32_t v2 = *(int32_t *)((int64_t)(4 * (v1 ^ (int32_t)a1) & 1020) + (int64_t)&g3); // 0x4007ae
-    int32_t result = v1 / 256 ^ v2; // 0x4007ae
+    int32_t v2 = *(int32_t *)((int64_t)(4 * (v1 ^ (int32_t)a1) & 1020) + (int64_t)&g3); // 0x40080e
+    int32_t result = v1 / 256 ^ v2; // 0x40080e
     g2 = result;
     return result;
 }
@@ -132,5 +153,5 @@ int64_t crc32_byte(int64_t a1) {
 // --------------------- Meta-Information ---------------------
 
 // Detected compiler/packer: gcc (15.2.1)
-// Detected functions: 9
+// Detected functions: 12
 

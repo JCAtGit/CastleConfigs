@@ -278,8 +278,8 @@ typedef struct evp_pkey_ctx_st EVP_PKEY_CTX;
 
 undefined main;
 undefined1 completed.0;
-undefined4 crc32_context;
 undefined8 g_2;
+undefined4 crc32_context;
 undefined1[1024] crc32_tab;
 
 int _init(EVP_PKEY_CTX *ctx)
@@ -393,7 +393,71 @@ void frame_dummy(void)
 
 
 
-undefined4 codemarker_alpha(undefined4 param_1)
+undefined4 mage_alpha0(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha1(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha2(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha3(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha4(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha5(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha6(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha7(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha8(undefined4 param_1)
 
 {
   return param_1;
@@ -408,28 +472,28 @@ undefined8 main(int param_1,long param_2)
   int local_20;
   uint local_1c;
   
-  codemarker_alpha(0);
-  codemarker_alpha(1);
+  mage_alpha0(0);
+  mage_alpha1(1);
   local_20 = 0;
-  codemarker_alpha(2);
+  mage_alpha2(2);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_20 = 1;
     }
   }
-  codemarker_alpha(3);
+  mage_alpha3(3);
   platform_main_begin();
-  codemarker_alpha(4);
+  mage_alpha4(4);
   crc32_gentab();
-  codemarker_alpha(5);
+  mage_alpha5(5);
   func_1();
-  codemarker_alpha(6);
+  mage_alpha6(6);
   for (local_1c = 0; (int)local_1c < 6; local_1c = local_1c + 1) {
     transparent_crc((long)*(char *)(&g_2 + (int)local_1c),"g_2[i].f0",local_20);
-    codemarker_alpha(7);
+    mage_alpha7(7);
     if (local_20 != 0) {
-      codemarker_alpha(8);
+      mage_alpha8(8);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }

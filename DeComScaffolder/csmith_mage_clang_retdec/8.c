@@ -14,11 +14,321 @@ typedef int64_t int128_t;
 
 // ------------------- Function Prototypes --------------------
 
-int64_t codemarker_alpha(int64_t a1);
 int64_t crc32_8bytes(uint64_t a1);
 int64_t crc32_byte(int64_t a1);
 int64_t crc32_gentab(void);
 int64_t func_1(int64_t a1);
+int64_t mage_alpha0(uint32_t result);
+int64_t mage_alpha1(int64_t a1);
+int64_t mage_alpha10(int64_t a1);
+int64_t mage_alpha11(int64_t a1);
+int64_t mage_alpha12(int64_t a1);
+int64_t mage_alpha13(int64_t a1);
+int64_t mage_alpha14(int64_t a1);
+int64_t mage_alpha15(int64_t a1);
+int64_t mage_alpha16(int64_t a1);
+int64_t mage_alpha17(int64_t a1);
+int64_t mage_alpha172(int64_t a1);
+int64_t mage_alpha173(int64_t a1);
+int64_t mage_alpha174(int64_t a1);
+int64_t mage_alpha175(int64_t a1);
+int64_t mage_alpha176(int64_t a1);
+int64_t mage_alpha177(int64_t a1);
+int64_t mage_alpha178(int64_t a1);
+int64_t mage_alpha179(int64_t a1);
+int64_t mage_alpha18(int64_t a1);
+int64_t mage_alpha180(int64_t a1);
+int64_t mage_alpha181(int64_t a1);
+int64_t mage_alpha182(int64_t a1);
+int64_t mage_alpha183(int64_t a1);
+int64_t mage_alpha184(int64_t a1);
+int64_t mage_alpha185(int64_t a1);
+int64_t mage_alpha186(int64_t a1);
+int64_t mage_alpha187(int64_t a1);
+int64_t mage_alpha188(int64_t a1);
+int64_t mage_alpha189(int64_t a1);
+int64_t mage_alpha19(int64_t a1);
+int64_t mage_alpha190(int64_t a1);
+int64_t mage_alpha191(int64_t a1);
+int64_t mage_alpha192(int64_t a1);
+int64_t mage_alpha193(int64_t a1);
+int64_t mage_alpha194(int64_t a1);
+int64_t mage_alpha195(int64_t a1);
+int64_t mage_alpha196(int64_t a1);
+int64_t mage_alpha197(int64_t a1);
+int64_t mage_alpha198(int64_t a1);
+int64_t mage_alpha199(int64_t a1);
+int64_t mage_alpha2(int64_t a1);
+int64_t mage_alpha20(int64_t a1);
+int64_t mage_alpha200(int64_t a1);
+int64_t mage_alpha201(int64_t a1);
+int64_t mage_alpha202(int64_t a1);
+int64_t mage_alpha203(int64_t a1);
+int64_t mage_alpha204(int64_t a1);
+int64_t mage_alpha205(int64_t a1);
+int64_t mage_alpha206(int64_t a1);
+int64_t mage_alpha207(int64_t a1);
+int64_t mage_alpha208(int64_t a1);
+int64_t mage_alpha209(int64_t a1);
+int64_t mage_alpha21(int64_t a1);
+int64_t mage_alpha210(int64_t a1);
+int64_t mage_alpha211(int64_t a1);
+int64_t mage_alpha212(int64_t a1);
+int64_t mage_alpha213(int64_t a1);
+int64_t mage_alpha214(int64_t a1);
+int64_t mage_alpha215(int64_t a1);
+int64_t mage_alpha216(int64_t a1);
+int64_t mage_alpha217(int64_t a1);
+int64_t mage_alpha218(int64_t a1);
+int64_t mage_alpha219(int64_t a1);
+int64_t mage_alpha22(int64_t a1);
+int64_t mage_alpha220(int64_t a1);
+int64_t mage_alpha221(int64_t a1);
+int64_t mage_alpha222(int64_t a1);
+int64_t mage_alpha223(int64_t a1);
+int64_t mage_alpha224(int64_t a1);
+int64_t mage_alpha225(int64_t a1);
+int64_t mage_alpha226(int64_t a1);
+int64_t mage_alpha227(int64_t a1);
+int64_t mage_alpha228(int64_t a1);
+int64_t mage_alpha229(int64_t a1);
+int64_t mage_alpha23(int64_t a1);
+int64_t mage_alpha230(int64_t a1);
+int64_t mage_alpha231(int64_t a1);
+int64_t mage_alpha232(int64_t a1);
+int64_t mage_alpha233(int64_t a1);
+int64_t mage_alpha234(int64_t a1);
+int64_t mage_alpha235(int64_t a1);
+int64_t mage_alpha236(int64_t a1);
+int64_t mage_alpha237(int64_t a1);
+int64_t mage_alpha238(int64_t a1);
+int64_t mage_alpha239(int64_t a1);
+int64_t mage_alpha24(int64_t a1);
+int64_t mage_alpha240(int64_t a1);
+int64_t mage_alpha241(int64_t a1);
+int64_t mage_alpha242(int64_t a1);
+int64_t mage_alpha243(int64_t a1);
+int64_t mage_alpha244(int64_t a1);
+int64_t mage_alpha245(int64_t a1);
+int64_t mage_alpha246(int64_t a1);
+int64_t mage_alpha247(int64_t a1);
+int64_t mage_alpha248(int64_t a1);
+int64_t mage_alpha249(int64_t a1);
+int64_t mage_alpha25(int64_t a1);
+int64_t mage_alpha250(int64_t a1);
+int64_t mage_alpha251(int64_t a1);
+int64_t mage_alpha252(int64_t a1);
+int64_t mage_alpha253(int64_t a1);
+int64_t mage_alpha254(int64_t a1);
+int64_t mage_alpha255(int64_t a1);
+int64_t mage_alpha256(int64_t a1);
+int64_t mage_alpha257(int64_t a1);
+int64_t mage_alpha258(int64_t a1);
+int64_t mage_alpha259(int64_t a1);
+int64_t mage_alpha26(int64_t a1);
+int64_t mage_alpha260(int64_t a1);
+int64_t mage_alpha261(int64_t a1);
+int64_t mage_alpha262(int64_t a1);
+int64_t mage_alpha263(int64_t a1);
+int64_t mage_alpha264(int64_t a1);
+int64_t mage_alpha265(int64_t a1);
+int64_t mage_alpha266(int64_t a1);
+int64_t mage_alpha267(int64_t a1);
+int64_t mage_alpha268(int64_t a1);
+int64_t mage_alpha269(int64_t a1);
+int64_t mage_alpha270(int64_t a1);
+int64_t mage_alpha271(int64_t a1);
+int64_t mage_alpha272(int64_t a1);
+int64_t mage_alpha273(int64_t a1);
+int64_t mage_alpha274(int64_t a1);
+int64_t mage_alpha275(int64_t a1);
+int64_t mage_alpha276(int64_t a1);
+int64_t mage_alpha277(int64_t a1);
+int64_t mage_alpha278(int64_t a1);
+int64_t mage_alpha279(int64_t a1);
+int64_t mage_alpha280(int64_t a1);
+int64_t mage_alpha281(int64_t a1);
+int64_t mage_alpha282(int64_t a1);
+int64_t mage_alpha283(int64_t a1);
+int64_t mage_alpha284(int64_t a1);
+int64_t mage_alpha285(int64_t a1);
+int64_t mage_alpha286(int64_t a1);
+int64_t mage_alpha287(int64_t a1);
+int64_t mage_alpha288(int64_t a1);
+int64_t mage_alpha289(int64_t a1);
+int64_t mage_alpha290(int64_t a1);
+int64_t mage_alpha291(int64_t a1);
+int64_t mage_alpha292(int64_t a1);
+int64_t mage_alpha293(int64_t a1);
+int64_t mage_alpha294(int64_t a1);
+int64_t mage_alpha295(int64_t a1);
+int64_t mage_alpha296(int64_t a1);
+int64_t mage_alpha297(int64_t a1);
+int64_t mage_alpha298(int64_t a1);
+int64_t mage_alpha299(int64_t a1);
+int64_t mage_alpha3(int64_t a1);
+int64_t mage_alpha300(int64_t a1);
+int64_t mage_alpha301(int64_t a1);
+int64_t mage_alpha302(int64_t a1);
+int64_t mage_alpha303(int64_t a1);
+int64_t mage_alpha304(int64_t a1);
+int64_t mage_alpha305(int64_t a1);
+int64_t mage_alpha306(int64_t a1);
+int64_t mage_alpha307(int64_t a1);
+int64_t mage_alpha308(int64_t a1);
+int64_t mage_alpha309(int64_t a1);
+int64_t mage_alpha310(int64_t a1);
+int64_t mage_alpha311(int64_t a1);
+int64_t mage_alpha312(int64_t a1);
+int64_t mage_alpha313(int64_t a1);
+int64_t mage_alpha314(int64_t a1);
+int64_t mage_alpha315(int64_t a1);
+int64_t mage_alpha316(int64_t a1);
+int64_t mage_alpha317(int64_t a1);
+int64_t mage_alpha318(int64_t a1);
+int64_t mage_alpha319(int64_t a1);
+int64_t mage_alpha320(int64_t a1);
+int64_t mage_alpha321(int64_t a1);
+int64_t mage_alpha322(int64_t a1);
+int64_t mage_alpha323(int64_t a1);
+int64_t mage_alpha324(int64_t a1);
+int64_t mage_alpha325(int64_t a1);
+int64_t mage_alpha326(int64_t a1);
+int64_t mage_alpha327(int64_t a1);
+int64_t mage_alpha328(int64_t a1);
+int64_t mage_alpha329(int64_t a1);
+int64_t mage_alpha330(int64_t a1);
+int64_t mage_alpha331(int64_t a1);
+int64_t mage_alpha332(int64_t a1);
+int64_t mage_alpha333(int64_t a1);
+int64_t mage_alpha334(int64_t a1);
+int64_t mage_alpha335(int64_t a1);
+int64_t mage_alpha336(int64_t a1);
+int64_t mage_alpha337(int64_t a1);
+int64_t mage_alpha338(int64_t a1);
+int64_t mage_alpha339(int64_t a1);
+int64_t mage_alpha340(int64_t a1);
+int64_t mage_alpha341(int64_t a1);
+int64_t mage_alpha342(int64_t a1);
+int64_t mage_alpha343(int64_t a1);
+int64_t mage_alpha344(int64_t a1);
+int64_t mage_alpha345(int64_t a1);
+int64_t mage_alpha346(int64_t a1);
+int64_t mage_alpha347(int64_t a1);
+int64_t mage_alpha348(int64_t a1);
+int64_t mage_alpha349(int64_t a1);
+int64_t mage_alpha350(int64_t a1);
+int64_t mage_alpha351(int64_t a1);
+int64_t mage_alpha352(int64_t a1);
+int64_t mage_alpha353(int64_t a1);
+int64_t mage_alpha354(int64_t a1);
+int64_t mage_alpha355(int64_t a1);
+int64_t mage_alpha356(int64_t a1);
+int64_t mage_alpha357(int64_t a1);
+int64_t mage_alpha358(int64_t a1);
+int64_t mage_alpha359(int64_t a1);
+int64_t mage_alpha360(int64_t a1);
+int64_t mage_alpha361(int64_t a1);
+int64_t mage_alpha362(int64_t a1);
+int64_t mage_alpha363(int64_t a1);
+int64_t mage_alpha364(int64_t a1);
+int64_t mage_alpha365(int64_t a1);
+int64_t mage_alpha366(int64_t a1);
+int64_t mage_alpha367(int64_t a1);
+int64_t mage_alpha368(int64_t a1);
+int64_t mage_alpha369(int64_t a1);
+int64_t mage_alpha370(int64_t a1);
+int64_t mage_alpha371(int64_t a1);
+int64_t mage_alpha372(int64_t a1);
+int64_t mage_alpha373(int64_t a1);
+int64_t mage_alpha374(int64_t a1);
+int64_t mage_alpha375(int64_t a1);
+int64_t mage_alpha376(int64_t a1);
+int64_t mage_alpha377(int64_t a1);
+int64_t mage_alpha378(int64_t a1);
+int64_t mage_alpha379(int64_t a1);
+int64_t mage_alpha380(int64_t a1);
+int64_t mage_alpha381(int64_t a1);
+int64_t mage_alpha382(int64_t a1);
+int64_t mage_alpha383(int64_t a1);
+int64_t mage_alpha384(int64_t a1);
+int64_t mage_alpha385(int64_t a1);
+int64_t mage_alpha386(int64_t a1);
+int64_t mage_alpha387(int64_t a1);
+int64_t mage_alpha388(int64_t a1);
+int64_t mage_alpha389(int64_t a1);
+int64_t mage_alpha390(int64_t a1);
+int64_t mage_alpha391(int64_t a1);
+int64_t mage_alpha392(int64_t a1);
+int64_t mage_alpha393(int64_t a1);
+int64_t mage_alpha394(int64_t a1);
+int64_t mage_alpha395(int64_t a1);
+int64_t mage_alpha396(int64_t a1);
+int64_t mage_alpha397(int64_t a1);
+int64_t mage_alpha398(int64_t a1);
+int64_t mage_alpha399(int64_t a1);
+int64_t mage_alpha4(int64_t a1);
+int64_t mage_alpha400(int64_t a1);
+int64_t mage_alpha401(int64_t a1);
+int64_t mage_alpha402(int64_t a1);
+int64_t mage_alpha403(int64_t a1);
+int64_t mage_alpha404(int64_t a1);
+int64_t mage_alpha405(int64_t a1);
+int64_t mage_alpha406(int64_t a1);
+int64_t mage_alpha407(int64_t a1);
+int64_t mage_alpha408(int64_t a1);
+int64_t mage_alpha409(int64_t a1);
+int64_t mage_alpha410(int64_t a1);
+int64_t mage_alpha411(int64_t a1);
+int64_t mage_alpha412(int64_t a1);
+int64_t mage_alpha413(int64_t a1);
+int64_t mage_alpha414(int64_t a1);
+int64_t mage_alpha415(int64_t a1);
+int64_t mage_alpha416(int64_t a1);
+int64_t mage_alpha417(int64_t a1);
+int64_t mage_alpha418(int64_t a1);
+int64_t mage_alpha419(int64_t a1);
+int64_t mage_alpha420(int64_t a1);
+int64_t mage_alpha421(int64_t a1);
+int64_t mage_alpha422(int64_t a1);
+int64_t mage_alpha423(int64_t a1);
+int64_t mage_alpha424(int64_t a1);
+int64_t mage_alpha425(int64_t a1);
+int64_t mage_alpha426(int64_t a1);
+int64_t mage_alpha427(int64_t a1);
+int64_t mage_alpha428(int64_t a1);
+int64_t mage_alpha429(int64_t a1);
+int64_t mage_alpha430(int64_t a1);
+int64_t mage_alpha431(int64_t a1);
+int64_t mage_alpha432(int64_t a1);
+int64_t mage_alpha433(int64_t a1);
+int64_t mage_alpha434(int64_t a1);
+int64_t mage_alpha435(int64_t a1);
+int64_t mage_alpha436(int64_t a1);
+int64_t mage_alpha437(int64_t a1);
+int64_t mage_alpha438(int64_t a1);
+int64_t mage_alpha439(int64_t a1);
+int64_t mage_alpha440(int64_t a1);
+int64_t mage_alpha441(int64_t a1);
+int64_t mage_alpha442(int64_t a1);
+int64_t mage_alpha443(int64_t a1);
+int64_t mage_alpha444(int64_t a1);
+int64_t mage_alpha445(int64_t a1);
+int64_t mage_alpha446(int64_t a1);
+int64_t mage_alpha447(int64_t a1);
+int64_t mage_alpha448(int64_t a1);
+int64_t mage_alpha449(int64_t a1);
+int64_t mage_alpha450(int64_t a1);
+int64_t mage_alpha451(int64_t a1);
+int64_t mage_alpha452(int64_t a1);
+int64_t mage_alpha453(int64_t a1);
+int64_t mage_alpha454(int64_t a1);
+int64_t mage_alpha455(int64_t a1);
+int64_t mage_alpha5(int64_t a1);
+int64_t mage_alpha6(int64_t a1);
+int64_t mage_alpha7(int64_t a1);
+int64_t mage_alpha8(int64_t a1);
+int64_t mage_alpha9(int64_t a1);
 int64_t platform_main_begin(void);
 int64_t platform_main_end(int64_t a1, int64_t a2);
 int64_t safe_div_func_uint32_t_u_u(int64_t a1, uint32_t a2, int64_t a3);
@@ -28,2706 +338,4566 @@ int64_t transparent_crc(int32_t a1, char * a2, int64_t a3);
 
 // --------------------- Global Variables ---------------------
 
-int16_t * g1 = (int16_t *)-0x2000200020003; // 0x406fc8
-int64_t g2; // 0x407028
-int64_t g3 = 0; // 0x407050
-int64_t g4 = -0xd3ac0cfd; // 0x407060
-int64_t g5 = 0xfffffffd; // 0x407440
-int64_t g6 = -0x1987356cb; // 0x4075d0
-int64_t g7 = 0; // 0x4078a0
-int64_t g8 = -0x7709254b00000001; // 0x408020
-int64_t g9 = 0x6bc120006bc12; // 0x4080c0
-int64_t g11 = 0x10ba0000019d; // 0x408120
-int32_t g12 = 0x2bbef7d6; // 0x40a030
-int32_t g13 = -3; // 0x40a034
-int32_t g14 = 0x26ec17e5; // 0x40a038
-int32_t g15 = -10; // 0x40a03c
-int32_t g16 = -0x8000001; // 0x40a03d
-int64_t g17 = -9; // 0x40a040
-int64_t g18 = 0x31bc4638b1aae879; // 0x40a0a0
-int32_t g19 = -0x34b06ef9; // 0x40a140
-int32_t g20 = -0x8ffff; // 0x40a144
-int16_t g21 = -2304; // 0x40a145
-int32_t g22 = 0xfff7; // 0x40a146
-int32_t * g23 = (int32_t *)-1; // 0x40a150
-int32_t g24 = 0x3e679c8a; // 0x40a164
-int32_t g25 = -0xb7cf8ef; // 0x40a168
-int32_t g26 = 0x612900eb; // 0x40a170
-int32_t g27 = 0x1d5a9; // 0x40a174
-int32_t g28 = -0xfffe2b; // 0x40a175
-int32_t g29 = 0x5ff0001; // 0x40a176
-char g30 = -1; // 0x40a178
-int32_t g31 = -0x565656fb; // 0x40a179
-char * g32 = "\xa9\xa9\xa9\xa9"; // 0x40a17a
-int64_t g33 = 0x7001877f00000001; // 0x40a180
-int32_t g34 = 0xa728; // 0x40a1a4
-int32_t g35 = 0x44bcd851; // 0x40a1a8
-int64_t g36 = 0x112000101001212; // 0x40a1b0
-int64_t g37 = -0x2fffffffb; // 0x40a1e0
-int64_t g38 = -0x5133fb6700000000; // 0x40a3a8
-int32_t g39 = -1; // 0x40a500
-int32_t g40 = -1; // 0x40a508
-int32_t g41 = -0xff01; // 0x40a510
-char g42 = 0; // 0x40a511
-int32_t g43 = 0x2323ffff; // 0x40a512
-int32_t g44 = 0x6468d519; // 0x40a518
-int32_t g45 = 1; // 0x40a520
-int32_t g46 = 6; // 0x40a528
-int16_t g47 = -0x5b87; // 0x40a530
-int32_t g48 = -0x4a3a364d; // 0x40a538
-char g49 = -9; // 0x40a540
-int32_t g50 = -1; // 0x40a544
-int32_t g51 = 0x40a590; // 0x40a548
-int64_t g52; // 0x40a568
-int16_t g55 = -0x5ebc; // 0x40a6c8
-int64_t g57 = 0x92440000016e; // 0x40a710
-int32_t g58 = 0; // 0x40a718
-int32_t g59 = 0x1fffeed5; // 0x40a720
-int16_t g60 = 71; // 0x40a724
-int16_t g61 = 0x2694; // 0x40a726
-int32_t g62 = 4055; // 0x40a728
-int64_t g63 = 0xa60200000088; // 0x40a730
-int32_t g64 = 0x6e4c0148; // 0x40a738
-int32_t g65 = 0x5080; // 0x40a740
-int16_t g66 = 73; // 0x40a744
-int16_t g67 = -0x70ea; // 0x40a746
-int32_t g68 = 0x7ffe60f; // 0x40a748
-int64_t g69 = 0x3d7000000075; // 0x40a750
-int64_t g70 = 0x427c0000016d; // 0x40b050
-int32_t g71 = 0x10ef5802; // 0x40b058
-int32_t g72 = 0x1fffbf3b; // 0x40b060
-int16_t g73 = 88; // 0x40b064
-int16_t g74 = 0x20ac; // 0x40b066
-int32_t g75 = 0x7ffffd9; // 0x40b068
-int64_t g76 = 0x2e9a000001fa; // 0x40b070
-int32_t g77 = 1; // 0x40b078
-int32_t g78 = 0x1d20; // 0x40b080
-int16_t g79 = 22; // 0x40b084
-int16_t g80 = 1; // 0x40b086
-int32_t g81 = 1383; // 0x40b088
-int64_t g82 = 0x86d000000018; // 0x40b090
-int32_t g83 = 1; // 0x40b098
-int32_t g84 = 1842; // 0x40b0a0
-int16_t g85 = 39; // 0x40b0a4
-int16_t g86 = 0x5315; // 0x40b0a6
-int64_t g87 = 0x448100000138; // 0x40b0b0
-int32_t g88 = -0x22aa8150; // 0x40b0b8
-int32_t g89 = 0x5292; // 0x40b0c0
-int16_t g90 = 90; // 0x40b0c4
-int16_t g91 = 1; // 0x40b0c6
-int32_t g92 = 0x7ffd340; // 0x40b0c8
-int64_t g93 = 0x2a9d00000097; // 0x40b0d0
-int32_t g94 = 3; // 0x40b0d8
-int32_t g95 = 669; // 0x40b0e0
-int16_t g96 = 18; // 0x40b0e4
-int16_t g97 = -0x27a5; // 0x40b0e6
-int32_t g98 = 0x1a71; // 0x40b0e8
-int64_t g99 = 0x51d000001aa; // 0x40b0f0
-int32_t g100 = -0x65bfeb3c; // 0x40b0f8
-int32_t g101 = 0x1147; // 0x40b100
-int16_t g102 = 17; // 0x40b104
-int16_t g103 = -1; // 0x40b106
-int32_t g104 = 0x1fd7; // 0x40b108
-int64_t g105 = 0x437d000001b8; // 0x40b110
-int64_t g106 = 0x10df00000178; // 0x40b470
-int64_t g107 = 0xa981000000f4; // 0x40b4d0
-int32_t g108 = 0x58274ec3; // 0x40b4d8
-int32_t g109 = 0x1fffcb5b; // 0x40b4e0
-int16_t g110 = 100; // 0x40b4e4
-int16_t g111 = 0x3059; // 0x40b4e6
-int32_t g112 = 0x7ffed5d; // 0x40b4e8
-int64_t g113 = 0x9f8b00000062; // 0x40b4f0
-int32_t g114 = -1; // 0x40b4f8
-int32_t g115 = 1039; // 0x40b500
-int16_t g116 = 75; // 0x40b504
-int16_t g117 = -0x2682; // 0x40b506
-int32_t g118 = 0x7ffe903; // 0x40b508
-int64_t g119 = 0x7c4c000001c2; // 0x40b510
-int32_t g120 = 1; // 0x40b518
-int32_t g121 = 0x1213; // 0x40b520
-int16_t g122 = 105; // 0x40b524
-int16_t g123 = -1; // 0x40b526
-int32_t g124 = 0x7ffdaad; // 0x40b528
-int64_t g125 = 0xb140000000b2; // 0x40b530
-int32_t g126 = 1; // 0x40b538
-int16_t g127 = 6; // 0x40b544
-int16_t g128 = -0x3211; // 0x40b546
-int32_t g129 = 0x298a; // 0x40b548
-int64_t g130 = 0xb1f700000104; // 0x40b550
-int32_t g131 = -0x1706b784; // 0x40b558
-int32_t g132 = 0x1fffaaae; // 0x40b560
-int16_t g133 = 14; // 0x40b564
-int16_t g134 = 0; // 0x40b566
-int32_t g135 = 0x7ffd5dc; // 0x40b568
-int64_t g136 = 0x135800000068; // 0x40b570
-int32_t g137 = -10; // 0x40b578
-int32_t g138 = 0x32f6; // 0x40b580
-int16_t g139 = 15; // 0x40b584
-int16_t g140 = 5; // 0x40b586
-int64_t g141 = 0xffb00000074; // 0x40b590
-int64_t g142 = 0xaf6f0000007f; // 0x40bb30
-int32_t g143 = -0x35fbfa66; // 0x40bb38
-int32_t g144 = 0x1fffbd7c; // 0x40bb40
-int16_t g145 = 110; // 0x40bb44
-int16_t g146 = -10; // 0x40bb46
-int32_t g147 = 0x1d45; // 0x40bb48
-int64_t g148 = 0x568400000174; // 0x40bb50
-int32_t g149 = -0x4e723510; // 0x40bb58
-int32_t g150 = 0x1fffd263; // 0x40bb60
-int16_t g151 = 25; // 0x40bb64
-int16_t g152 = -3; // 0x40bb66
-int32_t g153 = 0x7ffd67c; // 0x40bb68
-int64_t g154 = 0x4012000000e6; // 0x40bb70
-int64_t g155 = 0x2e6700000193; // 0x40bc70
-int64_t g156 = 0x1fc800000041; // 0x40bff0
-int32_t g157 = -0x4c1e6e3c; // 0x40bff8
-int16_t g158 = 36; // 0x40c004
-int16_t g159 = -0x1dfe; // 0x40c006
-int32_t g160 = 0x1366; // 0x40c008
-int64_t g161 = 0x49370000018d; // 0x40c010
-int64_t g162 = 0x2300000000a9; // 0x40c110
-int32_t g163 = 0x610082a0; // 0x40c118
-int32_t g164 = 0x1fffabb0; // 0x40c120
-int16_t g165 = 22; // 0x40c124
-int16_t g166 = -0x3beb; // 0x40c126
-int32_t g167 = 0x7fff6c6; // 0x40c128
-int64_t g168 = 0xe4d0000001c; // 0x40c130
-int32_t g169 = -5; // 0x40c138
-int16_t g170 = 104; // 0x40c144
-int16_t g171 = 0x47b1; // 0x40c146
-int32_t g172 = 0x7ffe9b1; // 0x40c148
-int64_t g173 = 0x4241000000cc; // 0x40c150
-int64_t g174 = 0x2106000001de; // 0x40c290
-int32_t g175 = -10; // 0x40c298
-int16_t g176 = 16; // 0x40c2a4
-int16_t g177 = 0x5468; // 0x40c2a6
-int32_t g178 = 0x7ffe79c; // 0x40c2a8
-int64_t g179 = 0x15fa0000005d; // 0x40c2b0
-int32_t g180 = 1; // 0x40c2b8
-int16_t g181 = 127; // 0x40c2c4
-int16_t g182 = -4; // 0x40c2c6
-int32_t g183 = 1996; // 0x40c2c8
-int64_t g184 = 0xdf000000b1; // 0x40c2d0
-int32_t g185 = -0x426a40ac; // 0x40c2d8
-int32_t g186 = 0x36cf; // 0x40c2e0
-int16_t g187 = 48; // 0x40c2e4
-int16_t g188 = 0; // 0x40c2e6
-int32_t g189 = 0x7ffee2d; // 0x40c2e8
-int64_t g190 = 0x8c1a0000009e; // 0x40c2f0
-int64_t g191 = 0x8e6200000006; // 0x40ddf0
-int32_t g192 = -0x5b08d51b; // 0x40ddf8
-int32_t g193 = 0x1ffffe82; // 0x40de00
-int16_t g194 = 110; // 0x40de04
-int16_t g195 = -0x55c0; // 0x40de06
-int32_t g196 = 0x7ffd4b7; // 0x40de08
-int64_t g197 = 0x6d5a000001a4; // 0x40de10
-int32_t g198 = 0x7a92ff0e; // 0x40de18
-int16_t g199 = 81; // 0x40de24
-int16_t g200 = -0x5a61; // 0x40de26
-int64_t g201 = 0x7d45000001a8; // 0x40de30
-int32_t g202 = 1; // 0x40de38
-int32_t g203 = 0x1fffbb65; // 0x40de40
-int16_t g204 = 7; // 0x40de44
-int16_t g205 = 1; // 0x40de46
-int32_t g206 = 0x7ffe6e3; // 0x40de48
-int64_t g207 = 0xa95d000001e2; // 0x40de50
-int32_t g208 = -0x7dfde4f8; // 0x40de58
-int32_t g209 = 0x1ffff639; // 0x40de60
-int16_t g210 = 81; // 0x40de64
-int16_t g211 = -1; // 0x40de66
-int32_t g212 = 0x7fff847; // 0x40de68
-int64_t g213 = 0x7e31000000d4; // 0x40de70
-int32_t g214 = 0; // 0x40dfa0
-int32_t g215 = 0; // 0x40dfa8
-int32_t g216 = 0; // 0x40dfb0
-int32_t * g217 = NULL; // 0x40dfc0
-int64_t * g53 = (int64_t *)&g15; // 0x40a5c8
-int64_t ** g10 = &g53; // 0x408100
-int64_t * g54 = (int64_t *)&g19; // 0x40a5d0
-int64_t * g56 = (int64_t *)&g51; // 0x40a6e0
+int16_t * g1 = (int16_t *)-0x2000200020003; // 0x40afc8
+int64_t g2; // 0x40b028
+int64_t g3 = 0; // 0x40b050
+int64_t g4 = -0xd3ac0cfd; // 0x40b060
+int64_t g5 = 0xfffffffd; // 0x40b440
+int64_t g6 = -0x1987356cb; // 0x40b5d0
+int64_t g7 = 0; // 0x40b8a0
+int64_t g8 = -0x7709254b00000001; // 0x40c020
+int64_t g9 = 0x6bc120006bc12; // 0x40c0c0
+int64_t g11 = 0x10ba0000019d; // 0x40c120
+int32_t g12 = 0x2bbef7d6; // 0x412030
+int32_t g13 = -3; // 0x412034
+int32_t g14 = 0x26ec17e5; // 0x412038
+int32_t g15 = -10; // 0x41203c
+int32_t g16 = -0x8000001; // 0x41203d
+int64_t g17 = -9; // 0x412040
+int64_t g18 = 0x31bc4638b1aae879; // 0x4120a0
+int32_t g19 = -0x34b06ef9; // 0x412140
+int32_t g20 = -0x8ffff; // 0x412144
+int16_t g21 = -2304; // 0x412145
+int32_t g22 = 0xfff7; // 0x412146
+int32_t * g23 = (int32_t *)-1; // 0x412150
+int32_t g24 = 0x3e679c8a; // 0x412164
+int32_t g25 = -0xb7cf8ef; // 0x412168
+int32_t g26 = 0x612900eb; // 0x412170
+int32_t g27 = 0x1d5a9; // 0x412174
+int32_t g28 = -0xfffe2b; // 0x412175
+int32_t g29 = 0x5ff0001; // 0x412176
+char g30 = -1; // 0x412178
+int32_t g31 = -0x565656fb; // 0x412179
+char * g32 = "\xa9\xa9\xa9\xa9"; // 0x41217a
+int64_t g33 = 0x7001877f00000001; // 0x412180
+int32_t g34 = 0xa728; // 0x4121a4
+int32_t g35 = 0x44bcd851; // 0x4121a8
+int64_t g36 = 0x112000101001212; // 0x4121b0
+int64_t g37 = -0x2fffffffb; // 0x4121e0
+int64_t g38 = -0x5133fb6700000000; // 0x4123a8
+int32_t g39 = -1; // 0x412500
+int32_t g40 = -1; // 0x412508
+int32_t g41 = -0xff01; // 0x412510
+char g42 = 0; // 0x412511
+int32_t g43 = 0x2323ffff; // 0x412512
+int32_t g44 = 0x6468d519; // 0x412518
+int32_t g45 = 1; // 0x412520
+int32_t g46 = 6; // 0x412528
+int16_t g47 = -0x5b87; // 0x412530
+int32_t g48 = -0x4a3a364d; // 0x412538
+char g49 = -9; // 0x412540
+int32_t g50 = -1; // 0x412544
+int32_t g51 = 0x412590; // 0x412548
+int64_t g52; // 0x412568
+int16_t g55 = 0x2144; // 0x4126c8
+int64_t g57 = 0x92440000016e; // 0x412710
+int32_t g58 = 0; // 0x412718
+int32_t g59 = 0x1fffeed5; // 0x412720
+int16_t g60 = 71; // 0x412724
+int16_t g61 = 0x2694; // 0x412726
+int32_t g62 = 4055; // 0x412728
+int64_t g63 = 0xa60200000088; // 0x412730
+int32_t g64 = 0x6e4c0148; // 0x412738
+int32_t g65 = 0x5080; // 0x412740
+int16_t g66 = 73; // 0x412744
+int16_t g67 = -0x70ea; // 0x412746
+int32_t g68 = 0x7ffe60f; // 0x412748
+int64_t g69 = 0x3d7000000075; // 0x412750
+int64_t g70 = 0x427c0000016d; // 0x413050
+int32_t g71 = 0x10ef5802; // 0x413058
+int32_t g72 = 0x1fffbf3b; // 0x413060
+int16_t g73 = 88; // 0x413064
+int16_t g74 = 0x20ac; // 0x413066
+int32_t g75 = 0x7ffffd9; // 0x413068
+int64_t g76 = 0x2e9a000001fa; // 0x413070
+int32_t g77 = 1; // 0x413078
+int32_t g78 = 0x1d20; // 0x413080
+int16_t g79 = 22; // 0x413084
+int16_t g80 = 1; // 0x413086
+int32_t g81 = 1383; // 0x413088
+int64_t g82 = 0x86d000000018; // 0x413090
+int32_t g83 = 1; // 0x413098
+int32_t g84 = 1842; // 0x4130a0
+int16_t g85 = 39; // 0x4130a4
+int16_t g86 = 0x5315; // 0x4130a6
+int64_t g87 = 0x448100000138; // 0x4130b0
+int32_t g88 = -0x22aa8150; // 0x4130b8
+int32_t g89 = 0x5292; // 0x4130c0
+int16_t g90 = 90; // 0x4130c4
+int16_t g91 = 1; // 0x4130c6
+int32_t g92 = 0x7ffd340; // 0x4130c8
+int64_t g93 = 0x2a9d00000097; // 0x4130d0
+int32_t g94 = 3; // 0x4130d8
+int32_t g95 = 669; // 0x4130e0
+int16_t g96 = 18; // 0x4130e4
+int16_t g97 = -0x27a5; // 0x4130e6
+int32_t g98 = 0x1a71; // 0x4130e8
+int64_t g99 = 0x51d000001aa; // 0x4130f0
+int32_t g100 = -0x65bfeb3c; // 0x4130f8
+int32_t g101 = 0x1147; // 0x413100
+int16_t g102 = 17; // 0x413104
+int16_t g103 = -1; // 0x413106
+int32_t g104 = 0x1fd7; // 0x413108
+int64_t g105 = 0x437d000001b8; // 0x413110
+int64_t g106 = 0x10df00000178; // 0x413470
+int64_t g107 = 0xa981000000f4; // 0x4134d0
+int32_t g108 = 0x58274ec3; // 0x4134d8
+int32_t g109 = 0x1fffcb5b; // 0x4134e0
+int16_t g110 = 100; // 0x4134e4
+int16_t g111 = 0x3059; // 0x4134e6
+int32_t g112 = 0x7ffed5d; // 0x4134e8
+int64_t g113 = 0x9f8b00000062; // 0x4134f0
+int32_t g114 = -1; // 0x4134f8
+int32_t g115 = 1039; // 0x413500
+int16_t g116 = 75; // 0x413504
+int16_t g117 = -0x2682; // 0x413506
+int32_t g118 = 0x7ffe903; // 0x413508
+int64_t g119 = 0x7c4c000001c2; // 0x413510
+int32_t g120 = 1; // 0x413518
+int32_t g121 = 0x1213; // 0x413520
+int16_t g122 = 105; // 0x413524
+int16_t g123 = -1; // 0x413526
+int32_t g124 = 0x7ffdaad; // 0x413528
+int64_t g125 = 0xb140000000b2; // 0x413530
+int32_t g126 = 1; // 0x413538
+int16_t g127 = 6; // 0x413544
+int16_t g128 = -0x3211; // 0x413546
+int32_t g129 = 0x298a; // 0x413548
+int64_t g130 = 0xb1f700000104; // 0x413550
+int32_t g131 = -0x1706b784; // 0x413558
+int32_t g132 = 0x1fffaaae; // 0x413560
+int16_t g133 = 14; // 0x413564
+int16_t g134 = 0; // 0x413566
+int32_t g135 = 0x7ffd5dc; // 0x413568
+int64_t g136 = 0x135800000068; // 0x413570
+int32_t g137 = -10; // 0x413578
+int32_t g138 = 0x32f6; // 0x413580
+int16_t g139 = 15; // 0x413584
+int16_t g140 = 5; // 0x413586
+int64_t g141 = 0xffb00000074; // 0x413590
+int64_t g142 = 0xaf6f0000007f; // 0x413b30
+int32_t g143 = -0x35fbfa66; // 0x413b38
+int32_t g144 = 0x1fffbd7c; // 0x413b40
+int16_t g145 = 110; // 0x413b44
+int16_t g146 = -10; // 0x413b46
+int32_t g147 = 0x1d45; // 0x413b48
+int64_t g148 = 0x568400000174; // 0x413b50
+int32_t g149 = -0x4e723510; // 0x413b58
+int32_t g150 = 0x1fffd263; // 0x413b60
+int16_t g151 = 25; // 0x413b64
+int16_t g152 = -3; // 0x413b66
+int32_t g153 = 0x7ffd67c; // 0x413b68
+int64_t g154 = 0x4012000000e6; // 0x413b70
+int64_t g155 = 0x2e6700000193; // 0x413c70
+int64_t g156 = 0x1fc800000041; // 0x413ff0
+int32_t g157 = -0x4c1e6e3c; // 0x413ff8
+int16_t g158 = 36; // 0x414004
+int16_t g159 = -0x1dfe; // 0x414006
+int32_t g160 = 0x1366; // 0x414008
+int64_t g161 = 0x49370000018d; // 0x414010
+int64_t g162 = 0x2300000000a9; // 0x414110
+int32_t g163 = 0x610082a0; // 0x414118
+int32_t g164 = 0x1fffabb0; // 0x414120
+int16_t g165 = 22; // 0x414124
+int16_t g166 = -0x3beb; // 0x414126
+int32_t g167 = 0x7fff6c6; // 0x414128
+int64_t g168 = 0xe4d0000001c; // 0x414130
+int32_t g169 = -5; // 0x414138
+int16_t g170 = 104; // 0x414144
+int16_t g171 = 0x47b1; // 0x414146
+int32_t g172 = 0x7ffe9b1; // 0x414148
+int64_t g173 = 0x4241000000cc; // 0x414150
+int64_t g174 = 0x2106000001de; // 0x414290
+int32_t g175 = -10; // 0x414298
+int16_t g176 = 16; // 0x4142a4
+int16_t g177 = 0x5468; // 0x4142a6
+int32_t g178 = 0x7ffe79c; // 0x4142a8
+int64_t g179 = 0x15fa0000005d; // 0x4142b0
+int32_t g180 = 1; // 0x4142b8
+int16_t g181 = 127; // 0x4142c4
+int16_t g182 = -4; // 0x4142c6
+int32_t g183 = 1996; // 0x4142c8
+int64_t g184 = 0xdf000000b1; // 0x4142d0
+int32_t g185 = -0x426a40ac; // 0x4142d8
+int32_t g186 = 0x36cf; // 0x4142e0
+int16_t g187 = 48; // 0x4142e4
+int16_t g188 = 0; // 0x4142e6
+int32_t g189 = 0x7ffee2d; // 0x4142e8
+int64_t g190 = 0x8c1a0000009e; // 0x4142f0
+int64_t g191 = 0x8e6200000006; // 0x415df0
+int32_t g192 = -0x5b08d51b; // 0x415df8
+int32_t g193 = 0x1ffffe82; // 0x415e00
+int16_t g194 = 110; // 0x415e04
+int16_t g195 = -0x55c0; // 0x415e06
+int32_t g196 = 0x7ffd4b7; // 0x415e08
+int64_t g197 = 0x6d5a000001a4; // 0x415e10
+int32_t g198 = 0x7a92ff0e; // 0x415e18
+int16_t g199 = 81; // 0x415e24
+int16_t g200 = -0x5a61; // 0x415e26
+int64_t g201 = 0x7d45000001a8; // 0x415e30
+int32_t g202 = 1; // 0x415e38
+int32_t g203 = 0x1fffbb65; // 0x415e40
+int16_t g204 = 7; // 0x415e44
+int16_t g205 = 1; // 0x415e46
+int32_t g206 = 0x7ffe6e3; // 0x415e48
+int64_t g207 = 0xa95d000001e2; // 0x415e50
+int32_t g208 = -0x7dfde4f8; // 0x415e58
+int32_t g209 = 0x1ffff639; // 0x415e60
+int16_t g210 = 81; // 0x415e64
+int16_t g211 = -1; // 0x415e66
+int32_t g212 = 0x7fff847; // 0x415e68
+int64_t g213 = 0x7e31000000d4; // 0x415e70
+int32_t g214 = 0; // 0x415fa0
+int32_t g215 = 0; // 0x415fa8
+int32_t g216 = 0; // 0x415fb0
+int32_t * g217 = NULL; // 0x415fc0
+int64_t * g53 = (int64_t *)&g15; // 0x4125c8
+int64_t ** g10 = &g53; // 0x40c100
+int64_t * g54 = (int64_t *)&g19; // 0x4125d0
+int64_t * g56 = (int64_t *)&g51; // 0x4126e0
 
 // ------------------------ Functions -------------------------
 
 // Address range: 0x4004a0 - 0x4004b2
-int64_t codemarker_alpha(int64_t a1) {
+int64_t mage_alpha0(uint32_t result) {
     // 0x4004a0
+    return result;
+}
+
+// Address range: 0x4004c0 - 0x4004d2
+int64_t mage_alpha1(int64_t a1) {
+    // 0x4004c0
     return a1 & 0xffffffff;
 }
 
-// Address range: 0x4004c0 - 0x404790
+// Address range: 0x4004e0 - 0x4004f2
+int64_t mage_alpha2(int64_t a1) {
+    // 0x4004e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400500 - 0x400512
+int64_t mage_alpha3(int64_t a1) {
+    // 0x400500
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400520 - 0x400532
+int64_t mage_alpha4(int64_t a1) {
+    // 0x400520
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400540 - 0x400552
+int64_t mage_alpha5(int64_t a1) {
+    // 0x400540
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400560 - 0x400572
+int64_t mage_alpha6(int64_t a1) {
+    // 0x400560
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400580 - 0x400592
+int64_t mage_alpha7(int64_t a1) {
+    // 0x400580
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4005a0 - 0x4005b2
+int64_t mage_alpha8(int64_t a1) {
+    // 0x4005a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4005c0 - 0x4005d2
+int64_t mage_alpha9(int64_t a1) {
+    // 0x4005c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4005e0 - 0x4005f2
+int64_t mage_alpha10(int64_t a1) {
+    // 0x4005e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400600 - 0x400612
+int64_t mage_alpha11(int64_t a1) {
+    // 0x400600
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400620 - 0x400632
+int64_t mage_alpha12(int64_t a1) {
+    // 0x400620
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400640 - 0x400652
+int64_t mage_alpha13(int64_t a1) {
+    // 0x400640
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400660 - 0x400672
+int64_t mage_alpha14(int64_t a1) {
+    // 0x400660
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400680 - 0x400692
+int64_t mage_alpha15(int64_t a1) {
+    // 0x400680
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4006a0 - 0x4006b2
+int64_t mage_alpha16(int64_t a1) {
+    // 0x4006a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4006c0 - 0x4006d2
+int64_t mage_alpha17(int64_t a1) {
+    // 0x4006c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4006e0 - 0x4006f2
+int64_t mage_alpha18(int64_t a1) {
+    // 0x4006e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400700 - 0x400712
+int64_t mage_alpha19(int64_t a1) {
+    // 0x400700
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400720 - 0x400732
+int64_t mage_alpha20(int64_t a1) {
+    // 0x400720
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400740 - 0x400752
+int64_t mage_alpha21(int64_t a1) {
+    // 0x400740
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400760 - 0x400772
+int64_t mage_alpha22(int64_t a1) {
+    // 0x400760
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400780 - 0x400792
+int64_t mage_alpha23(int64_t a1) {
+    // 0x400780
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4007a0 - 0x4007b2
+int64_t mage_alpha24(int64_t a1) {
+    // 0x4007a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4007c0 - 0x4007d2
+int64_t mage_alpha25(int64_t a1) {
+    // 0x4007c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4007e0 - 0x4007f2
+int64_t mage_alpha26(int64_t a1) {
+    // 0x4007e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401a20 - 0x401a32
+int64_t mage_alpha172(int64_t a1) {
+    // 0x401a20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401a40 - 0x401a52
+int64_t mage_alpha173(int64_t a1) {
+    // 0x401a40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401a60 - 0x401a72
+int64_t mage_alpha174(int64_t a1) {
+    // 0x401a60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401a80 - 0x401a92
+int64_t mage_alpha175(int64_t a1) {
+    // 0x401a80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401aa0 - 0x401ab2
+int64_t mage_alpha176(int64_t a1) {
+    // 0x401aa0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401ac0 - 0x401ad2
+int64_t mage_alpha177(int64_t a1) {
+    // 0x401ac0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401ae0 - 0x401af2
+int64_t mage_alpha178(int64_t a1) {
+    // 0x401ae0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401b00 - 0x401b12
+int64_t mage_alpha179(int64_t a1) {
+    // 0x401b00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401b20 - 0x401b32
+int64_t mage_alpha180(int64_t a1) {
+    // 0x401b20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401b40 - 0x401b52
+int64_t mage_alpha181(int64_t a1) {
+    // 0x401b40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401b60 - 0x401b72
+int64_t mage_alpha182(int64_t a1) {
+    // 0x401b60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401b80 - 0x401b92
+int64_t mage_alpha183(int64_t a1) {
+    // 0x401b80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401ba0 - 0x401bb2
+int64_t mage_alpha184(int64_t a1) {
+    // 0x401ba0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401bc0 - 0x401bd2
+int64_t mage_alpha185(int64_t a1) {
+    // 0x401bc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401be0 - 0x401bf2
+int64_t mage_alpha186(int64_t a1) {
+    // 0x401be0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401c00 - 0x401c12
+int64_t mage_alpha187(int64_t a1) {
+    // 0x401c00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401c20 - 0x401c32
+int64_t mage_alpha188(int64_t a1) {
+    // 0x401c20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401c40 - 0x401c52
+int64_t mage_alpha189(int64_t a1) {
+    // 0x401c40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401c60 - 0x401c72
+int64_t mage_alpha190(int64_t a1) {
+    // 0x401c60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401c80 - 0x401c92
+int64_t mage_alpha191(int64_t a1) {
+    // 0x401c80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401ca0 - 0x401cb2
+int64_t mage_alpha192(int64_t a1) {
+    // 0x401ca0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401cc0 - 0x401cd2
+int64_t mage_alpha193(int64_t a1) {
+    // 0x401cc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401ce0 - 0x401cf2
+int64_t mage_alpha194(int64_t a1) {
+    // 0x401ce0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401d00 - 0x401d12
+int64_t mage_alpha195(int64_t a1) {
+    // 0x401d00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401d20 - 0x401d32
+int64_t mage_alpha196(int64_t a1) {
+    // 0x401d20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401d40 - 0x401d52
+int64_t mage_alpha197(int64_t a1) {
+    // 0x401d40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401d60 - 0x401d72
+int64_t mage_alpha198(int64_t a1) {
+    // 0x401d60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401d80 - 0x401d92
+int64_t mage_alpha199(int64_t a1) {
+    // 0x401d80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401da0 - 0x401db2
+int64_t mage_alpha200(int64_t a1) {
+    // 0x401da0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401dc0 - 0x401dd2
+int64_t mage_alpha201(int64_t a1) {
+    // 0x401dc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401de0 - 0x401df2
+int64_t mage_alpha202(int64_t a1) {
+    // 0x401de0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401e00 - 0x401e12
+int64_t mage_alpha203(int64_t a1) {
+    // 0x401e00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401e20 - 0x401e32
+int64_t mage_alpha204(int64_t a1) {
+    // 0x401e20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401e40 - 0x401e52
+int64_t mage_alpha205(int64_t a1) {
+    // 0x401e40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401e60 - 0x401e72
+int64_t mage_alpha206(int64_t a1) {
+    // 0x401e60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401e80 - 0x401e92
+int64_t mage_alpha207(int64_t a1) {
+    // 0x401e80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401ea0 - 0x401eb2
+int64_t mage_alpha208(int64_t a1) {
+    // 0x401ea0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401ec0 - 0x401ed2
+int64_t mage_alpha209(int64_t a1) {
+    // 0x401ec0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401ee0 - 0x401ef2
+int64_t mage_alpha210(int64_t a1) {
+    // 0x401ee0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401f00 - 0x401f12
+int64_t mage_alpha211(int64_t a1) {
+    // 0x401f00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401f20 - 0x401f32
+int64_t mage_alpha212(int64_t a1) {
+    // 0x401f20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401f40 - 0x401f52
+int64_t mage_alpha213(int64_t a1) {
+    // 0x401f40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401f60 - 0x401f72
+int64_t mage_alpha214(int64_t a1) {
+    // 0x401f60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401f80 - 0x401f92
+int64_t mage_alpha215(int64_t a1) {
+    // 0x401f80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401fa0 - 0x401fb2
+int64_t mage_alpha216(int64_t a1) {
+    // 0x401fa0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401fc0 - 0x401fd2
+int64_t mage_alpha217(int64_t a1) {
+    // 0x401fc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x401fe0 - 0x401ff2
+int64_t mage_alpha218(int64_t a1) {
+    // 0x401fe0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402000 - 0x402012
+int64_t mage_alpha219(int64_t a1) {
+    // 0x402000
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402020 - 0x402032
+int64_t mage_alpha220(int64_t a1) {
+    // 0x402020
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402040 - 0x402052
+int64_t mage_alpha221(int64_t a1) {
+    // 0x402040
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402060 - 0x402072
+int64_t mage_alpha222(int64_t a1) {
+    // 0x402060
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402080 - 0x402092
+int64_t mage_alpha223(int64_t a1) {
+    // 0x402080
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4020a0 - 0x4020b2
+int64_t mage_alpha224(int64_t a1) {
+    // 0x4020a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4020c0 - 0x4020d2
+int64_t mage_alpha225(int64_t a1) {
+    // 0x4020c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4020e0 - 0x4020f2
+int64_t mage_alpha226(int64_t a1) {
+    // 0x4020e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402100 - 0x402112
+int64_t mage_alpha227(int64_t a1) {
+    // 0x402100
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402120 - 0x402132
+int64_t mage_alpha228(int64_t a1) {
+    // 0x402120
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402140 - 0x402152
+int64_t mage_alpha229(int64_t a1) {
+    // 0x402140
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402160 - 0x402172
+int64_t mage_alpha230(int64_t a1) {
+    // 0x402160
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402180 - 0x402192
+int64_t mage_alpha231(int64_t a1) {
+    // 0x402180
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4021a0 - 0x4021b2
+int64_t mage_alpha232(int64_t a1) {
+    // 0x4021a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4021c0 - 0x4021d2
+int64_t mage_alpha233(int64_t a1) {
+    // 0x4021c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4021e0 - 0x4021f2
+int64_t mage_alpha234(int64_t a1) {
+    // 0x4021e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402200 - 0x402212
+int64_t mage_alpha235(int64_t a1) {
+    // 0x402200
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402220 - 0x402232
+int64_t mage_alpha236(int64_t a1) {
+    // 0x402220
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402240 - 0x402252
+int64_t mage_alpha237(int64_t a1) {
+    // 0x402240
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402260 - 0x402272
+int64_t mage_alpha238(int64_t a1) {
+    // 0x402260
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402280 - 0x402292
+int64_t mage_alpha239(int64_t a1) {
+    // 0x402280
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4022a0 - 0x4022b2
+int64_t mage_alpha240(int64_t a1) {
+    // 0x4022a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4022c0 - 0x4022d2
+int64_t mage_alpha241(int64_t a1) {
+    // 0x4022c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4022e0 - 0x4022f2
+int64_t mage_alpha242(int64_t a1) {
+    // 0x4022e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402300 - 0x402312
+int64_t mage_alpha243(int64_t a1) {
+    // 0x402300
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402320 - 0x402332
+int64_t mage_alpha244(int64_t a1) {
+    // 0x402320
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402340 - 0x402352
+int64_t mage_alpha245(int64_t a1) {
+    // 0x402340
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402360 - 0x402372
+int64_t mage_alpha246(int64_t a1) {
+    // 0x402360
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402380 - 0x402392
+int64_t mage_alpha247(int64_t a1) {
+    // 0x402380
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4023a0 - 0x4023b2
+int64_t mage_alpha248(int64_t a1) {
+    // 0x4023a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4023c0 - 0x4023d2
+int64_t mage_alpha249(int64_t a1) {
+    // 0x4023c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4023e0 - 0x4023f2
+int64_t mage_alpha250(int64_t a1) {
+    // 0x4023e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402400 - 0x402412
+int64_t mage_alpha251(int64_t a1) {
+    // 0x402400
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402420 - 0x402432
+int64_t mage_alpha252(int64_t a1) {
+    // 0x402420
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402440 - 0x402452
+int64_t mage_alpha253(int64_t a1) {
+    // 0x402440
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402460 - 0x402472
+int64_t mage_alpha254(int64_t a1) {
+    // 0x402460
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402480 - 0x402492
+int64_t mage_alpha255(int64_t a1) {
+    // 0x402480
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4024a0 - 0x4024b2
+int64_t mage_alpha256(int64_t a1) {
+    // 0x4024a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4024c0 - 0x4024d2
+int64_t mage_alpha257(int64_t a1) {
+    // 0x4024c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4024e0 - 0x4024f2
+int64_t mage_alpha258(int64_t a1) {
+    // 0x4024e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402500 - 0x402512
+int64_t mage_alpha259(int64_t a1) {
+    // 0x402500
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402520 - 0x402532
+int64_t mage_alpha260(int64_t a1) {
+    // 0x402520
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402540 - 0x402552
+int64_t mage_alpha261(int64_t a1) {
+    // 0x402540
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402560 - 0x402572
+int64_t mage_alpha262(int64_t a1) {
+    // 0x402560
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402580 - 0x402592
+int64_t mage_alpha263(int64_t a1) {
+    // 0x402580
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4025a0 - 0x4025b2
+int64_t mage_alpha264(int64_t a1) {
+    // 0x4025a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4025c0 - 0x4025d2
+int64_t mage_alpha265(int64_t a1) {
+    // 0x4025c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4025e0 - 0x4025f2
+int64_t mage_alpha266(int64_t a1) {
+    // 0x4025e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402600 - 0x402612
+int64_t mage_alpha267(int64_t a1) {
+    // 0x402600
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402620 - 0x402632
+int64_t mage_alpha268(int64_t a1) {
+    // 0x402620
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402640 - 0x402652
+int64_t mage_alpha269(int64_t a1) {
+    // 0x402640
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402660 - 0x402672
+int64_t mage_alpha270(int64_t a1) {
+    // 0x402660
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402680 - 0x402692
+int64_t mage_alpha271(int64_t a1) {
+    // 0x402680
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4026a0 - 0x4026b2
+int64_t mage_alpha272(int64_t a1) {
+    // 0x4026a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4026c0 - 0x4026d2
+int64_t mage_alpha273(int64_t a1) {
+    // 0x4026c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4026e0 - 0x4026f2
+int64_t mage_alpha274(int64_t a1) {
+    // 0x4026e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402700 - 0x402712
+int64_t mage_alpha275(int64_t a1) {
+    // 0x402700
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402720 - 0x402732
+int64_t mage_alpha276(int64_t a1) {
+    // 0x402720
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402740 - 0x402752
+int64_t mage_alpha277(int64_t a1) {
+    // 0x402740
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402760 - 0x402772
+int64_t mage_alpha278(int64_t a1) {
+    // 0x402760
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402780 - 0x402792
+int64_t mage_alpha279(int64_t a1) {
+    // 0x402780
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4027a0 - 0x4027b2
+int64_t mage_alpha280(int64_t a1) {
+    // 0x4027a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4027c0 - 0x4027d2
+int64_t mage_alpha281(int64_t a1) {
+    // 0x4027c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4027e0 - 0x4027f2
+int64_t mage_alpha282(int64_t a1) {
+    // 0x4027e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402800 - 0x402812
+int64_t mage_alpha283(int64_t a1) {
+    // 0x402800
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402820 - 0x402832
+int64_t mage_alpha284(int64_t a1) {
+    // 0x402820
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402840 - 0x402852
+int64_t mage_alpha285(int64_t a1) {
+    // 0x402840
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402860 - 0x402872
+int64_t mage_alpha286(int64_t a1) {
+    // 0x402860
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402880 - 0x402892
+int64_t mage_alpha287(int64_t a1) {
+    // 0x402880
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4028a0 - 0x4028b2
+int64_t mage_alpha288(int64_t a1) {
+    // 0x4028a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4028c0 - 0x4028d2
+int64_t mage_alpha289(int64_t a1) {
+    // 0x4028c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4028e0 - 0x4028f2
+int64_t mage_alpha290(int64_t a1) {
+    // 0x4028e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402900 - 0x402912
+int64_t mage_alpha291(int64_t a1) {
+    // 0x402900
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402920 - 0x402932
+int64_t mage_alpha292(int64_t a1) {
+    // 0x402920
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402940 - 0x402952
+int64_t mage_alpha293(int64_t a1) {
+    // 0x402940
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402960 - 0x402972
+int64_t mage_alpha294(int64_t a1) {
+    // 0x402960
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402980 - 0x402992
+int64_t mage_alpha295(int64_t a1) {
+    // 0x402980
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4029a0 - 0x4029b2
+int64_t mage_alpha296(int64_t a1) {
+    // 0x4029a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4029c0 - 0x4029d2
+int64_t mage_alpha297(int64_t a1) {
+    // 0x4029c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4029e0 - 0x4029f2
+int64_t mage_alpha298(int64_t a1) {
+    // 0x4029e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402a00 - 0x402a12
+int64_t mage_alpha299(int64_t a1) {
+    // 0x402a00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402a20 - 0x402a32
+int64_t mage_alpha300(int64_t a1) {
+    // 0x402a20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402a40 - 0x402a52
+int64_t mage_alpha301(int64_t a1) {
+    // 0x402a40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402a60 - 0x402a72
+int64_t mage_alpha302(int64_t a1) {
+    // 0x402a60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402a80 - 0x402a92
+int64_t mage_alpha303(int64_t a1) {
+    // 0x402a80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402aa0 - 0x402ab2
+int64_t mage_alpha304(int64_t a1) {
+    // 0x402aa0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402ac0 - 0x402ad2
+int64_t mage_alpha305(int64_t a1) {
+    // 0x402ac0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402ae0 - 0x402af2
+int64_t mage_alpha306(int64_t a1) {
+    // 0x402ae0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402b00 - 0x402b12
+int64_t mage_alpha307(int64_t a1) {
+    // 0x402b00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402b20 - 0x402b32
+int64_t mage_alpha308(int64_t a1) {
+    // 0x402b20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402b40 - 0x402b52
+int64_t mage_alpha309(int64_t a1) {
+    // 0x402b40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402b60 - 0x402b72
+int64_t mage_alpha310(int64_t a1) {
+    // 0x402b60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402b80 - 0x402b92
+int64_t mage_alpha311(int64_t a1) {
+    // 0x402b80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402ba0 - 0x402bb2
+int64_t mage_alpha312(int64_t a1) {
+    // 0x402ba0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402bc0 - 0x402bd2
+int64_t mage_alpha313(int64_t a1) {
+    // 0x402bc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402be0 - 0x402bf2
+int64_t mage_alpha314(int64_t a1) {
+    // 0x402be0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402c00 - 0x402c12
+int64_t mage_alpha315(int64_t a1) {
+    // 0x402c00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402c20 - 0x402c32
+int64_t mage_alpha316(int64_t a1) {
+    // 0x402c20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402c40 - 0x402c52
+int64_t mage_alpha317(int64_t a1) {
+    // 0x402c40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402c60 - 0x402c72
+int64_t mage_alpha318(int64_t a1) {
+    // 0x402c60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402c80 - 0x402c92
+int64_t mage_alpha319(int64_t a1) {
+    // 0x402c80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402ca0 - 0x402cb2
+int64_t mage_alpha320(int64_t a1) {
+    // 0x402ca0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402cc0 - 0x402cd2
+int64_t mage_alpha321(int64_t a1) {
+    // 0x402cc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402ce0 - 0x402cf2
+int64_t mage_alpha322(int64_t a1) {
+    // 0x402ce0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402d00 - 0x402d12
+int64_t mage_alpha323(int64_t a1) {
+    // 0x402d00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402d20 - 0x402d32
+int64_t mage_alpha324(int64_t a1) {
+    // 0x402d20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402d40 - 0x402d52
+int64_t mage_alpha325(int64_t a1) {
+    // 0x402d40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402d60 - 0x402d72
+int64_t mage_alpha326(int64_t a1) {
+    // 0x402d60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402d80 - 0x402d92
+int64_t mage_alpha327(int64_t a1) {
+    // 0x402d80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402da0 - 0x402db2
+int64_t mage_alpha328(int64_t a1) {
+    // 0x402da0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402dc0 - 0x402dd2
+int64_t mage_alpha329(int64_t a1) {
+    // 0x402dc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402de0 - 0x402df2
+int64_t mage_alpha330(int64_t a1) {
+    // 0x402de0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402e00 - 0x402e12
+int64_t mage_alpha331(int64_t a1) {
+    // 0x402e00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402e20 - 0x402e32
+int64_t mage_alpha332(int64_t a1) {
+    // 0x402e20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402e40 - 0x402e52
+int64_t mage_alpha333(int64_t a1) {
+    // 0x402e40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402e60 - 0x402e72
+int64_t mage_alpha334(int64_t a1) {
+    // 0x402e60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402e80 - 0x402e92
+int64_t mage_alpha335(int64_t a1) {
+    // 0x402e80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402ea0 - 0x402eb2
+int64_t mage_alpha336(int64_t a1) {
+    // 0x402ea0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402ec0 - 0x402ed2
+int64_t mage_alpha337(int64_t a1) {
+    // 0x402ec0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402ee0 - 0x402ef2
+int64_t mage_alpha338(int64_t a1) {
+    // 0x402ee0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402f00 - 0x402f12
+int64_t mage_alpha339(int64_t a1) {
+    // 0x402f00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402f20 - 0x402f32
+int64_t mage_alpha340(int64_t a1) {
+    // 0x402f20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402f40 - 0x402f52
+int64_t mage_alpha341(int64_t a1) {
+    // 0x402f40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402f60 - 0x402f72
+int64_t mage_alpha342(int64_t a1) {
+    // 0x402f60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402f80 - 0x402f92
+int64_t mage_alpha343(int64_t a1) {
+    // 0x402f80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402fa0 - 0x402fb2
+int64_t mage_alpha344(int64_t a1) {
+    // 0x402fa0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402fc0 - 0x402fd2
+int64_t mage_alpha345(int64_t a1) {
+    // 0x402fc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x402fe0 - 0x402ff2
+int64_t mage_alpha346(int64_t a1) {
+    // 0x402fe0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403000 - 0x403012
+int64_t mage_alpha347(int64_t a1) {
+    // 0x403000
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403020 - 0x403032
+int64_t mage_alpha348(int64_t a1) {
+    // 0x403020
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403040 - 0x403052
+int64_t mage_alpha349(int64_t a1) {
+    // 0x403040
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403060 - 0x403072
+int64_t mage_alpha350(int64_t a1) {
+    // 0x403060
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403080 - 0x403092
+int64_t mage_alpha351(int64_t a1) {
+    // 0x403080
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4030a0 - 0x4030b2
+int64_t mage_alpha352(int64_t a1) {
+    // 0x4030a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4030c0 - 0x4030d2
+int64_t mage_alpha353(int64_t a1) {
+    // 0x4030c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4030e0 - 0x4030f2
+int64_t mage_alpha354(int64_t a1) {
+    // 0x4030e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403100 - 0x403112
+int64_t mage_alpha355(int64_t a1) {
+    // 0x403100
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403120 - 0x403132
+int64_t mage_alpha356(int64_t a1) {
+    // 0x403120
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403140 - 0x403152
+int64_t mage_alpha357(int64_t a1) {
+    // 0x403140
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403160 - 0x403172
+int64_t mage_alpha358(int64_t a1) {
+    // 0x403160
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403180 - 0x403192
+int64_t mage_alpha359(int64_t a1) {
+    // 0x403180
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4031a0 - 0x4031b2
+int64_t mage_alpha360(int64_t a1) {
+    // 0x4031a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4031c0 - 0x4031d2
+int64_t mage_alpha361(int64_t a1) {
+    // 0x4031c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4031e0 - 0x4031f2
+int64_t mage_alpha362(int64_t a1) {
+    // 0x4031e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403200 - 0x403212
+int64_t mage_alpha363(int64_t a1) {
+    // 0x403200
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403220 - 0x403232
+int64_t mage_alpha364(int64_t a1) {
+    // 0x403220
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403240 - 0x403252
+int64_t mage_alpha365(int64_t a1) {
+    // 0x403240
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403260 - 0x403272
+int64_t mage_alpha366(int64_t a1) {
+    // 0x403260
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403280 - 0x403292
+int64_t mage_alpha367(int64_t a1) {
+    // 0x403280
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4032a0 - 0x4032b2
+int64_t mage_alpha368(int64_t a1) {
+    // 0x4032a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4032c0 - 0x4032d2
+int64_t mage_alpha369(int64_t a1) {
+    // 0x4032c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4032e0 - 0x4032f2
+int64_t mage_alpha370(int64_t a1) {
+    // 0x4032e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403300 - 0x403312
+int64_t mage_alpha371(int64_t a1) {
+    // 0x403300
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403320 - 0x403332
+int64_t mage_alpha372(int64_t a1) {
+    // 0x403320
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403340 - 0x403352
+int64_t mage_alpha373(int64_t a1) {
+    // 0x403340
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403360 - 0x403372
+int64_t mage_alpha374(int64_t a1) {
+    // 0x403360
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403380 - 0x403392
+int64_t mage_alpha375(int64_t a1) {
+    // 0x403380
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4033a0 - 0x4033b2
+int64_t mage_alpha376(int64_t a1) {
+    // 0x4033a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4033c0 - 0x4033d2
+int64_t mage_alpha377(int64_t a1) {
+    // 0x4033c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4033e0 - 0x4033f2
+int64_t mage_alpha378(int64_t a1) {
+    // 0x4033e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403400 - 0x403412
+int64_t mage_alpha379(int64_t a1) {
+    // 0x403400
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403420 - 0x403432
+int64_t mage_alpha380(int64_t a1) {
+    // 0x403420
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403440 - 0x403452
+int64_t mage_alpha381(int64_t a1) {
+    // 0x403440
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403460 - 0x403472
+int64_t mage_alpha382(int64_t a1) {
+    // 0x403460
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403480 - 0x403492
+int64_t mage_alpha383(int64_t a1) {
+    // 0x403480
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4034a0 - 0x4034b2
+int64_t mage_alpha384(int64_t a1) {
+    // 0x4034a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4034c0 - 0x4034d2
+int64_t mage_alpha385(int64_t a1) {
+    // 0x4034c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4034e0 - 0x4034f2
+int64_t mage_alpha386(int64_t a1) {
+    // 0x4034e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403500 - 0x403512
+int64_t mage_alpha387(int64_t a1) {
+    // 0x403500
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403520 - 0x403532
+int64_t mage_alpha388(int64_t a1) {
+    // 0x403520
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403540 - 0x403552
+int64_t mage_alpha389(int64_t a1) {
+    // 0x403540
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403560 - 0x403572
+int64_t mage_alpha390(int64_t a1) {
+    // 0x403560
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403580 - 0x403592
+int64_t mage_alpha391(int64_t a1) {
+    // 0x403580
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4035a0 - 0x4035b2
+int64_t mage_alpha392(int64_t a1) {
+    // 0x4035a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4035c0 - 0x4035d2
+int64_t mage_alpha393(int64_t a1) {
+    // 0x4035c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4035e0 - 0x4035f2
+int64_t mage_alpha394(int64_t a1) {
+    // 0x4035e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403600 - 0x403612
+int64_t mage_alpha395(int64_t a1) {
+    // 0x403600
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403620 - 0x403632
+int64_t mage_alpha396(int64_t a1) {
+    // 0x403620
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403640 - 0x403652
+int64_t mage_alpha397(int64_t a1) {
+    // 0x403640
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403660 - 0x403672
+int64_t mage_alpha398(int64_t a1) {
+    // 0x403660
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403680 - 0x403692
+int64_t mage_alpha399(int64_t a1) {
+    // 0x403680
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4036a0 - 0x4036b2
+int64_t mage_alpha400(int64_t a1) {
+    // 0x4036a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4036c0 - 0x4036d2
+int64_t mage_alpha401(int64_t a1) {
+    // 0x4036c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4036e0 - 0x4036f2
+int64_t mage_alpha402(int64_t a1) {
+    // 0x4036e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403700 - 0x403712
+int64_t mage_alpha403(int64_t a1) {
+    // 0x403700
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403720 - 0x403732
+int64_t mage_alpha404(int64_t a1) {
+    // 0x403720
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403740 - 0x403752
+int64_t mage_alpha405(int64_t a1) {
+    // 0x403740
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403760 - 0x403772
+int64_t mage_alpha406(int64_t a1) {
+    // 0x403760
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403780 - 0x403792
+int64_t mage_alpha407(int64_t a1) {
+    // 0x403780
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4037a0 - 0x4037b2
+int64_t mage_alpha408(int64_t a1) {
+    // 0x4037a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4037c0 - 0x4037d2
+int64_t mage_alpha409(int64_t a1) {
+    // 0x4037c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4037e0 - 0x4037f2
+int64_t mage_alpha410(int64_t a1) {
+    // 0x4037e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403800 - 0x403812
+int64_t mage_alpha411(int64_t a1) {
+    // 0x403800
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403820 - 0x403832
+int64_t mage_alpha412(int64_t a1) {
+    // 0x403820
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403840 - 0x403852
+int64_t mage_alpha413(int64_t a1) {
+    // 0x403840
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403860 - 0x403872
+int64_t mage_alpha414(int64_t a1) {
+    // 0x403860
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403880 - 0x403892
+int64_t mage_alpha415(int64_t a1) {
+    // 0x403880
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4038a0 - 0x4038b2
+int64_t mage_alpha416(int64_t a1) {
+    // 0x4038a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4038c0 - 0x4038d2
+int64_t mage_alpha417(int64_t a1) {
+    // 0x4038c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4038e0 - 0x4038f2
+int64_t mage_alpha418(int64_t a1) {
+    // 0x4038e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403900 - 0x403912
+int64_t mage_alpha419(int64_t a1) {
+    // 0x403900
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403920 - 0x403932
+int64_t mage_alpha420(int64_t a1) {
+    // 0x403920
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403940 - 0x403952
+int64_t mage_alpha421(int64_t a1) {
+    // 0x403940
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403960 - 0x403972
+int64_t mage_alpha422(int64_t a1) {
+    // 0x403960
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403980 - 0x403992
+int64_t mage_alpha423(int64_t a1) {
+    // 0x403980
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4039a0 - 0x4039b2
+int64_t mage_alpha424(int64_t a1) {
+    // 0x4039a0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4039c0 - 0x4039d2
+int64_t mage_alpha425(int64_t a1) {
+    // 0x4039c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4039e0 - 0x4039f2
+int64_t mage_alpha426(int64_t a1) {
+    // 0x4039e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403a00 - 0x403a12
+int64_t mage_alpha427(int64_t a1) {
+    // 0x403a00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403a20 - 0x403a32
+int64_t mage_alpha428(int64_t a1) {
+    // 0x403a20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403a40 - 0x403a52
+int64_t mage_alpha429(int64_t a1) {
+    // 0x403a40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403a60 - 0x403a72
+int64_t mage_alpha430(int64_t a1) {
+    // 0x403a60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403a80 - 0x403a92
+int64_t mage_alpha431(int64_t a1) {
+    // 0x403a80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403aa0 - 0x403ab2
+int64_t mage_alpha432(int64_t a1) {
+    // 0x403aa0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403ac0 - 0x403ad2
+int64_t mage_alpha433(int64_t a1) {
+    // 0x403ac0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403ae0 - 0x403af2
+int64_t mage_alpha434(int64_t a1) {
+    // 0x403ae0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403b00 - 0x403b12
+int64_t mage_alpha435(int64_t a1) {
+    // 0x403b00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403b20 - 0x403b32
+int64_t mage_alpha436(int64_t a1) {
+    // 0x403b20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403b40 - 0x403b52
+int64_t mage_alpha437(int64_t a1) {
+    // 0x403b40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403b60 - 0x403b72
+int64_t mage_alpha438(int64_t a1) {
+    // 0x403b60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403b80 - 0x403b92
+int64_t mage_alpha439(int64_t a1) {
+    // 0x403b80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403ba0 - 0x403bb2
+int64_t mage_alpha440(int64_t a1) {
+    // 0x403ba0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403bc0 - 0x403bd2
+int64_t mage_alpha441(int64_t a1) {
+    // 0x403bc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403be0 - 0x403bf2
+int64_t mage_alpha442(int64_t a1) {
+    // 0x403be0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403c00 - 0x403c12
+int64_t mage_alpha443(int64_t a1) {
+    // 0x403c00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403c20 - 0x403c32
+int64_t mage_alpha444(int64_t a1) {
+    // 0x403c20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403c40 - 0x403c52
+int64_t mage_alpha445(int64_t a1) {
+    // 0x403c40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403c60 - 0x403c72
+int64_t mage_alpha446(int64_t a1) {
+    // 0x403c60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403c80 - 0x403c92
+int64_t mage_alpha447(int64_t a1) {
+    // 0x403c80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403ca0 - 0x403cb2
+int64_t mage_alpha448(int64_t a1) {
+    // 0x403ca0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403cc0 - 0x403cd2
+int64_t mage_alpha449(int64_t a1) {
+    // 0x403cc0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403ce0 - 0x403cf2
+int64_t mage_alpha450(int64_t a1) {
+    // 0x403ce0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403d00 - 0x403d12
+int64_t mage_alpha451(int64_t a1) {
+    // 0x403d00
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403d20 - 0x403d32
+int64_t mage_alpha452(int64_t a1) {
+    // 0x403d20
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403d40 - 0x403d52
+int64_t mage_alpha453(int64_t a1) {
+    // 0x403d40
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403d60 - 0x403d72
+int64_t mage_alpha454(int64_t a1) {
+    // 0x403d60
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403d80 - 0x403d92
+int64_t mage_alpha455(int64_t a1) {
+    // 0x403d80
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x403da0 - 0x408070
 int main(int argc, char ** argv) {
-    // 0x4004c0
-    codemarker_alpha(172);
-    codemarker_alpha(173);
-    codemarker_alpha(174);
-    int32_t v1 = 0; // 0x4004ff
+    // 0x403da0
+    mage_alpha172(172);
+    mage_alpha173(173);
+    mage_alpha174(174);
+    int32_t v1 = 0; // 0x403ddf
     if ((int32_t)argc == 2) {
-        int64_t str = *(int64_t *)((int64_t)argv + 8); // 0x400505
+        int64_t str = *(int64_t *)((int64_t)argv + 8); // 0x403de5
         v1 = strcmp((char *)str, "1") == 0;
     }
-    // 0x40051f
-    codemarker_alpha(175);
+    // 0x403dff
+    mage_alpha175(175);
     platform_main_begin();
-    codemarker_alpha(176);
+    mage_alpha176(176);
     crc32_gentab();
     func_1(176);
-    int64_t v2 = v1; // 0x40054a
+    int64_t v2 = v1; // 0x403e2a
     transparent_crc(g12, "g_3", v2);
     transparent_crc(g13, "g_4", v2);
     transparent_crc(g14, "g_5", v2);
     transparent_crc(g15, "g_6", v2);
-    codemarker_alpha(177);
+    mage_alpha177(177);
     int64_t v3 = 0;
-    codemarker_alpha(178);
+    mage_alpha178(178);
     int64_t v4 = 36 * v3 + (int64_t)&g17;
     int64_t v5 = 0;
-    codemarker_alpha(179);
+    mage_alpha179(179);
     transparent_crc(*(int32_t *)(v4 + 4 * v5), "g_45[i][j]", v2);
-    codemarker_alpha(180);
+    mage_alpha180(180);
     if (v1 != 0) {
-        // 0x400625
-        codemarker_alpha(181);
+        // 0x403f05
+        mage_alpha181(181);
         printf("index = [%d][%d]\n", v3, v5);
     }
     int64_t v6 = v5 + 1;
     while (v6 != 9) {
-        // 0x4005dc
+        // 0x403ebc
         v5 = v6;
-        codemarker_alpha(179);
+        mage_alpha179(179);
         transparent_crc(*(int32_t *)(v4 + 4 * v5), "g_45[i][j]", v2);
-        codemarker_alpha(180);
+        mage_alpha180(180);
         if (v1 != 0) {
-            // 0x400625
-            codemarker_alpha(181);
+            // 0x403f05
+            mage_alpha181(181);
             printf("index = [%d][%d]\n", v3, v5);
         }
-        // 0x400648
+        // 0x403f28
         v6 = v5 + 1;
     }
     int64_t v7 = v3 + 1;
     while (v7 != 2) {
-        // 0x4005c5
+        // 0x403ea5
         v3 = v7;
-        codemarker_alpha(178);
+        mage_alpha178(178);
         v4 = 36 * v3 + (int64_t)&g17;
         v5 = 0;
-        codemarker_alpha(179);
+        mage_alpha179(179);
         transparent_crc(*(int32_t *)(v4 + 4 * v5), "g_45[i][j]", v2);
-        codemarker_alpha(180);
+        mage_alpha180(180);
         if (v1 != 0) {
-            // 0x400625
-            codemarker_alpha(181);
+            // 0x403f05
+            mage_alpha181(181);
             printf("index = [%d][%d]\n", v3, v5);
         }
-        // 0x400648
+        // 0x403f28
         v6 = v5 + 1;
         while (v6 != 9) {
-            // 0x4005dc
+            // 0x403ebc
             v5 = v6;
-            codemarker_alpha(179);
+            mage_alpha179(179);
             transparent_crc(*(int32_t *)(v4 + 4 * v5), "g_45[i][j]", v2);
-            codemarker_alpha(180);
+            mage_alpha180(180);
             if (v1 != 0) {
-                // 0x400625
-                codemarker_alpha(181);
+                // 0x403f05
+                mage_alpha181(181);
                 printf("index = [%d][%d]\n", v3, v5);
             }
-            // 0x400648
+            // 0x403f28
             v6 = v5 + 1;
         }
-        // 0x400655
+        // 0x403f35
         v7 = v3 + 1;
     }
-    // 0x400663
+    // 0x403f43
     transparent_crc((int32_t)*(char *)&g214, "g_59", v2);
-    codemarker_alpha(182);
+    mage_alpha182(182);
     int64_t v8 = 0;
-    codemarker_alpha(183);
+    mage_alpha183(183);
     int64_t v9 = 4 * v8 + (int64_t)"\b\b\b\b\b\b\b\b\b\b\b\b";
     int64_t v10 = 0;
-    codemarker_alpha(184);
+    mage_alpha184(184);
     transparent_crc((int32_t)*(char *)(v9 + v10), "g_65[i][j]", v2);
-    codemarker_alpha(185);
+    mage_alpha185(185);
     if (v1 != 0) {
-        // 0x4006fc
-        codemarker_alpha(186);
+        // 0x403fdc
+        mage_alpha186(186);
         printf("index = [%d][%d]\n", v8, v10);
     }
     int64_t v11 = v10 + 1;
     while (v11 != 4) {
-        // 0x4006b1
+        // 0x403f91
         v10 = v11;
-        codemarker_alpha(184);
+        mage_alpha184(184);
         transparent_crc((int32_t)*(char *)(v9 + v10), "g_65[i][j]", v2);
-        codemarker_alpha(185);
+        mage_alpha185(185);
         if (v1 != 0) {
-            // 0x4006fc
-            codemarker_alpha(186);
+            // 0x403fdc
+            mage_alpha186(186);
             printf("index = [%d][%d]\n", v8, v10);
         }
-        // 0x40071f
+        // 0x403fff
         v11 = v10 + 1;
     }
     int64_t v12 = v8 + 1;
     while (v12 != 3) {
-        // 0x40069a
+        // 0x403f7a
         v8 = v12;
-        codemarker_alpha(183);
+        mage_alpha183(183);
         v9 = 4 * v8 + (int64_t)"\b\b\b\b\b\b\b\b\b\b\b\b";
         v10 = 0;
-        codemarker_alpha(184);
+        mage_alpha184(184);
         transparent_crc((int32_t)*(char *)(v9 + v10), "g_65[i][j]", v2);
-        codemarker_alpha(185);
+        mage_alpha185(185);
         if (v1 != 0) {
-            // 0x4006fc
-            codemarker_alpha(186);
+            // 0x403fdc
+            mage_alpha186(186);
             printf("index = [%d][%d]\n", v8, v10);
         }
-        // 0x40071f
+        // 0x403fff
         v11 = v10 + 1;
         while (v11 != 4) {
-            // 0x4006b1
+            // 0x403f91
             v10 = v11;
-            codemarker_alpha(184);
+            mage_alpha184(184);
             transparent_crc((int32_t)*(char *)(v9 + v10), "g_65[i][j]", v2);
-            codemarker_alpha(185);
+            mage_alpha185(185);
             if (v1 != 0) {
-                // 0x4006fc
-                codemarker_alpha(186);
+                // 0x403fdc
+                mage_alpha186(186);
                 printf("index = [%d][%d]\n", v8, v10);
             }
-            // 0x40071f
+            // 0x403fff
             v11 = v10 + 1;
         }
-        // 0x40072c
+        // 0x40400c
         v12 = v8 + 1;
     }
-    // 0x40073a
-    codemarker_alpha(187);
+    // 0x40401a
+    mage_alpha187(187);
     int64_t v13 = 0;
-    codemarker_alpha(188);
+    mage_alpha188(188);
     int64_t v14 = 32 * v13 + (int64_t)&g18;
     int64_t v15 = 0;
-    codemarker_alpha(189);
-    int64_t v16 = *(int64_t *)(v14 + 8 * v15); // 0x40078f
+    mage_alpha189(189);
+    int64_t v16 = *(int64_t *)(v14 + 8 * v15); // 0x40406f
     transparent_crc((int32_t)v16, "g_85[i][j]", v2);
-    codemarker_alpha(190);
+    mage_alpha190(190);
     if (v1 != 0) {
-        // 0x4007b5
-        codemarker_alpha(191);
+        // 0x404095
+        mage_alpha191(191);
         printf("index = [%d][%d]\n", v13, v15);
     }
     int64_t v17 = v15 + 1;
     while (v17 != 4) {
-        // 0x40076c
+        // 0x40404c
         v15 = v17;
-        codemarker_alpha(189);
+        mage_alpha189(189);
         v16 = *(int64_t *)(v14 + 8 * v15);
         transparent_crc((int32_t)v16, "g_85[i][j]", v2);
-        codemarker_alpha(190);
+        mage_alpha190(190);
         if (v1 != 0) {
-            // 0x4007b5
-            codemarker_alpha(191);
+            // 0x404095
+            mage_alpha191(191);
             printf("index = [%d][%d]\n", v13, v15);
         }
-        // 0x4007d8
+        // 0x4040b8
         v17 = v15 + 1;
     }
     int64_t v18 = v13 + 1;
     while (v18 != 5) {
-        // 0x400755
+        // 0x404035
         v13 = v18;
-        codemarker_alpha(188);
+        mage_alpha188(188);
         v14 = 32 * v13 + (int64_t)&g18;
         v15 = 0;
-        codemarker_alpha(189);
+        mage_alpha189(189);
         v16 = *(int64_t *)(v14 + 8 * v15);
         transparent_crc((int32_t)v16, "g_85[i][j]", v2);
-        codemarker_alpha(190);
+        mage_alpha190(190);
         if (v1 != 0) {
-            // 0x4007b5
-            codemarker_alpha(191);
+            // 0x404095
+            mage_alpha191(191);
             printf("index = [%d][%d]\n", v13, v15);
         }
-        // 0x4007d8
+        // 0x4040b8
         v17 = v15 + 1;
         while (v17 != 4) {
-            // 0x40076c
+            // 0x40404c
             v15 = v17;
-            codemarker_alpha(189);
+            mage_alpha189(189);
             v16 = *(int64_t *)(v14 + 8 * v15);
             transparent_crc((int32_t)v16, "g_85[i][j]", v2);
-            codemarker_alpha(190);
+            mage_alpha190(190);
             if (v1 != 0) {
-                // 0x4007b5
-                codemarker_alpha(191);
+                // 0x404095
+                mage_alpha191(191);
                 printf("index = [%d][%d]\n", v13, v15);
             }
-            // 0x4007d8
+            // 0x4040b8
             v17 = v15 + 1;
         }
-        // 0x4007e5
+        // 0x4040c5
         v18 = v13 + 1;
     }
-    // 0x4007f3
+    // 0x4040d3
     transparent_crc(g19, "g_97", v2);
     transparent_crc((int32_t)*(int16_t *)&g20, "g_98", v2);
     transparent_crc((int32_t)*(int16_t *)&g22, "g_101", v2);
-    codemarker_alpha(192);
+    mage_alpha192(192);
     int64_t v19 = 0;
-    codemarker_alpha(193);
-    int32_t v20 = *(int32_t *)(4 * v19 + (int64_t)&g23); // 0x400869
+    mage_alpha193(193);
+    int32_t v20 = *(int32_t *)(4 * v19 + (int64_t)&g23); // 0x404149
     transparent_crc(v20, "g_102[i]", v2);
-    codemarker_alpha(194);
+    mage_alpha194(194);
     if (v1 != 0) {
-        // 0x400893
-        codemarker_alpha(195);
+        // 0x404173
+        mage_alpha195(195);
         printf("index = [%d]\n", v19);
     }
     int64_t v21 = v19 + 1;
     while (v21 != 5) {
-        // 0x40085b
+        // 0x40413b
         v19 = v21;
-        codemarker_alpha(193);
+        mage_alpha193(193);
         v20 = *(int32_t *)(4 * v19 + (int64_t)&g23);
         transparent_crc(v20, "g_102[i]", v2);
-        codemarker_alpha(194);
+        mage_alpha194(194);
         if (v1 != 0) {
-            // 0x400893
-            codemarker_alpha(195);
+            // 0x404173
+            mage_alpha195(195);
             printf("index = [%d]\n", v19);
         }
-        // 0x4008b3
+        // 0x404193
         v21 = v19 + 1;
     }
-    // 0x4008be
+    // 0x40419e
     transparent_crc(g24, "g_119", v2);
     transparent_crc(g25, "g_120.f0", v2);
     transparent_crc(g26, "g_124", v2);
     transparent_crc(g215, "g_142.f0", v2);
-    codemarker_alpha(196);
+    mage_alpha196(196);
     transparent_crc((int32_t)g57 % 0x40000, "g_184.f0", v2);
-    codemarker_alpha(197);
+    mage_alpha197(197);
     transparent_crc((int32_t)(g57 / 0x100000000) % 0x80000000, "g_184.f1", v2);
     transparent_crc(g58, "g_184.f2", v2);
-    codemarker_alpha(198);
+    mage_alpha198(198);
     transparent_crc(8 * g59 >> 3, "g_184.f3", v2);
-    codemarker_alpha(199);
+    mage_alpha199(199);
     transparent_crc((int32_t)(g60 % 0x4000), "g_184.f4", v2);
     transparent_crc((int32_t)g61, "g_184.f5", v2);
-    codemarker_alpha(200);
+    mage_alpha200(200);
     transparent_crc(32 * g62 >> 5, "g_184.f6", v2);
     transparent_crc((int32_t)*(char *)&g27, "g_299", v2);
     transparent_crc(-0x4ca76ea6, "g_392", v2);
     transparent_crc(0, "g_425.f0", v2);
-    codemarker_alpha(201);
+    mage_alpha201(201);
     transparent_crc((int32_t)g63 % 0x40000, "g_502.f0", v2);
-    codemarker_alpha(202);
+    mage_alpha202(202);
     transparent_crc((int32_t)(g63 / 0x100000000) % 0x80000000, "g_502.f1", v2);
     transparent_crc(g64, "g_502.f2", v2);
-    codemarker_alpha(203);
+    mage_alpha203(203);
     transparent_crc(8 * g65 >> 3, "g_502.f3", v2);
-    codemarker_alpha(204);
+    mage_alpha204(204);
     transparent_crc((int32_t)(g66 % 0x4000), "g_502.f4", v2);
     transparent_crc((int32_t)g67, "g_502.f5", v2);
-    codemarker_alpha(205);
+    mage_alpha205(205);
     transparent_crc(32 * g68 >> 5, "g_502.f6", v2);
-    codemarker_alpha(206);
+    mage_alpha206(206);
     int64_t v22 = 0;
-    codemarker_alpha(207);
+    mage_alpha207(207);
     int64_t v23 = 0;
-    codemarker_alpha(208);
+    mage_alpha208(208);
     int64_t v24 = 1152 * v22 + (int64_t)&g69 + 192 * v23;
     int64_t v25 = 0;
-    codemarker_alpha(209);
-    int64_t v26 = v24 + 32 * v25; // 0x400c3a
-    int64_t * v27 = (int64_t *)v26; // 0x400c3d
+    mage_alpha209(209);
+    int64_t v26 = v24 + 32 * v25; // 0x40451a
+    int64_t * v27 = (int64_t *)v26; // 0x40451d
     transparent_crc((int32_t)*v27 % 0x40000, "g_562[i][j][k].f0", v2);
-    codemarker_alpha(210);
+    mage_alpha210(210);
     transparent_crc((int32_t)(*v27 / 0x100000000) % 0x80000000, "g_562[i][j][k].f1", v2);
     transparent_crc((int32_t)*(int64_t *)(v26 + 8), "g_562[i][j][k].f2", v2);
-    codemarker_alpha(211);
+    mage_alpha211(211);
     transparent_crc(8 * *(int32_t *)(v26 + 16) >> 3, "g_562[i][j][k].f3", v2);
-    codemarker_alpha(212);
+    mage_alpha212(212);
     transparent_crc((int32_t)(*(int16_t *)(v26 + 20) % 0x4000), "g_562[i][j][k].f4", v2);
     transparent_crc((int32_t)*(int16_t *)(v26 + 22), "g_562[i][j][k].f5", v2);
-    codemarker_alpha(213);
+    mage_alpha213(213);
     transparent_crc(32 * *(int32_t *)(v26 + 24) >> 5, "g_562[i][j][k].f6", v2);
-    codemarker_alpha(214);
+    mage_alpha214(214);
     if (v1 != 0) {
-        // 0x400e6a
-        codemarker_alpha(215);
+        // 0x40474a
+        mage_alpha215(215);
         printf("index = [%d][%d][%d]\n", v22, v23, v25);
     }
     int64_t v28 = v25 + 1;
     while (v28 != 6) {
-        // 0x400c02
+        // 0x4044e2
         v25 = v28;
-        codemarker_alpha(209);
+        mage_alpha209(209);
         v26 = v24 + 32 * v25;
         v27 = (int64_t *)v26;
         transparent_crc((int32_t)*v27 % 0x40000, "g_562[i][j][k].f0", v2);
-        codemarker_alpha(210);
+        mage_alpha210(210);
         transparent_crc((int32_t)(*v27 / 0x100000000) % 0x80000000, "g_562[i][j][k].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v26 + 8), "g_562[i][j][k].f2", v2);
-        codemarker_alpha(211);
+        mage_alpha211(211);
         transparent_crc(8 * *(int32_t *)(v26 + 16) >> 3, "g_562[i][j][k].f3", v2);
-        codemarker_alpha(212);
+        mage_alpha212(212);
         transparent_crc((int32_t)(*(int16_t *)(v26 + 20) % 0x4000), "g_562[i][j][k].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v26 + 22), "g_562[i][j][k].f5", v2);
-        codemarker_alpha(213);
+        mage_alpha213(213);
         transparent_crc(32 * *(int32_t *)(v26 + 24) >> 5, "g_562[i][j][k].f6", v2);
-        codemarker_alpha(214);
+        mage_alpha214(214);
         if (v1 != 0) {
-            // 0x400e6a
-            codemarker_alpha(215);
+            // 0x40474a
+            mage_alpha215(215);
             printf("index = [%d][%d][%d]\n", v22, v23, v25);
         }
-        // 0x400e90
+        // 0x404770
         v28 = v25 + 1;
     }
     int64_t v29 = v23 + 1;
     while (v29 != 6) {
-        // 0x400be7
+        // 0x4044c7
         v23 = v29;
-        codemarker_alpha(208);
+        mage_alpha208(208);
         v24 = 1152 * v22 + (int64_t)&g69 + 192 * v23;
         v25 = 0;
-        codemarker_alpha(209);
+        mage_alpha209(209);
         v26 = v24 + 32 * v25;
         v27 = (int64_t *)v26;
         transparent_crc((int32_t)*v27 % 0x40000, "g_562[i][j][k].f0", v2);
-        codemarker_alpha(210);
+        mage_alpha210(210);
         transparent_crc((int32_t)(*v27 / 0x100000000) % 0x80000000, "g_562[i][j][k].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v26 + 8), "g_562[i][j][k].f2", v2);
-        codemarker_alpha(211);
+        mage_alpha211(211);
         transparent_crc(8 * *(int32_t *)(v26 + 16) >> 3, "g_562[i][j][k].f3", v2);
-        codemarker_alpha(212);
+        mage_alpha212(212);
         transparent_crc((int32_t)(*(int16_t *)(v26 + 20) % 0x4000), "g_562[i][j][k].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v26 + 22), "g_562[i][j][k].f5", v2);
-        codemarker_alpha(213);
+        mage_alpha213(213);
         transparent_crc(32 * *(int32_t *)(v26 + 24) >> 5, "g_562[i][j][k].f6", v2);
-        codemarker_alpha(214);
+        mage_alpha214(214);
         if (v1 != 0) {
-            // 0x400e6a
-            codemarker_alpha(215);
+            // 0x40474a
+            mage_alpha215(215);
             printf("index = [%d][%d][%d]\n", v22, v23, v25);
         }
-        // 0x400e90
+        // 0x404770
         v28 = v25 + 1;
         while (v28 != 6) {
-            // 0x400c02
+            // 0x4044e2
             v25 = v28;
-            codemarker_alpha(209);
+            mage_alpha209(209);
             v26 = v24 + 32 * v25;
             v27 = (int64_t *)v26;
             transparent_crc((int32_t)*v27 % 0x40000, "g_562[i][j][k].f0", v2);
-            codemarker_alpha(210);
+            mage_alpha210(210);
             transparent_crc((int32_t)(*v27 / 0x100000000) % 0x80000000, "g_562[i][j][k].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v26 + 8), "g_562[i][j][k].f2", v2);
-            codemarker_alpha(211);
+            mage_alpha211(211);
             transparent_crc(8 * *(int32_t *)(v26 + 16) >> 3, "g_562[i][j][k].f3", v2);
-            codemarker_alpha(212);
+            mage_alpha212(212);
             transparent_crc((int32_t)(*(int16_t *)(v26 + 20) % 0x4000), "g_562[i][j][k].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v26 + 22), "g_562[i][j][k].f5", v2);
-            codemarker_alpha(213);
+            mage_alpha213(213);
             transparent_crc(32 * *(int32_t *)(v26 + 24) >> 5, "g_562[i][j][k].f6", v2);
-            codemarker_alpha(214);
+            mage_alpha214(214);
             if (v1 != 0) {
-                // 0x400e6a
-                codemarker_alpha(215);
+                // 0x40474a
+                mage_alpha215(215);
                 printf("index = [%d][%d][%d]\n", v22, v23, v25);
             }
-            // 0x400e90
+            // 0x404770
             v28 = v25 + 1;
         }
-        // 0x400ea0
+        // 0x404780
         v29 = v23 + 1;
     }
     int64_t v30 = v22 + 1;
     while (v30 != 2) {
-        // 0x400bcc
+        // 0x4044ac
         v22 = v30;
-        codemarker_alpha(207);
+        mage_alpha207(207);
         v23 = 0;
-        codemarker_alpha(208);
+        mage_alpha208(208);
         v24 = 1152 * v22 + (int64_t)&g69 + 192 * v23;
         v25 = 0;
-        codemarker_alpha(209);
+        mage_alpha209(209);
         v26 = v24 + 32 * v25;
         v27 = (int64_t *)v26;
         transparent_crc((int32_t)*v27 % 0x40000, "g_562[i][j][k].f0", v2);
-        codemarker_alpha(210);
+        mage_alpha210(210);
         transparent_crc((int32_t)(*v27 / 0x100000000) % 0x80000000, "g_562[i][j][k].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v26 + 8), "g_562[i][j][k].f2", v2);
-        codemarker_alpha(211);
+        mage_alpha211(211);
         transparent_crc(8 * *(int32_t *)(v26 + 16) >> 3, "g_562[i][j][k].f3", v2);
-        codemarker_alpha(212);
+        mage_alpha212(212);
         transparent_crc((int32_t)(*(int16_t *)(v26 + 20) % 0x4000), "g_562[i][j][k].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v26 + 22), "g_562[i][j][k].f5", v2);
-        codemarker_alpha(213);
+        mage_alpha213(213);
         transparent_crc(32 * *(int32_t *)(v26 + 24) >> 5, "g_562[i][j][k].f6", v2);
-        codemarker_alpha(214);
+        mage_alpha214(214);
         if (v1 != 0) {
-            // 0x400e6a
-            codemarker_alpha(215);
+            // 0x40474a
+            mage_alpha215(215);
             printf("index = [%d][%d][%d]\n", v22, v23, v25);
         }
-        // 0x400e90
+        // 0x404770
         v28 = v25 + 1;
         while (v28 != 6) {
-            // 0x400c02
+            // 0x4044e2
             v25 = v28;
-            codemarker_alpha(209);
+            mage_alpha209(209);
             v26 = v24 + 32 * v25;
             v27 = (int64_t *)v26;
             transparent_crc((int32_t)*v27 % 0x40000, "g_562[i][j][k].f0", v2);
-            codemarker_alpha(210);
+            mage_alpha210(210);
             transparent_crc((int32_t)(*v27 / 0x100000000) % 0x80000000, "g_562[i][j][k].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v26 + 8), "g_562[i][j][k].f2", v2);
-            codemarker_alpha(211);
+            mage_alpha211(211);
             transparent_crc(8 * *(int32_t *)(v26 + 16) >> 3, "g_562[i][j][k].f3", v2);
-            codemarker_alpha(212);
+            mage_alpha212(212);
             transparent_crc((int32_t)(*(int16_t *)(v26 + 20) % 0x4000), "g_562[i][j][k].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v26 + 22), "g_562[i][j][k].f5", v2);
-            codemarker_alpha(213);
+            mage_alpha213(213);
             transparent_crc(32 * *(int32_t *)(v26 + 24) >> 5, "g_562[i][j][k].f6", v2);
-            codemarker_alpha(214);
+            mage_alpha214(214);
             if (v1 != 0) {
-                // 0x400e6a
-                codemarker_alpha(215);
+                // 0x40474a
+                mage_alpha215(215);
                 printf("index = [%d][%d][%d]\n", v22, v23, v25);
             }
-            // 0x400e90
+            // 0x404770
             v28 = v25 + 1;
         }
-        // 0x400ea0
+        // 0x404780
         v29 = v23 + 1;
         while (v29 != 6) {
-            // 0x400be7
+            // 0x4044c7
             v23 = v29;
-            codemarker_alpha(208);
+            mage_alpha208(208);
             v24 = 1152 * v22 + (int64_t)&g69 + 192 * v23;
             v25 = 0;
-            codemarker_alpha(209);
+            mage_alpha209(209);
             v26 = v24 + 32 * v25;
             v27 = (int64_t *)v26;
             transparent_crc((int32_t)*v27 % 0x40000, "g_562[i][j][k].f0", v2);
-            codemarker_alpha(210);
+            mage_alpha210(210);
             transparent_crc((int32_t)(*v27 / 0x100000000) % 0x80000000, "g_562[i][j][k].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v26 + 8), "g_562[i][j][k].f2", v2);
-            codemarker_alpha(211);
+            mage_alpha211(211);
             transparent_crc(8 * *(int32_t *)(v26 + 16) >> 3, "g_562[i][j][k].f3", v2);
-            codemarker_alpha(212);
+            mage_alpha212(212);
             transparent_crc((int32_t)(*(int16_t *)(v26 + 20) % 0x4000), "g_562[i][j][k].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v26 + 22), "g_562[i][j][k].f5", v2);
-            codemarker_alpha(213);
+            mage_alpha213(213);
             transparent_crc(32 * *(int32_t *)(v26 + 24) >> 5, "g_562[i][j][k].f6", v2);
-            codemarker_alpha(214);
+            mage_alpha214(214);
             if (v1 != 0) {
-                // 0x400e6a
-                codemarker_alpha(215);
+                // 0x40474a
+                mage_alpha215(215);
                 printf("index = [%d][%d][%d]\n", v22, v23, v25);
             }
-            // 0x400e90
+            // 0x404770
             v28 = v25 + 1;
             while (v28 != 6) {
-                // 0x400c02
+                // 0x4044e2
                 v25 = v28;
-                codemarker_alpha(209);
+                mage_alpha209(209);
                 v26 = v24 + 32 * v25;
                 v27 = (int64_t *)v26;
                 transparent_crc((int32_t)*v27 % 0x40000, "g_562[i][j][k].f0", v2);
-                codemarker_alpha(210);
+                mage_alpha210(210);
                 transparent_crc((int32_t)(*v27 / 0x100000000) % 0x80000000, "g_562[i][j][k].f1", v2);
                 transparent_crc((int32_t)*(int64_t *)(v26 + 8), "g_562[i][j][k].f2", v2);
-                codemarker_alpha(211);
+                mage_alpha211(211);
                 transparent_crc(8 * *(int32_t *)(v26 + 16) >> 3, "g_562[i][j][k].f3", v2);
-                codemarker_alpha(212);
+                mage_alpha212(212);
                 transparent_crc((int32_t)(*(int16_t *)(v26 + 20) % 0x4000), "g_562[i][j][k].f4", v2);
                 transparent_crc((int32_t)*(int16_t *)(v26 + 22), "g_562[i][j][k].f5", v2);
-                codemarker_alpha(213);
+                mage_alpha213(213);
                 transparent_crc(32 * *(int32_t *)(v26 + 24) >> 5, "g_562[i][j][k].f6", v2);
-                codemarker_alpha(214);
+                mage_alpha214(214);
                 if (v1 != 0) {
-                    // 0x400e6a
-                    codemarker_alpha(215);
+                    // 0x40474a
+                    mage_alpha215(215);
                     printf("index = [%d][%d][%d]\n", v22, v23, v25);
                 }
-                // 0x400e90
+                // 0x404770
                 v28 = v25 + 1;
             }
-            // 0x400ea0
+            // 0x404780
             v29 = v23 + 1;
         }
-        // 0x400eb0
+        // 0x404790
         v30 = v22 + 1;
     }
-    // 0x400ebe
-    codemarker_alpha(216);
+    // 0x40479e
+    mage_alpha216(216);
     transparent_crc((int32_t)g70 % 0x40000, "g_616.f0", v2);
-    codemarker_alpha(217);
+    mage_alpha217(217);
     transparent_crc((int32_t)(g70 / 0x100000000) % 0x80000000, "g_616.f1", v2);
     transparent_crc(g71, "g_616.f2", v2);
-    codemarker_alpha(218);
+    mage_alpha218(218);
     transparent_crc(8 * g72 >> 3, "g_616.f3", v2);
-    codemarker_alpha(219);
+    mage_alpha219(219);
     transparent_crc((int32_t)(g73 % 0x4000), "g_616.f4", v2);
     transparent_crc((int32_t)g74, "g_616.f5", v2);
-    codemarker_alpha(220);
+    mage_alpha220(220);
     transparent_crc(32 * g75 >> 5, "g_616.f6", v2);
     transparent_crc((int32_t)*(char *)&g28, "g_646", v2);
     transparent_crc((int32_t)*(int16_t *)&g29, "g_700", v2);
-    codemarker_alpha(221);
+    mage_alpha221(221);
     transparent_crc((int32_t)g76 % 0x40000, "g_805.f0", v2);
-    codemarker_alpha(222);
+    mage_alpha222(222);
     transparent_crc((int32_t)(g76 / 0x100000000) % 0x80000000, "g_805.f1", v2);
     transparent_crc(g77, "g_805.f2", v2);
-    codemarker_alpha(223);
+    mage_alpha223(223);
     transparent_crc(8 * g78 >> 3, "g_805.f3", v2);
-    codemarker_alpha(224);
+    mage_alpha224(224);
     transparent_crc((int32_t)(g79 % 0x4000), "g_805.f4", v2);
     transparent_crc((int32_t)g80, "g_805.f5", v2);
-    codemarker_alpha(225);
+    mage_alpha225(225);
     transparent_crc(32 * g81 >> 5, "g_805.f6", v2);
-    codemarker_alpha(226);
+    mage_alpha226(226);
     int64_t v31 = 0;
-    codemarker_alpha(227);
-    int16_t v32 = *(int16_t *)(2 * v31 + (int64_t)&g1); // 0x401158
+    mage_alpha227(227);
+    int16_t v32 = *(int16_t *)(2 * v31 + (int64_t)&g1); // 0x404a38
     transparent_crc((int32_t)v32, "g_816[i]", v2);
-    codemarker_alpha(228);
+    mage_alpha228(228);
     if (v1 != 0) {
-        // 0x401183
-        codemarker_alpha(229);
+        // 0x404a63
+        mage_alpha229(229);
         printf("index = [%d]\n", v31);
     }
     int64_t v33 = v31 + 1;
     while (v33 != 5) {
-        // 0x40114a
+        // 0x404a2a
         v31 = v33;
-        codemarker_alpha(227);
+        mage_alpha227(227);
         v32 = *(int16_t *)(2 * v31 + (int64_t)&g1);
         transparent_crc((int32_t)v32, "g_816[i]", v2);
-        codemarker_alpha(228);
+        mage_alpha228(228);
         if (v1 != 0) {
-            // 0x401183
-            codemarker_alpha(229);
+            // 0x404a63
+            mage_alpha229(229);
             printf("index = [%d]\n", v31);
         }
-        // 0x4011a3
+        // 0x404a83
         v33 = v31 + 1;
     }
-    // 0x4011ae
+    // 0x404a8e
     transparent_crc((int32_t)g30, "g_822", v2);
-    codemarker_alpha(230);
+    mage_alpha230(230);
     transparent_crc((int32_t)g82 % 0x40000, "g_909.f0", v2);
-    codemarker_alpha(231);
+    mage_alpha231(231);
     transparent_crc((int32_t)(g82 / 0x100000000) % 0x80000000, "g_909.f1", v2);
     transparent_crc(g83, "g_909.f2", v2);
-    codemarker_alpha(232);
+    mage_alpha232(232);
     transparent_crc(8 * g84 >> 3, "g_909.f3", v2);
-    codemarker_alpha(233);
+    mage_alpha233(233);
     transparent_crc((int32_t)(g85 % 0x4000), "g_909.f4", v2);
     transparent_crc((int32_t)g86, "g_909.f5", v2);
-    codemarker_alpha(234);
+    mage_alpha234(234);
     transparent_crc(0x255a, "g_909.f6", v2);
-    codemarker_alpha(235);
+    mage_alpha235(235);
     transparent_crc((int32_t)g87 % 0x40000, "g_917.f0", v2);
-    codemarker_alpha(236);
+    mage_alpha236(236);
     transparent_crc((int32_t)(g87 / 0x100000000) % 0x80000000, "g_917.f1", v2);
     transparent_crc(g88, "g_917.f2", v2);
-    codemarker_alpha(237);
+    mage_alpha237(237);
     transparent_crc(8 * g89 >> 3, "g_917.f3", v2);
-    codemarker_alpha(238);
+    mage_alpha238(238);
     transparent_crc((int32_t)(g90 % 0x4000), "g_917.f4", v2);
     transparent_crc((int32_t)g91, "g_917.f5", v2);
-    codemarker_alpha(239);
+    mage_alpha239(239);
     transparent_crc(32 * g92 >> 5, "g_917.f6", v2);
-    codemarker_alpha(240);
+    mage_alpha240(240);
     transparent_crc((int32_t)g93 % 0x40000, "g_929.f0", v2);
-    codemarker_alpha(241);
+    mage_alpha241(241);
     transparent_crc((int32_t)(g93 / 0x100000000) % 0x80000000, "g_929.f1", v2);
     transparent_crc(g94, "g_929.f2", v2);
-    codemarker_alpha(242);
+    mage_alpha242(242);
     transparent_crc(8 * g95 >> 3, "g_929.f3", v2);
-    codemarker_alpha(243);
+    mage_alpha243(243);
     transparent_crc((int32_t)(g96 % 0x4000), "g_929.f4", v2);
     transparent_crc((int32_t)g97, "g_929.f5", v2);
-    codemarker_alpha(244);
+    mage_alpha244(244);
     transparent_crc(32 * g98 >> 5, "g_929.f6", v2);
     transparent_crc((int32_t)*(char *)&g31, "g_947", v2);
-    codemarker_alpha(245);
+    mage_alpha245(245);
     int64_t v34 = 0;
-    codemarker_alpha(246);
-    int64_t v35 = 32 * v34; // 0x401577
-    int64_t * v36 = (int64_t *)(v35 + (int64_t)&g11); // 0x40157e
+    mage_alpha246(246);
+    int64_t v35 = 32 * v34; // 0x404e57
+    int64_t * v36 = (int64_t *)(v35 + (int64_t)&g11); // 0x404e5e
     transparent_crc((int32_t)*v36 % 0x40000, "g_987[i].f0", v2);
-    codemarker_alpha(247);
+    mage_alpha247(247);
     transparent_crc((int32_t)(*v36 / 0x100000000) % 0x80000000, "g_987[i].f1", v2);
-    int64_t v37 = *(int64_t *)(v35 + (int64_t)&g11 + 8); // 0x4015f4
+    int64_t v37 = *(int64_t *)(v35 + (int64_t)&g11 + 8); // 0x404ed4
     transparent_crc((int32_t)v37, "g_987[i].f2", v2);
-    codemarker_alpha(248);
-    int32_t v38 = *(int32_t *)(v35 + (int64_t)&g11 + 16); // 0x401629
+    mage_alpha248(248);
+    int32_t v38 = *(int32_t *)(v35 + (int64_t)&g11 + 16); // 0x404f09
     transparent_crc(8 * v38 >> 3, "g_987[i].f3", v2);
-    codemarker_alpha(249);
-    uint16_t v39 = *(int16_t *)(v35 + (int64_t)&g11 + 20); // 0x401666
+    mage_alpha249(249);
+    uint16_t v39 = *(int16_t *)(v35 + (int64_t)&g11 + 20); // 0x404f46
     transparent_crc((int32_t)(v39 % 0x4000), "g_987[i].f4", v2);
-    int16_t v40 = *(int16_t *)(v35 + (int64_t)&g11 + 22); // 0x40169c
+    int16_t v40 = *(int16_t *)(v35 + (int64_t)&g11 + 22); // 0x404f7c
     transparent_crc((int32_t)v40, "g_987[i].f5", v2);
-    codemarker_alpha(250);
-    int32_t v41 = *(int32_t *)(v35 + (int64_t)&g11 + 24); // 0x4016d5
+    mage_alpha250(250);
+    int32_t v41 = *(int32_t *)(v35 + (int64_t)&g11 + 24); // 0x404fb5
     transparent_crc(32 * v41 >> 5, "g_987[i].f6", v2);
-    codemarker_alpha(251);
+    mage_alpha251(251);
     if (v1 != 0) {
-        // 0x401703
-        codemarker_alpha(252);
+        // 0x404fe3
+        mage_alpha252(252);
         printf("index = [%d]\n", v34);
     }
     int64_t v42 = v34 + 1;
     while (v42 != 7) {
-        // 0x40155f
+        // 0x404e3f
         v34 = v42;
-        codemarker_alpha(246);
+        mage_alpha246(246);
         v35 = 32 * v34;
         v36 = (int64_t *)(v35 + (int64_t)&g11);
         transparent_crc((int32_t)*v36 % 0x40000, "g_987[i].f0", v2);
-        codemarker_alpha(247);
+        mage_alpha247(247);
         transparent_crc((int32_t)(*v36 / 0x100000000) % 0x80000000, "g_987[i].f1", v2);
         v37 = *(int64_t *)(v35 + (int64_t)&g11 + 8);
         transparent_crc((int32_t)v37, "g_987[i].f2", v2);
-        codemarker_alpha(248);
+        mage_alpha248(248);
         v38 = *(int32_t *)(v35 + (int64_t)&g11 + 16);
         transparent_crc(8 * v38 >> 3, "g_987[i].f3", v2);
-        codemarker_alpha(249);
+        mage_alpha249(249);
         v39 = *(int16_t *)(v35 + (int64_t)&g11 + 20);
         transparent_crc((int32_t)(v39 % 0x4000), "g_987[i].f4", v2);
         v40 = *(int16_t *)(v35 + (int64_t)&g11 + 22);
         transparent_crc((int32_t)v40, "g_987[i].f5", v2);
-        codemarker_alpha(250);
+        mage_alpha250(250);
         v41 = *(int32_t *)(v35 + (int64_t)&g11 + 24);
         transparent_crc(32 * v41 >> 5, "g_987[i].f6", v2);
-        codemarker_alpha(251);
+        mage_alpha251(251);
         if (v1 != 0) {
-            // 0x401703
-            codemarker_alpha(252);
+            // 0x404fe3
+            mage_alpha252(252);
             printf("index = [%d]\n", v34);
         }
-        // 0x401723
+        // 0x405003
         v42 = v34 + 1;
     }
-    // 0x401731
-    codemarker_alpha(253);
+    // 0x405011
+    mage_alpha253(253);
     transparent_crc((int32_t)g99 % 0x40000, "g_992.f0", v2);
-    codemarker_alpha(254);
+    mage_alpha254(254);
     transparent_crc((int32_t)(g99 / 0x100000000) % 0x80000000, "g_992.f1", v2);
     transparent_crc(g100, "g_992.f2", v2);
-    codemarker_alpha(255);
+    mage_alpha255(255);
     transparent_crc(8 * g101 >> 3, "g_992.f3", v2);
-    codemarker_alpha(256);
+    mage_alpha256(256);
     transparent_crc((int32_t)(g102 % 0x4000), "g_992.f4", v2);
     transparent_crc((int32_t)g103, "g_992.f5", v2);
-    codemarker_alpha(257);
+    mage_alpha257(257);
     transparent_crc(32 * g104 >> 5, "g_992.f6", v2);
-    codemarker_alpha(258);
+    mage_alpha258(258);
     int64_t v43 = 0;
-    codemarker_alpha(259);
-    char v44 = *(char *)(v43 + (int64_t)&g32); // 0x401875
+    mage_alpha259(259);
+    char v44 = *(char *)(v43 + (int64_t)&g32); // 0x405155
     transparent_crc((int32_t)v44, "g_994[i]", v2);
-    codemarker_alpha(260);
+    mage_alpha260(260);
     if (v1 != 0) {
-        // 0x4018a0
-        codemarker_alpha(261);
+        // 0x405180
+        mage_alpha261(261);
         printf("index = [%d]\n", v43);
     }
     int64_t v45 = v43 + 1;
     while (v45 != 4) {
-        // 0x401867
+        // 0x405147
         v43 = v45;
-        codemarker_alpha(259);
+        mage_alpha259(259);
         v44 = *(char *)(v43 + (int64_t)&g32);
         transparent_crc((int32_t)v44, "g_994[i]", v2);
-        codemarker_alpha(260);
+        mage_alpha260(260);
         if (v1 != 0) {
-            // 0x4018a0
-            codemarker_alpha(261);
+            // 0x405180
+            mage_alpha261(261);
             printf("index = [%d]\n", v43);
         }
-        // 0x4018c0
+        // 0x4051a0
         v45 = v43 + 1;
     }
-    // 0x4018cb
-    codemarker_alpha(262);
+    // 0x4051ab
+    mage_alpha262(262);
     int64_t v46 = 0;
-    codemarker_alpha(263);
+    mage_alpha263(263);
     int64_t v47 = 0;
-    codemarker_alpha(264);
-    int64_t v48 = 288 * v46 + (int64_t)&g105 + 32 * v47; // 0x40192b
-    int64_t * v49 = (int64_t *)v48; // 0x40192e
+    mage_alpha264(264);
+    int64_t v48 = 288 * v46 + (int64_t)&g105 + 32 * v47; // 0x40520b
+    int64_t * v49 = (int64_t *)v48; // 0x40520e
     transparent_crc((int32_t)*v49 % 0x40000, "g_1051[i][j].f0", v2);
-    codemarker_alpha(265);
+    mage_alpha265(265);
     transparent_crc((int32_t)(*v49 / 0x100000000) % 0x80000000, "g_1051[i][j].f1", v2);
     transparent_crc((int32_t)*(int64_t *)(v48 + 8), "g_1051[i][j].f2", v2);
-    codemarker_alpha(266);
+    mage_alpha266(266);
     transparent_crc(8 * *(int32_t *)(v48 + 16) >> 3, "g_1051[i][j].f3", v2);
-    codemarker_alpha(267);
+    mage_alpha267(267);
     transparent_crc((int32_t)(*(int16_t *)(v48 + 20) % 0x4000), "g_1051[i][j].f4", v2);
     transparent_crc((int32_t)*(int16_t *)(v48 + 22), "g_1051[i][j].f5", v2);
-    codemarker_alpha(268);
+    mage_alpha268(268);
     transparent_crc(32 * *(int32_t *)(v48 + 24) >> 5, "g_1051[i][j].f6", v2);
-    codemarker_alpha(269);
+    mage_alpha269(269);
     if (v1 != 0) {
-        // 0x401b07
-        codemarker_alpha(270);
+        // 0x4053e7
+        mage_alpha270(270);
         printf("index = [%d][%d]\n", v46, v47);
     }
     int64_t v50 = v47 + 1;
     while (v50 != 9) {
-        // 0x401901
+        // 0x4051e1
         v47 = v50;
-        codemarker_alpha(264);
+        mage_alpha264(264);
         v48 = 288 * v46 + (int64_t)&g105 + 32 * v47;
         v49 = (int64_t *)v48;
         transparent_crc((int32_t)*v49 % 0x40000, "g_1051[i][j].f0", v2);
-        codemarker_alpha(265);
+        mage_alpha265(265);
         transparent_crc((int32_t)(*v49 / 0x100000000) % 0x80000000, "g_1051[i][j].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v48 + 8), "g_1051[i][j].f2", v2);
-        codemarker_alpha(266);
+        mage_alpha266(266);
         transparent_crc(8 * *(int32_t *)(v48 + 16) >> 3, "g_1051[i][j].f3", v2);
-        codemarker_alpha(267);
+        mage_alpha267(267);
         transparent_crc((int32_t)(*(int16_t *)(v48 + 20) % 0x4000), "g_1051[i][j].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v48 + 22), "g_1051[i][j].f5", v2);
-        codemarker_alpha(268);
+        mage_alpha268(268);
         transparent_crc(32 * *(int32_t *)(v48 + 24) >> 5, "g_1051[i][j].f6", v2);
-        codemarker_alpha(269);
+        mage_alpha269(269);
         if (v1 != 0) {
-            // 0x401b07
-            codemarker_alpha(270);
+            // 0x4053e7
+            mage_alpha270(270);
             printf("index = [%d][%d]\n", v46, v47);
         }
-        // 0x401b2a
+        // 0x40540a
         v50 = v47 + 1;
     }
     int64_t v51 = v46 + 1;
     while (v51 != 3) {
-        // 0x4018e6
+        // 0x4051c6
         v46 = v51;
-        codemarker_alpha(263);
+        mage_alpha263(263);
         v47 = 0;
-        codemarker_alpha(264);
+        mage_alpha264(264);
         v48 = 288 * v46 + (int64_t)&g105 + 32 * v47;
         v49 = (int64_t *)v48;
         transparent_crc((int32_t)*v49 % 0x40000, "g_1051[i][j].f0", v2);
-        codemarker_alpha(265);
+        mage_alpha265(265);
         transparent_crc((int32_t)(*v49 / 0x100000000) % 0x80000000, "g_1051[i][j].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v48 + 8), "g_1051[i][j].f2", v2);
-        codemarker_alpha(266);
+        mage_alpha266(266);
         transparent_crc(8 * *(int32_t *)(v48 + 16) >> 3, "g_1051[i][j].f3", v2);
-        codemarker_alpha(267);
+        mage_alpha267(267);
         transparent_crc((int32_t)(*(int16_t *)(v48 + 20) % 0x4000), "g_1051[i][j].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v48 + 22), "g_1051[i][j].f5", v2);
-        codemarker_alpha(268);
+        mage_alpha268(268);
         transparent_crc(32 * *(int32_t *)(v48 + 24) >> 5, "g_1051[i][j].f6", v2);
-        codemarker_alpha(269);
+        mage_alpha269(269);
         if (v1 != 0) {
-            // 0x401b07
-            codemarker_alpha(270);
+            // 0x4053e7
+            mage_alpha270(270);
             printf("index = [%d][%d]\n", v46, v47);
         }
-        // 0x401b2a
+        // 0x40540a
         v50 = v47 + 1;
         while (v50 != 9) {
-            // 0x401901
+            // 0x4051e1
             v47 = v50;
-            codemarker_alpha(264);
+            mage_alpha264(264);
             v48 = 288 * v46 + (int64_t)&g105 + 32 * v47;
             v49 = (int64_t *)v48;
             transparent_crc((int32_t)*v49 % 0x40000, "g_1051[i][j].f0", v2);
-            codemarker_alpha(265);
+            mage_alpha265(265);
             transparent_crc((int32_t)(*v49 / 0x100000000) % 0x80000000, "g_1051[i][j].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v48 + 8), "g_1051[i][j].f2", v2);
-            codemarker_alpha(266);
+            mage_alpha266(266);
             transparent_crc(8 * *(int32_t *)(v48 + 16) >> 3, "g_1051[i][j].f3", v2);
-            codemarker_alpha(267);
+            mage_alpha267(267);
             transparent_crc((int32_t)(*(int16_t *)(v48 + 20) % 0x4000), "g_1051[i][j].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v48 + 22), "g_1051[i][j].f5", v2);
-            codemarker_alpha(268);
+            mage_alpha268(268);
             transparent_crc(32 * *(int32_t *)(v48 + 24) >> 5, "g_1051[i][j].f6", v2);
-            codemarker_alpha(269);
+            mage_alpha269(269);
             if (v1 != 0) {
-                // 0x401b07
-                codemarker_alpha(270);
+                // 0x4053e7
+                mage_alpha270(270);
                 printf("index = [%d][%d]\n", v46, v47);
             }
-            // 0x401b2a
+            // 0x40540a
             v50 = v47 + 1;
         }
-        // 0x401b3a
+        // 0x40541a
         v51 = v46 + 1;
     }
-    // 0x401b63
-    codemarker_alpha(271);
-    codemarker_alpha(272);
+    // 0x405443
+    mage_alpha271(271);
+    mage_alpha272(272);
     int64_t v52 = 0;
-    codemarker_alpha(273);
-    int32_t v53 = *(int32_t *)(4 * v52 + (int64_t)&g33); // 0x401b9d
+    mage_alpha273(273);
+    int32_t v53 = *(int32_t *)(4 * v52 + (int64_t)&g33); // 0x40547d
     transparent_crc(v53, "g_1103[i][j]", v2);
-    codemarker_alpha(274);
+    mage_alpha274(274);
     if (v1 != 0) {
-        // 0x401bc3
-        codemarker_alpha(275);
+        // 0x4054a3
+        mage_alpha275(275);
         printf("index = [%d][%d]\n", 0, v52);
     }
     int64_t v54 = v52 + 1;
     while (v54 != 9) {
-        // 0x401b7a
+        // 0x40545a
         v52 = v54;
-        codemarker_alpha(273);
+        mage_alpha273(273);
         v53 = *(int32_t *)(4 * v52 + (int64_t)&g33);
         transparent_crc(v53, "g_1103[i][j]", v2);
-        codemarker_alpha(274);
+        mage_alpha274(274);
         if (v1 != 0) {
-            // 0x401bc3
-            codemarker_alpha(275);
+            // 0x4054a3
+            mage_alpha275(275);
             printf("index = [%d][%d]\n", 0, v52);
         }
-        // 0x401be6
+        // 0x4054c6
         v54 = v52 + 1;
     }
-    // 0x401c01
+    // 0x4054e1
     transparent_crc((int32_t)*(int16_t *)&g34, "g_1105", v2);
-    codemarker_alpha(276);
+    mage_alpha276(276);
     int64_t v55 = 0;
-    codemarker_alpha(277);
-    int64_t v56 = 32 * v55; // 0x401c4f
-    int64_t * v57 = (int64_t *)(v56 + (int64_t)&g106); // 0x401c56
+    mage_alpha277(277);
+    int64_t v56 = 32 * v55; // 0x40552f
+    int64_t * v57 = (int64_t *)(v56 + (int64_t)&g106); // 0x405536
     transparent_crc((int32_t)*v57 % 0x40000, "g_1108[i].f0", v2);
-    codemarker_alpha(278);
+    mage_alpha278(278);
     transparent_crc((int32_t)(*v57 / 0x100000000) % 0x80000000, "g_1108[i].f1", v2);
-    int64_t v58 = *(int64_t *)(v56 + (int64_t)&g106 + 8); // 0x401ccc
+    int64_t v58 = *(int64_t *)(v56 + (int64_t)&g106 + 8); // 0x4055ac
     transparent_crc((int32_t)v58, "g_1108[i].f2", v2);
-    codemarker_alpha(279);
-    int32_t v59 = *(int32_t *)(v56 + (int64_t)&g106 + 16); // 0x401d01
+    mage_alpha279(279);
+    int32_t v59 = *(int32_t *)(v56 + (int64_t)&g106 + 16); // 0x4055e1
     transparent_crc(8 * v59 >> 3, "g_1108[i].f3", v2);
-    codemarker_alpha(280);
-    uint16_t v60 = *(int16_t *)(v56 + (int64_t)&g106 + 20); // 0x401d3e
+    mage_alpha280(280);
+    uint16_t v60 = *(int16_t *)(v56 + (int64_t)&g106 + 20); // 0x40561e
     transparent_crc((int32_t)(v60 % 0x4000), "g_1108[i].f4", v2);
-    int16_t v61 = *(int16_t *)(v56 + (int64_t)&g106 + 22); // 0x401d74
+    int16_t v61 = *(int16_t *)(v56 + (int64_t)&g106 + 22); // 0x405654
     transparent_crc((int32_t)v61, "g_1108[i].f5", v2);
-    codemarker_alpha(281);
-    int32_t v62 = *(int32_t *)(v56 + (int64_t)&g106 + 24); // 0x401dad
+    mage_alpha281(281);
+    int32_t v62 = *(int32_t *)(v56 + (int64_t)&g106 + 24); // 0x40568d
     transparent_crc(32 * v62 >> 5, "g_1108[i].f6", v2);
-    codemarker_alpha(282);
+    mage_alpha282(282);
     if (v1 != 0) {
-        // 0x401ddb
-        codemarker_alpha(283);
+        // 0x4056bb
+        mage_alpha283(283);
         printf("index = [%d]\n", v55);
     }
     int64_t v63 = v55 + 1;
     while (v63 != 3) {
-        // 0x401c37
+        // 0x405517
         v55 = v63;
-        codemarker_alpha(277);
+        mage_alpha277(277);
         v56 = 32 * v55;
         v57 = (int64_t *)(v56 + (int64_t)&g106);
         transparent_crc((int32_t)*v57 % 0x40000, "g_1108[i].f0", v2);
-        codemarker_alpha(278);
+        mage_alpha278(278);
         transparent_crc((int32_t)(*v57 / 0x100000000) % 0x80000000, "g_1108[i].f1", v2);
         v58 = *(int64_t *)(v56 + (int64_t)&g106 + 8);
         transparent_crc((int32_t)v58, "g_1108[i].f2", v2);
-        codemarker_alpha(279);
+        mage_alpha279(279);
         v59 = *(int32_t *)(v56 + (int64_t)&g106 + 16);
         transparent_crc(8 * v59 >> 3, "g_1108[i].f3", v2);
-        codemarker_alpha(280);
+        mage_alpha280(280);
         v60 = *(int16_t *)(v56 + (int64_t)&g106 + 20);
         transparent_crc((int32_t)(v60 % 0x4000), "g_1108[i].f4", v2);
         v61 = *(int16_t *)(v56 + (int64_t)&g106 + 22);
         transparent_crc((int32_t)v61, "g_1108[i].f5", v2);
-        codemarker_alpha(281);
+        mage_alpha281(281);
         v62 = *(int32_t *)(v56 + (int64_t)&g106 + 24);
         transparent_crc(32 * v62 >> 5, "g_1108[i].f6", v2);
-        codemarker_alpha(282);
+        mage_alpha282(282);
         if (v1 != 0) {
-            // 0x401ddb
-            codemarker_alpha(283);
+            // 0x4056bb
+            mage_alpha283(283);
             printf("index = [%d]\n", v55);
         }
-        // 0x401dfb
+        // 0x4056db
         v63 = v55 + 1;
     }
-    // 0x401e09
-    codemarker_alpha(284);
+    // 0x4056e9
+    mage_alpha284(284);
     transparent_crc((int32_t)g107 % 0x40000, "g_1110.f0", v2);
-    codemarker_alpha(285);
+    mage_alpha285(285);
     transparent_crc((int32_t)(g107 / 0x100000000) % 0x80000000, "g_1110.f1", v2);
     transparent_crc(g108, "g_1110.f2", v2);
-    codemarker_alpha(286);
+    mage_alpha286(286);
     transparent_crc(8 * g109 >> 3, "g_1110.f3", v2);
-    codemarker_alpha(287);
+    mage_alpha287(287);
     transparent_crc((int32_t)(g110 % 0x4000), "g_1110.f4", v2);
     transparent_crc((int32_t)g111, "g_1110.f5", v2);
-    codemarker_alpha(288);
+    mage_alpha288(288);
     transparent_crc(32 * g112 >> 5, "g_1110.f6", v2);
     transparent_crc(g35, "g_1119", v2);
-    codemarker_alpha(289);
+    mage_alpha289(289);
     transparent_crc((int32_t)g113 % 0x40000, "g_1139.f0", v2);
-    codemarker_alpha(290);
+    mage_alpha290(290);
     transparent_crc((int32_t)(g113 / 0x100000000) % 0x80000000, "g_1139.f1", v2);
     transparent_crc(g114, "g_1139.f2", v2);
-    codemarker_alpha(291);
+    mage_alpha291(291);
     transparent_crc(8 * g115 >> 3, "g_1139.f3", v2);
-    codemarker_alpha(292);
+    mage_alpha292(292);
     transparent_crc((int32_t)(g116 % 0x4000), "g_1139.f4", v2);
     transparent_crc((int32_t)g117, "g_1139.f5", v2);
-    codemarker_alpha(293);
+    mage_alpha293(293);
     transparent_crc(32 * g118 >> 5, "g_1139.f6", v2);
     transparent_crc(0xa327, "g_1184", v2);
-    codemarker_alpha(294);
+    mage_alpha294(294);
     transparent_crc((int32_t)g119 % 0x40000, "g_1186.f0", v2);
-    codemarker_alpha(295);
+    mage_alpha295(295);
     transparent_crc((int32_t)(g119 / 0x100000000) % 0x80000000, "g_1186.f1", v2);
     transparent_crc(g120, "g_1186.f2", v2);
-    codemarker_alpha(296);
+    mage_alpha296(296);
     transparent_crc(8 * g121 >> 3, "g_1186.f3", v2);
-    codemarker_alpha(297);
+    mage_alpha297(297);
     transparent_crc((int32_t)(g122 % 0x4000), "g_1186.f4", v2);
     transparent_crc((int32_t)g123, "g_1186.f5", v2);
-    codemarker_alpha(298);
+    mage_alpha298(298);
     transparent_crc(32 * g124 >> 5, "g_1186.f6", v2);
-    codemarker_alpha(299);
+    mage_alpha299(299);
     transparent_crc((int32_t)g125 % 0x40000, "g_1276.f0", v2);
-    codemarker_alpha(300);
+    mage_alpha300(300);
     transparent_crc((int32_t)(g125 / 0x100000000) % 0x80000000, "g_1276.f1", v2);
     transparent_crc(g126, "g_1276.f2", v2);
-    codemarker_alpha(301);
+    mage_alpha301(301);
     transparent_crc(0x5768, "g_1276.f3", v2);
-    codemarker_alpha(302);
+    mage_alpha302(302);
     transparent_crc((int32_t)(g127 % 0x4000), "g_1276.f4", v2);
     transparent_crc((int32_t)g128, "g_1276.f5", v2);
-    codemarker_alpha(303);
+    mage_alpha303(303);
     transparent_crc(32 * g129 >> 5, "g_1276.f6", v2);
-    codemarker_alpha(304);
+    mage_alpha304(304);
     transparent_crc(194, "g_1287.f0", v2);
-    codemarker_alpha(305);
+    mage_alpha305(305);
     transparent_crc(0x1c67, "g_1287.f1", v2);
     transparent_crc(0, "g_1287.f2", v2);
-    codemarker_alpha(306);
+    mage_alpha306(306);
     transparent_crc(-0x1e2e, "g_1287.f3", v2);
-    codemarker_alpha(307);
+    mage_alpha307(307);
     transparent_crc(22, "g_1287.f4", v2);
     transparent_crc(9, "g_1287.f5", v2);
-    codemarker_alpha(308);
+    mage_alpha308(308);
     transparent_crc(-0x1e93, "g_1287.f6", v2);
-    codemarker_alpha(309);
+    mage_alpha309(309);
     transparent_crc((int32_t)g130 % 0x40000, "g_1321.f0", v2);
-    codemarker_alpha(310);
+    mage_alpha310(310);
     transparent_crc((int32_t)(g130 / 0x100000000) % 0x80000000, "g_1321.f1", v2);
     transparent_crc(g131, "g_1321.f2", v2);
-    codemarker_alpha(311);
+    mage_alpha311(311);
     transparent_crc(8 * g132 >> 3, "g_1321.f3", v2);
-    codemarker_alpha(312);
+    mage_alpha312(312);
     transparent_crc((int32_t)(g133 % 0x4000), "g_1321.f4", v2);
     transparent_crc((int32_t)g134, "g_1321.f5", v2);
-    codemarker_alpha(313);
+    mage_alpha313(313);
     transparent_crc(32 * g135 >> 5, "g_1321.f6", v2);
-    codemarker_alpha(314);
+    mage_alpha314(314);
     transparent_crc((int32_t)g136 % 0x40000, "g_1352.f0", v2);
-    codemarker_alpha(315);
+    mage_alpha315(315);
     transparent_crc((int32_t)(g136 / 0x100000000) % 0x80000000, "g_1352.f1", v2);
     transparent_crc(g137, "g_1352.f2", v2);
-    codemarker_alpha(316);
+    mage_alpha316(316);
     transparent_crc(8 * g138 >> 3, "g_1352.f3", v2);
-    codemarker_alpha(317);
+    mage_alpha317(317);
     transparent_crc((int32_t)(g139 % 0x4000), "g_1352.f4", v2);
     transparent_crc((int32_t)g140, "g_1352.f5", v2);
-    codemarker_alpha(318);
+    mage_alpha318(318);
     transparent_crc(0x2575, "g_1352.f6", v2);
-    codemarker_alpha(319);
+    mage_alpha319(319);
     int64_t v64 = 0;
-    codemarker_alpha(320);
+    mage_alpha320(320);
     int64_t v65 = 9 * v64 + (int64_t)&g36;
     int64_t v66 = 0;
-    codemarker_alpha(321);
+    mage_alpha321(321);
     transparent_crc((int32_t)*(char *)(v65 + v66), "g_1424[i][j]", v2);
-    codemarker_alpha(322);
+    mage_alpha322(322);
     if (v1 != 0) {
-        // 0x40264d
-        codemarker_alpha(323);
+        // 0x405f2d
+        mage_alpha323(323);
         printf("index = [%d][%d]\n", v64, v66);
     }
     int64_t v67 = v66 + 1;
     while (v67 != 9) {
-        // 0x402603
+        // 0x405ee3
         v66 = v67;
-        codemarker_alpha(321);
+        mage_alpha321(321);
         transparent_crc((int32_t)*(char *)(v65 + v66), "g_1424[i][j]", v2);
-        codemarker_alpha(322);
+        mage_alpha322(322);
         if (v1 != 0) {
-            // 0x40264d
-            codemarker_alpha(323);
+            // 0x405f2d
+            mage_alpha323(323);
             printf("index = [%d][%d]\n", v64, v66);
         }
-        // 0x402670
+        // 0x405f50
         v67 = v66 + 1;
     }
     int64_t v68 = v64 + 1;
     while (v68 != 5) {
-        // 0x4025ec
+        // 0x405ecc
         v64 = v68;
-        codemarker_alpha(320);
+        mage_alpha320(320);
         v65 = 9 * v64 + (int64_t)&g36;
         v66 = 0;
-        codemarker_alpha(321);
+        mage_alpha321(321);
         transparent_crc((int32_t)*(char *)(v65 + v66), "g_1424[i][j]", v2);
-        codemarker_alpha(322);
+        mage_alpha322(322);
         if (v1 != 0) {
-            // 0x40264d
-            codemarker_alpha(323);
+            // 0x405f2d
+            mage_alpha323(323);
             printf("index = [%d][%d]\n", v64, v66);
         }
-        // 0x402670
+        // 0x405f50
         v67 = v66 + 1;
         while (v67 != 9) {
-            // 0x402603
+            // 0x405ee3
             v66 = v67;
-            codemarker_alpha(321);
+            mage_alpha321(321);
             transparent_crc((int32_t)*(char *)(v65 + v66), "g_1424[i][j]", v2);
-            codemarker_alpha(322);
+            mage_alpha322(322);
             if (v1 != 0) {
-                // 0x40264d
-                codemarker_alpha(323);
+                // 0x405f2d
+                mage_alpha323(323);
                 printf("index = [%d][%d]\n", v64, v66);
             }
-            // 0x402670
+            // 0x405f50
             v67 = v66 + 1;
         }
-        // 0x40267d
+        // 0x405f5d
         v68 = v64 + 1;
     }
-    // 0x40268b
-    codemarker_alpha(324);
+    // 0x405f6b
+    mage_alpha324(324);
     int64_t v69 = 0;
-    codemarker_alpha(325);
+    mage_alpha325(325);
     int64_t v70 = 0;
-    codemarker_alpha(326);
+    mage_alpha326(326);
     int64_t v71 = 80 * v69 + (int64_t)&g37 + 8 * v70;
     int64_t v72 = 0;
-    codemarker_alpha(327);
+    mage_alpha327(327);
     transparent_crc(*(int32_t *)(v71 + 4 * v72), "g_1435[i][j][k]", v2);
-    codemarker_alpha(328);
+    mage_alpha328(328);
     if (v1 != 0) {
-        // 0x402731
-        codemarker_alpha(329);
+        // 0x406011
+        mage_alpha329(329);
         printf("index = [%d][%d][%d]\n", v69, v70, v72);
     }
     int64_t v73 = v72 + 1;
     while (v73 != 2) {
-        // 0x4026dc
+        // 0x405fbc
         v72 = v73;
-        codemarker_alpha(327);
+        mage_alpha327(327);
         transparent_crc(*(int32_t *)(v71 + 4 * v72), "g_1435[i][j][k]", v2);
-        codemarker_alpha(328);
+        mage_alpha328(328);
         if (v1 != 0) {
-            // 0x402731
-            codemarker_alpha(329);
+            // 0x406011
+            mage_alpha329(329);
             printf("index = [%d][%d][%d]\n", v69, v70, v72);
         }
-        // 0x402757
+        // 0x406037
         v73 = v72 + 1;
     }
     int64_t v74 = v70 + 1;
     while (v74 != 10) {
-        // 0x4026c1
+        // 0x405fa1
         v70 = v74;
-        codemarker_alpha(326);
+        mage_alpha326(326);
         v71 = 80 * v69 + (int64_t)&g37 + 8 * v70;
         v72 = 0;
-        codemarker_alpha(327);
+        mage_alpha327(327);
         transparent_crc(*(int32_t *)(v71 + 4 * v72), "g_1435[i][j][k]", v2);
-        codemarker_alpha(328);
+        mage_alpha328(328);
         if (v1 != 0) {
-            // 0x402731
-            codemarker_alpha(329);
+            // 0x406011
+            mage_alpha329(329);
             printf("index = [%d][%d][%d]\n", v69, v70, v72);
         }
-        // 0x402757
+        // 0x406037
         v73 = v72 + 1;
         while (v73 != 2) {
-            // 0x4026dc
+            // 0x405fbc
             v72 = v73;
-            codemarker_alpha(327);
+            mage_alpha327(327);
             transparent_crc(*(int32_t *)(v71 + 4 * v72), "g_1435[i][j][k]", v2);
-            codemarker_alpha(328);
+            mage_alpha328(328);
             if (v1 != 0) {
-                // 0x402731
-                codemarker_alpha(329);
+                // 0x406011
+                mage_alpha329(329);
                 printf("index = [%d][%d][%d]\n", v69, v70, v72);
             }
-            // 0x402757
+            // 0x406037
             v73 = v72 + 1;
         }
-        // 0x402767
+        // 0x406047
         v74 = v70 + 1;
     }
     int64_t v75 = v69 + 1;
     while (v75 != 10) {
-        // 0x4026a6
+        // 0x405f86
         v69 = v75;
-        codemarker_alpha(325);
+        mage_alpha325(325);
         v70 = 0;
-        codemarker_alpha(326);
+        mage_alpha326(326);
         v71 = 80 * v69 + (int64_t)&g37 + 8 * v70;
         v72 = 0;
-        codemarker_alpha(327);
+        mage_alpha327(327);
         transparent_crc(*(int32_t *)(v71 + 4 * v72), "g_1435[i][j][k]", v2);
-        codemarker_alpha(328);
+        mage_alpha328(328);
         if (v1 != 0) {
-            // 0x402731
-            codemarker_alpha(329);
+            // 0x406011
+            mage_alpha329(329);
             printf("index = [%d][%d][%d]\n", v69, v70, v72);
         }
-        // 0x402757
+        // 0x406037
         v73 = v72 + 1;
         while (v73 != 2) {
-            // 0x4026dc
+            // 0x405fbc
             v72 = v73;
-            codemarker_alpha(327);
+            mage_alpha327(327);
             transparent_crc(*(int32_t *)(v71 + 4 * v72), "g_1435[i][j][k]", v2);
-            codemarker_alpha(328);
+            mage_alpha328(328);
             if (v1 != 0) {
-                // 0x402731
-                codemarker_alpha(329);
+                // 0x406011
+                mage_alpha329(329);
                 printf("index = [%d][%d][%d]\n", v69, v70, v72);
             }
-            // 0x402757
+            // 0x406037
             v73 = v72 + 1;
         }
-        // 0x402767
+        // 0x406047
         v74 = v70 + 1;
         while (v74 != 10) {
-            // 0x4026c1
+            // 0x405fa1
             v70 = v74;
-            codemarker_alpha(326);
+            mage_alpha326(326);
             v71 = 80 * v69 + (int64_t)&g37 + 8 * v70;
             v72 = 0;
-            codemarker_alpha(327);
+            mage_alpha327(327);
             transparent_crc(*(int32_t *)(v71 + 4 * v72), "g_1435[i][j][k]", v2);
-            codemarker_alpha(328);
+            mage_alpha328(328);
             if (v1 != 0) {
-                // 0x402731
-                codemarker_alpha(329);
+                // 0x406011
+                mage_alpha329(329);
                 printf("index = [%d][%d][%d]\n", v69, v70, v72);
             }
-            // 0x402757
+            // 0x406037
             v73 = v72 + 1;
             while (v73 != 2) {
-                // 0x4026dc
+                // 0x405fbc
                 v72 = v73;
-                codemarker_alpha(327);
+                mage_alpha327(327);
                 transparent_crc(*(int32_t *)(v71 + 4 * v72), "g_1435[i][j][k]", v2);
-                codemarker_alpha(328);
+                mage_alpha328(328);
                 if (v1 != 0) {
-                    // 0x402731
-                    codemarker_alpha(329);
+                    // 0x406011
+                    mage_alpha329(329);
                     printf("index = [%d][%d][%d]\n", v69, v70, v72);
                 }
-                // 0x402757
+                // 0x406037
                 v73 = v72 + 1;
             }
-            // 0x402767
+            // 0x406047
             v74 = v70 + 1;
         }
-        // 0x402777
+        // 0x406057
         v75 = v69 + 1;
     }
-    // 0x402785
-    codemarker_alpha(330);
+    // 0x406065
+    mage_alpha330(330);
     int64_t v76 = 0;
-    codemarker_alpha(331);
+    mage_alpha331(331);
     int64_t v77 = 0;
-    codemarker_alpha(332);
-    int64_t v78 = 160 * v76 + (int64_t)&g141 + 32 * v77; // 0x4027e5
-    int64_t * v79 = (int64_t *)v78; // 0x4027e8
+    mage_alpha332(332);
+    int64_t v78 = 160 * v76 + (int64_t)&g141 + 32 * v77; // 0x4060c5
+    int64_t * v79 = (int64_t *)v78; // 0x4060c8
     transparent_crc((int32_t)*v79 % 0x40000, "g_1526[i][j].f0", v2);
-    codemarker_alpha(333);
+    mage_alpha333(333);
     transparent_crc((int32_t)(*v79 / 0x100000000) % 0x80000000, "g_1526[i][j].f1", v2);
     transparent_crc((int32_t)*(int64_t *)(v78 + 8), "g_1526[i][j].f2", v2);
-    codemarker_alpha(334);
+    mage_alpha334(334);
     transparent_crc(8 * *(int32_t *)(v78 + 16) >> 3, "g_1526[i][j].f3", v2);
-    codemarker_alpha(335);
+    mage_alpha335(335);
     transparent_crc((int32_t)(*(int16_t *)(v78 + 20) % 0x4000), "g_1526[i][j].f4", v2);
     transparent_crc((int32_t)*(int16_t *)(v78 + 22), "g_1526[i][j].f5", v2);
-    codemarker_alpha(336);
+    mage_alpha336(336);
     transparent_crc(32 * *(int32_t *)(v78 + 24) >> 5, "g_1526[i][j].f6", v2);
-    codemarker_alpha(337);
+    mage_alpha337(337);
     if (v1 != 0) {
-        // 0x4029c1
-        codemarker_alpha(338);
+        // 0x4062a1
+        mage_alpha338(338);
         printf("index = [%d][%d]\n", v76, v77);
     }
     int64_t v80 = v77 + 1;
     while (v80 != 5) {
-        // 0x4027bb
+        // 0x40609b
         v77 = v80;
-        codemarker_alpha(332);
+        mage_alpha332(332);
         v78 = 160 * v76 + (int64_t)&g141 + 32 * v77;
         v79 = (int64_t *)v78;
         transparent_crc((int32_t)*v79 % 0x40000, "g_1526[i][j].f0", v2);
-        codemarker_alpha(333);
+        mage_alpha333(333);
         transparent_crc((int32_t)(*v79 / 0x100000000) % 0x80000000, "g_1526[i][j].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v78 + 8), "g_1526[i][j].f2", v2);
-        codemarker_alpha(334);
+        mage_alpha334(334);
         transparent_crc(8 * *(int32_t *)(v78 + 16) >> 3, "g_1526[i][j].f3", v2);
-        codemarker_alpha(335);
+        mage_alpha335(335);
         transparent_crc((int32_t)(*(int16_t *)(v78 + 20) % 0x4000), "g_1526[i][j].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v78 + 22), "g_1526[i][j].f5", v2);
-        codemarker_alpha(336);
+        mage_alpha336(336);
         transparent_crc(32 * *(int32_t *)(v78 + 24) >> 5, "g_1526[i][j].f6", v2);
-        codemarker_alpha(337);
+        mage_alpha337(337);
         if (v1 != 0) {
-            // 0x4029c1
-            codemarker_alpha(338);
+            // 0x4062a1
+            mage_alpha338(338);
             printf("index = [%d][%d]\n", v76, v77);
         }
-        // 0x4029e4
+        // 0x4062c4
         v80 = v77 + 1;
     }
     int64_t v81 = v76 + 1;
     while (v81 != 9) {
-        // 0x4027a0
+        // 0x406080
         v76 = v81;
-        codemarker_alpha(331);
+        mage_alpha331(331);
         v77 = 0;
-        codemarker_alpha(332);
+        mage_alpha332(332);
         v78 = 160 * v76 + (int64_t)&g141 + 32 * v77;
         v79 = (int64_t *)v78;
         transparent_crc((int32_t)*v79 % 0x40000, "g_1526[i][j].f0", v2);
-        codemarker_alpha(333);
+        mage_alpha333(333);
         transparent_crc((int32_t)(*v79 / 0x100000000) % 0x80000000, "g_1526[i][j].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v78 + 8), "g_1526[i][j].f2", v2);
-        codemarker_alpha(334);
+        mage_alpha334(334);
         transparent_crc(8 * *(int32_t *)(v78 + 16) >> 3, "g_1526[i][j].f3", v2);
-        codemarker_alpha(335);
+        mage_alpha335(335);
         transparent_crc((int32_t)(*(int16_t *)(v78 + 20) % 0x4000), "g_1526[i][j].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v78 + 22), "g_1526[i][j].f5", v2);
-        codemarker_alpha(336);
+        mage_alpha336(336);
         transparent_crc(32 * *(int32_t *)(v78 + 24) >> 5, "g_1526[i][j].f6", v2);
-        codemarker_alpha(337);
+        mage_alpha337(337);
         if (v1 != 0) {
-            // 0x4029c1
-            codemarker_alpha(338);
+            // 0x4062a1
+            mage_alpha338(338);
             printf("index = [%d][%d]\n", v76, v77);
         }
-        // 0x4029e4
+        // 0x4062c4
         v80 = v77 + 1;
         while (v80 != 5) {
-            // 0x4027bb
+            // 0x40609b
             v77 = v80;
-            codemarker_alpha(332);
+            mage_alpha332(332);
             v78 = 160 * v76 + (int64_t)&g141 + 32 * v77;
             v79 = (int64_t *)v78;
             transparent_crc((int32_t)*v79 % 0x40000, "g_1526[i][j].f0", v2);
-            codemarker_alpha(333);
+            mage_alpha333(333);
             transparent_crc((int32_t)(*v79 / 0x100000000) % 0x80000000, "g_1526[i][j].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v78 + 8), "g_1526[i][j].f2", v2);
-            codemarker_alpha(334);
+            mage_alpha334(334);
             transparent_crc(8 * *(int32_t *)(v78 + 16) >> 3, "g_1526[i][j].f3", v2);
-            codemarker_alpha(335);
+            mage_alpha335(335);
             transparent_crc((int32_t)(*(int16_t *)(v78 + 20) % 0x4000), "g_1526[i][j].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v78 + 22), "g_1526[i][j].f5", v2);
-            codemarker_alpha(336);
+            mage_alpha336(336);
             transparent_crc(32 * *(int32_t *)(v78 + 24) >> 5, "g_1526[i][j].f6", v2);
-            codemarker_alpha(337);
+            mage_alpha337(337);
             if (v1 != 0) {
-                // 0x4029c1
-                codemarker_alpha(338);
+                // 0x4062a1
+                mage_alpha338(338);
                 printf("index = [%d][%d]\n", v76, v77);
             }
-            // 0x4029e4
+            // 0x4062c4
             v80 = v77 + 1;
         }
-        // 0x4029f4
+        // 0x4062d4
         v81 = v76 + 1;
     }
-    // 0x402a02
+    // 0x4062e2
     transparent_crc((int32_t)*(char *)&g216, "g_1535", v2);
-    codemarker_alpha(339);
+    mage_alpha339(339);
     transparent_crc((int32_t)g142 % 0x40000, "g_1536.f0", v2);
-    codemarker_alpha(340);
+    mage_alpha340(340);
     transparent_crc((int32_t)(g142 / 0x100000000) % 0x80000000, "g_1536.f1", v2);
     transparent_crc(g143, "g_1536.f2", v2);
-    codemarker_alpha(341);
+    mage_alpha341(341);
     transparent_crc(8 * g144 >> 3, "g_1536.f3", v2);
-    codemarker_alpha(342);
+    mage_alpha342(342);
     transparent_crc((int32_t)(g145 % 0x4000), "g_1536.f4", v2);
     transparent_crc((int32_t)g146, "g_1536.f5", v2);
-    codemarker_alpha(343);
+    mage_alpha343(343);
     transparent_crc(32 * g147 >> 5, "g_1536.f6", v2);
-    codemarker_alpha(344);
+    mage_alpha344(344);
     transparent_crc((int32_t)g148 % 0x40000, "g_1538.f0", v2);
-    codemarker_alpha(345);
+    mage_alpha345(345);
     transparent_crc((int32_t)(g148 / 0x100000000) % 0x80000000, "g_1538.f1", v2);
     transparent_crc(g149, "g_1538.f2", v2);
-    codemarker_alpha(346);
+    mage_alpha346(346);
     transparent_crc(8 * g150 >> 3, "g_1538.f3", v2);
-    codemarker_alpha(347);
+    mage_alpha347(347);
     transparent_crc((int32_t)(g151 % 0x4000), "g_1538.f4", v2);
     transparent_crc((int32_t)g152, "g_1538.f5", v2);
-    codemarker_alpha(348);
+    mage_alpha348(348);
     transparent_crc(32 * g153 >> 5, "g_1538.f6", v2);
-    codemarker_alpha(349);
+    mage_alpha349(349);
     int64_t v82 = 0;
-    codemarker_alpha(350);
-    int64_t v83 = 32 * v82; // 0x402c8e
-    int64_t * v84 = (int64_t *)(v83 + (int64_t)&g154); // 0x402c95
+    mage_alpha350(350);
+    int64_t v83 = 32 * v82; // 0x40656e
+    int64_t * v84 = (int64_t *)(v83 + (int64_t)&g154); // 0x406575
     transparent_crc((int32_t)*v84 % 0x40000, "g_1565[i].f0", v2);
-    codemarker_alpha(351);
+    mage_alpha351(351);
     transparent_crc((int32_t)(*v84 / 0x100000000) % 0x80000000, "g_1565[i].f1", v2);
-    int64_t v85 = *(int64_t *)(v83 + (int64_t)&g154 + 8); // 0x402d0b
+    int64_t v85 = *(int64_t *)(v83 + (int64_t)&g154 + 8); // 0x4065eb
     transparent_crc((int32_t)v85, "g_1565[i].f2", v2);
-    codemarker_alpha(352);
-    int32_t v86 = *(int32_t *)(v83 + (int64_t)&g154 + 16); // 0x402d40
+    mage_alpha352(352);
+    int32_t v86 = *(int32_t *)(v83 + (int64_t)&g154 + 16); // 0x406620
     transparent_crc(8 * v86 >> 3, "g_1565[i].f3", v2);
-    codemarker_alpha(353);
-    uint16_t v87 = *(int16_t *)(v83 + (int64_t)&g154 + 20); // 0x402d7d
+    mage_alpha353(353);
+    uint16_t v87 = *(int16_t *)(v83 + (int64_t)&g154 + 20); // 0x40665d
     transparent_crc((int32_t)(v87 % 0x4000), "g_1565[i].f4", v2);
-    int16_t v88 = *(int16_t *)(v83 + (int64_t)&g154 + 22); // 0x402db3
+    int16_t v88 = *(int16_t *)(v83 + (int64_t)&g154 + 22); // 0x406693
     transparent_crc((int32_t)v88, "g_1565[i].f5", v2);
-    codemarker_alpha(354);
-    int32_t v89 = *(int32_t *)(v83 + (int64_t)&g154 + 24); // 0x402dec
+    mage_alpha354(354);
+    int32_t v89 = *(int32_t *)(v83 + (int64_t)&g154 + 24); // 0x4066cc
     transparent_crc(32 * v89 >> 5, "g_1565[i].f6", v2);
-    codemarker_alpha(355);
+    mage_alpha355(355);
     if (v1 != 0) {
-        // 0x402e1a
-        codemarker_alpha(356);
+        // 0x4066fa
+        mage_alpha356(356);
         printf("index = [%d]\n", v82);
     }
     int64_t v90 = v82 + 1;
     while (v90 != 8) {
-        // 0x402c76
+        // 0x406556
         v82 = v90;
-        codemarker_alpha(350);
+        mage_alpha350(350);
         v83 = 32 * v82;
         v84 = (int64_t *)(v83 + (int64_t)&g154);
         transparent_crc((int32_t)*v84 % 0x40000, "g_1565[i].f0", v2);
-        codemarker_alpha(351);
+        mage_alpha351(351);
         transparent_crc((int32_t)(*v84 / 0x100000000) % 0x80000000, "g_1565[i].f1", v2);
         v85 = *(int64_t *)(v83 + (int64_t)&g154 + 8);
         transparent_crc((int32_t)v85, "g_1565[i].f2", v2);
-        codemarker_alpha(352);
+        mage_alpha352(352);
         v86 = *(int32_t *)(v83 + (int64_t)&g154 + 16);
         transparent_crc(8 * v86 >> 3, "g_1565[i].f3", v2);
-        codemarker_alpha(353);
+        mage_alpha353(353);
         v87 = *(int16_t *)(v83 + (int64_t)&g154 + 20);
         transparent_crc((int32_t)(v87 % 0x4000), "g_1565[i].f4", v2);
         v88 = *(int16_t *)(v83 + (int64_t)&g154 + 22);
         transparent_crc((int32_t)v88, "g_1565[i].f5", v2);
-        codemarker_alpha(354);
+        mage_alpha354(354);
         v89 = *(int32_t *)(v83 + (int64_t)&g154 + 24);
         transparent_crc(32 * v89 >> 5, "g_1565[i].f6", v2);
-        codemarker_alpha(355);
+        mage_alpha355(355);
         if (v1 != 0) {
-            // 0x402e1a
-            codemarker_alpha(356);
+            // 0x4066fa
+            mage_alpha356(356);
             printf("index = [%d]\n", v82);
         }
-        // 0x402e3a
+        // 0x40671a
         v90 = v82 + 1;
     }
-    // 0x402e63
-    codemarker_alpha(357);
-    codemarker_alpha(358);
+    // 0x406743
+    mage_alpha357(357);
+    mage_alpha358(358);
     int64_t v91 = 0;
-    codemarker_alpha(359);
+    mage_alpha359(359);
     int64_t v92 = 0;
-    codemarker_alpha(360);
-    int64_t v93 = 128 * v91 + (int64_t)&g155 + 32 * v92; // 0x402ece
-    int64_t * v94 = (int64_t *)v93; // 0x402ed1
+    mage_alpha360(360);
+    int64_t v93 = 128 * v91 + (int64_t)&g155 + 32 * v92; // 0x4067ae
+    int64_t * v94 = (int64_t *)v93; // 0x4067b1
     transparent_crc((int32_t)*v94 % 0x40000, "g_1569[i][j][k].f0", v2);
-    codemarker_alpha(361);
+    mage_alpha361(361);
     transparent_crc((int32_t)(*v94 / 0x100000000) % 0x80000000, "g_1569[i][j][k].f1", v2);
     transparent_crc((int32_t)*(int64_t *)(v93 + 8), "g_1569[i][j][k].f2", v2);
-    codemarker_alpha(362);
+    mage_alpha362(362);
     transparent_crc(8 * *(int32_t *)(v93 + 16) >> 3, "g_1569[i][j][k].f3", v2);
-    codemarker_alpha(363);
+    mage_alpha363(363);
     transparent_crc((int32_t)(*(int16_t *)(v93 + 20) % 0x4000), "g_1569[i][j][k].f4", v2);
     transparent_crc((int32_t)*(int16_t *)(v93 + 22), "g_1569[i][j][k].f5", v2);
-    codemarker_alpha(364);
+    mage_alpha364(364);
     transparent_crc(32 * *(int32_t *)(v93 + 24) >> 5, "g_1569[i][j][k].f6", v2);
-    codemarker_alpha(365);
+    mage_alpha365(365);
     if (v1 != 0) {
-        // 0x4030ec
-        codemarker_alpha(366);
+        // 0x4069cc
+        mage_alpha366(366);
         printf("index = [%d][%d][%d]\n", 0, v91, v92);
     }
     int64_t v95 = v92 + 1;
     while (v95 != 4) {
-        // 0x402e99
+        // 0x406779
         v92 = v95;
-        codemarker_alpha(360);
+        mage_alpha360(360);
         v93 = 128 * v91 + (int64_t)&g155 + 32 * v92;
         v94 = (int64_t *)v93;
         transparent_crc((int32_t)*v94 % 0x40000, "g_1569[i][j][k].f0", v2);
-        codemarker_alpha(361);
+        mage_alpha361(361);
         transparent_crc((int32_t)(*v94 / 0x100000000) % 0x80000000, "g_1569[i][j][k].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v93 + 8), "g_1569[i][j][k].f2", v2);
-        codemarker_alpha(362);
+        mage_alpha362(362);
         transparent_crc(8 * *(int32_t *)(v93 + 16) >> 3, "g_1569[i][j][k].f3", v2);
-        codemarker_alpha(363);
+        mage_alpha363(363);
         transparent_crc((int32_t)(*(int16_t *)(v93 + 20) % 0x4000), "g_1569[i][j][k].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v93 + 22), "g_1569[i][j][k].f5", v2);
-        codemarker_alpha(364);
+        mage_alpha364(364);
         transparent_crc(32 * *(int32_t *)(v93 + 24) >> 5, "g_1569[i][j][k].f6", v2);
-        codemarker_alpha(365);
+        mage_alpha365(365);
         if (v1 != 0) {
-            // 0x4030ec
-            codemarker_alpha(366);
+            // 0x4069cc
+            mage_alpha366(366);
             printf("index = [%d][%d][%d]\n", 0, v91, v92);
         }
-        // 0x403112
+        // 0x4069f2
         v95 = v92 + 1;
     }
     int64_t v96 = v91 + 1;
     while (v96 != 7) {
-        // 0x402e7e
+        // 0x40675e
         v91 = v96;
-        codemarker_alpha(359);
+        mage_alpha359(359);
         v92 = 0;
-        codemarker_alpha(360);
+        mage_alpha360(360);
         v93 = 128 * v91 + (int64_t)&g155 + 32 * v92;
         v94 = (int64_t *)v93;
         transparent_crc((int32_t)*v94 % 0x40000, "g_1569[i][j][k].f0", v2);
-        codemarker_alpha(361);
+        mage_alpha361(361);
         transparent_crc((int32_t)(*v94 / 0x100000000) % 0x80000000, "g_1569[i][j][k].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v93 + 8), "g_1569[i][j][k].f2", v2);
-        codemarker_alpha(362);
+        mage_alpha362(362);
         transparent_crc(8 * *(int32_t *)(v93 + 16) >> 3, "g_1569[i][j][k].f3", v2);
-        codemarker_alpha(363);
+        mage_alpha363(363);
         transparent_crc((int32_t)(*(int16_t *)(v93 + 20) % 0x4000), "g_1569[i][j][k].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v93 + 22), "g_1569[i][j][k].f5", v2);
-        codemarker_alpha(364);
+        mage_alpha364(364);
         transparent_crc(32 * *(int32_t *)(v93 + 24) >> 5, "g_1569[i][j][k].f6", v2);
-        codemarker_alpha(365);
+        mage_alpha365(365);
         if (v1 != 0) {
-            // 0x4030ec
-            codemarker_alpha(366);
+            // 0x4069cc
+            mage_alpha366(366);
             printf("index = [%d][%d][%d]\n", 0, v91, v92);
         }
-        // 0x403112
+        // 0x4069f2
         v95 = v92 + 1;
         while (v95 != 4) {
-            // 0x402e99
+            // 0x406779
             v92 = v95;
-            codemarker_alpha(360);
+            mage_alpha360(360);
             v93 = 128 * v91 + (int64_t)&g155 + 32 * v92;
             v94 = (int64_t *)v93;
             transparent_crc((int32_t)*v94 % 0x40000, "g_1569[i][j][k].f0", v2);
-            codemarker_alpha(361);
+            mage_alpha361(361);
             transparent_crc((int32_t)(*v94 / 0x100000000) % 0x80000000, "g_1569[i][j][k].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v93 + 8), "g_1569[i][j][k].f2", v2);
-            codemarker_alpha(362);
+            mage_alpha362(362);
             transparent_crc(8 * *(int32_t *)(v93 + 16) >> 3, "g_1569[i][j][k].f3", v2);
-            codemarker_alpha(363);
+            mage_alpha363(363);
             transparent_crc((int32_t)(*(int16_t *)(v93 + 20) % 0x4000), "g_1569[i][j][k].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v93 + 22), "g_1569[i][j][k].f5", v2);
-            codemarker_alpha(364);
+            mage_alpha364(364);
             transparent_crc(32 * *(int32_t *)(v93 + 24) >> 5, "g_1569[i][j][k].f6", v2);
-            codemarker_alpha(365);
+            mage_alpha365(365);
             if (v1 != 0) {
-                // 0x4030ec
-                codemarker_alpha(366);
+                // 0x4069cc
+                mage_alpha366(366);
                 printf("index = [%d][%d][%d]\n", 0, v91, v92);
             }
-            // 0x403112
+            // 0x4069f2
             v95 = v92 + 1;
         }
-        // 0x403122
+        // 0x406a02
         v96 = v91 + 1;
     }
-    // 0x403140
-    codemarker_alpha(367);
+    // 0x406a20
+    mage_alpha367(367);
     transparent_crc((int32_t)g156 % 0x40000, "g_1617.f0", v2);
-    codemarker_alpha(368);
+    mage_alpha368(368);
     transparent_crc((int32_t)(g156 / 0x100000000) % 0x80000000, "g_1617.f1", v2);
     transparent_crc(g157, "g_1617.f2", v2);
-    codemarker_alpha(369);
+    mage_alpha369(369);
     transparent_crc(0x2d27, "g_1617.f3", v2);
-    codemarker_alpha(370);
+    mage_alpha370(370);
     transparent_crc((int32_t)(g158 % 0x4000), "g_1617.f4", v2);
     transparent_crc((int32_t)g159, "g_1617.f5", v2);
-    codemarker_alpha(371);
+    mage_alpha371(371);
     transparent_crc(32 * g160 >> 5, "g_1617.f6", v2);
-    codemarker_alpha(372);
+    mage_alpha372(372);
     int64_t v97 = 0;
-    codemarker_alpha(373);
+    mage_alpha373(373);
     int64_t v98 = 0;
-    codemarker_alpha(374);
-    int64_t v99 = 128 * v97 + (int64_t)&g161 + 32 * v98; // 0x4032bc
-    int64_t * v100 = (int64_t *)v99; // 0x4032bf
+    mage_alpha374(374);
+    int64_t v99 = 128 * v97 + (int64_t)&g161 + 32 * v98; // 0x406b9c
+    int64_t * v100 = (int64_t *)v99; // 0x406b9f
     transparent_crc((int32_t)*v100 % 0x40000, "g_1721[i][j].f0", v2);
-    codemarker_alpha(375);
+    mage_alpha375(375);
     transparent_crc((int32_t)(*v100 / 0x100000000) % 0x80000000, "g_1721[i][j].f1", v2);
     transparent_crc((int32_t)*(int64_t *)(v99 + 8), "g_1721[i][j].f2", v2);
-    codemarker_alpha(376);
+    mage_alpha376(376);
     transparent_crc(8 * *(int32_t *)(v99 + 16) >> 3, "g_1721[i][j].f3", v2);
-    codemarker_alpha(377);
+    mage_alpha377(377);
     transparent_crc((int32_t)(*(int16_t *)(v99 + 20) % 0x4000), "g_1721[i][j].f4", v2);
     transparent_crc((int32_t)*(int16_t *)(v99 + 22), "g_1721[i][j].f5", v2);
-    codemarker_alpha(378);
+    mage_alpha378(378);
     transparent_crc(32 * *(int32_t *)(v99 + 24) >> 5, "g_1721[i][j].f6", v2);
-    codemarker_alpha(379);
+    mage_alpha379(379);
     if (v1 != 0) {
-        // 0x403486
-        codemarker_alpha(380);
+        // 0x406d66
+        mage_alpha380(380);
         printf("index = [%d][%d]\n", v97, v98);
     }
     int64_t v101 = v98 + 1;
     while (v101 != 4) {
-        // 0x403295
+        // 0x406b75
         v98 = v101;
-        codemarker_alpha(374);
+        mage_alpha374(374);
         v99 = 128 * v97 + (int64_t)&g161 + 32 * v98;
         v100 = (int64_t *)v99;
         transparent_crc((int32_t)*v100 % 0x40000, "g_1721[i][j].f0", v2);
-        codemarker_alpha(375);
+        mage_alpha375(375);
         transparent_crc((int32_t)(*v100 / 0x100000000) % 0x80000000, "g_1721[i][j].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v99 + 8), "g_1721[i][j].f2", v2);
-        codemarker_alpha(376);
+        mage_alpha376(376);
         transparent_crc(8 * *(int32_t *)(v99 + 16) >> 3, "g_1721[i][j].f3", v2);
-        codemarker_alpha(377);
+        mage_alpha377(377);
         transparent_crc((int32_t)(*(int16_t *)(v99 + 20) % 0x4000), "g_1721[i][j].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v99 + 22), "g_1721[i][j].f5", v2);
-        codemarker_alpha(378);
+        mage_alpha378(378);
         transparent_crc(32 * *(int32_t *)(v99 + 24) >> 5, "g_1721[i][j].f6", v2);
-        codemarker_alpha(379);
+        mage_alpha379(379);
         if (v1 != 0) {
-            // 0x403486
-            codemarker_alpha(380);
+            // 0x406d66
+            mage_alpha380(380);
             printf("index = [%d][%d]\n", v97, v98);
         }
-        // 0x4034a9
+        // 0x406d89
         v101 = v98 + 1;
     }
     int64_t v102 = v97 + 1;
     while (v102 != 2) {
-        // 0x40327a
+        // 0x406b5a
         v97 = v102;
-        codemarker_alpha(373);
+        mage_alpha373(373);
         v98 = 0;
-        codemarker_alpha(374);
+        mage_alpha374(374);
         v99 = 128 * v97 + (int64_t)&g161 + 32 * v98;
         v100 = (int64_t *)v99;
         transparent_crc((int32_t)*v100 % 0x40000, "g_1721[i][j].f0", v2);
-        codemarker_alpha(375);
+        mage_alpha375(375);
         transparent_crc((int32_t)(*v100 / 0x100000000) % 0x80000000, "g_1721[i][j].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v99 + 8), "g_1721[i][j].f2", v2);
-        codemarker_alpha(376);
+        mage_alpha376(376);
         transparent_crc(8 * *(int32_t *)(v99 + 16) >> 3, "g_1721[i][j].f3", v2);
-        codemarker_alpha(377);
+        mage_alpha377(377);
         transparent_crc((int32_t)(*(int16_t *)(v99 + 20) % 0x4000), "g_1721[i][j].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v99 + 22), "g_1721[i][j].f5", v2);
-        codemarker_alpha(378);
+        mage_alpha378(378);
         transparent_crc(32 * *(int32_t *)(v99 + 24) >> 5, "g_1721[i][j].f6", v2);
-        codemarker_alpha(379);
+        mage_alpha379(379);
         if (v1 != 0) {
-            // 0x403486
-            codemarker_alpha(380);
+            // 0x406d66
+            mage_alpha380(380);
             printf("index = [%d][%d]\n", v97, v98);
         }
-        // 0x4034a9
+        // 0x406d89
         v101 = v98 + 1;
         while (v101 != 4) {
-            // 0x403295
+            // 0x406b75
             v98 = v101;
-            codemarker_alpha(374);
+            mage_alpha374(374);
             v99 = 128 * v97 + (int64_t)&g161 + 32 * v98;
             v100 = (int64_t *)v99;
             transparent_crc((int32_t)*v100 % 0x40000, "g_1721[i][j].f0", v2);
-            codemarker_alpha(375);
+            mage_alpha375(375);
             transparent_crc((int32_t)(*v100 / 0x100000000) % 0x80000000, "g_1721[i][j].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v99 + 8), "g_1721[i][j].f2", v2);
-            codemarker_alpha(376);
+            mage_alpha376(376);
             transparent_crc(8 * *(int32_t *)(v99 + 16) >> 3, "g_1721[i][j].f3", v2);
-            codemarker_alpha(377);
+            mage_alpha377(377);
             transparent_crc((int32_t)(*(int16_t *)(v99 + 20) % 0x4000), "g_1721[i][j].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v99 + 22), "g_1721[i][j].f5", v2);
-            codemarker_alpha(378);
+            mage_alpha378(378);
             transparent_crc(32 * *(int32_t *)(v99 + 24) >> 5, "g_1721[i][j].f6", v2);
-            codemarker_alpha(379);
+            mage_alpha379(379);
             if (v1 != 0) {
-                // 0x403486
-                codemarker_alpha(380);
+                // 0x406d66
+                mage_alpha380(380);
                 printf("index = [%d][%d]\n", v97, v98);
             }
-            // 0x4034a9
+            // 0x406d89
             v101 = v98 + 1;
         }
-        // 0x4034b9
+        // 0x406d99
         v102 = v97 + 1;
     }
-    // 0x4034c7
-    codemarker_alpha(381);
+    // 0x406da7
+    mage_alpha381(381);
     transparent_crc((int32_t)g162 % 0x40000, "g_1934.f0", v2);
-    codemarker_alpha(382);
+    mage_alpha382(382);
     transparent_crc((int32_t)(g162 / 0x100000000) % 0x80000000, "g_1934.f1", v2);
     transparent_crc(g163, "g_1934.f2", v2);
-    codemarker_alpha(383);
+    mage_alpha383(383);
     transparent_crc(8 * g164 >> 3, "g_1934.f3", v2);
-    codemarker_alpha(384);
+    mage_alpha384(384);
     transparent_crc((int32_t)(g165 % 0x4000), "g_1934.f4", v2);
     transparent_crc((int32_t)g166, "g_1934.f5", v2);
-    codemarker_alpha(385);
+    mage_alpha385(385);
     transparent_crc(32 * g167 >> 5, "g_1934.f6", v2);
-    codemarker_alpha(386);
+    mage_alpha386(386);
     transparent_crc((int32_t)g168 % 0x40000, "g_1974.f0", v2);
-    codemarker_alpha(387);
+    mage_alpha387(387);
     transparent_crc((int32_t)(g168 / 0x100000000) % 0x80000000, "g_1974.f1", v2);
     transparent_crc(g169, "g_1974.f2", v2);
-    codemarker_alpha(388);
+    mage_alpha388(388);
     transparent_crc(2424, "g_1974.f3", v2);
-    codemarker_alpha(389);
+    mage_alpha389(389);
     transparent_crc((int32_t)(g170 % 0x4000), "g_1974.f4", v2);
     transparent_crc((int32_t)g171, "g_1974.f5", v2);
-    codemarker_alpha(390);
+    mage_alpha390(390);
     transparent_crc(32 * g172 >> 5, "g_1974.f6", v2);
     transparent_crc(g39, "g_1997", v2);
     transparent_crc(g40, "g_2005", v2);
-    codemarker_alpha(391);
+    mage_alpha391(391);
     int64_t v103 = 0;
-    codemarker_alpha(392);
-    int64_t v104 = 32 * v103; // 0x40376c
-    int64_t * v105 = (int64_t *)(v104 + (int64_t)&g173); // 0x403773
+    mage_alpha392(392);
+    int64_t v104 = 32 * v103; // 0x40704c
+    int64_t * v105 = (int64_t *)(v104 + (int64_t)&g173); // 0x407053
     transparent_crc((int32_t)*v105 % 0x40000, "g_2109[i].f0", v2);
-    codemarker_alpha(393);
+    mage_alpha393(393);
     transparent_crc((int32_t)(*v105 / 0x100000000) % 0x80000000, "g_2109[i].f1", v2);
-    int64_t v106 = *(int64_t *)(v104 + (int64_t)&g173 + 8); // 0x4037e9
+    int64_t v106 = *(int64_t *)(v104 + (int64_t)&g173 + 8); // 0x4070c9
     transparent_crc((int32_t)v106, "g_2109[i].f2", v2);
-    codemarker_alpha(394);
-    int32_t v107 = *(int32_t *)(v104 + (int64_t)&g173 + 16); // 0x40381e
+    mage_alpha394(394);
+    int32_t v107 = *(int32_t *)(v104 + (int64_t)&g173 + 16); // 0x4070fe
     transparent_crc(8 * v107 >> 3, "g_2109[i].f3", v2);
-    codemarker_alpha(395);
-    uint16_t v108 = *(int16_t *)(v104 + (int64_t)&g173 + 20); // 0x40385b
+    mage_alpha395(395);
+    uint16_t v108 = *(int16_t *)(v104 + (int64_t)&g173 + 20); // 0x40713b
     transparent_crc((int32_t)(v108 % 0x4000), "g_2109[i].f4", v2);
-    int16_t v109 = *(int16_t *)(v104 + (int64_t)&g173 + 22); // 0x403891
+    int16_t v109 = *(int16_t *)(v104 + (int64_t)&g173 + 22); // 0x407171
     transparent_crc((int32_t)v109, "g_2109[i].f5", v2);
-    codemarker_alpha(396);
-    int32_t v110 = *(int32_t *)(v104 + (int64_t)&g173 + 24); // 0x4038ca
+    mage_alpha396(396);
+    int32_t v110 = *(int32_t *)(v104 + (int64_t)&g173 + 24); // 0x4071aa
     transparent_crc(32 * v110 >> 5, "g_2109[i].f6", v2);
-    codemarker_alpha(397);
+    mage_alpha397(397);
     if (v1 != 0) {
-        // 0x4038f8
-        codemarker_alpha(398);
+        // 0x4071d8
+        mage_alpha398(398);
         printf("index = [%d]\n", v103);
     }
     int64_t v111 = v103 + 1;
     while (v111 != 10) {
-        // 0x403754
+        // 0x407034
         v103 = v111;
-        codemarker_alpha(392);
+        mage_alpha392(392);
         v104 = 32 * v103;
         v105 = (int64_t *)(v104 + (int64_t)&g173);
         transparent_crc((int32_t)*v105 % 0x40000, "g_2109[i].f0", v2);
-        codemarker_alpha(393);
+        mage_alpha393(393);
         transparent_crc((int32_t)(*v105 / 0x100000000) % 0x80000000, "g_2109[i].f1", v2);
         v106 = *(int64_t *)(v104 + (int64_t)&g173 + 8);
         transparent_crc((int32_t)v106, "g_2109[i].f2", v2);
-        codemarker_alpha(394);
+        mage_alpha394(394);
         v107 = *(int32_t *)(v104 + (int64_t)&g173 + 16);
         transparent_crc(8 * v107 >> 3, "g_2109[i].f3", v2);
-        codemarker_alpha(395);
+        mage_alpha395(395);
         v108 = *(int16_t *)(v104 + (int64_t)&g173 + 20);
         transparent_crc((int32_t)(v108 % 0x4000), "g_2109[i].f4", v2);
         v109 = *(int16_t *)(v104 + (int64_t)&g173 + 22);
         transparent_crc((int32_t)v109, "g_2109[i].f5", v2);
-        codemarker_alpha(396);
+        mage_alpha396(396);
         v110 = *(int32_t *)(v104 + (int64_t)&g173 + 24);
         transparent_crc(32 * v110 >> 5, "g_2109[i].f6", v2);
-        codemarker_alpha(397);
+        mage_alpha397(397);
         if (v1 != 0) {
-            // 0x4038f8
-            codemarker_alpha(398);
+            // 0x4071d8
+            mage_alpha398(398);
             printf("index = [%d]\n", v103);
         }
-        // 0x403918
+        // 0x4071f8
         v111 = v103 + 1;
     }
-    // 0x403926
-    codemarker_alpha(399);
+    // 0x407206
+    mage_alpha399(399);
     transparent_crc((int32_t)g174 % 0x40000, "g_2112.f0", v2);
-    codemarker_alpha(400);
+    mage_alpha400(400);
     transparent_crc((int32_t)(g174 / 0x100000000) % 0x80000000, "g_2112.f1", v2);
     transparent_crc(g175, "g_2112.f2", v2);
-    codemarker_alpha(401);
+    mage_alpha401(401);
     transparent_crc(0x4447, "g_2112.f3", v2);
-    codemarker_alpha(402);
+    mage_alpha402(402);
     transparent_crc((int32_t)(g176 % 0x4000), "g_2112.f4", v2);
     transparent_crc((int32_t)g177, "g_2112.f5", v2);
-    codemarker_alpha(403);
+    mage_alpha403(403);
     transparent_crc(32 * g178 >> 5, "g_2112.f6", v2);
     transparent_crc(0, "g_2212", v2);
     transparent_crc((int32_t)*(char *)&g41, "g_2247", v2);
-    codemarker_alpha(404);
+    mage_alpha404(404);
     transparent_crc((int32_t)g179 % 0x40000, "g_2416.f0", v2);
-    codemarker_alpha(405);
+    mage_alpha405(405);
     transparent_crc((int32_t)(g179 / 0x100000000) % 0x80000000, "g_2416.f1", v2);
     transparent_crc(g180, "g_2416.f2", v2);
-    codemarker_alpha(406);
+    mage_alpha406(406);
     transparent_crc(0x3960, "g_2416.f3", v2);
-    codemarker_alpha(407);
+    mage_alpha407(407);
     transparent_crc((int32_t)(g181 % 0x4000), "g_2416.f4", v2);
     transparent_crc((int32_t)g182, "g_2416.f5", v2);
-    codemarker_alpha(408);
+    mage_alpha408(408);
     transparent_crc(32 * g183 >> 5, "g_2416.f6", v2);
-    codemarker_alpha(409);
+    mage_alpha409(409);
     transparent_crc((int32_t)g184 % 0x40000, "g_2615.f0", v2);
-    codemarker_alpha(410);
+    mage_alpha410(410);
     transparent_crc((int32_t)(g184 / 0x100000000) % 0x80000000, "g_2615.f1", v2);
     transparent_crc(g185, "g_2615.f2", v2);
-    codemarker_alpha(411);
+    mage_alpha411(411);
     transparent_crc(8 * g186 >> 3, "g_2615.f3", v2);
-    codemarker_alpha(412);
+    mage_alpha412(412);
     transparent_crc((int32_t)(g187 % 0x4000), "g_2615.f4", v2);
     transparent_crc((int32_t)g188, "g_2615.f5", v2);
-    codemarker_alpha(413);
+    mage_alpha413(413);
     transparent_crc(32 * g189 >> 5, "g_2615.f6", v2);
-    codemarker_alpha(414);
+    mage_alpha414(414);
     int64_t v112 = 0;
-    codemarker_alpha(415);
+    mage_alpha415(415);
     int64_t v113 = 0;
-    codemarker_alpha(416);
+    mage_alpha416(416);
     int64_t v114 = 864 * v112 + (int64_t)&g190 + 96 * v113;
     int64_t v115 = 0;
-    codemarker_alpha(417);
-    int64_t v116 = v114 + 32 * v115; // 0x403d3b
-    int64_t * v117 = (int64_t *)v116; // 0x403d3e
+    mage_alpha417(417);
+    int64_t v116 = v114 + 32 * v115; // 0x40761b
+    int64_t * v117 = (int64_t *)v116; // 0x40761e
     transparent_crc((int32_t)*v117 % 0x40000, "g_2616[i][j][k].f0", v2);
-    codemarker_alpha(418);
+    mage_alpha418(418);
     transparent_crc((int32_t)(*v117 / 0x100000000) % 0x80000000, "g_2616[i][j][k].f1", v2);
     transparent_crc((int32_t)*(int64_t *)(v116 + 8), "g_2616[i][j][k].f2", v2);
-    codemarker_alpha(419);
+    mage_alpha419(419);
     transparent_crc(8 * *(int32_t *)(v116 + 16) >> 3, "g_2616[i][j][k].f3", v2);
-    codemarker_alpha(420);
+    mage_alpha420(420);
     transparent_crc((int32_t)(*(int16_t *)(v116 + 20) % 0x4000), "g_2616[i][j][k].f4", v2);
     transparent_crc((int32_t)*(int16_t *)(v116 + 22), "g_2616[i][j][k].f5", v2);
-    codemarker_alpha(421);
+    mage_alpha421(421);
     transparent_crc(32 * *(int32_t *)(v116 + 24) >> 5, "g_2616[i][j][k].f6", v2);
-    codemarker_alpha(422);
+    mage_alpha422(422);
     if (v1 != 0) {
-        // 0x403f59
-        codemarker_alpha(423);
+        // 0x407839
+        mage_alpha423(423);
         printf("index = [%d][%d][%d]\n", v112, v113, v115);
     }
     int64_t v118 = v115 + 1;
     while (v118 != 3) {
-        // 0x403d06
+        // 0x4075e6
         v115 = v118;
-        codemarker_alpha(417);
+        mage_alpha417(417);
         v116 = v114 + 32 * v115;
         v117 = (int64_t *)v116;
         transparent_crc((int32_t)*v117 % 0x40000, "g_2616[i][j][k].f0", v2);
-        codemarker_alpha(418);
+        mage_alpha418(418);
         transparent_crc((int32_t)(*v117 / 0x100000000) % 0x80000000, "g_2616[i][j][k].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v116 + 8), "g_2616[i][j][k].f2", v2);
-        codemarker_alpha(419);
+        mage_alpha419(419);
         transparent_crc(8 * *(int32_t *)(v116 + 16) >> 3, "g_2616[i][j][k].f3", v2);
-        codemarker_alpha(420);
+        mage_alpha420(420);
         transparent_crc((int32_t)(*(int16_t *)(v116 + 20) % 0x4000), "g_2616[i][j][k].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v116 + 22), "g_2616[i][j][k].f5", v2);
-        codemarker_alpha(421);
+        mage_alpha421(421);
         transparent_crc(32 * *(int32_t *)(v116 + 24) >> 5, "g_2616[i][j][k].f6", v2);
-        codemarker_alpha(422);
+        mage_alpha422(422);
         if (v1 != 0) {
-            // 0x403f59
-            codemarker_alpha(423);
+            // 0x407839
+            mage_alpha423(423);
             printf("index = [%d][%d][%d]\n", v112, v113, v115);
         }
-        // 0x403f7f
+        // 0x40785f
         v118 = v115 + 1;
     }
     int64_t v119 = v113 + 1;
     while (v119 != 9) {
-        // 0x403ceb
+        // 0x4075cb
         v113 = v119;
-        codemarker_alpha(416);
+        mage_alpha416(416);
         v114 = 864 * v112 + (int64_t)&g190 + 96 * v113;
         v115 = 0;
-        codemarker_alpha(417);
+        mage_alpha417(417);
         v116 = v114 + 32 * v115;
         v117 = (int64_t *)v116;
         transparent_crc((int32_t)*v117 % 0x40000, "g_2616[i][j][k].f0", v2);
-        codemarker_alpha(418);
+        mage_alpha418(418);
         transparent_crc((int32_t)(*v117 / 0x100000000) % 0x80000000, "g_2616[i][j][k].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v116 + 8), "g_2616[i][j][k].f2", v2);
-        codemarker_alpha(419);
+        mage_alpha419(419);
         transparent_crc(8 * *(int32_t *)(v116 + 16) >> 3, "g_2616[i][j][k].f3", v2);
-        codemarker_alpha(420);
+        mage_alpha420(420);
         transparent_crc((int32_t)(*(int16_t *)(v116 + 20) % 0x4000), "g_2616[i][j][k].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v116 + 22), "g_2616[i][j][k].f5", v2);
-        codemarker_alpha(421);
+        mage_alpha421(421);
         transparent_crc(32 * *(int32_t *)(v116 + 24) >> 5, "g_2616[i][j][k].f6", v2);
-        codemarker_alpha(422);
+        mage_alpha422(422);
         if (v1 != 0) {
-            // 0x403f59
-            codemarker_alpha(423);
+            // 0x407839
+            mage_alpha423(423);
             printf("index = [%d][%d][%d]\n", v112, v113, v115);
         }
-        // 0x403f7f
+        // 0x40785f
         v118 = v115 + 1;
         while (v118 != 3) {
-            // 0x403d06
+            // 0x4075e6
             v115 = v118;
-            codemarker_alpha(417);
+            mage_alpha417(417);
             v116 = v114 + 32 * v115;
             v117 = (int64_t *)v116;
             transparent_crc((int32_t)*v117 % 0x40000, "g_2616[i][j][k].f0", v2);
-            codemarker_alpha(418);
+            mage_alpha418(418);
             transparent_crc((int32_t)(*v117 / 0x100000000) % 0x80000000, "g_2616[i][j][k].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v116 + 8), "g_2616[i][j][k].f2", v2);
-            codemarker_alpha(419);
+            mage_alpha419(419);
             transparent_crc(8 * *(int32_t *)(v116 + 16) >> 3, "g_2616[i][j][k].f3", v2);
-            codemarker_alpha(420);
+            mage_alpha420(420);
             transparent_crc((int32_t)(*(int16_t *)(v116 + 20) % 0x4000), "g_2616[i][j][k].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v116 + 22), "g_2616[i][j][k].f5", v2);
-            codemarker_alpha(421);
+            mage_alpha421(421);
             transparent_crc(32 * *(int32_t *)(v116 + 24) >> 5, "g_2616[i][j][k].f6", v2);
-            codemarker_alpha(422);
+            mage_alpha422(422);
             if (v1 != 0) {
-                // 0x403f59
-                codemarker_alpha(423);
+                // 0x407839
+                mage_alpha423(423);
                 printf("index = [%d][%d][%d]\n", v112, v113, v115);
             }
-            // 0x403f7f
+            // 0x40785f
             v118 = v115 + 1;
         }
-        // 0x403f8f
+        // 0x40786f
         v119 = v113 + 1;
     }
     int64_t v120 = v112 + 1;
     while (v120 != 8) {
-        // 0x403cd0
+        // 0x4075b0
         v112 = v120;
-        codemarker_alpha(415);
+        mage_alpha415(415);
         v113 = 0;
-        codemarker_alpha(416);
+        mage_alpha416(416);
         v114 = 864 * v112 + (int64_t)&g190 + 96 * v113;
         v115 = 0;
-        codemarker_alpha(417);
+        mage_alpha417(417);
         v116 = v114 + 32 * v115;
         v117 = (int64_t *)v116;
         transparent_crc((int32_t)*v117 % 0x40000, "g_2616[i][j][k].f0", v2);
-        codemarker_alpha(418);
+        mage_alpha418(418);
         transparent_crc((int32_t)(*v117 / 0x100000000) % 0x80000000, "g_2616[i][j][k].f1", v2);
         transparent_crc((int32_t)*(int64_t *)(v116 + 8), "g_2616[i][j][k].f2", v2);
-        codemarker_alpha(419);
+        mage_alpha419(419);
         transparent_crc(8 * *(int32_t *)(v116 + 16) >> 3, "g_2616[i][j][k].f3", v2);
-        codemarker_alpha(420);
+        mage_alpha420(420);
         transparent_crc((int32_t)(*(int16_t *)(v116 + 20) % 0x4000), "g_2616[i][j][k].f4", v2);
         transparent_crc((int32_t)*(int16_t *)(v116 + 22), "g_2616[i][j][k].f5", v2);
-        codemarker_alpha(421);
+        mage_alpha421(421);
         transparent_crc(32 * *(int32_t *)(v116 + 24) >> 5, "g_2616[i][j][k].f6", v2);
-        codemarker_alpha(422);
+        mage_alpha422(422);
         if (v1 != 0) {
-            // 0x403f59
-            codemarker_alpha(423);
+            // 0x407839
+            mage_alpha423(423);
             printf("index = [%d][%d][%d]\n", v112, v113, v115);
         }
-        // 0x403f7f
+        // 0x40785f
         v118 = v115 + 1;
         while (v118 != 3) {
-            // 0x403d06
+            // 0x4075e6
             v115 = v118;
-            codemarker_alpha(417);
+            mage_alpha417(417);
             v116 = v114 + 32 * v115;
             v117 = (int64_t *)v116;
             transparent_crc((int32_t)*v117 % 0x40000, "g_2616[i][j][k].f0", v2);
-            codemarker_alpha(418);
+            mage_alpha418(418);
             transparent_crc((int32_t)(*v117 / 0x100000000) % 0x80000000, "g_2616[i][j][k].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v116 + 8), "g_2616[i][j][k].f2", v2);
-            codemarker_alpha(419);
+            mage_alpha419(419);
             transparent_crc(8 * *(int32_t *)(v116 + 16) >> 3, "g_2616[i][j][k].f3", v2);
-            codemarker_alpha(420);
+            mage_alpha420(420);
             transparent_crc((int32_t)(*(int16_t *)(v116 + 20) % 0x4000), "g_2616[i][j][k].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v116 + 22), "g_2616[i][j][k].f5", v2);
-            codemarker_alpha(421);
+            mage_alpha421(421);
             transparent_crc(32 * *(int32_t *)(v116 + 24) >> 5, "g_2616[i][j][k].f6", v2);
-            codemarker_alpha(422);
+            mage_alpha422(422);
             if (v1 != 0) {
-                // 0x403f59
-                codemarker_alpha(423);
+                // 0x407839
+                mage_alpha423(423);
                 printf("index = [%d][%d][%d]\n", v112, v113, v115);
             }
-            // 0x403f7f
+            // 0x40785f
             v118 = v115 + 1;
         }
-        // 0x403f8f
+        // 0x40786f
         v119 = v113 + 1;
         while (v119 != 9) {
-            // 0x403ceb
+            // 0x4075cb
             v113 = v119;
-            codemarker_alpha(416);
+            mage_alpha416(416);
             v114 = 864 * v112 + (int64_t)&g190 + 96 * v113;
             v115 = 0;
-            codemarker_alpha(417);
+            mage_alpha417(417);
             v116 = v114 + 32 * v115;
             v117 = (int64_t *)v116;
             transparent_crc((int32_t)*v117 % 0x40000, "g_2616[i][j][k].f0", v2);
-            codemarker_alpha(418);
+            mage_alpha418(418);
             transparent_crc((int32_t)(*v117 / 0x100000000) % 0x80000000, "g_2616[i][j][k].f1", v2);
             transparent_crc((int32_t)*(int64_t *)(v116 + 8), "g_2616[i][j][k].f2", v2);
-            codemarker_alpha(419);
+            mage_alpha419(419);
             transparent_crc(8 * *(int32_t *)(v116 + 16) >> 3, "g_2616[i][j][k].f3", v2);
-            codemarker_alpha(420);
+            mage_alpha420(420);
             transparent_crc((int32_t)(*(int16_t *)(v116 + 20) % 0x4000), "g_2616[i][j][k].f4", v2);
             transparent_crc((int32_t)*(int16_t *)(v116 + 22), "g_2616[i][j][k].f5", v2);
-            codemarker_alpha(421);
+            mage_alpha421(421);
             transparent_crc(32 * *(int32_t *)(v116 + 24) >> 5, "g_2616[i][j][k].f6", v2);
-            codemarker_alpha(422);
+            mage_alpha422(422);
             if (v1 != 0) {
-                // 0x403f59
-                codemarker_alpha(423);
+                // 0x407839
+                mage_alpha423(423);
                 printf("index = [%d][%d][%d]\n", v112, v113, v115);
             }
-            // 0x403f7f
+            // 0x40785f
             v118 = v115 + 1;
             while (v118 != 3) {
-                // 0x403d06
+                // 0x4075e6
                 v115 = v118;
-                codemarker_alpha(417);
+                mage_alpha417(417);
                 v116 = v114 + 32 * v115;
                 v117 = (int64_t *)v116;
                 transparent_crc((int32_t)*v117 % 0x40000, "g_2616[i][j][k].f0", v2);
-                codemarker_alpha(418);
+                mage_alpha418(418);
                 transparent_crc((int32_t)(*v117 / 0x100000000) % 0x80000000, "g_2616[i][j][k].f1", v2);
                 transparent_crc((int32_t)*(int64_t *)(v116 + 8), "g_2616[i][j][k].f2", v2);
-                codemarker_alpha(419);
+                mage_alpha419(419);
                 transparent_crc(8 * *(int32_t *)(v116 + 16) >> 3, "g_2616[i][j][k].f3", v2);
-                codemarker_alpha(420);
+                mage_alpha420(420);
                 transparent_crc((int32_t)(*(int16_t *)(v116 + 20) % 0x4000), "g_2616[i][j][k].f4", v2);
                 transparent_crc((int32_t)*(int16_t *)(v116 + 22), "g_2616[i][j][k].f5", v2);
-                codemarker_alpha(421);
+                mage_alpha421(421);
                 transparent_crc(32 * *(int32_t *)(v116 + 24) >> 5, "g_2616[i][j][k].f6", v2);
-                codemarker_alpha(422);
+                mage_alpha422(422);
                 if (v1 != 0) {
-                    // 0x403f59
-                    codemarker_alpha(423);
+                    // 0x407839
+                    mage_alpha423(423);
                     printf("index = [%d][%d][%d]\n", v112, v113, v115);
                 }
-                // 0x403f7f
+                // 0x40785f
                 v118 = v115 + 1;
             }
-            // 0x403f8f
+            // 0x40786f
             v119 = v113 + 1;
         }
-        // 0x403f9f
+        // 0x40787f
         v120 = v112 + 1;
     }
-    // 0x403fad
+    // 0x40788d
     transparent_crc((int32_t)*(int16_t *)&g43, "g_2654", v2);
-    codemarker_alpha(424);
+    mage_alpha424(424);
     transparent_crc((int32_t)g191 % 0x40000, "g_2675.f0", v2);
-    codemarker_alpha(425);
+    mage_alpha425(425);
     transparent_crc((int32_t)(g191 / 0x100000000) % 0x80000000, "g_2675.f1", v2);
     transparent_crc(g192, "g_2675.f2", v2);
-    codemarker_alpha(426);
+    mage_alpha426(426);
     transparent_crc(8 * g193 >> 3, "g_2675.f3", v2);
-    codemarker_alpha(427);
+    mage_alpha427(427);
     transparent_crc((int32_t)(g194 % 0x4000), "g_2675.f4", v2);
     transparent_crc((int32_t)g195, "g_2675.f5", v2);
-    codemarker_alpha(428);
+    mage_alpha428(428);
     transparent_crc(32 * g196 >> 5, "g_2675.f6", v2);
-    codemarker_alpha(429);
+    mage_alpha429(429);
     int64_t v121 = 0;
-    codemarker_alpha(430);
-    char v122 = *(char *)(v121 + (int64_t)"##"); // 0x40410c
+    mage_alpha430(430);
+    char v122 = *(char *)(v121 + (int64_t)"##"); // 0x4079ec
     transparent_crc((int32_t)v122, "g_2690[i]", v2);
-    codemarker_alpha(431);
+    mage_alpha431(431);
     if (v1 != 0) {
-        // 0x404139
-        codemarker_alpha(432);
+        // 0x407a19
+        mage_alpha432(432);
         printf("index = [%d]\n", v121);
     }
     int64_t v123 = v121 + 1;
     while (v123 != 2) {
-        // 0x4040fe
+        // 0x4079de
         v121 = v123;
-        codemarker_alpha(430);
+        mage_alpha430(430);
         v122 = *(char *)(v121 + (int64_t)"##");
         transparent_crc((int32_t)v122, "g_2690[i]", v2);
-        codemarker_alpha(431);
+        mage_alpha431(431);
         if (v1 != 0) {
-            // 0x404139
-            codemarker_alpha(432);
+            // 0x407a19
+            mage_alpha432(432);
             printf("index = [%d]\n", v121);
         }
-        // 0x404159
+        // 0x407a39
         v123 = v121 + 1;
     }
-    // 0x404164
+    // 0x407a44
     transparent_crc(-1, "g_2691", v2);
     transparent_crc(g44, "g_2709", v2);
     transparent_crc(g45, "g_2731", v2);
-    codemarker_alpha(433);
+    mage_alpha433(433);
     transparent_crc((int32_t)g197 % 0x40000, "g_2761.f0", v2);
-    codemarker_alpha(434);
+    mage_alpha434(434);
     transparent_crc((int32_t)(g197 / 0x100000000) % 0x80000000, "g_2761.f1", v2);
     transparent_crc(g198, "g_2761.f2", v2);
-    codemarker_alpha(435);
+    mage_alpha435(435);
     transparent_crc(0x3d41, "g_2761.f3", v2);
-    codemarker_alpha(436);
+    mage_alpha436(436);
     transparent_crc((int32_t)(g199 % 0x4000), "g_2761.f4", v2);
     transparent_crc((int32_t)g200, "g_2761.f5", v2);
-    codemarker_alpha(437);
+    mage_alpha437(437);
     transparent_crc(0x2851, "g_2761.f6", v2);
-    codemarker_alpha(438);
+    mage_alpha438(438);
     transparent_crc((int32_t)g201 % 0x40000, "g_2875.f0", v2);
-    codemarker_alpha(439);
+    mage_alpha439(439);
     transparent_crc((int32_t)(g201 / 0x100000000) % 0x80000000, "g_2875.f1", v2);
     transparent_crc(g202, "g_2875.f2", v2);
-    codemarker_alpha(440);
+    mage_alpha440(440);
     transparent_crc(8 * g203 >> 3, "g_2875.f3", v2);
-    codemarker_alpha(441);
+    mage_alpha441(441);
     transparent_crc((int32_t)(g204 % 0x4000), "g_2875.f4", v2);
     transparent_crc((int32_t)g205, "g_2875.f5", v2);
-    codemarker_alpha(442);
+    mage_alpha442(442);
     transparent_crc(32 * g206 >> 5, "g_2875.f6", v2);
     transparent_crc(g46, "g_2905", v2);
     transparent_crc((int32_t)g47, "g_2991", v2);
-    codemarker_alpha(443);
+    mage_alpha443(443);
     transparent_crc((int32_t)g207 % 0x40000, "g_3009.f0", v2);
-    codemarker_alpha(444);
+    mage_alpha444(444);
     transparent_crc((int32_t)(g207 / 0x100000000) % 0x80000000, "g_3009.f1", v2);
     transparent_crc(g208, "g_3009.f2", v2);
-    codemarker_alpha(445);
+    mage_alpha445(445);
     transparent_crc(8 * g209 >> 3, "g_3009.f3", v2);
-    codemarker_alpha(446);
+    mage_alpha446(446);
     transparent_crc((int32_t)(g210 % 0x4000), "g_3009.f4", v2);
     transparent_crc((int32_t)g211, "g_3009.f5", v2);
-    codemarker_alpha(447);
+    mage_alpha447(447);
     transparent_crc(32 * g212 >> 5, "g_3009.f6", v2);
     transparent_crc(g48, "g_3038", v2);
     transparent_crc((int32_t)g49, "g_3068", v2);
-    codemarker_alpha(448);
+    mage_alpha448(448);
     int64_t v124 = 0;
-    codemarker_alpha(449);
-    int64_t v125 = 32 * v124; // 0x4045b0
-    int64_t * v126 = (int64_t *)(v125 + (int64_t)&g213); // 0x4045b7
+    mage_alpha449(449);
+    int64_t v125 = 32 * v124; // 0x407e90
+    int64_t * v126 = (int64_t *)(v125 + (int64_t)&g213); // 0x407e97
     transparent_crc((int32_t)*v126 % 0x40000, "g_3075[i].f0", v2);
-    codemarker_alpha(450);
+    mage_alpha450(450);
     transparent_crc((int32_t)(*v126 / 0x100000000) % 0x80000000, "g_3075[i].f1", v2);
-    int64_t v127 = *(int64_t *)(v125 + (int64_t)&g213 + 8); // 0x40462d
+    int64_t v127 = *(int64_t *)(v125 + (int64_t)&g213 + 8); // 0x407f0d
     transparent_crc((int32_t)v127, "g_3075[i].f2", v2);
-    codemarker_alpha(451);
-    int32_t v128 = *(int32_t *)(v125 + (int64_t)&g213 + 16); // 0x404662
+    mage_alpha451(451);
+    int32_t v128 = *(int32_t *)(v125 + (int64_t)&g213 + 16); // 0x407f42
     transparent_crc(8 * v128 >> 3, "g_3075[i].f3", v2);
-    codemarker_alpha(452);
-    uint16_t v129 = *(int16_t *)(v125 + (int64_t)&g213 + 20); // 0x40469f
+    mage_alpha452(452);
+    uint16_t v129 = *(int16_t *)(v125 + (int64_t)&g213 + 20); // 0x407f7f
     transparent_crc((int32_t)(v129 % 0x4000), "g_3075[i].f4", v2);
-    int16_t v130 = *(int16_t *)(v125 + (int64_t)&g213 + 22); // 0x4046d5
+    int16_t v130 = *(int16_t *)(v125 + (int64_t)&g213 + 22); // 0x407fb5
     transparent_crc((int32_t)v130, "g_3075[i].f5", v2);
-    codemarker_alpha(453);
-    int32_t v131 = *(int32_t *)(v125 + (int64_t)&g213 + 24); // 0x40470e
+    mage_alpha453(453);
+    int32_t v131 = *(int32_t *)(v125 + (int64_t)&g213 + 24); // 0x407fee
     transparent_crc(32 * v131 >> 5, "g_3075[i].f6", v2);
-    codemarker_alpha(454);
+    mage_alpha454(454);
     if (v1 != 0) {
-        // 0x40473c
-        codemarker_alpha(455);
+        // 0x40801c
+        mage_alpha455(455);
         printf("index = [%d]\n", v124);
     }
     int64_t v132 = v124 + 1;
     while (v132 != 9) {
-        // 0x404598
+        // 0x407e78
         v124 = v132;
-        codemarker_alpha(449);
+        mage_alpha449(449);
         v125 = 32 * v124;
         v126 = (int64_t *)(v125 + (int64_t)&g213);
         transparent_crc((int32_t)*v126 % 0x40000, "g_3075[i].f0", v2);
-        codemarker_alpha(450);
+        mage_alpha450(450);
         transparent_crc((int32_t)(*v126 / 0x100000000) % 0x80000000, "g_3075[i].f1", v2);
         v127 = *(int64_t *)(v125 + (int64_t)&g213 + 8);
         transparent_crc((int32_t)v127, "g_3075[i].f2", v2);
-        codemarker_alpha(451);
+        mage_alpha451(451);
         v128 = *(int32_t *)(v125 + (int64_t)&g213 + 16);
         transparent_crc(8 * v128 >> 3, "g_3075[i].f3", v2);
-        codemarker_alpha(452);
+        mage_alpha452(452);
         v129 = *(int16_t *)(v125 + (int64_t)&g213 + 20);
         transparent_crc((int32_t)(v129 % 0x4000), "g_3075[i].f4", v2);
         v130 = *(int16_t *)(v125 + (int64_t)&g213 + 22);
         transparent_crc((int32_t)v130, "g_3075[i].f5", v2);
-        codemarker_alpha(453);
+        mage_alpha453(453);
         v131 = *(int32_t *)(v125 + (int64_t)&g213 + 24);
         transparent_crc(32 * v131 >> 5, "g_3075[i].f6", v2);
-        codemarker_alpha(454);
+        mage_alpha454(454);
         if (v1 != 0) {
-            // 0x40473c
-            codemarker_alpha(455);
+            // 0x40801c
+            mage_alpha455(455);
             printf("index = [%d]\n", v124);
         }
-        // 0x40475c
+        // 0x40803c
         v132 = v124 + 1;
     }
-    // 0x40476a
+    // 0x40804a
     platform_main_end((int64_t)(-1 - g50), v2);
     return 0;
 }
 
-// Address range: 0x404790 - 0x404796
+// Address range: 0x408070 - 0x408076
 int64_t platform_main_begin(void) {
-    // 0x404790
-    int64_t result; // 0x404790
+    // 0x408070
+    int64_t result; // 0x408070
     return result;
 }
 
-// Address range: 0x4047a0 - 0x404818
+// Address range: 0x408080 - 0x4080f8
 int64_t crc32_gentab(void) {
     for (int64_t i = 0; i < 256; i++) {
-        int32_t v1 = 8; // 0x4047f5
-        int32_t v2 = i; // 0x4047a0
+        int32_t v1 = 8; // 0x4080d5
+        int32_t v2 = i; // 0x408080
         uint32_t v3 = v2 / 2;
         int32_t v4 = v2 % 2 == 0 ? v3 : v3 ^ -0x12477ce0;
         v1--;
         v2 = v4;
         while (v1 != 0) {
-            // 0x4047ce
+            // 0x4080ae
             v3 = v2 / 2;
             v4 = v2 % 2 == 0 ? v3 : v3 ^ -0x12477ce0;
             v1--;
             v2 = v4;
         }
-        // 0x4047fd
+        // 0x4080dd
         *(int32_t *)(4 * i + (int64_t)&g217) = v4;
     }
-    // 0x404816
+    // 0x4080f6
     return 256;
 }
 
-// Address range: 0x404820 - 0x405b4c
+// Address range: 0x408100 - 0x40942c
 int64_t func_1(int64_t a1) {
-    // 0x404820
-    int64_t v1; // bp-8, 0x404820
-    int64_t v2 = &v1; // 0x404821
-    codemarker_alpha(0);
-    codemarker_alpha(1);
-    codemarker_alpha(2);
-    codemarker_alpha(3);
-    codemarker_alpha(4);
-    codemarker_alpha(5);
-    codemarker_alpha(6);
+    // 0x408100
+    int64_t v1; // bp-8, 0x408100
+    int64_t v2 = &v1; // 0x408101
+    mage_alpha0(0);
+    mage_alpha1(1);
+    mage_alpha2(2);
+    mage_alpha3(3);
+    mage_alpha4(4);
+    mage_alpha5(5);
+    mage_alpha6(6);
     int64_t v3 = v2 - 64;
     for (int64_t i = 0; i < 7; i++) {
-        // 0x4049b7
+        // 0x408297
         *(int64_t *)(8 * i + v3) = -10;
     }
-    // 0x4049d8
-    codemarker_alpha(7);
+    // 0x4082b8
+    mage_alpha7(7);
     for (int64_t i = 0; i < 2; i++) {
-        // 0x4049f5
+        // 0x4082d5
         *(int64_t *)(v2 - 112 + 8 * i) = (int64_t)&g52;
     }
-    // 0x404a1c
-    codemarker_alpha(8);
+    // 0x4082fc
+    mage_alpha8(8);
     for (int64_t i = 0; i < 9; i++) {
-        // 0x404a39
+        // 0x408319
         *(int32_t *)(v2 - 256 + 4 * i) = 1;
     }
-    // 0x404a5c
-    codemarker_alpha(9);
+    // 0x40833c
+    mage_alpha9(9);
     g12 = 5;
-    int64_t v4; // bp-392, 0x404820
+    int64_t v4; // bp-392, 0x408100
     memset(&v4, 0, 48);
     v4 = 5;
-    int64_t v5; // bp-472, 0x404820
+    int64_t v5; // bp-472, 0x408100
     memset(&v5, 0, 16);
-    int64_t v6; // bp-760, 0x404820
-    memcpy(&v6, (int64_t *)0x406fd8, 40);
-    int64_t v7; // bp-680, 0x404820
-    memcpy(&v7, (int64_t *)0x407000, 40);
-    int64_t v8; // bp-600, 0x404820
+    int64_t v6; // bp-760, 0x408100
+    memcpy(&v6, (int64_t *)0x40afd8, 40);
+    int64_t v7; // bp-680, 0x408100
+    memcpy(&v7, (int64_t *)0x40b000, 40);
+    int64_t v8; // bp-600, 0x408100
     memcpy(&v8, &g2, 40);
-    codemarker_alpha(10);
-    codemarker_alpha(11);
-    codemarker_alpha(12);
+    mage_alpha10(10);
+    mage_alpha11(11);
+    mage_alpha12(12);
     *(int32_t *)(v2 - 772) = 8;
-    codemarker_alpha(13);
+    mage_alpha13(13);
     for (int64_t i = 0; i < 3; i++) {
-        // 0x404dac
+        // 0x40868c
         *(int64_t *)(v2 - 800 + 8 * i) = (int64_t)&g3;
     }
-    // 0x404dd6
-    codemarker_alpha(14);
+    // 0x4086b6
+    mage_alpha14(14);
     g13 = 6;
-    codemarker_alpha(15);
-    codemarker_alpha(16);
+    mage_alpha15(15);
+    mage_alpha16(16);
     g14 = 5;
-    codemarker_alpha(17);
+    mage_alpha17(17);
     g15 = 0;
     *(int64_t *)v3 = 3;
     while ((int32_t)&g16 <= 6) {
-        // 0x404e41
+        // 0x408721
         *(int64_t *)(8 * (int64_t)(int32_t)&g16 + v3) = 3;
     }
-    // 0x404e67
+    // 0x408747
     g15 = &g16;
-    int32_t v9 = g14 - 1; // 0x404e6e
+    int32_t v9 = g14 - 1; // 0x40874e
     g14 = v9;
     while (v9 >= 0) {
-        // 0x404e22
-        codemarker_alpha(17);
+        // 0x408702
+        mage_alpha17(17);
         g15 = 0;
         *(int64_t *)v3 = 3;
         while ((int32_t)&g16 <= 6) {
-            // 0x404e41
+            // 0x408721
             *(int64_t *)(8 * (int64_t)(int32_t)&g16 + v3) = 3;
         }
-        // 0x404e67
+        // 0x408747
         g15 = &g16;
         v9 = g14 - 1;
         g14 = v9;
     }
-    int32_t v10 = g13 - 1; // 0x404e83
+    int32_t v10 = g13 - 1; // 0x408763
     g13 = v10;
     while (v10 >= 0) {
-        // 0x404df9
-        codemarker_alpha(15);
-        codemarker_alpha(16);
+        // 0x4086d9
+        mage_alpha15(15);
+        mage_alpha16(16);
         g14 = 5;
-        codemarker_alpha(17);
+        mage_alpha17(17);
         g15 = 0;
         *(int64_t *)v3 = 3;
         while ((int32_t)&g16 <= 6) {
-            // 0x404e41
+            // 0x408721
             *(int64_t *)(8 * (int64_t)(int32_t)&g16 + v3) = 3;
         }
-        // 0x404e67
+        // 0x408747
         g15 = &g16;
         v9 = g14 - 1;
         g14 = v9;
         while (v9 >= 0) {
-            // 0x404e22
-            codemarker_alpha(17);
+            // 0x408702
+            mage_alpha17(17);
             g15 = 0;
             *(int64_t *)v3 = 3;
             while ((int32_t)&g16 <= 6) {
-                // 0x404e41
+                // 0x408721
                 *(int64_t *)(8 * (int64_t)(int32_t)&g16 + v3) = 3;
             }
-            // 0x404e67
+            // 0x408747
             g15 = &g16;
             v9 = g14 - 1;
             g14 = v9;
         }
-        // 0x404e7c
+        // 0x40875c
         v10 = g13 - 1;
         g13 = v10;
     }
-    // 0x404e92
-    codemarker_alpha(18);
+    // 0x408772
+    mage_alpha18(18);
     *(int16_t *)&g20 = 0;
-    codemarker_alpha(19);
-    int64_t v11; // bp-1848, 0x404820
+    mage_alpha19(19);
+    int64_t v11; // bp-1848, 0x408100
     memcpy(&v11, &g4, 980);
-    int64_t v12; // bp-2248, 0x404820
+    int64_t v12; // bp-2248, 0x408100
     memcpy(&v12, &g5, 392);
-    int64_t v13; // bp-2984, 0x404820
+    int64_t v13; // bp-2984, 0x408100
     memcpy(&v13, &g6, 720);
-    int64_t v14; // bp-4904, 0x404820
+    int64_t v14; // bp-4904, 0x408100
     memcpy(&v14, &g7, 1920);
-    codemarker_alpha(20);
-    codemarker_alpha(21);
-    codemarker_alpha(22);
+    mage_alpha20(20);
+    mage_alpha21(21);
+    mage_alpha22(22);
     *(int16_t *)&g20 = (int16_t)&g21;
     while ((int16_t)&g21 <= 7) {
-        // 0x404eb7
-        codemarker_alpha(19);
+        // 0x408797
+        mage_alpha19(19);
         memcpy(&v11, &g4, 980);
         memcpy(&v12, &g5, 392);
         memcpy(&v13, &g6, 720);
         memcpy(&v14, &g7, 1920);
-        codemarker_alpha(20);
-        codemarker_alpha(21);
-        codemarker_alpha(22);
+        mage_alpha20(20);
+        mage_alpha21(21);
+        mage_alpha22(22);
         *(int16_t *)&g20 = (int16_t)&g21;
     }
-    // 0x405387
-    codemarker_alpha(23);
+    // 0x408c67
+    mage_alpha23(23);
     *(char *)&g41 = 1;
-    int64_t v15; // bp-5736, 0x404820
+    int64_t v15; // bp-5736, 0x408100
     memcpy(&v15, &g8, 160);
-    int64_t v16; // bp-5816, 0x404820
+    int64_t v16; // bp-5816, 0x408100
     memcpy(&v16, &g9, 64);
-    codemarker_alpha(24);
-    codemarker_alpha(25);
-    codemarker_alpha(26);
+    mage_alpha24(24);
+    mage_alpha25(25);
+    mage_alpha26(26);
     for (int64_t i = 0; i < 3; i++) {
-        // 0x4059ce
+        // 0x4092ae
         *(int32_t *)(v2 - 0x158c + 4 * i) = 1;
     }
-    // 0x405399
+    // 0x408c79
     *(char *)&g41 = (char)&g42;
     while ((char)&g42 <= 6) {
-        // 0x4053aa
+        // 0x408c8a
         memcpy(&v15, &g8, 160);
         memcpy(&v16, &g9, 64);
-        codemarker_alpha(24);
-        codemarker_alpha(25);
-        codemarker_alpha(26);
+        mage_alpha24(24);
+        mage_alpha25(25);
+        mage_alpha26(26);
         for (int64_t i = 0; i < 3; i++) {
-            // 0x4059ce
+            // 0x4092ae
             *(int32_t *)(v2 - 0x158c + 4 * i) = 1;
         }
-        // 0x405399
+        // 0x408c79
         *(char *)&g41 = (char)&g42;
     }
-    int32_t v17 = g12 - 1; // 0x405a13
+    int32_t v17 = g12 - 1; // 0x4092f3
     g12 = v17;
     while (v17 >= 0) {
-        // 0x404d8f
+        // 0x40866f
         memset(&v4, 0, 48);
         v4 = 5;
         memset(&v5, 0, 16);
-        memcpy(&v6, (int64_t *)0x406fd8, 40);
-        memcpy(&v7, (int64_t *)0x407000, 40);
+        memcpy(&v6, (int64_t *)0x40afd8, 40);
+        memcpy(&v7, (int64_t *)0x40b000, 40);
         memcpy(&v8, &g2, 40);
-        codemarker_alpha(10);
-        codemarker_alpha(11);
-        codemarker_alpha(12);
+        mage_alpha10(10);
+        mage_alpha11(11);
+        mage_alpha12(12);
         *(int32_t *)(v2 - 772) = 8;
-        codemarker_alpha(13);
+        mage_alpha13(13);
         for (int64_t i = 0; i < 3; i++) {
-            // 0x404dac
+            // 0x40868c
             *(int64_t *)(v2 - 800 + 8 * i) = (int64_t)&g3;
         }
-        // 0x404dd6
-        codemarker_alpha(14);
+        // 0x4086b6
+        mage_alpha14(14);
         g13 = 6;
-        codemarker_alpha(15);
-        codemarker_alpha(16);
+        mage_alpha15(15);
+        mage_alpha16(16);
         g14 = 5;
-        codemarker_alpha(17);
+        mage_alpha17(17);
         g15 = 0;
         *(int64_t *)v3 = 3;
         while ((int32_t)&g16 <= 6) {
-            // 0x404e41
+            // 0x408721
             *(int64_t *)(8 * (int64_t)(int32_t)&g16 + v3) = 3;
         }
-        // 0x404e67
+        // 0x408747
         g15 = &g16;
         v9 = g14 - 1;
         g14 = v9;
         while (v9 >= 0) {
-            // 0x404e22
-            codemarker_alpha(17);
+            // 0x408702
+            mage_alpha17(17);
             g15 = 0;
             *(int64_t *)v3 = 3;
             while ((int32_t)&g16 <= 6) {
-                // 0x404e41
+                // 0x408721
                 *(int64_t *)(8 * (int64_t)(int32_t)&g16 + v3) = 3;
             }
-            // 0x404e67
+            // 0x408747
             g15 = &g16;
             v9 = g14 - 1;
             g14 = v9;
         }
-        // 0x404e7c
+        // 0x40875c
         v10 = g13 - 1;
         g13 = v10;
         while (v10 >= 0) {
-            // 0x404df9
-            codemarker_alpha(15);
-            codemarker_alpha(16);
+            // 0x4086d9
+            mage_alpha15(15);
+            mage_alpha16(16);
             g14 = 5;
-            codemarker_alpha(17);
+            mage_alpha17(17);
             g15 = 0;
             *(int64_t *)v3 = 3;
             while ((int32_t)&g16 <= 6) {
-                // 0x404e41
+                // 0x408721
                 *(int64_t *)(8 * (int64_t)(int32_t)&g16 + v3) = 3;
             }
-            // 0x404e67
+            // 0x408747
             g15 = &g16;
             v9 = g14 - 1;
             g14 = v9;
             while (v9 >= 0) {
-                // 0x404e22
-                codemarker_alpha(17);
+                // 0x408702
+                mage_alpha17(17);
                 g15 = 0;
                 *(int64_t *)v3 = 3;
                 while ((int32_t)&g16 <= 6) {
-                    // 0x404e41
+                    // 0x408721
                     *(int64_t *)(8 * (int64_t)(int32_t)&g16 + v3) = 3;
                 }
-                // 0x404e67
+                // 0x408747
                 g15 = &g16;
                 v9 = g14 - 1;
                 g14 = v9;
             }
-            // 0x404e7c
+            // 0x40875c
             v10 = g13 - 1;
             g13 = v10;
         }
-        // 0x404e92
-        codemarker_alpha(18);
+        // 0x408772
+        mage_alpha18(18);
         *(int16_t *)&g20 = 0;
-        codemarker_alpha(19);
+        mage_alpha19(19);
         memcpy(&v11, &g4, 980);
         memcpy(&v12, &g5, 392);
         memcpy(&v13, &g6, 720);
         memcpy(&v14, &g7, 1920);
-        codemarker_alpha(20);
-        codemarker_alpha(21);
-        codemarker_alpha(22);
+        mage_alpha20(20);
+        mage_alpha21(21);
+        mage_alpha22(22);
         *(int16_t *)&g20 = (int16_t)&g21;
         while ((int16_t)&g21 <= 7) {
-            // 0x404eb7
-            codemarker_alpha(19);
+            // 0x408797
+            mage_alpha19(19);
             memcpy(&v11, &g4, 980);
             memcpy(&v12, &g5, 392);
             memcpy(&v13, &g6, 720);
             memcpy(&v14, &g7, 1920);
-            codemarker_alpha(20);
-            codemarker_alpha(21);
-            codemarker_alpha(22);
+            mage_alpha20(20);
+            mage_alpha21(21);
+            mage_alpha22(22);
             *(int16_t *)&g20 = (int16_t)&g21;
         }
-        // 0x405387
-        codemarker_alpha(23);
+        // 0x408c67
+        mage_alpha23(23);
         *(char *)&g41 = 1;
         memcpy(&v15, &g8, 160);
         memcpy(&v16, &g9, 64);
-        codemarker_alpha(24);
-        codemarker_alpha(25);
-        codemarker_alpha(26);
+        mage_alpha24(24);
+        mage_alpha25(25);
+        mage_alpha26(26);
         for (int64_t i = 0; i < 3; i++) {
-            // 0x4059ce
+            // 0x4092ae
             *(int32_t *)(v2 - 0x158c + 4 * i) = 1;
         }
-        // 0x405399
+        // 0x408c79
         *(char *)&g41 = (char)&g42;
         while ((char)&g42 <= 6) {
-            // 0x4053aa
+            // 0x408c8a
             memcpy(&v15, &g8, 160);
             memcpy(&v16, &g9, 64);
-            codemarker_alpha(24);
-            codemarker_alpha(25);
-            codemarker_alpha(26);
+            mage_alpha24(24);
+            mage_alpha25(25);
+            mage_alpha26(26);
             for (int64_t i = 0; i < 3; i++) {
-                // 0x4059ce
+                // 0x4092ae
                 *(int32_t *)(v2 - 0x158c + 4 * i) = 1;
             }
-            // 0x405399
+            // 0x408c79
             *(char *)&g41 = (char)&g42;
         }
-        // 0x405a0c
+        // 0x4092ec
         v17 = g12 - 1;
         g12 = v17;
     }
-    int64_t v18 = *(int64_t *)*(int64_t *)*(int64_t *)*(int64_t *)0x40a6d0; // 0x405a30
-    int32_t * v19 = (int32_t *)v18; // 0x405a33
+    int64_t v18 = *(int64_t *)*(int64_t *)*(int64_t *)*(int64_t *)0x4126d0; // 0x409310
+    int32_t * v19 = (int32_t *)v18; // 0x409313
     *v19 = *v19 ^ 0xd51ca35;
-    int64_t v20 = safe_div_func_uint32_t_u_u(0xfffffffb, g51, 64); // 0x405a66
-    int64_t v21 = safe_mul_func_int64_t_s_s(-0x19a60625, 1); // 0x405a91
-    int64_t v22 = v21 + 0x19a60625; // 0x405aac
-    int64_t v23 = g51 != (int32_t)((int32_t)v20 < (int32_t)(v22 < 0 == ((v22 ^ v21) & (v21 ^ -0x8000000000000000)) < 0 == (v22 != 0))); // 0x405acd
+    int64_t v20 = safe_div_func_uint32_t_u_u(0xfffffffb, g51, 64); // 0x409346
+    int64_t v21 = safe_mul_func_int64_t_s_s(-0x19a60625, 1); // 0x409371
+    int64_t v22 = v21 + 0x19a60625; // 0x40938c
+    int64_t v23 = g51 != (int32_t)((int32_t)v20 < (int32_t)(v22 < 0 == ((v22 ^ v21) & (v21 ^ -0x8000000000000000)) < 0 == (v22 != 0))); // 0x4093ad
     int32_t v24 = g51;
-    uint32_t v25 = (int32_t)safe_sub_func_uint8_t_u_u(v23, (int64_t)(v24 % 256 ^ 1), (int64_t)v24, v23) % 256; // 0x405b1d
+    uint32_t v25 = (int32_t)safe_sub_func_uint8_t_u_u(v23, (int64_t)(v24 % 256 ^ 1), (int64_t)v24, v23) % 256; // 0x4093fd
     *(int32_t *)g56 = v25;
     *(int32_t *)g54 = v25;
     *(int32_t *)&g53 = *(int32_t *)&g10 | v25;
@@ -2735,47 +4905,47 @@ int64_t func_1(int64_t a1) {
     return (int64_t)v26 & -0x10000 | (int64_t)v26;
 }
 
-// Address range: 0x405b50 - 0x405ba3
+// Address range: 0x409430 - 0x409483
 int64_t transparent_crc(int32_t a1, char * a2, int64_t a3) {
-    int64_t chars_printed = crc32_8bytes((int64_t)a1); // 0x405b70
+    int64_t chars_printed = crc32_8bytes((int64_t)a1); // 0x409450
     if ((int32_t)a3 != 0) {
-        // 0x405b72
+        // 0x409452
         chars_printed = printf("...checksum after hashing %s : %lX\n", a2, -1 - g50);
     }
-    // 0x405b9d
+    // 0x40947d
     return chars_printed;
 }
 
-// Address range: 0x405bb0 - 0x405bd8
+// Address range: 0x409490 - 0x4094b8
 int64_t platform_main_end(int64_t a1, int64_t a2) {
-    // 0x405bb0
+    // 0x409490
     return printf("checksum = %X\n", (int32_t)a1);
 }
 
-// Address range: 0x405be0 - 0x405bfc
+// Address range: 0x4094c0 - 0x4094dc
 int64_t safe_sub_func_uint8_t_u_u(uint64_t a1, uint64_t a2, int64_t a3, int64_t a4) {
-    // 0x405be0
+    // 0x4094c0
     return a1 % 256 - a2 % 256 & 0xffffffff;
 }
 
-// Address range: 0x405c00 - 0x405c28
+// Address range: 0x4094e0 - 0x409508
 int64_t safe_div_func_uint32_t_u_u(int64_t a1, uint32_t a2, int64_t a3) {
-    int64_t v1 = 0x100000000 * a1 >> 32; // 0x405c04
-    int64_t v2 = v1; // 0x405c0e
+    int64_t v1 = 0x100000000 * a1 >> 32; // 0x4094e4
+    int64_t v2 = v1; // 0x4094ee
     if (a2 != 0) {
-        // 0x405c18
+        // 0x4094f8
         v2 = (int32_t)v1 / a2;
     }
-    // 0x405c23
+    // 0x409503
     return v2 & 0xffffffff;
 }
 
-// Address range: 0x405c30 - 0x405d2c
+// Address range: 0x409510 - 0x40960c
 int64_t safe_mul_func_int64_t_s_s(int32_t a1, int64_t a2) {
     if (a1 >= 1 && a2 >= 1) {
         int64_t result = a1;
         if (0x7fffffffffffffff / a2 < result) {
-            // 0x405d26
+            // 0x409606
             return result;
         }
     }
@@ -2783,7 +4953,7 @@ int64_t safe_mul_func_int64_t_s_s(int32_t a1, int64_t a2) {
         if (a2 >= 0 != a2 != 0) {
             int64_t result2 = a1;
             if ((int64_t)(-0x8000000000000000 / (int128_t)result2) > a2) {
-                // 0x405d26
+                // 0x409606
                 return result2;
             }
         }
@@ -2791,30 +4961,30 @@ int64_t safe_mul_func_int64_t_s_s(int32_t a1, int64_t a2) {
     if (a2 >= 1 && a1 >= 0 != a1 != 0) {
         int64_t result3 = a1;
         if (result3 < (int64_t)(-0x8000000000000000 / (int128_t)a2)) {
-            // 0x405d26
+            // 0x409606
             return result3;
         }
     }
     if (a1 >= 0 == (a1 != 0)) {
-        // 0x405d26
+        // 0x409606
         return (uint32_t)((int32_t)a2 * a1);
     }
     if (a1 == 0 || a2 >= 0 == (a2 != 0)) {
-        // 0x405d26
+        // 0x409606
         return (uint32_t)((int32_t)a2 * a1);
     }
     int64_t result4 = a1;
     if (0x7fffffffffffffff / result4 > a2) {
-        // 0x405d26
+        // 0x409606
         return result4;
     }
-    // 0x405d26
+    // 0x409606
     return (int32_t)a2 * a1;
 }
 
-// Address range: 0x405d30 - 0x405df2
+// Address range: 0x409610 - 0x4096d2
 int64_t crc32_8bytes(uint64_t a1) {
-    // 0x405d30
+    // 0x409610
     crc32_byte(a1 % 256);
     crc32_byte(a1 / 256 % 256);
     crc32_byte(a1 / 0x10000 % 256);
@@ -2825,11 +4995,11 @@ int64_t crc32_8bytes(uint64_t a1) {
     return crc32_byte(a1 / 0x100000000000000);
 }
 
-// Address range: 0x405e00 - 0x405e3e
+// Address range: 0x4096e0 - 0x40971e
 int64_t crc32_byte(int64_t a1) {
     uint32_t v1 = g50;
-    int32_t v2 = *(int32_t *)((int64_t)(4 * (v1 ^ (int32_t)a1) & 1020) + (int64_t)&g217); // 0x405e2e
-    int32_t result = v1 / 256 ^ v2; // 0x405e2e
+    int32_t v2 = *(int32_t *)((int64_t)(4 * (v1 ^ (int32_t)a1) & 1020) + (int64_t)&g217); // 0x40970e
+    int32_t result = v1 / 256 ^ v2; // 0x40970e
     g50 = result;
     return result;
 }
@@ -2837,5 +5007,5 @@ int64_t crc32_byte(int64_t a1) {
 // --------------------- Meta-Information ---------------------
 
 // Detected compiler/packer: gcc (15.2.1)
-// Detected functions: 12
+// Detected functions: 322
 

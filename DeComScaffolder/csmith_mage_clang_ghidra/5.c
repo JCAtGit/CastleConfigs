@@ -282,34 +282,32 @@ typedef struct evp_pkey_ctx_st EVP_PKEY_CTX;
 
 undefined main;
 undefined1 completed.0;
-undefined4 g_214;
-ulong DAT_0040d4d8;
-undefined8 g_259;
-undefined1 DAT_0040d4e8;
+ulong DAT_004104d8;
 undefined4 g_282;
-ulong DAT_0040d4f1;
+undefined1 DAT_004104e8;
 undefined8 g_306;
-ulong DAT_0040d501;
-ulong DAT_0040d511;
+ulong DAT_004104f1;
 undefined8 g_314;
+ulong DAT_00410501;
 undefined4 g_354;
-ulong DAT_0040d521;
+ulong DAT_00410511;
 undefined4 g_357;
-ulong DAT_0040d531;
 undefined4 g_371;
+ulong DAT_00410521;
+ulong DAT_00410531;
 undefined4 g_434;
 undefined8 g_456;
-undefined1 DAT_0040d058;
 undefined8 g_544;
+undefined1 DAT_00410058;
 undefined1 g_545;
 undefined1[162] g_646;
 undefined4 crc32_context;
-undefined DAT_004082a4;
+undefined DAT_004092a4;
 undefined2 g_21;
 undefined8 g_42;
-undefined DAT_004083ce;
 undefined8 g_58;
 undefined8 g_61;
+undefined DAT_004093ce;
 undefined8 g_63;
 undefined1[12] g_67;
 undefined8 g_73;
@@ -317,15 +315,17 @@ undefined1[16] g_135;
 undefined4 g_137;
 undefined8 g_158;
 undefined8 g_170;
+undefined4 g_214;
+undefined8 g_259;
 undefined1[1024] crc32_tab;
-short DAT_0040d036;
 pointer g_448;
-undefined DAT_0040d034;
-long DAT_0040d059;
-char DAT_0040d061;
-undefined DAT_0040d4d8;
+short DAT_00410036;
+undefined DAT_00410034;
+long DAT_00410059;
+char DAT_00410061;
 pointer g_184;
-long DAT_0040d4f1;
+undefined DAT_004104d8;
+long DAT_004104f1;
 pointer g_392;
 pointer g_257;
 undefined8 g_192;
@@ -333,16 +333,16 @@ pointer g_432;
 pointer g_530;
 pointer g_507;
 pointer g_534;
-undefined DAT_004084b0;
-undefined DAT_00408d50;
 pointer g_532;
-undefined DAT_00408fa0;
-undefined DAT_004090c0;
-undefined DAT_00409390;
 undefined DAT_004094b0;
-undefined2 DAT_0040d03c;
-uint UNK_0040d4ed;
-undefined4 UNK_0040d51d;
+undefined DAT_00409d50;
+undefined DAT_00409fa0;
+undefined DAT_0040a0c0;
+undefined DAT_0040a390;
+undefined DAT_0040a4b0;
+undefined2 DAT_0041003c;
+uint UNK_004104ed;
+undefined4 UNK_0041051d;
 pointer g_531;
 pointer g_428;
 undefined8 g_429;
@@ -352,25 +352,25 @@ pointer g_417;
 pointer g_168;
 pointer g_379;
 pointer g_368;
-undefined DAT_00409680;
-short DAT_0040d03a;
-undefined1 DAT_0040d061;
-undefined8 DAT_0040d059;
-short DAT_0040d042;
-undefined8 DAT_0040d521;
-undefined8 DAT_0040d511;
-undefined *PTR_DAT_00409af0;
-undefined DAT_00409f30;
-undefined DAT_00409f70;
+undefined DAT_0040a680;
+undefined DAT_0041003a;
+undefined1 DAT_00410061;
+undefined8 DAT_00410059;
+short DAT_00410042;
+undefined8 DAT_00410521;
+undefined8 DAT_00410511;
+undefined *PTR_DAT_0040aaf0;
 undefined1[448] g_144;
-undefined DAT_00409fc0;
-undefined DAT_0040a150;
-undefined *PTR_DAT_0040a390;
-undefined DAT_0040aaa0;
-undefined *PTR_DAT_0040ab00;
-undefined DAT_0040ae00;
-undefined DAT_0040ae50;
-undefined DAT_0040af90;
+undefined DAT_0040af30;
+undefined DAT_0040af70;
+undefined DAT_0040afc0;
+undefined DAT_0040b150;
+undefined *PTR_DAT_0040b390;
+undefined DAT_0040baa0;
+undefined *PTR_DAT_0040bb00;
+undefined DAT_0040be00;
+undefined DAT_0040be50;
+undefined DAT_0040bf90;
 pointer g_171;
 pointer g_172;
 pointer g_169;
@@ -378,8 +378,8 @@ undefined8 g_255;
 pointer g_283;
 pointer g_285;
 pointer g_352;
-ushort DAT_0040d036;
-undefined DAT_0040afc0;
+ushort DAT_00410036;
+undefined DAT_0040bfc0;
 
 int _init(EVP_PKEY_CTX *ctx)
 
@@ -518,7 +518,1127 @@ void frame_dummy(void)
 
 
 
-undefined4 codemarker_alpha(undefined4 param_1)
+undefined4 mage_alpha0(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha1(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha2(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha3(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha4(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha5(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha6(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha7(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha8(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha9(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha10(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha11(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha12(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha13(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha14(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha15(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha16(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha17(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha18(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha19(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha20(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha21(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha22(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha23(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha24(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha25(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha26(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha27(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha28(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha29(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha30(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha31(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha32(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha33(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha34(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha35(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha36(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha37(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha38(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha39(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha40(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha41(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha42(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha43(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha44(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha45(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha46(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha47(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha48(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha49(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha50(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha51(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha52(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha53(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha54(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha55(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha56(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha57(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha58(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha59(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha60(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha61(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha62(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha63(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha64(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha65(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha66(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha67(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha68(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha69(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha70(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha71(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha72(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha73(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha74(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha75(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha76(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha77(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha78(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha79(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha80(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha81(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha82(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha83(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha84(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha85(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha86(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha87(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha88(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha89(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha90(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha91(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha92(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha93(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha94(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha95(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha96(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha97(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha98(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha99(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha100(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha101(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha102(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha103(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha104(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha105(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha106(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha107(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha108(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha109(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha110(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha111(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha112(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha113(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha114(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha115(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha116(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha117(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha118(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha119(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha120(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha121(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha122(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha123(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha124(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha125(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha126(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha127(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha128(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha129(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha130(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha131(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha132(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha133(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha134(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha135(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha136(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha137(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha138(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha139(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha140(undefined4 param_1)
 
 {
   return param_1;
@@ -536,86 +1656,86 @@ undefined8 main(int param_1,long param_2)
   uint local_20;
   uint local_1c;
   
-  codemarker_alpha(0x44);
-  codemarker_alpha(0x45);
+  mage_alpha68(0x44);
+  mage_alpha69(0x45);
   local_28 = 0;
-  codemarker_alpha(0x46);
+  mage_alpha70(0x46);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_28 = 1;
     }
   }
-  codemarker_alpha(0x47);
+  mage_alpha71(0x47);
   platform_main_begin();
-  codemarker_alpha(0x48);
+  mage_alpha72(0x48);
   crc32_gentab();
   func_1();
-  codemarker_alpha(0x49);
+  mage_alpha73(0x49);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    codemarker_alpha(0x4a);
+    mage_alpha74(0x4a);
     transparent_crc((long)(short)(&g_21)[(int)local_1c],"g_21[i]",local_28);
-    codemarker_alpha(0x4b);
+    mage_alpha75(0x4b);
     if (local_28 != 0) {
-      codemarker_alpha(0x4c);
+      mage_alpha76(0x4c);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x4d);
+  mage_alpha77(0x4d);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
     transparent_crc(*(undefined8 *)((long)&g_42 + (long)(int)local_1c * 9),"g_42[i].f0",local_28);
-    transparent_crc((long)(char)(&DAT_0040d058)[(long)(int)local_1c * 9],"g_42[i].f1",local_28);
-    codemarker_alpha(0x4e);
+    transparent_crc((long)(char)(&DAT_00410058)[(long)(int)local_1c * 9],"g_42[i].f1",local_28);
+    mage_alpha78(0x4e);
     if (local_28 != 0) {
-      codemarker_alpha(0x4f);
+      mage_alpha79(0x4f);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x50);
+  mage_alpha80(0x50);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    codemarker_alpha(0x51);
+    mage_alpha81(0x51);
     transparent_crc(*(undefined2 *)((long)&g_58 + (long)(int)local_1c * 2),"g_58[i]",local_28);
-    codemarker_alpha(0x52);
+    mage_alpha82(0x52);
     if (local_28 != 0) {
-      codemarker_alpha(0x53);
+      mage_alpha83(0x53);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x54);
+  mage_alpha84(0x54);
   transparent_crc((long)(g_61 << 0x25) >> 0x25,"g_61.f0",local_28);
-  codemarker_alpha(0x55);
+  mage_alpha85(0x55);
   transparent_crc((long)(g_61 << 0x23) >> 0x3e,"g_61.f1",local_28);
-  codemarker_alpha(0x56);
+  mage_alpha86(0x56);
   transparent_crc((uint)(g_61 >> 0x1d) & 0x1fffffff,"g_61.f2",local_28);
-  codemarker_alpha(0x57);
-  transparent_crc((long)(DAT_0040d4d8 << 0x2d | g_61 >> 0x13) >> 0x27,"g_61.f3",local_28);
-  codemarker_alpha(0x58);
-  transparent_crc((uint)(DAT_0040d4d8 >> 0x13) & 0x7ffff,"g_61.f4",local_28);
-  codemarker_alpha(0x59);
-  transparent_crc((uint)(DAT_0040d4d8 >> 0x26) & 0x3fffff,"g_61.f5",local_28);
-  transparent_crc(g_63,&DAT_004082a4,local_28);
-  codemarker_alpha(0x5a);
+  mage_alpha87(0x57);
+  transparent_crc((long)(DAT_004104d8 << 0x2d | g_61 >> 0x13) >> 0x27,"g_61.f3",local_28);
+  mage_alpha88(0x58);
+  transparent_crc((uint)(DAT_004104d8 >> 0x13) & 0x7ffff,"g_61.f4",local_28);
+  mage_alpha89(0x59);
+  transparent_crc((uint)(DAT_004104d8 >> 0x26) & 0x3fffff,"g_61.f5",local_28);
+  transparent_crc(g_63,&DAT_004092a4,local_28);
+  mage_alpha90(0x5a);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    codemarker_alpha(0x5b);
+    mage_alpha91(0x5b);
     transparent_crc((long)*(int *)(g_67 + (long)(int)local_1c * 4),"g_67[i]",local_28);
-    codemarker_alpha(0x5c);
+    mage_alpha92(0x5c);
     if (local_28 != 0) {
-      codemarker_alpha(0x5d);
+      mage_alpha93(0x5d);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x5e);
+  mage_alpha94(0x5e);
   transparent_crc((uint)g_73 & 0x7fffffff,"g_73.f0",local_28);
-  codemarker_alpha(0x5f);
+  mage_alpha95(0x5f);
   transparent_crc((long)(int)((g_73 << 6) >> 0x25),"g_73.f1",local_28);
-  transparent_crc(DAT_0040d4e8,"g_73.f2",local_28);
-  codemarker_alpha(0x60);
+  transparent_crc(DAT_004104e8,"g_73.f2",local_28);
+  mage_alpha96(0x60);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    codemarker_alpha(0x61);
+    mage_alpha97(0x61);
     transparent_crc(*(undefined4 *)(g_135 + (long)(int)local_1c * 4),"g_135[i]",local_28);
-    codemarker_alpha(0x62);
+    mage_alpha98(0x62);
     if (local_28 != 0) {
-      codemarker_alpha(99);
+      mage_alpha99(99);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -624,93 +1744,93 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_170,"g_170",local_28);
   transparent_crc(g_214,"g_214",local_28);
   transparent_crc(g_259,"g_259",local_28);
-  codemarker_alpha(100);
+  mage_alpha100(100);
   transparent_crc((long)(_g_282 << 0x25) >> 0x25,"g_282.f0",local_28);
-  codemarker_alpha(0x65);
+  mage_alpha101(0x65);
   transparent_crc((long)(_g_282 << 0x23) >> 0x3e,"g_282.f1",local_28);
-  codemarker_alpha(0x66);
+  mage_alpha102(0x66);
   transparent_crc((uint)(_g_282 >> 0x1d) & 0x1fffffff,"g_282.f2",local_28);
-  codemarker_alpha(0x67);
-  transparent_crc((long)(DAT_0040d4f1 << 0x2d | _g_282 >> 0x13) >> 0x27,"g_282.f3",local_28);
-  codemarker_alpha(0x68);
-  transparent_crc((uint)(DAT_0040d4f1 >> 0x13) & 0x7ffff,"g_282.f4",local_28);
-  codemarker_alpha(0x69);
-  transparent_crc((uint)(DAT_0040d4f1 >> 0x26) & 0x3fffff,"g_282.f5",local_28);
-  codemarker_alpha(0x6a);
+  mage_alpha103(0x67);
+  transparent_crc((long)(DAT_004104f1 << 0x2d | _g_282 >> 0x13) >> 0x27,"g_282.f3",local_28);
+  mage_alpha104(0x68);
+  transparent_crc((uint)(DAT_004104f1 >> 0x13) & 0x7ffff,"g_282.f4",local_28);
+  mage_alpha105(0x69);
+  transparent_crc((uint)(DAT_004104f1 >> 0x26) & 0x3fffff,"g_282.f5",local_28);
+  mage_alpha106(0x6a);
   transparent_crc((long)(g_306 << 0x25) >> 0x25,"g_306.f0",local_28);
-  codemarker_alpha(0x6b);
+  mage_alpha107(0x6b);
   transparent_crc((long)(g_306 << 0x23) >> 0x3e,"g_306.f1",local_28);
-  codemarker_alpha(0x6c);
+  mage_alpha108(0x6c);
   transparent_crc((uint)(g_306 >> 0x1d) & 0x1fffffff,"g_306.f2",local_28);
-  codemarker_alpha(0x6d);
-  transparent_crc((long)(DAT_0040d501 << 0x2d | g_306 >> 0x13) >> 0x27,"g_306.f3",local_28);
-  codemarker_alpha(0x6e);
-  transparent_crc((uint)(DAT_0040d501 >> 0x13) & 0x7ffff,"g_306.f4",local_28);
-  codemarker_alpha(0x6f);
-  transparent_crc((uint)(DAT_0040d501 >> 0x26) & 0x3fffff,"g_306.f5",local_28);
+  mage_alpha109(0x6d);
+  transparent_crc((long)(DAT_00410501 << 0x2d | g_306 >> 0x13) >> 0x27,"g_306.f3",local_28);
+  mage_alpha110(0x6e);
+  transparent_crc((uint)(DAT_00410501 >> 0x13) & 0x7ffff,"g_306.f4",local_28);
+  mage_alpha111(0x6f);
+  transparent_crc((uint)(DAT_00410501 >> 0x26) & 0x3fffff,"g_306.f5",local_28);
   transparent_crc(g_314,"g_314",local_28);
-  codemarker_alpha(0x70);
+  mage_alpha112(0x70);
   transparent_crc((long)(_g_354 << 0x25) >> 0x25,"g_354.f0",local_28);
-  codemarker_alpha(0x71);
+  mage_alpha113(0x71);
   transparent_crc((long)(_g_354 << 0x23) >> 0x3e,"g_354.f1",local_28);
-  codemarker_alpha(0x72);
+  mage_alpha114(0x72);
   transparent_crc((uint)(_g_354 >> 0x1d) & 0x1fffffff,"g_354.f2",local_28);
-  codemarker_alpha(0x73);
-  transparent_crc((long)(DAT_0040d511 << 0x2d | _g_354 >> 0x13) >> 0x27,"g_354.f3",local_28);
-  codemarker_alpha(0x74);
-  transparent_crc((uint)(DAT_0040d511 >> 0x13) & 0x7ffff,"g_354.f4",local_28);
-  codemarker_alpha(0x75);
-  transparent_crc((uint)(DAT_0040d511 >> 0x26) & 0x3fffff,"g_354.f5",local_28);
-  codemarker_alpha(0x76);
+  mage_alpha115(0x73);
+  transparent_crc((long)(DAT_00410511 << 0x2d | _g_354 >> 0x13) >> 0x27,"g_354.f3",local_28);
+  mage_alpha116(0x74);
+  transparent_crc((uint)(DAT_00410511 >> 0x13) & 0x7ffff,"g_354.f4",local_28);
+  mage_alpha117(0x75);
+  transparent_crc((uint)(DAT_00410511 >> 0x26) & 0x3fffff,"g_354.f5",local_28);
+  mage_alpha118(0x76);
   transparent_crc((long)(_g_357 << 0x25) >> 0x25,"g_357.f0",local_28);
-  codemarker_alpha(0x77);
+  mage_alpha119(0x77);
   transparent_crc((long)(_g_357 << 0x23) >> 0x3e,"g_357.f1",local_28);
-  codemarker_alpha(0x78);
+  mage_alpha120(0x78);
   transparent_crc((uint)(_g_357 >> 0x1d) & 0x1fffffff,"g_357.f2",local_28);
-  codemarker_alpha(0x79);
-  transparent_crc((long)(DAT_0040d521 << 0x2d | _g_357 >> 0x13) >> 0x27,"g_357.f3",local_28);
-  codemarker_alpha(0x7a);
-  transparent_crc((uint)(DAT_0040d521 >> 0x13) & 0x7ffff,"g_357.f4",local_28);
-  codemarker_alpha(0x7b);
-  transparent_crc((uint)(DAT_0040d521 >> 0x26) & 0x3fffff,"g_357.f5",local_28);
-  transparent_crc((long)g_371,&DAT_004083ce,local_28);
+  mage_alpha121(0x79);
+  transparent_crc((long)(DAT_00410521 << 0x2d | _g_357 >> 0x13) >> 0x27,"g_357.f3",local_28);
+  mage_alpha122(0x7a);
+  transparent_crc((uint)(DAT_00410521 >> 0x13) & 0x7ffff,"g_357.f4",local_28);
+  mage_alpha123(0x7b);
+  transparent_crc((uint)(DAT_00410521 >> 0x26) & 0x3fffff,"g_357.f5",local_28);
+  transparent_crc((long)g_371,&DAT_004093ce,local_28);
   transparent_crc((long)g_434,"g_434",local_28);
-  codemarker_alpha(0x7c);
+  mage_alpha124(0x7c);
   transparent_crc((long)(g_456 << 0x25) >> 0x25,"g_456.f0",local_28);
-  codemarker_alpha(0x7d);
+  mage_alpha125(0x7d);
   transparent_crc((long)(g_456 << 0x23) >> 0x3e,"g_456.f1",local_28);
-  codemarker_alpha(0x7e);
+  mage_alpha126(0x7e);
   transparent_crc((uint)(g_456 >> 0x1d) & 0x1fffffff,"g_456.f2",local_28);
-  codemarker_alpha(0x7f);
-  transparent_crc((long)(DAT_0040d531 << 0x2d | g_456 >> 0x13) >> 0x27,"g_456.f3",local_28);
-  codemarker_alpha(0x80);
-  transparent_crc((uint)(DAT_0040d531 >> 0x13) & 0x7ffff,"g_456.f4",local_28);
-  codemarker_alpha(0x81);
-  transparent_crc((uint)(DAT_0040d531 >> 0x26) & 0x3fffff,"g_456.f5",local_28);
-  codemarker_alpha(0x82);
+  mage_alpha127(0x7f);
+  transparent_crc((long)(DAT_00410531 << 0x2d | g_456 >> 0x13) >> 0x27,"g_456.f3",local_28);
+  mage_alpha128(0x80);
+  transparent_crc((uint)(DAT_00410531 >> 0x13) & 0x7ffff,"g_456.f4",local_28);
+  mage_alpha129(0x81);
+  transparent_crc((uint)(DAT_00410531 >> 0x26) & 0x3fffff,"g_456.f5",local_28);
+  mage_alpha130(0x82);
   transparent_crc(0xffffffffffffff1a,"g_475.f0",local_28);
-  codemarker_alpha(0x83);
+  mage_alpha131(0x83);
   transparent_crc(0xffffffffffffffff,"g_475.f1",local_28);
-  codemarker_alpha(0x84);
+  mage_alpha132(0x84);
   transparent_crc(0xc53,"g_475.f2",local_28);
-  codemarker_alpha(0x85);
+  mage_alpha133(0x85);
   transparent_crc(0xffffffffffffe9e8,"g_475.f3",local_28);
-  codemarker_alpha(0x86);
+  mage_alpha134(0x86);
   transparent_crc(0x27c,"g_475.f4",local_28);
-  codemarker_alpha(0x87);
+  mage_alpha135(0x87);
   transparent_crc(0x3e3,"g_475.f5",local_28);
   transparent_crc(g_544,"g_544",local_28);
   transparent_crc(g_545,"g_545",local_28);
-  codemarker_alpha(0x88);
+  mage_alpha136(0x88);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
-    codemarker_alpha(0x89);
+    mage_alpha137(0x89);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      codemarker_alpha(0x8a);
+      mage_alpha138(0x8a);
       transparent_crc((long)*(short *)(g_646 + (long)(int)local_20 * 2 + (long)(int)local_1c * 0x12)
                       ,"g_646[i][j]",local_28);
-      codemarker_alpha(0x8b);
+      mage_alpha139(0x8b);
       if (local_28 != 0) {
-        codemarker_alpha(0x8c);
+        mage_alpha140(0x8c);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
@@ -753,24 +1873,24 @@ void crc32_gentab(void)
 
 
 
-// WARNING: Removing unreachable block (ram,0x0040167a)
-// WARNING: Removing unreachable block (ram,0x00401a1f)
-// WARNING: Removing unreachable block (ram,0x004019f1)
-// WARNING: Removing unreachable block (ram,0x00401a04)
-// WARNING: Removing unreachable block (ram,0x00401d69)
-// WARNING: Removing unreachable block (ram,0x004018b1)
-// WARNING: Removing unreachable block (ram,0x004018d8)
-// WARNING: Removing unreachable block (ram,0x004018e3)
-// WARNING: Removing unreachable block (ram,0x0040190a)
-// WARNING: Removing unreachable block (ram,0x0040190c)
-// WARNING: Removing unreachable block (ram,0x00401924)
-// WARNING: Removing unreachable block (ram,0x00401969)
-// WARNING: Removing unreachable block (ram,0x0040197b)
-// WARNING: Removing unreachable block (ram,0x004019ae)
-// WARNING: Removing unreachable block (ram,0x004019bc)
-// WARNING: Removing unreachable block (ram,0x004019cc)
-// WARNING: Removing unreachable block (ram,0x004019c7)
-// WARNING: Heritage AFTER dead removal. Example location: s0xfffffffffffff724 : 0x00401f38
+// WARNING: Removing unreachable block (ram,0x004027fa)
+// WARNING: Removing unreachable block (ram,0x00402b9f)
+// WARNING: Removing unreachable block (ram,0x00402b71)
+// WARNING: Removing unreachable block (ram,0x00402b84)
+// WARNING: Removing unreachable block (ram,0x00402ee9)
+// WARNING: Removing unreachable block (ram,0x00402a31)
+// WARNING: Removing unreachable block (ram,0x00402a58)
+// WARNING: Removing unreachable block (ram,0x00402a63)
+// WARNING: Removing unreachable block (ram,0x00402a8a)
+// WARNING: Removing unreachable block (ram,0x00402a8c)
+// WARNING: Removing unreachable block (ram,0x00402aa4)
+// WARNING: Removing unreachable block (ram,0x00402ae9)
+// WARNING: Removing unreachable block (ram,0x00402afb)
+// WARNING: Removing unreachable block (ram,0x00402b2e)
+// WARNING: Removing unreachable block (ram,0x00402b3c)
+// WARNING: Removing unreachable block (ram,0x00402b4c)
+// WARNING: Removing unreachable block (ram,0x00402b47)
+// WARNING: Heritage AFTER dead removal. Example location: s0xfffffffffffff724 : 0x004030b8
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
 // WARNING: Restarted to delay deadcode elimination for space: stack
 
@@ -1039,10 +2159,10 @@ byte func_1(void)
   local_10 = 8;
   local_18 = 0;
   local_20 = &g_371;
-  memcpy(local_898,&DAT_004084b0,0x870);
+  memcpy(local_898,&DAT_004094b0,0x870);
   local_8a0 = 0;
   local_8dc = 0xfffffff8;
-  local_8e8 = &DAT_0040d4e8;
+  local_8e8 = &DAT_004104e8;
   local_8f0 = &g_259;
   local_8f8 = 0;
   local_900 = 0xe9c1b31fa734fc83;
@@ -1050,31 +2170,31 @@ byte func_1(void)
   local_901 = 0x96;
   local_910 = 0xaac4f8f9;
   local_918 = 0;
-  codemarker_alpha(0);
+  mage_alpha0(0);
   local_920 = &g_357;
-  codemarker_alpha(1);
-  codemarker_alpha(2);
+  mage_alpha1(1);
+  mage_alpha2(2);
   for (local_924 = 0; local_924 < 6; local_924 = local_924 + 1) {
     auStack_8d8[local_924] = 0;
   }
-  codemarker_alpha(3);
-  sVar9 = DAT_0040d036;
-  lVar19 = (long)DAT_0040d036;
-  iVar14 = (int)_DAT_0040d034;
+  mage_alpha3(3);
+  sVar9 = DAT_00410036;
+  lVar19 = (long)DAT_00410036;
+  iVar14 = (int)_DAT_00410034;
   uVar16 = local_10 & 0xff;
   uVar15 = func_50((int)(char)local_10);
-  uVar7 = safe_sub_func_uint64_t_u_u(DAT_0040d059 == 0xfff8,(long)(int)local_10);
+  uVar7 = safe_sub_func_uint64_t_u_u(DAT_00410059 == 0xfff8,(long)(int)local_10);
   uVar7 = safe_mod_func_uint16_t_u_u(uVar7,g_21);
   uVar15 = safe_div_func_uint32_t_u_u(uVar15,uVar7);
-  sVar8 = safe_rshift_func_int32_t_s_s(uVar15,(int)DAT_0040d036);
+  sVar8 = safe_rshift_func_int32_t_s_s(uVar15,(int)DAT_00410036);
   func_43((int)sVar8,(undefined2)local_10);
-  local_960 = DAT_0040d058;
+  local_960 = DAT_00410058;
   local_968 = g_42;
-  local_970 = DAT_0040d061;
-  local_978 = DAT_0040d059;
-  local_980 = DAT_0040d058;
+  local_970 = DAT_00410061;
+  local_978 = DAT_00410059;
+  local_980 = DAT_00410058;
   local_988 = g_42;
-  local_9a8 = func_36(sVar9,DAT_0040d059,DAT_0040d061,g_42,DAT_0040d058,(int)(char)DAT_0040d4e8,
+  local_9a8 = func_36(sVar9,DAT_00410059,DAT_00410061,g_42,DAT_00410058,(int)(char)DAT_004104e8,
                       local_10 & 0xff);
   local_9a0 = extraout_DL;
   local_998 = local_9a8;
@@ -1082,7 +2202,7 @@ byte func_1(void)
   local_958 = local_9a8;
   local_950 = extraout_DL;
   local_9c8 = func_33(local_9a8,extraout_DL,
-                      (int)((CONCAT44(uRam000000000040d4ed,g_282) << 0x23) >> 0x3e));
+                      (int)((CONCAT44(uRam00000000004104ed,g_282) << 0x23) >> 0x3e));
   local_9c0 = extraout_DL_00;
   local_9b8 = local_9c8;
   local_9b0 = extraout_DL_00;
@@ -1093,7 +2213,7 @@ byte func_1(void)
   sVar9 = safe_lshift_func_int64_t_s_u((long)(int)local_10,0x27);
   local_9d0 = local_1eb;
   uVar20 = func_22(iVar14,(int)sVar9,CONCAT71(uStack_1f2,local_1f3),local_1eb);
-  DAT_0040d061 = safe_mul_func_int64_t_s_s(lVar19,uVar20);
+  DAT_00410061 = safe_mul_func_int64_t_s_s(lVar19,uVar20);
   bVar3 = safe_div_func_int64_t_s_s(1);
   *local_8e8 = bVar3;
   local_9f8 = func_15(bVar3);
@@ -1103,7 +2223,7 @@ byte func_1(void)
   local_938 = local_9f8;
   local_930 = extraout_DL_01;
   uVar15 = func_11(local_9f8,extraout_DL_01,CONCAT71(uStack_1f2,local_1f3),local_8dc);
-  func_6(uVar15,(long)(int)local_8dc,(char)((CONCAT44(uRam000000000040d51d,g_357) << 0x23) >> 0x3e),
+  func_6(uVar15,(long)(int)local_8dc,(char)((CONCAT44(uRam000000000041051d,g_357) << 0x23) >> 0x3e),
          local_8dc);
   safe_div_func_uint16_t_u_u(0x341e,(short)local_1eb);
   *local_8f0 = (long)(int)(uint)(0xfffffffffffffff9 < CONCAT71(uStack_1f2,local_1f3));
@@ -1119,12 +2239,12 @@ byte func_1(void)
     memset(local_a58,0,0x20);
     local_a60 = (uint *)0x0;
     local_a68 = &g_137;
-    codemarker_alpha(4);
+    mage_alpha4(4);
     local_9f9 = 0x61;
     local_a88 = (undefined4)g_61;
     uStack_a84 = g_61._4_4_;
-    uStack_a80 = (undefined4)DAT_0040d4d8;
-    uStack_a7c = DAT_0040d4d8._4_4_;
+    uStack_a80 = (undefined4)DAT_004104d8;
+    uStack_a7c = DAT_004104d8._4_4_;
     *local_a08 = &g_371;
     safe_rshift_func_uint32_t_u_s(local_9f9,0x14);
     bVar24 = g_428 != g_429;
@@ -1150,8 +2270,8 @@ byte func_1(void)
       lVar19 = safe_lshift_func_uint64_t_u_s(local_a19,0);
       safe_div_func_int32_t_s_s(CONCAT71(uStack_1f2,local_1f3) != lVar19,0x97ce0806);
       sVar9 = safe_lshift_func_int16_t_s_u
-                        (((uint)(local_a28 == ((uint)(DAT_0040d531 >> 0x13) & 0x7ffff)) &
-                         (uint)((CONCAT44(uRam000000000040d4ed,g_282) << 0x23) >> 0x3e)) != 1,7);
+                        (((uint)(local_a28 == ((uint)(DAT_00410531 >> 0x13) & 0x7ffff)) &
+                         (uint)((CONCAT44(uRam00000000004104ed,g_282) << 0x23) >> 0x3e)) != 1,7);
       uVar15 = safe_lshift_func_int64_t_s_u((int)sVar9 < (int)local_10,local_900 & 0xffffffff);
       safe_lshift_func_uint8_t_u_s(local_1f3,uVar15);
       iVar14 = safe_rshift_func_int32_t_s_u(**(undefined4 **)g_184,0x19);
@@ -1160,10 +2280,10 @@ byte func_1(void)
       *g_185 = *g_185 & 0xd51f2b3b;
     }
     else {
-      codemarker_alpha(5);
+      mage_alpha5(5);
       local_a90 = &g_353;
       g_353 = (undefined *)0x0;
-      codemarker_alpha(6);
+      mage_alpha6(6);
       g_259 = 0;
     }
     if (local_9f9 == 0) {
@@ -1177,7 +2297,7 @@ byte func_1(void)
     local_ae1 = 0x7d;
     local_af0 = 0;
     local_af8 = &g_58;
-    local_b00 = 0x40d066;
+    local_b00 = 0x410066;
     local_b04 = 0xfffffffe;
     for (local_a19 = 0; local_a19 < 2; local_a19 = local_a19 + 1) {
       for (local_b2c = 0; local_b2c < 4; local_b2c = local_b2c + 1) {
@@ -1190,7 +2310,7 @@ byte func_1(void)
     }
     *(undefined8 **)g_257 = local_af8;
     if (local_af8 == (undefined8 *)0x0) {
-      return DAT_0040d4e8;
+      return DAT_004104e8;
     }
     return (byte)local_b04;
   }
@@ -1200,15 +2320,15 @@ byte func_1(void)
   local_b40 = 0xabfe3ee2;
   local_b44 = 0;
   local_b48 = 0xa9f295a1;
-  memcpy(local_d88,&DAT_00408d50,0x240);
+  memcpy(local_d88,&DAT_00409d50,0x240);
   local_d91 = 0x3fff1d380007edd;
   local_d89 = 0xc2;
-  codemarker_alpha(10);
+  mage_alpha10(10);
   if (local_8dc != 0) {
-    memcpy(local_ec8,&DAT_00408fa0,0x120);
-    codemarker_alpha(0xb);
+    memcpy(local_ec8,&DAT_00409fa0,0x120);
+    mage_alpha11(0xb);
     local_ed0 = 0;
-    codemarker_alpha(0xc);
+    mage_alpha12(0xc);
     local_f18 = &local_ed0;
     local_f10 = &local_ed0;
     local_f08 = &local_ed0;
@@ -1218,10 +2338,10 @@ byte func_1(void)
     local_ee8 = &local_ed0;
     local_ee0 = &local_ed0;
     local_ed8 = &local_ed0;
-    codemarker_alpha(0xd);
+    mage_alpha13(0xd);
     for (local_900 = 0; local_900 < 4; local_900 = local_900 + 1) {
       local_f30 = &local_8dc;
-      local_f38 = 0x40d1e8;
+      local_f38 = 0x4101e8;
       *g_185 = 0xfffffff6;
       local_8dc = local_8dc | 0xfffffff6;
       cVar4 = safe_mod_func_int8_t_s_s(0xfffffffb,(int)(char)local_8dc);
@@ -1305,17 +2425,17 @@ byte func_1(void)
         }
       }
     }
-    return (byte)(uint)((ulong)DAT_0040d4f1 >> 0x26);
+    return (byte)(uint)((ulong)DAT_004104f1 >> 0x26);
   }
-  memcpy(local_13a8,&DAT_004090c0,0x2d0);
+  memcpy(local_13a8,&DAT_0040a0c0,0x2d0);
   local_13ac = 0x44a7f648;
   local_13b0 = 0xd20d8833;
-  memcpy(local_1468,&DAT_00409390,0xb4);
+  memcpy(local_1468,&DAT_0040a390,0xb4);
   local_146c = -8;
   local_1488 = 0x9bff780078ff9b9b;
   local_1480 = 0x9b9bff780078ff9b;
   local_1478 = 0x780078ff;
-  local_1490 = &DAT_0040d03c;
+  local_1490 = &DAT_0041003c;
   local_1578 = 0;
   local_1570 = &local_901;
   local_1568 = &local_901;
@@ -1339,19 +2459,19 @@ byte func_1(void)
   local_14e0 = 0;
   local_14d8 = &g_545;
   local_1579 = 0xa0;
-  codemarker_alpha(0xe);
+  mage_alpha14(0xe);
   local_1588 = 0;
   local_1589 = 0;
-  codemarker_alpha(0xf);
-  codemarker_alpha(0x10);
+  mage_alpha15(0xf);
+  mage_alpha16(0x10);
   for (local_1590 = 0; local_1590 < 6; local_1590 = local_1590 + 1) {
-    auStack_14c8[local_1590] = 0x40d09c;
+    auStack_14c8[local_1590] = 0x41009c;
   }
   for (local_b30 = 0; -0x13 < local_b30; local_b30 = local_b30 + -1) {
     local_159c = 0xcc187775;
     local_15a0 = 0x288d6d0d;
     local_15a4 = 0xffffffff;
-    local_15c0 = 0x40d098;
+    local_15c0 = 0x410098;
     for (local_15c4 = 0; local_15c4 < 5; local_15c4 = local_15c4 + 1) {
       auStack_15b8[local_15c4] = 1;
     }
@@ -1363,18 +2483,18 @@ byte func_1(void)
     local_1861 = (ulong)(long)(int)(uint)(uVar21 < 0xfffa) < 0x86eb0706 || g_545 != '\0';
     if ((uint)local_1861 == (uint)((CONCAT44(g_456._4_4_,(int)g_456) << 0x23) >> 0x3e)) {
       local_15d8 = 0xf74b7869;
-      local_15e0 = &DAT_0040d4e8;
+      local_15e0 = &DAT_004104e8;
       local_15e8 = &local_15e0;
       local_15f0 = &local_b48;
       lVar19 = *(long *)**(undefined8 **)g_530;
       *(long *)g_532 = lVar19;
       uVar21 = (ulong)(int)(uint)(lVar19 == 0);
       *local_8f0 = uVar21;
-      lVar19 = safe_mul_func_int64_t_s_s(uVar21,(DAT_0040d036 < 0x4f ^ 0xffU) & 1);
+      lVar19 = safe_mul_func_int64_t_s_s(uVar21,(DAT_00410036 < 0x4f ^ 0xffU) & 1);
       bVar24 = local_15e8 == &g_429;
       safe_unary_minus_func_int32_t_s((int)((long)(local_909 << 6) >> 0x25));
       uVar16 = (uint)(0xc36d8724a5d3924d <
-                     (ulong)(long)(int)(uint)((local_15c0 != 0x40d098) <=
+                     (ulong)(long)(int)(uint)((local_15c0 != 0x410098) <=
                                              (lVar19 <= (int)(uint)bVar24))) ^ (uint)local_b38;
       *g_185 = uVar16;
       *local_15f0 = uVar16;
@@ -1419,17 +2539,17 @@ byte func_1(void)
   bVar6 = safe_sub_func_uint8_t_u_u(bVar6,bVar24,auVar25._8_8_,bVar24);
   local_10 = (uint)(bVar6 < local_900);
   lVar19 = safe_rshift_func_int64_t_s_s
-                     (0,(int)((uint)((ulong)(DAT_0040d4f1 << 0x2d) >> 0x20) |
-                             uRam000000000040d4ed >> 0x13) >> 7);
+                     (0,(int)((uint)((ulong)(DAT_004104f1 << 0x2d) >> 0x20) |
+                             uRam00000000004104ed >> 0x13) >> 7);
   if ((long)(ulong)((bVar3 ^ local_1458) & 0xff) < lVar19) {
     return (byte)local_900;
   }
-  codemarker_alpha(0x11);
+  mage_alpha17(0x11);
   local_1628 = 0;
   local_162c = 0x56bb8287;
-  codemarker_alpha(0x12);
+  mage_alpha18(0x12);
   if (local_1628 != **(long **)g_530) {
-    codemarker_alpha(0x14);
+    mage_alpha20(0x14);
     safe_lshift_func_int64_t_s_s(0xc53,local_13d8);
     *local_1490 = 0x9880;
     g_646._4_2_ = 0x9880;
@@ -1440,7 +2560,7 @@ byte func_1(void)
     safe_mod_func_int32_t_s_s(0xcbe1dda9,(int)((g_306 << 0x23) >> 0x3e));
     uVar7 = safe_mul_func_uint32_t_u_u(0xfffffffe,0x91ff780d);
     uVar7 = safe_lshift_func_uint16_t_u_s(uVar7,(g_282 << 5) >> 5);
-    DAT_0040d061 = safe_add_func_int64_t_s_s(uVar7,(long)(int)local_162c);
+    DAT_00410061 = safe_add_func_int64_t_s_s(uVar7,(long)(int)local_162c);
     bVar24 = (local_1588 == **(long **)g_531) == local_162c ||
              (int)(uint)(local_1588 == **(long **)g_531) < (int)local_162c;
     cVar4 = safe_mod_func_int8_t_s_s(bVar24,(int)(char)((g_354 << 5) >> 5),extraout_RDX_07,bVar24);
@@ -1459,8 +2579,8 @@ byte func_1(void)
   local_162d = 1;
   local_1638 = 0;
   local_1640 = (short *)((long)&g_58 + 2);
-  memcpy(local_1788,&DAT_004094b0,0x140);
-  codemarker_alpha(0x13);
+  memcpy(local_1788,&DAT_0040a4b0,0x140);
+  mage_alpha19(0x13);
   uVar10 = safe_mul_func_uint16_t_u_u(1,0xffff);
   uVar16 = local_13ac;
   uVar7 = (undefined2)local_b48;
@@ -1482,10 +2602,10 @@ byte func_1(void)
     psVar23 = (short *)(ulong)uVar16;
     uVar21 = (ulong)uVar11;
     local_18a1 = true;
-    if ((int)uVar16 < (int)(uint)uVar11) goto LAB_00402d21;
+    if ((int)uVar16 < (int)(uint)uVar11) goto LAB_00403ea1;
   }
   local_18a1 = (local_909 & 0x7fffffff) != 0;
-LAB_00402d21:
+LAB_00403ea1:
   sVar9 = safe_mod_func_int16_t_s_s
                     ((int)(short)uVar22,local_18a1,uVar21,
                      CONCAT62((int6)((ulong)psVar23 >> 0x10),uVar13) | 0x13d);
@@ -1513,7 +2633,7 @@ LAB_00402d21:
     bVar3 = safe_div_func_uint8_t_u_u
                       ((bVar24 ^ 0xffU) & 1,bVar3 | 0xf2,0x3100fee4ab4271f2,
                        (CONCAT71((int7)((ulong)uVar20 >> 8),bVar24) ^ 0xff) & 0xffffffffffffff01);
-    *g_185 = (uint)((int)((long)((ulong)((int)(uint)bVar3 <= (int)DAT_0040d061) << 0x25) >> 0x25) !=
+    *g_185 = (uint)((int)((long)((ulong)((int)(uint)bVar3 <= (int)DAT_00410061) << 0x25) >> 0x25) !=
                    -1) | *g_185;
     g_185 = *(uint **)g_392;
   }
@@ -1570,7 +2690,7 @@ uint safe_div_func_uint16_t_u_u(ushort param_1,ushort param_2)
 undefined8 func_6(void)
 
 {
-  codemarker_alpha(0x15);
+  mage_alpha21(0x15);
   *(undefined8 **)g_417 = &g_73;
   return **(undefined8 **)g_168;
 }
@@ -1603,27 +2723,27 @@ undefined4 func_11(undefined8 param_1,char param_2,ulong param_3,undefined4 para
   char local_9;
   
   local_40 = g_67;
-  local_48 = 0x40d07c;
+  local_48 = 0x41007c;
   local_50 = &g_137;
   local_54 = 1;
-  local_60 = 0x40d07c;
-  local_68 = 0x40d07c;
+  local_60 = 0x41007c;
+  local_68 = 0x41007c;
   local_70 = 0;
   local_78 = &g_137;
   local_80 = &local_54;
   local_88 = 0;
   local_90 = &g_137;
-  local_98 = 0x40d07c;
+  local_98 = 0x41007c;
   local_34 = param_4;
   local_30 = param_3;
   local_21 = param_1;
   local_19 = param_2;
   local_11 = param_1;
   local_9 = param_2;
-  codemarker_alpha(0x16);
-  codemarker_alpha(0x17);
+  mage_alpha22(0x16);
+  mage_alpha23(0x17);
   for (local_c0 = 0; local_c0 < 3; local_c0 = local_c0 + 1) {
-    auStack_b8[local_c0] = 0x40d07c;
+    auStack_b8[local_c0] = 0x41007c;
   }
   uVar1 = safe_add_func_uint32_t_u_u(local_30 & 0xffffffff,local_9 != '\0');
   *g_185 = uVar1 ^ *g_185;
@@ -1641,8 +2761,8 @@ unkbyte9 func_15(void)
   undefined8 local_11;
   undefined1 local_9;
   
-  codemarker_alpha(0x18);
-  codemarker_alpha(0x19);
+  mage_alpha24(0x18);
+  mage_alpha25(0x19);
   cVar1 = safe_rshift_func_int8_t_s_s(0x48,2);
   lVar3 = safe_rshift_func_uint64_t_u_s((int)cVar1 < (g_282 << 5) >> 5,0xc);
   if (lVar3 == 0) {
@@ -1650,7 +2770,7 @@ unkbyte9 func_15(void)
     local_9 = 0;
   }
   else {
-    codemarker_alpha(0x1a);
+    mage_alpha26(0x1a);
     g_371 = 0x15;
     while (-0x14 < (int)g_371) {
       *(undefined8 *)g_392 = *(undefined8 *)g_184;
@@ -1659,7 +2779,7 @@ unkbyte9 func_15(void)
     }
     *g_185 = *g_185;
     local_11 = g_42;
-    local_9 = DAT_0040d058;
+    local_9 = DAT_00410058;
   }
   return CONCAT18(local_9,local_11);
 }
@@ -1713,7 +2833,7 @@ long safe_mul_func_int64_t_s_s(long param_1,long param_2)
 uint func_22(void)
 
 {
-  codemarker_alpha(0x1b);
+  mage_alpha27(0x1b);
   g_185 = &g_137;
   *(undefined ***)g_379 = &g_353;
   return (uint)(g_306 >> 0x1d) & 0x1fffffff;
@@ -2196,7 +3316,7 @@ int func_28(undefined1 param_1,undefined8 param_2,char param_3,undefined4 param_
   local_50 = &local_30;
   local_48 = &local_30;
   local_40 = 0;
-  codemarker_alpha(0x1c);
+  mage_alpha28(0x1c);
   g_368 = local_30;
   return (int)local_9;
 }
@@ -2224,10 +3344,10 @@ undefined1  [16] func_33(undefined8 param_1,char param_2,undefined4 param_3)
   local_30 = param_2;
   local_28 = param_1;
   local_20 = param_2;
-  memcpy(local_4a8,&DAT_00409680,0x460);
+  memcpy(local_4a8,&DAT_0040a680,0x460);
   local_10 = 0x7e;
   local_18 = 0xfffffffffffffff9;
-  codemarker_alpha(0x1d);
+  mage_alpha29(0x1d);
   *g_192 = (int)local_20;
   _g_282 = _g_282 & 0xfffffffff8000000 | (ulong)((int)local_20 & 0x7ffffff);
   auVar1._9_7_ = (undefined7)((ulong)extraout_RDX >> 8);
@@ -2238,9 +3358,9 @@ undefined1  [16] func_33(undefined8 param_1,char param_2,undefined4 param_3)
 
 
 
-// WARNING: Removing unreachable block (ram,0x00405fd5)
-// WARNING: Removing unreachable block (ram,0x004051bb)
-// WARNING: Removing unreachable block (ram,0x004062d8)
+// WARNING: Removing unreachable block (ram,0x00407155)
+// WARNING: Removing unreachable block (ram,0x0040633b)
+// WARNING: Removing unreachable block (ram,0x00407458)
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
 // WARNING: Restarted to delay deadcode elimination for space: ram
 // WARNING: Restarted to delay deadcode elimination for space: stack
@@ -2433,21 +3553,21 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
   local_1a = param_2;
   local_12 = param_3;
   memset(&local_88,0,0x30);
-  local_88 = 0x40d068;
-  local_80 = 0x40d068;
-  local_70 = 0x40d068;
-  local_68 = 0x40d068;
+  local_88 = 0x410068;
+  local_80 = 0x410068;
+  local_70 = 0x410068;
+  local_68 = 0x410068;
   local_89 = 0x38;
-  memcpy(local_4c8,&PTR_DAT_00409af0,0x438);
+  memcpy(local_4c8,&PTR_DAT_0040aaf0,0x438);
   local_4cc = 0xfffffffa;
-  memcpy(&local_518,&DAT_00409f30,0x3f);
+  memcpy(&local_518,&DAT_0040af30,0x3f);
   local_51a = 0xfff9;
-  local_528 = 0x40d098;
+  local_528 = 0x410098;
   local_52a = 0x347e;
   local_530 = -0x1e85004c;
   local_534 = 0;
   local_538 = 9;
-  memcpy(local_588,&DAT_00409f70,0x50);
+  memcpy(local_588,&DAT_0040af70,0x50);
   local_58a = -1;
   local_590 = 0x24a533f7;
   local_594 = 0xfd86d647;
@@ -2455,28 +3575,28 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
   local_5a0 = 0;
   local_5a8 = &local_51a;
   local_5b0 = 0;
-  local_5b8 = (byte *)&DAT_0040d061;
+  local_5b8 = (byte *)&DAT_00410061;
   local_5c0 = local_510;
-  local_610 = &DAT_0040d4e8;
+  local_610 = &DAT_004104e8;
   local_618 = 0;
   local_619 = 'N';
-  memcpy(&local_798,&DAT_00409fc0,0x17a);
-  codemarker_alpha(0x1e);
-  codemarker_alpha(0x1f);
+  memcpy(&local_798,&DAT_0040afc0,0x17a);
+  mage_alpha30(0x1e);
+  mage_alpha31(0x1f);
   for (local_79c = 0; local_79c < 8; local_79c = local_79c + 1) {
     alStack_608[local_79c] = (long)&local_5c0;
   }
-  codemarker_alpha(0x20);
+  mage_alpha32(0x20);
   lVar11 = local_50;
   *local_58 = local_50;
   sVar5 = safe_rshift_func_uint16_t_u_u((int)(uint)(lVar11 == local_60) < g_63,7);
   if (sVar5 == 0) {
     local_11fc[0] = -0x61767fb5;
     local_1208 = &local_4cc;
-    memcpy(local_1268,&DAT_0040aaa0,0x5a);
+    memcpy(local_1268,&DAT_0040baa0,0x5a);
     local_126a = 0xff6e;
-    memcpy(local_1578,&PTR_DAT_0040ab00,0x300);
-    local_1580 = 0x40d094;
+    memcpy(local_1578,&PTR_DAT_0040bb00,0x300);
+    local_1580 = 0x410094;
     apuStack_1598[2] = (uint *)&local_1580;
     apuStack_1598[1] = &g_214;
     local_159c = 0x7a7ccc4f;
@@ -2501,14 +3621,14 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
     local_15da[0xe] = 0x1fa7;
     local_15da[0xf] = -0x7229;
     local_15da[0x10] = 0x1fa7;
-    codemarker_alpha(0x2c);
+    mage_alpha44(0x2c);
     local_15e8 = &g_282;
-    codemarker_alpha(0x2d);
-    codemarker_alpha(0x2e);
+    mage_alpha45(0x2d);
+    mage_alpha46(0x2e);
     for (local_15ec = 0; local_15ec < 1; local_15ec = local_15ec + 1) {
-      apuStack_1598[local_15ec] = (uint *)&DAT_0040d059;
+      apuStack_1598[local_15ec] = (uint *)&DAT_00410059;
     }
-    codemarker_alpha(0x2f);
+    mage_alpha47(0x2f);
     for (local_15ec = 0; local_15ec < 1; local_15ec = local_15ec + 1) {
       local_15da[local_15ec] = -9;
     }
@@ -2521,11 +3641,11 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
     local_2b = local_510[0];
     cVar4 = safe_lshift_func_int8_t_s_u((int)(char)local_510[0],local_518 & 0x7fffffff);
     *g_192 = (int)cVar4 | *g_192;
-    codemarker_alpha(0x30);
+    mage_alpha48(0x30);
     uVar1 = local_46;
     lVar11 = (long)(int)local_4cc;
     *(int **)apuStack_1598[2] = local_11fc;
-    local_19f2 = &stack0x00000000 == (undefined1 *)0x40e294 && local_4cc != 0;
+    local_19f2 = &stack0x00000000 == (undefined1 *)0x411294 && local_4cc != 0;
     bVar15 = safe_div_func_uint8_t_u_u((ulong)(long)(int)(uint)local_19f2 < 0x84d80a83,0xff);
     *apuStack_1598[1] = (uint)bVar15 ^ *apuStack_1598[1];
     uVar6 = safe_rshift_func_int16_t_s_u((uint)local_52a == g_135._12_4_,local_33 & 0xffffffff);
@@ -2535,7 +3655,7 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
                          (lVar11,(long)(int)(uint)(0xd2547711 <
                                                   (ulong)(long)(int)(uint)(iVar10 == 0)) &
                                  *(ulong *)**(undefined8 **)g_172);
-    uVar12 = safe_lshift_func_int64_t_s_s(0,(int)DAT_0040d042);
+    uVar12 = safe_lshift_func_int64_t_s_s(0,(int)DAT_00410042);
     lVar11 = safe_mul_func_uint64_t_u_u(uVar12,g_58._6_2_);
     sVar5 = safe_lshift_func_int16_t_s_u
                       ((uint)(uVar1 < (lVar11 != -0x3c76938f4bb648bb)) == g_67._4_4_,10);
@@ -2546,7 +3666,7 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
       local_11 = local_1a;
       local_9 = local_12;
       uVar13 = extraout_RDX_01;
-      goto LAB_004062ee;
+      goto LAB_0040746e;
     }
     local_1600 = (uint *)(g_67 + 4);
     local_1640 = -3;
@@ -2555,19 +3675,19 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
     local_1658 = &local_51a;
     local_1660 = (ulong *)&g_63;
     local_1668 = &local_58;
-    codemarker_alpha(0x31);
-    codemarker_alpha(0x32);
+    mage_alpha49(0x31);
+    mage_alpha50(0x32);
     for (local_166c = 0; local_166c < 7; local_166c = local_166c + 1) {
-      auStack_1638[local_166c] = 0x40d07c;
+      auStack_1638[local_166c] = 0x41007c;
     }
     local_1640 = local_1640 + 1;
-    codemarker_alpha(0x33);
+    mage_alpha51(0x33);
     uVar13 = local_33;
-    *local_1650 = 0x40d278;
+    *local_1650 = 0x410278;
     iVar10 = safe_rshift_func_int32_t_s_s(0xfffffff7,*local_1600 == 1);
-    DAT_0040d061 = (ulong)(long)iVar10 <= local_1a;
+    DAT_00410061 = (ulong)(long)iVar10 <= local_1a;
     uVar16 = safe_mul_func_int32_t_s_s
-                       ((long)(int)(uint)(2 < (-1 < (int)(uint)(local_550 != 0x40d278))) ==
+                       ((long)(int)(uint)(2 < (-1 < (int)(uint)(local_550 != 0x410278))) ==
                         -0x3b2788b6d7c1ebe7,
                         (int)(uint)((int)*local_1208 <
                                    (int)(uint)((uVar13 ^ (long)(int)(uint)((int)*local_1208 <
@@ -2581,10 +3701,10 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
     uVar13 = auVar18._8_8_;
     if ((long)local_12 < auVar18._0_8_) {
       local_11 = g_42;
-      local_9 = DAT_0040d058;
-      goto LAB_004062ee;
+      local_9 = DAT_00410058;
+      goto LAB_0040746e;
     }
-    memcpy(local_16c8,&DAT_0040ae00,0x50);
+    memcpy(local_16c8,&DAT_0040be00,0x50);
     local_16cc = 0xfffffff8;
     local_16d0 = 0xf074a923;
     local_16d4 = 0xfffffffe;
@@ -2594,28 +3714,28 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
     local_16e0 = 0x13205a4e0ba1ac6a;
     local_1700 = &local_1580;
     local_1708 = &g_257;
-    codemarker_alpha(0x34);
+    mage_alpha52(0x34);
     *g_255 = (long)local_1668;
     local_15da[0] = local_15da[0] + -1;
-    codemarker_alpha(0x35);
+    mage_alpha53(0x35);
     if (*g_185 == 0) {
-      local_1868[0] = &DAT_0040d059;
+      local_1868[0] = &DAT_00410059;
       local_1870 = local_1868;
       local_1878 = (ulong **)(g_144 + 0x18);
       local_1880 = 0;
       local_1888 = 0;
-      local_1890 = &DAT_0040d4e8;
+      local_1890 = &DAT_004104e8;
       local_1894 = 0xfffffffb;
-      codemarker_alpha(0x37);
+      mage_alpha55(0x37);
       for (param_7 = 0x13; param_7 != 0x1a; param_7 = safe_add_func_int32_t_s_s(param_7,7)) {
         local_1898 = 6;
-        codemarker_alpha(0x38);
+        mage_alpha56(0x38);
         local_18c8 = &local_15e8;
         local_18c0 = &local_15e8;
         local_18b8 = &local_15e8;
         local_18b0 = &local_15e8;
         local_18a8 = &local_15e8;
-        codemarker_alpha(0x39);
+        mage_alpha57(0x39);
         *local_1208 = 0xfffffffe;
         local_1898 = local_1898 + 1;
         *local_1208 = 0;
@@ -2640,8 +3760,8 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
                                < (int)(char)local_2b) ^ 0xea7e;
     }
     else {
-      memcpy(local_1858,&DAT_0040ae50,0x13b);
-      codemarker_alpha(0x36);
+      memcpy(local_1858,&DAT_0040be50,0x13b);
+      mage_alpha54(0x36);
       *local_1208 = (uint)(*local_1600 == 8);
       local_538 = 0;
       while (local_538 == -9) {
@@ -2657,38 +3777,38 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
   else {
     local_7a5 = 0x12;
     local_7ac = 0xfffffffa;
-    codemarker_alpha(0x21);
+    mage_alpha33(0x21);
     for (local_46 = 0xfffc; local_46 == 9;
         local_46 = safe_add_func_int16_t_s_s((int)(short)local_46,2)) {
       local_7b0 = 7;
-      local_7b8 = 0x40d068;
+      local_7b8 = 0x410068;
       local_7c0 = g_67;
       local_7c8 = 7;
       if (local_2b != 0) break;
-      codemarker_alpha(0x22);
+      mage_alpha34(0x22);
       for (local_1a = 0; local_1a < 2; local_1a = local_1a + 1) {
         local_7d0 = (uint *)(g_67 + 4);
         local_7d9 = 0x3fff84780000e4f;
         local_7d1 = 1;
-        local_7e8 = &DAT_0040d059;
-        codemarker_alpha(0x23);
-        if (DAT_0040d036 != 0) {
-          codemarker_alpha(0x24);
+        local_7e8 = &DAT_00410059;
+        mage_alpha35(0x23);
+        if (DAT_00410036 != 0) {
+          mage_alpha36(0x24);
           local_11 = *(ulong *)((long)&g_42 + local_1a * 9);
-          local_9 = (&DAT_0040d058)[local_1a * 9];
+          local_9 = (&DAT_00410058)[local_1a * 9];
           uVar13 = extraout_RDX;
-          goto LAB_004062ee;
+          goto LAB_0040746e;
         }
         local_7f8 = 0x633724ddd4cc67fd;
-        local_800 = 0x40d07c;
-        memcpy(local_a48,&DAT_0040a150,0x240);
-        codemarker_alpha(0x25);
-        codemarker_alpha(0x26);
+        local_800 = 0x41007c;
+        memcpy(local_a48,&DAT_0040b150,0x240);
+        mage_alpha37(0x25);
+        mage_alpha38(0x26);
         for (local_47 = '\0'; local_47 < '\x03'; local_47 = local_47 + '\x01') {
-          memcpy(local_1118,&PTR_DAT_0040a390,0x6c0);
-          local_1130 = (byte *)&DAT_0040d061;
-          codemarker_alpha(0x27);
-          codemarker_alpha(0x28);
+          memcpy(local_1118,&PTR_DAT_0040b390,0x6c0);
+          local_1130 = (byte *)&DAT_00410061;
+          mage_alpha39(0x27);
+          mage_alpha40(0x28);
           for (local_1134 = 0; local_1134 < 4; local_1134 = local_1134 + 1) {
             local_1128[local_1134] = 0x7392d2a8;
           }
@@ -2696,12 +3816,12 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
           local_19b5 = 1;
           if (g_58._4_2_ == 0) {
             local_19b5 = (((long)(int)((long)(g_73 << 6) >> 0x25) | 0xfffffffffffffff6U) ^
-                         0x3b0092db2509b59b) != (long)DAT_0040d03a ^ 0xff;
+                         0x3b0092db2509b59b) != (long)_DAT_0041003a ^ 0xff;
           }
           *local_1130 = *local_1130 &
                         (0xffffffff <
                         (local_7f8 ^
-                        (long)(int)(uint)((DAT_0040d4e8 < (local_19b5 & 1)) < g_58._6_2_))) <
+                        (long)(int)(uint)((DAT_004104e8 < (local_19b5 & 1)) < g_58._6_2_))) <
                         local_1128[0];
           *(uint *)(g_67 + (long)local_47 * 4) =
                (uint)((int)(char)local_2b <= (int)(local_7b0 & (int)(char)local_2b));
@@ -2711,10 +3831,10 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
         uVar16 = *local_7d0;
         *local_7d0 = uVar16 | 1;
         if ((uVar16 | 1) == 0) {
-          local_1198 = 0x40d09c;
+          local_1198 = 0x41009c;
           local_11a0 = &local_7d0;
           for (local_4cc = 0; (int)local_4cc < 2; local_4cc = local_4cc + 1) {
-            local_11a8 = &DAT_0040d4e8;
+            local_11a8 = &DAT_004104e8;
             local_11b0 = (uint *)(g_135 + 8);
             local_11e0 = &local_7ac;
             for (local_11fc[6] = 0; local_11fc[6] < 1; local_11fc[6] = local_11fc[6] + 1) {
@@ -2726,7 +3846,7 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
             bVar15 = *local_11a8;
             *local_11a8 = bVar15 + 1;
             if (bVar15 != 0) {
-              local_1198 = 0x40d09c;
+              local_1198 = 0x41009c;
             }
             local_19ee = false;
             if (bVar15 != 0) {
@@ -2742,26 +3862,26 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
             *local_11e0 = (uint)local_19ee & *local_11e0;
             *(undefined8 *)((long)&g_42 + local_1a * 9) =
                  *(undefined8 *)((long)&g_42 + local_1a * 9);
-            (&DAT_0040d058)[local_1a * 9] = (&DAT_0040d058)[local_1a * 9];
-            *(undefined8 *)g_171 = 0x40d468;
+            (&DAT_00410058)[local_1a * 9] = (&DAT_00410058)[local_1a * 9];
+            *(undefined8 *)g_171 = 0x410468;
           }
           *local_11a0 = &local_4cc;
-          if (local_12 == '\0') goto LAB_004052d5;
+          if (local_12 == '\0') goto LAB_00406455;
         }
         else {
           local_1148 = 0;
           local_1150 = (uint *)(g_135 + 0xc);
           local_1158 = (uint *)&g_137;
           local_1180 = &local_89;
-          local_1188 = &DAT_0040d061;
-          codemarker_alpha(0x29);
-          codemarker_alpha(0x2a);
+          local_1188 = &DAT_00410061;
+          mage_alpha41(0x29);
+          mage_alpha42(0x2a);
           for (local_118c = 0; local_118c < 3; local_118c = local_118c + 1) {
             auStack_1178[local_118c] = 0;
           }
           uVar8 = safe_lshift_func_uint32_t_u_u(local_7d0 == (uint *)(g_67 + 4),0x14);
           bVar17 = local_3d0 != 0;
-          cVar4 = safe_sub_func_int16_t_s_s(0xffffff76,(int)DAT_0040d061);
+          cVar4 = safe_sub_func_int16_t_s_s(0xffffff76,(int)DAT_00410061);
           safe_add_func_int8_t_s_s((int)cVar4,(int)(char)local_1a);
           lVar11 = safe_mul_func_int64_t_s_s((uint)(g_61 >> 0x1d) & 0x1fffffff,(long)(char)local_2b)
           ;
@@ -2770,13 +3890,13 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
           safe_sub_func_int32_t_s_s(bVar17,uVar13 < local_7a5);
           local_4cc = (int)local_47 ^ (uint)local_89 ^ local_4cc;
           uVar16 = safe_rshift_func_uint64_t_u_u
-                             ((ulong)(long)(int)local_4cc < 0xfd37754c0d22be5f,DAT_0040d4e8);
-          cVar4 = safe_mul_func_uint32_t_u_u(uVar16 | 0xbfdda352,DAT_0040d059 & 0xffffffff);
+                             ((ulong)(long)(int)local_4cc < 0xfd37754c0d22be5f,DAT_004104e8);
+          cVar4 = safe_mul_func_uint32_t_u_u(uVar16 | 0xbfdda352,DAT_00410059 & 0xffffffff);
           cVar4 = safe_mod_func_int8_t_s_s
                             ((int)cVar4,(int)(char)((long)(g_73 << 6) >> 0x25),extraout_RDX_00,cVar4
                             );
           uVar12 = safe_add_func_int64_t_s_s
-                             ((int)(uint)((int)cVar4 < (int)(uint)DAT_0040d4e8) < (int)*local_7d0,
+                             ((int)(uint)((int)cVar4 < (int)(uint)DAT_004104e8) < (int)*local_7d0,
                               0xed81a4cd4942d81d);
           uVar12 = safe_sub_func_int64_t_s_s(uVar8,uVar12);
           uVar2 = safe_lshift_func_uint64_t_u_s(uVar12,local_46);
@@ -2799,24 +3919,24 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
                     ((long)(int)((uVar16 | uVar9 ^ local_19d1 != local_4cc ^ 0xffffffff) ^ local_7b0
                                 ),0x789f30d9698a8858);
           uVar16 = safe_div_func_int64_t_s_s
-                             ((&stack0x00000000 != (undefined1 *)0x40dcb9) <= DAT_0040d4e8,param_7);
+                             ((&stack0x00000000 != (undefined1 *)0x410cb9) <= DAT_004104e8,param_7);
           *local_7d0 = *local_7d0 & uVar16;
-LAB_004052d5:
+LAB_00406455:
           if (local_2b != 0) break;
         }
       }
       if (local_4cc != 0) break;
     }
-    codemarker_alpha(0x2b);
+    mage_alpha43(0x2b);
     for (g_137 = 0xe; g_137 != 10; g_137 = g_137 + -1) {
       local_11fc[3] = 0;
       local_11fc[4] = 0;
-      local_11fc[1] = 0x40d07c;
+      local_11fc[1] = 0x41007c;
       local_11fc[2] = 0;
       g_67._4_4_ = g_67._4_4_ & 1;
     }
   }
-  codemarker_alpha(0x3a);
+  mage_alpha58(0x3a);
   uVar7 = local_46;
   iVar10 = (int)local_58a;
   uVar13 = safe_add_func_int64_t_s_s(local_89,&stack0x00000000 == (undefined1 *)0x51a);
@@ -2835,7 +3955,7 @@ LAB_004052d5:
   }
   else {
     local_18cd = 2;
-    codemarker_alpha(0x3b);
+    mage_alpha59(0x3b);
     local_610 = &param_7;
     bVar15 = (local_530 != 0 ^ 0xffU) & 1;
     sVar5 = safe_add_func_int16_t_s_s
@@ -2845,24 +3965,24 @@ LAB_004052d5:
     g_135._8_4_ = g_135._8_4_ + -1;
     cVar4 = safe_lshift_func_int8_t_s_u((int)(uint)(bVar17 == local_46) < (int)local_619);
     if (cVar4 == '\0') {
-      memcpy(local_1978,&DAT_0040af90,0x28);
-      codemarker_alpha(0x3e);
+      memcpy(local_1978,&DAT_0040bf90,0x28);
+      mage_alpha62(0x3e);
       *(undefined1 **)g_352 = auStack_506;
-      codemarker_alpha(0x3f);
+      mage_alpha63(0x3f);
       local_46 = 0;
-      codemarker_alpha(0x40);
+      mage_alpha64(0x40);
       safe_lshift_func_uint8_t_u_s
                 ((long)(local_518 << 6) >> 0x25 & 0xff,local_52a,extraout_RDX_05,
                  CONCAT71((int7)SUB43(local_1978._8_4_,1) ^ 0xffffffffffffff,1));
       _g_354 = _g_357;
-      DAT_0040d511 = DAT_0040d521;
+      DAT_00410511 = DAT_00410521;
       local_11 = g_42;
-      local_9 = DAT_0040d058;
+      local_9 = DAT_00410058;
       uVar13 = extraout_RDX_06;
     }
     else {
       local_18d0 = 0xe3f8;
-      codemarker_alpha(0x3c);
+      mage_alpha60(0x3c);
       local_33 = 0;
       uVar13 = extraout_RDX_03;
       while (local_33 < 0x3b) {
@@ -2870,7 +3990,7 @@ LAB_004052d5:
         local_18e0 = &local_594;
         memset(local_1928,0,0x40);
         local_1930 = -0x5f047cf35f0436c1;
-        codemarker_alpha(0x3d);
+        mage_alpha61(0x3d);
         local_1930 = local_1930 + -1;
         bVar15 = safe_add_func_uint8_t_u_u(local_33 & 0xff);
         uVar13 = extraout_RDX_04;
@@ -2882,7 +4002,7 @@ LAB_004052d5:
       local_9 = local_790;
     }
   }
-LAB_004062ee:
+LAB_0040746e:
   auVar18._9_7_ = (undefined7)(uVar13 >> 8);
   auVar18[8] = local_9;
   auVar18._0_8_ = local_11;
@@ -2894,8 +4014,8 @@ LAB_004062ee:
 undefined2 func_43(undefined8 param_1,undefined2 param_2)
 
 {
-  codemarker_alpha(0x41);
-  codemarker_alpha(0x42);
+  mage_alpha65(0x41);
+  mage_alpha66(0x42);
   return param_2;
 }
 
@@ -2951,32 +4071,32 @@ long func_50(char param_1)
   
   local_c = 0;
   local_9 = param_1;
-  memcpy(local_188,&DAT_0040afc0,0x17a);
+  memcpy(local_188,&DAT_0040bfc0,0x17a);
   local_190 = (ushort *)((long)&g_58 + 6);
   local_198 = &g_63;
   memset(local_1d8,0,0x40);
-  local_1d8[0] = 0x40d07c;
-  local_1c0 = 0x40d07c;
-  local_1a8 = 0x40d07c;
-  codemarker_alpha(0x43);
+  local_1d8[0] = 0x41007c;
+  local_1c0 = 0x41007c;
+  local_1a8 = 0x41007c;
+  mage_alpha67(0x43);
   uVar2 = local_c;
   local_1f9 = true;
-  if (DAT_0040d059 == 0 && local_9 == '\0') {
-    uVar5 = (uint)DAT_0040d061;
+  if (DAT_00410059 == 0 && local_9 == '\0') {
+    uVar5 = (uint)DAT_00410061;
     uVar1 = *local_190;
-    *local_190 = uVar1 | (short)DAT_0040d061;
+    *local_190 = uVar1 | (short)DAT_00410061;
     local_1fa = true;
     if (uVar1 == 0 && (uVar5 & 0xffff) == 0) {
       *local_198 = 1;
-      uVar3 = safe_mul_func_uint8_t_u_u(local_17f & 0xff,(char)DAT_0040d036,uVar5,(char)local_17f);
+      uVar3 = safe_mul_func_uint8_t_u_u(local_17f & 0xff,(char)DAT_00410036,uVar5,(char)local_17f);
       safe_add_func_int64_t_s_s(1,uVar3);
-      local_1fa = (short)DAT_0040d036 < 3;
+      local_1fa = (short)DAT_00410036 < 3;
     }
     iVar4 = safe_rshift_func_uint32_t_u_u(uVar2,local_1fa ^ 0xffffffff);
     local_1f9 = iVar4 != 0;
   }
-  g_67._0_4_ = (uint)(local_1f9 != DAT_0040d036);
-  return DAT_0040d059;
+  g_67._0_4_ = (uint)(local_1f9 != DAT_00410036);
+  return DAT_00410059;
 }
 
 

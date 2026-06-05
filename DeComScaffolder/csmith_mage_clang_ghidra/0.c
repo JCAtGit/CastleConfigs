@@ -392,7 +392,31 @@ void frame_dummy(void)
 
 
 
-undefined4 codemarker_alpha(undefined4 param_1)
+undefined4 mage_alpha0(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha1(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha2(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha3(undefined4 param_1)
 
 {
   return param_1;
@@ -406,18 +430,18 @@ undefined8 main(int param_1,long param_2)
   int iVar1;
   undefined4 local_1c;
   
-  codemarker_alpha(0);
+  mage_alpha0(0);
   local_1c = 0;
-  codemarker_alpha(1);
+  mage_alpha1(1);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_1c = 1;
     }
   }
-  codemarker_alpha(2);
+  mage_alpha2(2);
   platform_main_begin();
-  codemarker_alpha(3);
+  mage_alpha3(3);
   crc32_gentab();
   func_1();
   platform_main_end(crc32_context ^ 0xffffffff,local_1c);

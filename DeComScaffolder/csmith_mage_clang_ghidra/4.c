@@ -284,16 +284,16 @@ undefined main;
 undefined1 completed.0;
 undefined1[1024] crc32_tab;
 undefined1 g_174;
-pointer PTR_g_6_0040c720;
-undefined DAT_0040c860;
-undefined DAT_0040cc50;
+pointer PTR_g_6_0040f720;
 undefined1 g_1385;
-undefined DAT_0040ccf0;
-undefined DAT_0040cde0;
+undefined DAT_0040f860;
+undefined DAT_0040fc50;
 undefined4 g_330;
-undefined *PTR_g_2561_0040cea0;
-undefined DAT_0040d100;
+undefined DAT_0040fcf0;
+undefined DAT_0040fde0;
+undefined *PTR_g_2561_0040fea0;
 undefined8 g_1171;
+undefined DAT_00410100;
 pointer g_2572;
 undefined1 g_503;
 undefined8 g_747;
@@ -439,7 +439,3159 @@ void frame_dummy(void)
 
 
 
-undefined4 codemarker_alpha(undefined4 param_1)
+undefined4 mage_alpha0(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha1(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha2(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha3(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha4(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha5(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha6(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha7(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha8(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha9(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha10(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha11(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha12(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha13(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha14(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha15(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha16(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha17(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha18(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha19(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha20(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha21(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha22(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha23(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha24(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha25(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha26(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha27(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha28(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha29(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha30(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha31(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha32(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha33(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha34(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha35(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha36(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha37(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha38(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha39(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha40(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha41(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha42(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha43(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha44(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha45(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha46(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha47(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha48(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha49(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha50(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha51(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha52(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha53(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha54(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha55(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha56(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha57(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha58(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha59(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha60(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha61(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha62(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha63(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha64(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha65(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha66(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha67(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha68(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha69(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha70(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha71(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha72(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha73(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha74(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha75(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha76(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha77(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha78(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha79(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha80(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha81(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha82(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha83(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha84(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha85(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha86(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha87(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha88(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha89(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha90(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha91(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha92(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha93(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha94(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha95(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha96(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha97(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha98(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha99(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha100(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha101(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha102(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha103(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha104(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha105(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha106(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha107(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha108(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha109(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha110(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha111(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha112(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha113(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha114(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha115(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha116(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha117(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha118(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha119(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha120(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha121(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha122(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha123(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha124(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha125(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha126(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha127(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha128(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha129(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha130(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha131(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha132(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha133(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha134(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha135(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha136(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha137(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha138(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha139(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha140(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha141(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha142(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha143(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha144(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha145(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha146(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha147(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha148(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha149(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha150(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha151(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha152(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha153(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha154(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha155(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha156(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha157(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha158(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha159(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha160(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha161(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha162(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha163(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha164(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha165(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha166(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha167(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha168(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha169(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha170(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha171(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha172(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha173(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha174(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha175(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha176(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha177(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha178(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha179(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha180(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha181(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha182(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha183(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha184(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha185(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha186(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha187(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha188(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha189(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha190(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha191(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha192(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha193(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha194(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha195(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha196(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha197(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha198(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha199(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha200(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha201(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha202(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha203(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha204(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha205(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha206(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha207(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha208(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha209(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha210(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha211(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha212(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha213(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha214(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha215(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha216(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha217(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha218(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha219(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha220(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha221(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha222(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha223(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha224(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha225(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha226(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha227(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha228(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha229(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha230(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha231(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha232(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha233(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha234(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha235(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha236(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha237(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha238(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha239(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha240(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha241(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha242(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha243(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha244(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha245(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha246(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha247(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha248(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha249(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha250(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha251(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha252(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha253(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha254(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha255(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha256(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha257(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha258(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha259(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha260(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha261(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha262(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha263(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha264(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha265(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha266(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha267(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha268(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha269(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha270(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha271(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha272(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha273(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha274(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha275(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha276(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha277(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha278(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha279(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha280(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha281(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha282(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha283(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha284(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha285(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha286(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha287(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha288(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha289(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha290(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha291(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha292(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha293(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha294(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha295(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha296(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha297(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha298(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha299(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha300(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha301(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha302(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha303(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha304(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha305(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha306(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha307(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha308(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha309(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha310(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha311(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha312(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha313(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha314(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha315(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha316(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha317(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha318(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha319(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha320(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha321(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha322(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha323(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha324(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha325(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha326(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha327(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha328(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha329(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha330(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha331(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha332(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha333(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha334(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha335(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha336(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha337(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha338(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha339(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha340(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha341(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha342(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha343(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha344(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha345(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha346(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha347(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha348(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha349(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha350(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha351(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha352(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha353(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha354(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha355(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha356(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha357(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha358(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha359(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha360(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha361(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha362(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha363(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha364(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha365(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha366(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha367(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha368(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha369(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha370(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha371(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha372(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha373(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha374(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha375(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha376(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha377(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha378(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha379(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha380(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha381(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha382(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha383(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha384(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha385(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha386(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha387(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha388(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha389(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha390(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha391(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha392(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha393(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha394(undefined4 param_1)
 
 {
   return param_1;
@@ -448,7 +3600,7 @@ undefined4 codemarker_alpha(undefined4 param_1)
 
 /*
 Unable to decompile 'main'
-Cause: Exception while decompiling 004004c0: Response buffer size exceeded for: 4.o
+Cause: Exception while decompiling 00403600: process: timeout
 
 */
 
@@ -567,7 +3719,7 @@ undefined4 func_1(void)
   undefined1 local_9;
   
   local_9 = 7;
-  memcpy(local_158,&PTR_g_6_0040c720,0x140);
+  memcpy(local_158,&PTR_g_6_0040f720,0x140);
   local_160 = 0;
   local_168 = &g_25;
   local_172 = 5;
@@ -576,8 +3728,8 @@ undefined4 func_1(void)
   local_18c = 0xac226989;
   local_198 = &g_503;
   local_1a0 = &g_330;
-  memcpy(local_588,&DAT_0040c860,1000);
-  memcpy(local_5f8,&DAT_0040cc50,0x70);
+  memcpy(local_588,&DAT_0040f860,1000);
+  memcpy(local_5f8,&DAT_0040fc50,0x70);
   local_5f9 = 0xd3;
   local_5fa = 0xf9;
   local_600 = 0xffffffff;
@@ -586,7 +3738,7 @@ undefined4 func_1(void)
   local_614 = 0xfffffffe;
   local_615 = 0x58;
   local_616 = 0xfe;
-  codemarker_alpha(0);
+  mage_alpha0(0);
   local_620 = &g_1171;
   local_628 = &g_2572;
   local_62c = 0x2aaee534;
@@ -599,13 +3751,13 @@ undefined4 func_1(void)
   local_65e = 0xaa55aa55;
   local_65a = 0xaa55;
   local_66c = 0x7413bff2;
-  local_6a8 = 0x40f094;
+  local_6a8 = 0x416094;
   local_6a0 = &local_66c;
   local_698 = &local_66c;
-  local_690 = 0x40f094;
+  local_690 = 0x416094;
   local_688 = &local_66c;
   local_680 = &local_66c;
-  memcpy(local_798,&DAT_0040ccf0,0xf0);
+  memcpy(local_798,&DAT_0040fcf0,0xf0);
   local_7b9 = 0xfb;
   local_7c8 = &g_747;
   memset(&local_7f8,0,0x28);
@@ -615,18 +3767,18 @@ undefined4 func_1(void)
   local_7e4 = 0xfffffffb;
   local_7e0 = 0xfffffffb;
   local_7d8 = 0x3ced3861;
-  codemarker_alpha(1);
+  mage_alpha1(1);
   local_800 = &local_5f9;
   local_808 = &local_800;
   local_80c = 0xb6a870b5;
   local_818 = 0;
-  memcpy(local_8d8,&DAT_0040cde0,0xb4);
+  memcpy(local_8d8,&DAT_0040fde0,0xb4);
   local_8da = 0xc623;
   local_8e8 = &g_159;
   local_8f0 = &local_8e8;
   local_8f2 = 1;
   local_8f8 = 0xbd653191;
-  memcpy(local_b58,&PTR_g_2561_0040cea0,600);
+  memcpy(local_b58,&PTR_g_2561_0040fea0,600);
   local_b5c = 0x61ff7f99;
   local_b68 = 8;
   local_b70 = &g_2470;
@@ -635,29 +3787,29 @@ undefined4 func_1(void)
   local_b84 = 0xffffffff;
   local_b86 = 0x8eb;
   local_ba0 = 0;
-  local_ba8 = 0x40ff88;
+  local_ba8 = 0x416f88;
   local_bb0 = 3;
-  memcpy(local_c88,&DAT_0040d100,0xd8);
-  codemarker_alpha(2);
-  codemarker_alpha(3);
+  memcpy(local_c88,&DAT_00410100,0xd8);
+  mage_alpha2(2);
+  mage_alpha3(3);
   for (local_c98 = 0; local_c98 < 7; local_c98 = local_c98 + 1) {
     auStack_16f[local_c98] = 199;
   }
-  codemarker_alpha(4);
+  mage_alpha4(4);
   for (local_c98 = 0; local_c98 < 3; local_c98 = local_c98 + 1) {
     auStack_7a4[local_c98] = 0xfffffff9;
   }
-  codemarker_alpha(5);
+  mage_alpha5(5);
   for (local_c98 = 0; local_c98 < 2; local_c98 = local_c98 + 1) {
     auStack_7b8[local_c98] = 0;
   }
-  codemarker_alpha(6);
+  mage_alpha6(6);
   for (local_c98 = 0; local_c98 < 2; local_c98 = local_c98 + 1) {
     auStack_b98[local_c98] = 0xfffffffffffffffa;
   }
-  codemarker_alpha(7);
+  mage_alpha7(7);
   for (local_c98 = 0; local_c98 < 3; local_c98 = local_c98 + 1) {
-    codemarker_alpha(8);
+    mage_alpha8(8);
     for (local_c9c = 0; local_c9c < 1; local_c9c = local_c9c + 1) {
       local_bae[(long)local_c98 + (long)local_c9c] = 1;
     }

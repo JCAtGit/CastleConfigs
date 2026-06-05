@@ -123,6 +123,7 @@
   },
   "174": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": true,
     "recovered_construct": true
   },
@@ -212,6 +213,7 @@
   },
   "180": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -273,6 +275,7 @@
   },
   "185": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -340,6 +343,7 @@
   },
   "190": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -385,6 +389,7 @@
   },
   "194": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -648,6 +653,7 @@
   },
   "214": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -819,6 +825,7 @@
   },
   "228": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1120,6 +1127,7 @@
   },
   "251": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1241,6 +1249,7 @@
   },
   "260": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1350,6 +1359,7 @@
   },
   "269": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1411,6 +1421,7 @@
   },
   "274": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1504,6 +1515,7 @@
   },
   "282": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1991,6 +2003,7 @@
   },
   "322": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -2068,6 +2081,7 @@
   },
   "328": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -2177,6 +2191,7 @@
   },
   "337": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -2390,6 +2405,7 @@
   },
   "355": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -2515,6 +2531,7 @@
   },
   "365": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -2684,6 +2701,7 @@
   },
   "379": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -2897,6 +2915,7 @@
   },
   "397": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -3208,6 +3227,7 @@
   },
   "422": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -3313,6 +3333,7 @@
   },
   "431": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -3586,6 +3607,7 @@
   },
   "454": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },

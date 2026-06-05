@@ -1,4 +1,11 @@
 #include "MageAlpha.h"
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha0(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha1(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha2(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha3(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha4(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha5(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha6(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
 /*
  * This is a RANDOMLY GENERATED PROGRAM.
  *
@@ -55,9 +62,9 @@ static int8_t func_1(void) { /* block id: 0 */
                              {&l_3[3], &l_3[5], &l_3[2]},
                              {&l_3[3], &l_3[3], &l_3[3]},
                              {&l_3[2], &l_3[5], &l_3[3]}}};
-  mage_alpha(0); 
+  mage_alpha0(0); 
   int i, j, k;
-  mage_alpha(1); 
+  mage_alpha1(1); 
   for (i = 0; i < 6; i++) {
     l_3[i] = &g_4;
   }
@@ -67,17 +74,17 @@ static int8_t func_1(void) { /* block id: 0 */
 
 /* ---------------------------------------- */
 int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
-  mage_alpha(2); 
+  mage_alpha2(2); 
   int i;
-  mage_alpha(3); 
+  mage_alpha3(3); 
   int print_hash_value = 0;
-  mage_alpha(4); 
+  mage_alpha4(4); 
   if (argc == 2 && strcmp(argv[1], "1") == 0) {
     print_hash_value = 1;
   }
-  mage_alpha(5); 
+  mage_alpha5(5); 
   platform_main_begin();
-  mage_alpha(6); 
+  mage_alpha6(6); 
   crc32_gentab();
   func_1();
   transparent_crc(g_4, "g_4", print_hash_value);

@@ -35,10 +35,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha2",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -785,7 +805,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -1505,7 +1524,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -2940,7 +2958,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -3074,10 +3091,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha16",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -3188,7 +3225,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -3270,7 +3306,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "RecoveryExpr",
         "lhs_types": [
@@ -3444,7 +3479,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "UnaryOperator",
         "lhs_types": [
@@ -3494,10 +3528,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha23",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -3598,10 +3652,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha25",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -3626,7 +3700,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -3676,7 +3749,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -3777,7 +3849,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "RecoveryExpr",
         "lhs_types": [
@@ -3837,7 +3908,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "RecoveryExpr",
         "lhs_types": [
@@ -3897,7 +3967,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -3947,10 +4016,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha31",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -4061,7 +4150,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -4295,7 +4383,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -4345,10 +4432,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha38",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -4459,10 +4566,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha40",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -4497,7 +4624,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -4623,10 +4749,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha42",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -4834,10 +4980,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha46",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -5024,7 +5190,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "RecoveryExpr",
         "lhs_types": [
@@ -5074,10 +5239,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha50",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -5102,7 +5287,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -5228,7 +5412,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -5278,7 +5461,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "RecoveryExpr",
         "lhs_types": [
@@ -5370,7 +5552,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -5501,7 +5682,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -5551,7 +5731,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "UnaryOperator",
         "lhs_types": [
@@ -5601,7 +5780,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "RecoveryExpr",
         "lhs_types": [
@@ -5651,7 +5829,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -5701,7 +5878,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -5771,7 +5947,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -5841,7 +6016,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -5901,7 +6075,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "UnaryOperator",
         "lhs_types": [
@@ -5956,7 +6129,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": true,
         "has_markee": true,
         "lhs_stmt_class": "RecoveryExpr",
         "lhs_types": [
@@ -6054,10 +6226,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha66",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -6106,7 +6298,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -6161,10 +6352,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha69",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -6199,7 +6410,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [
@@ -6241,6 +6451,43 @@
           }
         ],
         "single_decl": true
+      }
+    }
+  },
+  "7": {
+    "oracle": {
+      "ASTNode": "ForStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "ParenExpr",
+        "has_cond_expr": true,
+        "has_cond_var": false,
+        "has_incr": true,
+        "has_init": true,
+        "has_markee": true,
+        "incr_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "long"
+          }
+        ],
+        "incr_stmt_class": "CompoundAssignOperator",
+        "init_stmt_class": "BinaryOperator",
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "long"
+          }
+        ]
       }
     }
   },
@@ -6770,6 +7017,23 @@
         ],
         "params": [],
         "return_type": "int"
+      }
+    }
+  },
+  "8": {
+    "oracle": {
+      "ASTNode": "DeclStmt",
+      "children": [],
+      "properties": {
+        "has_markee": true,
+        "init_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "int"
+          }
+        ],
+        "single_decl": true
       }
     }
   },
@@ -7421,6 +7685,23 @@
         ],
         "params": [],
         "return_type": "void"
+      }
+    }
+  },
+  "9": {
+    "oracle": {
+      "ASTNode": "IfStmt",
+      "children": [],
+      "properties": {
+        "cond_expr_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "_Bool"
+          }
+        ],
+        "cond_stmt_class": "ImplicitCastExpr",
+        "has_markee": true
       }
     }
   },

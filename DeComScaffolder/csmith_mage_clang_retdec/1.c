@@ -10,11 +10,17 @@
 
 // ------------------- Function Prototypes --------------------
 
-int64_t codemarker_alpha(int64_t a1);
 int64_t crc32_8bytes(uint64_t a1);
 int64_t crc32_byte(int64_t a1);
 int64_t crc32_gentab(void);
 int64_t func_1(int64_t a1);
+int64_t mage_alpha0(uint32_t result);
+int64_t mage_alpha1(int64_t a1);
+int64_t mage_alpha2(int64_t a1);
+int64_t mage_alpha3(int64_t a1);
+int64_t mage_alpha4(int64_t a1);
+int64_t mage_alpha5(int64_t a1);
+int64_t mage_alpha6(int64_t a1);
 int64_t platform_main_begin(void);
 int64_t platform_main_end(int64_t a1, int32_t a2);
 int64_t transparent_crc(int32_t a1, char * a2, int32_t a3);
@@ -28,26 +34,62 @@ int32_t * g3 = NULL; // 0x403070
 // ------------------------ Functions -------------------------
 
 // Address range: 0x400480 - 0x400492
-int64_t codemarker_alpha(int64_t a1) {
+int64_t mage_alpha0(uint32_t result) {
     // 0x400480
+    return result;
+}
+
+// Address range: 0x4004a0 - 0x4004b2
+int64_t mage_alpha1(int64_t a1) {
+    // 0x4004a0
     return a1 & 0xffffffff;
 }
 
-// Address range: 0x4004a0 - 0x400562
+// Address range: 0x4004c0 - 0x4004d2
+int64_t mage_alpha2(int64_t a1) {
+    // 0x4004c0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x4004e0 - 0x4004f2
+int64_t mage_alpha3(int64_t a1) {
+    // 0x4004e0
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400500 - 0x400512
+int64_t mage_alpha4(int64_t a1) {
+    // 0x400500
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400520 - 0x400532
+int64_t mage_alpha5(int64_t a1) {
+    // 0x400520
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400540 - 0x400552
+int64_t mage_alpha6(int64_t a1) {
+    // 0x400540
+    return a1 & 0xffffffff;
+}
+
+// Address range: 0x400560 - 0x400622
 int main(int argc, char ** argv) {
-    // 0x4004a0
-    codemarker_alpha(2);
-    codemarker_alpha(3);
-    codemarker_alpha(4);
-    int32_t v1 = 0; // 0x4004df
+    // 0x400560
+    mage_alpha2(2);
+    mage_alpha3(3);
+    mage_alpha4(4);
+    int32_t v1 = 0; // 0x40059f
     if ((int32_t)argc == 2) {
-        int64_t str = *(int64_t *)((int64_t)argv + 8); // 0x4004e5
+        int64_t str = *(int64_t *)((int64_t)argv + 8); // 0x4005a5
         v1 = strcmp((char *)str, "1") == 0;
     }
-    // 0x4004ff
-    codemarker_alpha(5);
+    // 0x4005bf
+    mage_alpha5(5);
     platform_main_begin();
-    codemarker_alpha(6);
+    mage_alpha6(6);
     crc32_gentab();
     func_1(6);
     transparent_crc(g1, "g_4", v1);
@@ -55,72 +97,72 @@ int main(int argc, char ** argv) {
     return 0;
 }
 
-// Address range: 0x400570 - 0x400576
+// Address range: 0x400630 - 0x400636
 int64_t platform_main_begin(void) {
-    // 0x400570
-    int64_t result; // 0x400570
+    // 0x400630
+    int64_t result; // 0x400630
     return result;
 }
 
-// Address range: 0x400580 - 0x4005f8
+// Address range: 0x400640 - 0x4006b8
 int64_t crc32_gentab(void) {
     for (int64_t i = 0; i < 256; i++) {
-        int32_t v1 = 8; // 0x4005d5
-        int32_t v2 = i; // 0x400580
+        int32_t v1 = 8; // 0x400695
+        int32_t v2 = i; // 0x400640
         uint32_t v3 = v2 / 2;
         int32_t v4 = v2 % 2 == 0 ? v3 : v3 ^ -0x12477ce0;
         v1--;
         v2 = v4;
         while (v1 != 0) {
-            // 0x4005ae
+            // 0x40066e
             v3 = v2 / 2;
             v4 = v2 % 2 == 0 ? v3 : v3 ^ -0x12477ce0;
             v1--;
             v2 = v4;
         }
-        // 0x4005dd
+        // 0x40069d
         *(int32_t *)(4 * i + (int64_t)&g3) = v4;
     }
-    // 0x4005f6
+    // 0x4006b6
     return 256;
 }
 
-// Address range: 0x400600 - 0x400ada
+// Address range: 0x4006c0 - 0x400b9a
 int64_t func_1(int64_t a1) {
-    // 0x400600
-    codemarker_alpha(0);
-    codemarker_alpha(1);
-    int64_t v1; // bp-8, 0x400600
-    int64_t v2 = (int64_t)&v1 - 48; // 0x400aa8
+    // 0x4006c0
+    mage_alpha0(0);
+    mage_alpha1(1);
+    int64_t v1; // bp-8, 0x4006c0
+    int64_t v2 = (int64_t)&v1 - 48; // 0x400b68
     for (int64_t i = 0; i < 6; i++) {
-        // 0x400a97
+        // 0x400b57
         *(int64_t *)(v2 + 8 * i) = (int64_t)&g1;
     }
-    // 0x400abe
+    // 0x400b7e
     *(int64_t *)0x403050 = 0;
     return g1;
 }
 
-// Address range: 0x400ae0 - 0x400b33
+// Address range: 0x400ba0 - 0x400bf3
 int64_t transparent_crc(int32_t a1, char * a2, int32_t a3) {
-    int64_t chars_printed = crc32_8bytes((int64_t)a1); // 0x400b00
+    int64_t chars_printed = crc32_8bytes((int64_t)a1); // 0x400bc0
     if (a3 != 0) {
-        // 0x400b02
+        // 0x400bc2
         chars_printed = printf("...checksum after hashing %s : %lX\n", a2, -1 - g2);
     }
-    // 0x400b2d
+    // 0x400bed
     return chars_printed;
 }
 
-// Address range: 0x400b40 - 0x400b68
+// Address range: 0x400c00 - 0x400c28
 int64_t platform_main_end(int64_t a1, int32_t a2) {
-    // 0x400b40
+    // 0x400c00
     return printf("checksum = %X\n", (int32_t)a1);
 }
 
-// Address range: 0x400b70 - 0x400c32
+// Address range: 0x400c30 - 0x400cf2
 int64_t crc32_8bytes(uint64_t a1) {
-    // 0x400b70
+    // 0x400c30
     crc32_byte(a1 % 256);
     crc32_byte(a1 / 256 % 256);
     crc32_byte(a1 / 0x10000 % 256);
@@ -131,11 +173,11 @@ int64_t crc32_8bytes(uint64_t a1) {
     return crc32_byte(a1 / 0x100000000000000);
 }
 
-// Address range: 0x400c40 - 0x400c7e
+// Address range: 0x400d00 - 0x400d3e
 int64_t crc32_byte(int64_t a1) {
     uint32_t v1 = g2;
-    int32_t v2 = *(int32_t *)((int64_t)(4 * (v1 ^ (int32_t)a1) & 1020) + (int64_t)&g3); // 0x400c6e
-    int32_t result = v1 / 256 ^ v2; // 0x400c6e
+    int32_t v2 = *(int32_t *)((int64_t)(4 * (v1 ^ (int32_t)a1) & 1020) + (int64_t)&g3); // 0x400d2e
+    int32_t result = v1 / 256 ^ v2; // 0x400d2e
     g2 = result;
     return result;
 }
@@ -143,5 +185,5 @@ int64_t crc32_byte(int64_t a1) {
 // --------------------- Meta-Information ---------------------
 
 // Detected compiler/packer: gcc (15.2.1)
-// Detected functions: 9
+// Detected functions: 15
 

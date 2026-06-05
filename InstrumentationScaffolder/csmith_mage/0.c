@@ -1,4 +1,8 @@
 #include "MageAlpha.h"
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha0(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha1(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha2(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
+__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha3(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
 /*
  * This is a RANDOMLY GENERATED PROGRAM.
  *
@@ -31,15 +35,15 @@ static int64_t func_1(void) { /* block id: 0 */
 
 /* ---------------------------------------- */
 int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
-  mage_alpha(0); 
+  mage_alpha0(0); 
   int print_hash_value = 0;
-  mage_alpha(1); 
+  mage_alpha1(1); 
   if (argc == 2 && strcmp(argv[1], "1") == 0) {
     print_hash_value = 1;
   }
-  mage_alpha(2); 
+  mage_alpha2(2); 
   platform_main_begin();
-  mage_alpha(3); 
+  mage_alpha3(3); 
   crc32_gentab();
   func_1();
   platform_main_end(crc32_context ^ 0xFFFFFFFFUL, print_hash_value);

@@ -13,6 +13,7 @@
   },
   "2": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": true,
     "recovered_construct": true
   },
@@ -70,6 +71,7 @@
   },
   "7": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },

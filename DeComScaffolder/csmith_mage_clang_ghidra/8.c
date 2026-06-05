@@ -282,238 +282,238 @@ typedef struct evp_pkey_ctx_st EVP_PKEY_CTX;
 
 undefined main;
 undefined1 completed.0;
-undefined8 DAT_0040a718;
-int DAT_0040a720;
-ushort DAT_0040a724;
-short DAT_0040a726;
-int DAT_0040a728;
-undefined8 DAT_0040a738;
-int DAT_0040a740;
-ushort DAT_0040a744;
-short DAT_0040a746;
-int DAT_0040a748;
-undefined8 DAT_0040b058;
-int DAT_0040b060;
-ushort DAT_0040b064;
-short DAT_0040b066;
-int DAT_0040b068;
-undefined8 DAT_0040b078;
-int DAT_0040b080;
-ushort DAT_0040b084;
-short DAT_0040b086;
-int DAT_0040b088;
-undefined8 DAT_0040b098;
-int DAT_0040b0a0;
-ushort DAT_0040b0a4;
-short DAT_0040b0a6;
-int DAT_0040b0a8;
-undefined8 DAT_0040b0b8;
-int DAT_0040b0c0;
-ushort DAT_0040b0c4;
-short DAT_0040b0c6;
-int DAT_0040b0c8;
-undefined8 DAT_0040b0d8;
-int DAT_0040b0e0;
-ushort DAT_0040b0e4;
-short DAT_0040b0e6;
-int DAT_0040b0e8;
-undefined8 DAT_0040b0f8;
-int DAT_0040b100;
-ushort DAT_0040b104;
-short DAT_0040b106;
-int DAT_0040b108;
-undefined8 DAT_0040b4d8;
-int DAT_0040b4e0;
-ushort DAT_0040b4e4;
-short DAT_0040b4e6;
-int DAT_0040b4e8;
-undefined8 DAT_0040b4f8;
-int DAT_0040b500;
-ushort DAT_0040b504;
-short DAT_0040b506;
-int DAT_0040b508;
-undefined8 DAT_0040b518;
+undefined8 DAT_00412718;
+int DAT_00412720;
+ushort DAT_00412724;
+short DAT_00412726;
+int DAT_00412728;
+undefined8 DAT_00412738;
+int DAT_00412740;
+ushort DAT_00412744;
+short DAT_00412746;
+int DAT_00412748;
+undefined8 DAT_00413058;
+int DAT_00413060;
+ushort DAT_00413064;
+short DAT_00413066;
+int DAT_00413068;
+undefined8 DAT_00413078;
+int DAT_00413080;
+ushort DAT_00413084;
+short DAT_00413086;
+int DAT_00413088;
+undefined8 DAT_00413098;
+int DAT_004130a0;
+ushort DAT_004130a4;
+short DAT_004130a6;
+int DAT_004130a8;
+undefined8 DAT_004130b8;
+int DAT_004130c0;
+ushort DAT_004130c4;
+short DAT_004130c6;
+int DAT_004130c8;
+undefined8 DAT_004130d8;
+int DAT_004130e0;
+ushort DAT_004130e4;
+short DAT_004130e6;
+int DAT_004130e8;
+undefined8 DAT_004130f8;
+int DAT_00413100;
+ushort DAT_00413104;
+short DAT_00413106;
+int DAT_00413108;
+undefined8 DAT_004134d8;
+int DAT_004134e0;
+ushort DAT_004134e4;
+short DAT_004134e6;
+int DAT_004134e8;
+undefined8 DAT_004134f8;
+int DAT_00413500;
+ushort DAT_00413504;
+short DAT_00413506;
 undefined4 g_3;
-int DAT_0040b520;
-ushort DAT_0040b524;
-short DAT_0040b526;
+int DAT_00413508;
+undefined8 DAT_00413518;
+int DAT_00413520;
 undefined4 g_4;
-int DAT_0040b528;
+ushort DAT_00413524;
 undefined4 g_5;
-undefined8 DAT_0040b538;
+short DAT_00413526;
 undefined4 g_6;
-int DAT_0040b540;
+int DAT_00413528;
 undefined1[72] g_45;
-ushort DAT_0040b544;
-short DAT_0040b546;
+undefined8 DAT_00413538;
+int DAT_00413540;
 undefined1 g_59;
 undefined1[12] g_65;
-int DAT_0040b548;
+ushort DAT_00413544;
 undefined1[160] g_85;
-undefined8 DAT_0040b558;
+short DAT_00413546;
 undefined4 g_97;
-int DAT_0040b560;
+int DAT_00413548;
 undefined2 g_98;
-ushort DAT_0040b564;
+undefined8 DAT_00413558;
 undefined2 g_101;
-short DAT_0040b566;
+int DAT_00413560;
 undefined1[20] g_102;
-int DAT_0040b568;
+ushort DAT_00413564;
 undefined4 g_119;
-undefined8 DAT_0040b578;
+short DAT_00413566;
 undefined8 g_120;
-int DAT_0040b580;
+int DAT_00413568;
 undefined4 g_124;
-ushort DAT_0040b584;
-short DAT_0040b586;
+undefined8 DAT_00413578;
+int DAT_00413580;
 undefined8 g_142;
 undefined8 g_184;
-int DAT_0040b588;
+ushort DAT_00413584;
 undefined1 g_299;
-undefined8 DAT_0040bb38;
+short DAT_00413586;
 undefined8 g_502;
-int DAT_0040bb40;
+int DAT_00413588;
 undefined1[2304] g_562;
-ushort DAT_0040bb44;
+undefined8 DAT_00413b38;
 undefined8 g_616;
-short DAT_0040bb46;
+int DAT_00413b40;
 undefined1 g_646;
-int DAT_0040bb48;
+ushort DAT_00413b44;
 undefined2 g_700;
-undefined8 DAT_0040bb58;
+short DAT_00413b46;
 undefined8 g_805;
-int DAT_0040bb60;
+int DAT_00413b48;
 undefined1[10] g_816;
-ushort DAT_0040bb64;
+undefined8 DAT_00413b58;
 undefined1 g_822;
-short DAT_0040bb66;
+int DAT_00413b60;
 undefined8 g_909;
-int DAT_0040bb68;
+ushort DAT_00413b64;
 undefined8 g_917;
-undefined8 DAT_0040bff8;
+short DAT_00413b66;
 undefined8 g_929;
-int DAT_0040c000;
+int DAT_00413b68;
 undefined1 g_947;
-ushort DAT_0040c004;
+undefined8 DAT_00413ff8;
 undefined1[224] g_987;
-short DAT_0040c006;
+int DAT_00414000;
 undefined8 g_992;
-int DAT_0040c008;
+ushort DAT_00414004;
 undefined4 g_994;
-undefined8 DAT_0040c118;
+short DAT_00414006;
 undefined1[864] g_1051;
-int DAT_0040c120;
+int DAT_00414008;
 undefined1[36] g_1103;
-ushort DAT_0040c124;
+undefined8 DAT_00414118;
 undefined2 g_1105;
-short DAT_0040c126;
+int DAT_00414120;
 undefined1[96] g_1108;
-int DAT_0040c128;
+ushort DAT_00414124;
 undefined8 g_1110;
-undefined8 DAT_0040c138;
+short DAT_00414126;
 undefined4 g_1119;
-int DAT_0040c140;
+int DAT_00414128;
 undefined8 g_1139;
-ushort DAT_0040c144;
+undefined8 DAT_00414138;
 undefined8 g_1186;
-short DAT_0040c146;
+int DAT_00414140;
 undefined8 g_1276;
-int DAT_0040c148;
-undefined8 DAT_0040c298;
+ushort DAT_00414144;
+short DAT_00414146;
 undefined8 g_1321;
-int DAT_0040c2a0;
+int DAT_00414148;
 undefined8 g_1352;
-ushort DAT_0040c2a4;
+undefined8 DAT_00414298;
 undefined1[45] g_1424;
-short DAT_0040c2a6;
+int DAT_004142a0;
 undefined1[800] g_1435;
-int DAT_0040c2a8;
+ushort DAT_004142a4;
 undefined1[1440] g_1526;
-undefined8 DAT_0040c2b8;
-int DAT_0040c2c0;
+short DAT_004142a6;
+int DAT_004142a8;
 undefined1 g_1535;
 undefined8 g_1536;
-ushort DAT_0040c2c4;
+undefined8 DAT_004142b8;
 undefined8 g_1538;
-short DAT_0040c2c6;
+int DAT_004142c0;
 undefined1[256] g_1565;
-int DAT_0040c2c8;
+ushort DAT_004142c4;
 undefined1[896] g_1569;
-undefined8 DAT_0040c2d8;
+short DAT_004142c6;
 undefined8 g_1617;
-int DAT_0040c2e0;
+int DAT_004142c8;
 undefined1[256] g_1721;
-ushort DAT_0040c2e4;
+undefined8 DAT_004142d8;
 undefined8 g_1934;
-short DAT_0040c2e6;
+int DAT_004142e0;
 undefined8 g_1974;
-int DAT_0040c2e8;
+ushort DAT_004142e4;
 undefined4 g_1997;
-undefined8 DAT_0040ddf8;
+short DAT_004142e6;
 undefined8 g_2005;
-int DAT_0040de00;
+int DAT_004142e8;
 undefined1[320] g_2109;
-ushort DAT_0040de04;
+undefined8 DAT_00415df8;
 undefined8 g_2112;
-short DAT_0040de06;
+int DAT_00415e00;
 undefined1 g_2247;
-int DAT_0040de08;
+ushort DAT_00415e04;
 undefined8 g_2416;
-undefined8 DAT_0040de18;
+short DAT_00415e06;
 undefined8 g_2615;
-int DAT_0040de20;
+int DAT_00415e08;
 undefined1[6912] g_2616;
-ushort DAT_0040de24;
+undefined8 DAT_00415e18;
 undefined2 g_2654;
-short DAT_0040de26;
+int DAT_00415e20;
 undefined8 g_2675;
-int DAT_0040de28;
+ushort DAT_00415e24;
 undefined2 g_2690;
-undefined8 DAT_0040de38;
+short DAT_00415e26;
 undefined8 g_2709;
-int DAT_0040de40;
+int DAT_00415e28;
 undefined4 g_2731;
-ushort DAT_0040de44;
+undefined8 DAT_00415e38;
 undefined8 g_2761;
-short DAT_0040de46;
+int DAT_00415e40;
 undefined8 g_2875;
-int DAT_0040de48;
+ushort DAT_00415e44;
 undefined8 g_2905;
-undefined8 DAT_0040de58;
+short DAT_00415e46;
 undefined2 g_2991;
-int DAT_0040de60;
+int DAT_00415e48;
 undefined8 g_3009;
-ushort DAT_0040de64;
+undefined8 DAT_00415e58;
 undefined8 g_3038;
-short DAT_0040de66;
+int DAT_00415e60;
 undefined1 g_3068;
-int DAT_0040de68;
-undefined DAT_00406240;
+ushort DAT_00415e64;
 undefined1[288] g_3075;
-undefined DAT_00406244;
+short DAT_00415e66;
 undefined4 crc32_context;
-undefined DAT_00406248;
-undefined DAT_0040624c;
-undefined DAT_0040626d;
-undefined DAT_00406288;
-undefined DAT_0040628d;
-undefined DAT_00406292;
+int DAT_00415e68;
+undefined DAT_0040a240;
+undefined DAT_0040a244;
+undefined DAT_0040a248;
+undefined DAT_0040a24c;
+undefined DAT_0040a26d;
+undefined DAT_0040a288;
+undefined DAT_0040a28d;
+undefined DAT_0040a292;
 undefined1[1024] crc32_tab;
-pointer PTR_g_733_00406fd8;
-undefined *PTR_g_733_00407000;
-undefined *PTR_g_733_00407028;
-undefined DAT_00407060;
+pointer PTR_g_733_0040afd8;
+undefined *PTR_g_733_0040b000;
 undefined8 g_655;
-undefined DAT_00407440;
+undefined *PTR_g_733_0040b028;
 pointer g_2272;
-undefined DAT_004075d0;
+undefined DAT_0040b060;
 pointer g_341;
-undefined DAT_004078a0;
+undefined DAT_0040b440;
 pointer g_519;
-undefined DAT_00408020;
+undefined DAT_0040b5d0;
 pointer g_456;
-undefined DAT_004080c0;
+undefined DAT_0040b8a0;
+undefined DAT_0040c020;
 pointer g_733;
+undefined DAT_0040c0c0;
 undefined8 g_1185;
 undefined4 g_2212;
 pointer g_455;
@@ -660,7 +660,3647 @@ void frame_dummy(void)
 
 
 
-undefined4 codemarker_alpha(undefined4 param_1)
+undefined4 mage_alpha0(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha1(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha2(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha3(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha4(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha5(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha6(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha7(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha8(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha9(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha10(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha11(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha12(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha13(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha14(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha15(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha16(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha17(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha18(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha19(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha20(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha21(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha22(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha23(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha24(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha25(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha26(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha27(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha28(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha29(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha30(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha31(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha32(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha33(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha34(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha35(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha36(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha37(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha38(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha39(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha40(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha41(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha42(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha43(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha44(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha45(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha46(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha47(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha48(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha49(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha50(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha51(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha52(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha53(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha54(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha55(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha56(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha57(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha58(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha59(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha60(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha61(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha62(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha63(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha64(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha65(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha66(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha67(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha68(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha69(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha70(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha71(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha72(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha73(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha74(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha75(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha76(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha77(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha78(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha79(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha80(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha81(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha82(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha83(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha84(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha85(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha86(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha87(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha88(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha89(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha90(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha91(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha92(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha93(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha94(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha95(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha96(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha97(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha98(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha99(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha100(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha101(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha102(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha103(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha104(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha105(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha106(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha107(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha108(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha109(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha110(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha111(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha112(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha113(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha114(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha115(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha116(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha117(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha118(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha119(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha120(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha121(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha122(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha123(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha124(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha125(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha126(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha127(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha128(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha129(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha130(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha131(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha132(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha133(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha134(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha135(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha136(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha137(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha138(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha139(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha140(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha141(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha142(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha143(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha144(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha145(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha146(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha147(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha148(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha149(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha150(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha151(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha152(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha153(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha154(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha155(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha156(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha157(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha158(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha159(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha160(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha161(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha162(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha163(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha164(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha165(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha166(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha167(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha168(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha169(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha170(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha171(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha172(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha173(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha174(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha175(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha176(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha177(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha178(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha179(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha180(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha181(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha182(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha183(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha184(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha185(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha186(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha187(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha188(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha189(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha190(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha191(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha192(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha193(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha194(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha195(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha196(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha197(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha198(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha199(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha200(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha201(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha202(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha203(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha204(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha205(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha206(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha207(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha208(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha209(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha210(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha211(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha212(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha213(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha214(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha215(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha216(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha217(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha218(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha219(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha220(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha221(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha222(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha223(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha224(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha225(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha226(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha227(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha228(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha229(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha230(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha231(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha232(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha233(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha234(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha235(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha236(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha237(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha238(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha239(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha240(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha241(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha242(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha243(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha244(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha245(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha246(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha247(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha248(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha249(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha250(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha251(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha252(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha253(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha254(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha255(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha256(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha257(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha258(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha259(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha260(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha261(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha262(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha263(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha264(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha265(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha266(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha267(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha268(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha269(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha270(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha271(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha272(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha273(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha274(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha275(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha276(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha277(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha278(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha279(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha280(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha281(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha282(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha283(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha284(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha285(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha286(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha287(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha288(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha289(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha290(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha291(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha292(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha293(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha294(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha295(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha296(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha297(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha298(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha299(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha300(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha301(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha302(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha303(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha304(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha305(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha306(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha307(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha308(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha309(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha310(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha311(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha312(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha313(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha314(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha315(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha316(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha317(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha318(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha319(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha320(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha321(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha322(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha323(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha324(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha325(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha326(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha327(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha328(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha329(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha330(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha331(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha332(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha333(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha334(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha335(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha336(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha337(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha338(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha339(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha340(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha341(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha342(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha343(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha344(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha345(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha346(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha347(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha348(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha349(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha350(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha351(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha352(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha353(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha354(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha355(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha356(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha357(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha358(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha359(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha360(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha361(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha362(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha363(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha364(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha365(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha366(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha367(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha368(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha369(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha370(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha371(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha372(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha373(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha374(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha375(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha376(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha377(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha378(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha379(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha380(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha381(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha382(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha383(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha384(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha385(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha386(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha387(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha388(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha389(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha390(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha391(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha392(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha393(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha394(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha395(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha396(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha397(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha398(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha399(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha400(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha401(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha402(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha403(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha404(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha405(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha406(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha407(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha408(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha409(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha410(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha411(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha412(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha413(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha414(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha415(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha416(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha417(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha418(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha419(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha420(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha421(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha422(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha423(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha424(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha425(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha426(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha427(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha428(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha429(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha430(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha431(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha432(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha433(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha434(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha435(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha436(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha437(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha438(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha439(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha440(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha441(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha442(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha443(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha444(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha445(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha446(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha447(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha448(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha449(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha450(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha451(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha452(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha453(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha454(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha455(undefined4 param_1)
 
 {
   return param_1;
@@ -677,77 +4317,77 @@ undefined8 main(int param_1,long param_2)
   uint local_20;
   uint local_1c;
   
-  codemarker_alpha(0xac);
-  codemarker_alpha(0xad);
+  mage_alpha172(0xac);
+  mage_alpha173(0xad);
   local_28 = 0;
-  codemarker_alpha(0xae);
+  mage_alpha174(0xae);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_28 = 1;
     }
   }
-  codemarker_alpha(0xaf);
+  mage_alpha175(0xaf);
   platform_main_begin();
-  codemarker_alpha(0xb0);
+  mage_alpha176(0xb0);
   crc32_gentab();
   func_1();
-  transparent_crc((long)g_3,&DAT_00406240,local_28);
-  transparent_crc((long)g_4,&DAT_00406244,local_28);
-  transparent_crc((long)g_5,&DAT_00406248,local_28);
-  transparent_crc((long)g_6,&DAT_0040624c,local_28);
-  codemarker_alpha(0xb1);
+  transparent_crc((long)g_3,&DAT_0040a240,local_28);
+  transparent_crc((long)g_4,&DAT_0040a244,local_28);
+  transparent_crc((long)g_5,&DAT_0040a248,local_28);
+  transparent_crc((long)g_6,&DAT_0040a24c,local_28);
+  mage_alpha177(0xb1);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    codemarker_alpha(0xb2);
+    mage_alpha178(0xb2);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      codemarker_alpha(0xb3);
+      mage_alpha179(0xb3);
       transparent_crc((long)*(int *)(g_45 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x24),
                       "g_45[i][j]",local_28);
-      codemarker_alpha(0xb4);
+      mage_alpha180(0xb4);
       if (local_28 != 0) {
-        codemarker_alpha(0xb5);
+        mage_alpha181(0xb5);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  transparent_crc(g_59,&DAT_0040626d,local_28);
-  codemarker_alpha(0xb6);
+  transparent_crc(g_59,&DAT_0040a26d,local_28);
+  mage_alpha182(0xb6);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    codemarker_alpha(0xb7);
+    mage_alpha183(0xb7);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      codemarker_alpha(0xb8);
+      mage_alpha184(0xb8);
       transparent_crc(g_65[(long)(int)local_20 + (long)(int)local_1c * 4],"g_65[i][j]",local_28);
-      codemarker_alpha(0xb9);
+      mage_alpha185(0xb9);
       if (local_28 != 0) {
-        codemarker_alpha(0xba);
+        mage_alpha186(0xba);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  codemarker_alpha(0xbb);
+  mage_alpha187(0xbb);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    codemarker_alpha(0xbc);
+    mage_alpha188(0xbc);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      codemarker_alpha(0xbd);
+      mage_alpha189(0xbd);
       transparent_crc(*(undefined8 *)(g_85 + (long)(int)local_20 * 8 + (long)(int)local_1c * 0x20),
                       "g_85[i][j]",local_28);
-      codemarker_alpha(0xbe);
+      mage_alpha190(0xbe);
       if (local_28 != 0) {
-        codemarker_alpha(0xbf);
+        mage_alpha191(0xbf);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  transparent_crc((long)g_97,&DAT_00406288,local_28);
-  transparent_crc((long)g_98,&DAT_0040628d,local_28);
-  transparent_crc(g_101,&DAT_00406292,local_28);
-  codemarker_alpha(0xc0);
+  transparent_crc((long)g_97,&DAT_0040a288,local_28);
+  transparent_crc((long)g_98,&DAT_0040a28d,local_28);
+  transparent_crc(g_101,&DAT_0040a292,local_28);
+  mage_alpha192(0xc0);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    codemarker_alpha(0xc1);
+    mage_alpha193(0xc1);
     transparent_crc((long)*(int *)(g_102 + (long)(int)local_1c * 4),"g_102[i]",local_28);
-    codemarker_alpha(0xc2);
+    mage_alpha194(0xc2);
     if (local_28 != 0) {
-      codemarker_alpha(0xc3);
+      mage_alpha195(0xc3);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -755,45 +4395,45 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_120,"g_120.f0",local_28);
   transparent_crc(g_124,"g_124",local_28);
   transparent_crc(g_142,"g_142.f0",local_28);
-  codemarker_alpha(0xc4);
+  mage_alpha196(0xc4);
   transparent_crc((uint)g_184 & 0x3ffff,"g_184.f0",local_28);
-  codemarker_alpha(0xc5);
+  mage_alpha197(0xc5);
   transparent_crc((uint)((ulong)g_184 >> 0x20) & 0x7fffffff,"g_184.f1",local_28);
-  transparent_crc(DAT_0040a718,"g_184.f2",local_28);
-  codemarker_alpha(0xc6);
-  transparent_crc((long)((DAT_0040a720 << 3) >> 3),"g_184.f3",local_28);
-  codemarker_alpha(199);
-  transparent_crc(DAT_0040a724 & 0x3fff,"g_184.f4",local_28);
-  transparent_crc((long)DAT_0040a726,"g_184.f5",local_28);
-  codemarker_alpha(200);
-  transparent_crc((long)((DAT_0040a728 << 5) >> 5),"g_184.f6",local_28);
+  transparent_crc(DAT_00412718,"g_184.f2",local_28);
+  mage_alpha198(0xc6);
+  transparent_crc((long)((DAT_00412720 << 3) >> 3),"g_184.f3",local_28);
+  mage_alpha199(199);
+  transparent_crc(DAT_00412724 & 0x3fff,"g_184.f4",local_28);
+  transparent_crc((long)DAT_00412726,"g_184.f5",local_28);
+  mage_alpha200(200);
+  transparent_crc((long)((DAT_00412728 << 5) >> 5),"g_184.f6",local_28);
   transparent_crc(g_299,"g_299",local_28);
   transparent_crc(0xffffffffb358915a,"g_392",local_28);
   transparent_crc(0,"g_425.f0",local_28);
-  codemarker_alpha(0xc9);
+  mage_alpha201(0xc9);
   transparent_crc((uint)g_502 & 0x3ffff,"g_502.f0",local_28);
-  codemarker_alpha(0xca);
+  mage_alpha202(0xca);
   transparent_crc((uint)((ulong)g_502 >> 0x20) & 0x7fffffff,"g_502.f1",local_28);
-  transparent_crc(DAT_0040a738,"g_502.f2",local_28);
-  codemarker_alpha(0xcb);
-  transparent_crc((long)((DAT_0040a740 << 3) >> 3),"g_502.f3",local_28);
-  codemarker_alpha(0xcc);
-  transparent_crc(DAT_0040a744 & 0x3fff,"g_502.f4",local_28);
-  transparent_crc((long)DAT_0040a746,"g_502.f5",local_28);
-  codemarker_alpha(0xcd);
-  transparent_crc((long)((DAT_0040a748 << 5) >> 5),"g_502.f6",local_28);
-  codemarker_alpha(0xce);
+  transparent_crc(DAT_00412738,"g_502.f2",local_28);
+  mage_alpha203(0xcb);
+  transparent_crc((long)((DAT_00412740 << 3) >> 3),"g_502.f3",local_28);
+  mage_alpha204(0xcc);
+  transparent_crc(DAT_00412744 & 0x3fff,"g_502.f4",local_28);
+  transparent_crc((long)DAT_00412746,"g_502.f5",local_28);
+  mage_alpha205(0xcd);
+  transparent_crc((long)((DAT_00412748 << 5) >> 5),"g_502.f6",local_28);
+  mage_alpha206(0xce);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    codemarker_alpha(0xcf);
+    mage_alpha207(0xcf);
     for (local_20 = 0; (int)local_20 < 6; local_20 = local_20 + 1) {
-      codemarker_alpha(0xd0);
+      mage_alpha208(0xd0);
       for (local_24 = 0; (int)local_24 < 6; local_24 = local_24 + 1) {
-        codemarker_alpha(0xd1);
+        mage_alpha209(0xd1);
         transparent_crc((uint)*(undefined8 *)
                                (g_562 + (long)(int)local_24 * 0x20 +
                                         (long)(int)local_20 * 0xc0 + (long)(int)local_1c * 0x480) &
                         0x3ffff,"g_562[i][j][k].f0",local_28);
-        codemarker_alpha(0xd2);
+        mage_alpha210(0xd2);
         transparent_crc((uint)((ulong)*(undefined8 *)
                                        (g_562 + (long)(int)local_24 * 0x20 +
                                                 (long)(int)local_20 * 0xc0 +
@@ -802,12 +4442,12 @@ undefined8 main(int param_1,long param_2)
         transparent_crc(*(undefined8 *)
                          (g_562 + (long)(int)local_1c * 0x480 + (long)(int)local_20 * 0xc0 +
                                   (long)(int)local_24 * 0x20 + 8),"g_562[i][j][k].f2",local_28);
-        codemarker_alpha(0xd3);
+        mage_alpha211(0xd3);
         transparent_crc((long)((*(int *)(g_562 + (long)(int)local_1c * 0x480 +
                                                  (long)(int)local_20 * 0xc0 +
                                                  (long)(int)local_24 * 0x20 + 0x10) << 3) >> 3),
                         "g_562[i][j][k].f3",local_28);
-        codemarker_alpha(0xd4);
+        mage_alpha212(0xd4);
         transparent_crc(*(ushort *)
                          (g_562 + (long)(int)local_1c * 0x480 + (long)(int)local_20 * 0xc0 +
                                   (long)(int)local_24 * 0x20 + 0x14) & 0x3fff,"g_562[i][j][k].f4",
@@ -816,150 +4456,150 @@ undefined8 main(int param_1,long param_2)
                                                  (long)(int)local_20 * 0xc0 +
                                                  (long)(int)local_24 * 0x20 + 0x16),
                         "g_562[i][j][k].f5",local_28);
-        codemarker_alpha(0xd5);
+        mage_alpha213(0xd5);
         transparent_crc((long)((*(int *)(g_562 + (long)(int)local_1c * 0x480 +
                                                  (long)(int)local_20 * 0xc0 +
                                                  (long)(int)local_24 * 0x20 + 0x18) << 5) >> 5),
                         "g_562[i][j][k].f6",local_28);
-        codemarker_alpha(0xd6);
+        mage_alpha214(0xd6);
         if (local_28 != 0) {
-          codemarker_alpha(0xd7);
+          mage_alpha215(0xd7);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  codemarker_alpha(0xd8);
+  mage_alpha216(0xd8);
   transparent_crc((uint)g_616 & 0x3ffff,"g_616.f0",local_28);
-  codemarker_alpha(0xd9);
+  mage_alpha217(0xd9);
   transparent_crc((uint)((ulong)g_616 >> 0x20) & 0x7fffffff,"g_616.f1",local_28);
-  transparent_crc(DAT_0040b058,"g_616.f2",local_28);
-  codemarker_alpha(0xda);
-  transparent_crc((long)((DAT_0040b060 << 3) >> 3),"g_616.f3",local_28);
-  codemarker_alpha(0xdb);
-  transparent_crc(DAT_0040b064 & 0x3fff,"g_616.f4",local_28);
-  transparent_crc((long)DAT_0040b066,"g_616.f5",local_28);
-  codemarker_alpha(0xdc);
-  transparent_crc((long)((DAT_0040b068 << 5) >> 5),"g_616.f6",local_28);
+  transparent_crc(DAT_00413058,"g_616.f2",local_28);
+  mage_alpha218(0xda);
+  transparent_crc((long)((DAT_00413060 << 3) >> 3),"g_616.f3",local_28);
+  mage_alpha219(0xdb);
+  transparent_crc(DAT_00413064 & 0x3fff,"g_616.f4",local_28);
+  transparent_crc((long)DAT_00413066,"g_616.f5",local_28);
+  mage_alpha220(0xdc);
+  transparent_crc((long)((DAT_00413068 << 5) >> 5),"g_616.f6",local_28);
   transparent_crc(g_646,"g_646",local_28);
   transparent_crc((long)g_700,"g_700",local_28);
-  codemarker_alpha(0xdd);
+  mage_alpha221(0xdd);
   transparent_crc((uint)g_805 & 0x3ffff,"g_805.f0",local_28);
-  codemarker_alpha(0xde);
+  mage_alpha222(0xde);
   transparent_crc((uint)((ulong)g_805 >> 0x20) & 0x7fffffff,"g_805.f1",local_28);
-  transparent_crc(DAT_0040b078,"g_805.f2",local_28);
-  codemarker_alpha(0xdf);
-  transparent_crc((long)((DAT_0040b080 << 3) >> 3),"g_805.f3",local_28);
-  codemarker_alpha(0xe0);
-  transparent_crc(DAT_0040b084 & 0x3fff,"g_805.f4",local_28);
-  transparent_crc((long)DAT_0040b086,"g_805.f5",local_28);
-  codemarker_alpha(0xe1);
-  transparent_crc((long)((DAT_0040b088 << 5) >> 5),"g_805.f6",local_28);
-  codemarker_alpha(0xe2);
+  transparent_crc(DAT_00413078,"g_805.f2",local_28);
+  mage_alpha223(0xdf);
+  transparent_crc((long)((DAT_00413080 << 3) >> 3),"g_805.f3",local_28);
+  mage_alpha224(0xe0);
+  transparent_crc(DAT_00413084 & 0x3fff,"g_805.f4",local_28);
+  transparent_crc((long)DAT_00413086,"g_805.f5",local_28);
+  mage_alpha225(0xe1);
+  transparent_crc((long)((DAT_00413088 << 5) >> 5),"g_805.f6",local_28);
+  mage_alpha226(0xe2);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    codemarker_alpha(0xe3);
+    mage_alpha227(0xe3);
     transparent_crc((long)*(short *)(g_816 + (long)(int)local_1c * 2),"g_816[i]",local_28);
-    codemarker_alpha(0xe4);
+    mage_alpha228(0xe4);
     if (local_28 != 0) {
-      codemarker_alpha(0xe5);
+      mage_alpha229(0xe5);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc((long)g_822,"g_822",local_28);
-  codemarker_alpha(0xe6);
+  mage_alpha230(0xe6);
   transparent_crc((uint)g_909 & 0x3ffff,"g_909.f0",local_28);
-  codemarker_alpha(0xe7);
+  mage_alpha231(0xe7);
   transparent_crc((uint)((ulong)g_909 >> 0x20) & 0x7fffffff,"g_909.f1",local_28);
-  transparent_crc(DAT_0040b098,"g_909.f2",local_28);
-  codemarker_alpha(0xe8);
-  transparent_crc((long)((DAT_0040b0a0 << 3) >> 3),"g_909.f3",local_28);
-  codemarker_alpha(0xe9);
-  transparent_crc(DAT_0040b0a4 & 0x3fff,"g_909.f4",local_28);
-  transparent_crc((long)DAT_0040b0a6,"g_909.f5",local_28);
-  codemarker_alpha(0xea);
-  transparent_crc((long)((DAT_0040b0a8 << 5) >> 5),"g_909.f6",local_28);
-  codemarker_alpha(0xeb);
+  transparent_crc(DAT_00413098,"g_909.f2",local_28);
+  mage_alpha232(0xe8);
+  transparent_crc((long)((DAT_004130a0 << 3) >> 3),"g_909.f3",local_28);
+  mage_alpha233(0xe9);
+  transparent_crc(DAT_004130a4 & 0x3fff,"g_909.f4",local_28);
+  transparent_crc((long)DAT_004130a6,"g_909.f5",local_28);
+  mage_alpha234(0xea);
+  transparent_crc((long)((DAT_004130a8 << 5) >> 5),"g_909.f6",local_28);
+  mage_alpha235(0xeb);
   transparent_crc((uint)g_917 & 0x3ffff,"g_917.f0",local_28);
-  codemarker_alpha(0xec);
+  mage_alpha236(0xec);
   transparent_crc((uint)((ulong)g_917 >> 0x20) & 0x7fffffff,"g_917.f1",local_28);
-  transparent_crc(DAT_0040b0b8,"g_917.f2",local_28);
-  codemarker_alpha(0xed);
-  transparent_crc((long)((DAT_0040b0c0 << 3) >> 3),"g_917.f3",local_28);
-  codemarker_alpha(0xee);
-  transparent_crc(DAT_0040b0c4 & 0x3fff,"g_917.f4",local_28);
-  transparent_crc((long)DAT_0040b0c6,"g_917.f5",local_28);
-  codemarker_alpha(0xef);
-  transparent_crc((long)((DAT_0040b0c8 << 5) >> 5),"g_917.f6",local_28);
-  codemarker_alpha(0xf0);
+  transparent_crc(DAT_004130b8,"g_917.f2",local_28);
+  mage_alpha237(0xed);
+  transparent_crc((long)((DAT_004130c0 << 3) >> 3),"g_917.f3",local_28);
+  mage_alpha238(0xee);
+  transparent_crc(DAT_004130c4 & 0x3fff,"g_917.f4",local_28);
+  transparent_crc((long)DAT_004130c6,"g_917.f5",local_28);
+  mage_alpha239(0xef);
+  transparent_crc((long)((DAT_004130c8 << 5) >> 5),"g_917.f6",local_28);
+  mage_alpha240(0xf0);
   transparent_crc((uint)g_929 & 0x3ffff,"g_929.f0",local_28);
-  codemarker_alpha(0xf1);
+  mage_alpha241(0xf1);
   transparent_crc((uint)((ulong)g_929 >> 0x20) & 0x7fffffff,"g_929.f1",local_28);
-  transparent_crc(DAT_0040b0d8,"g_929.f2",local_28);
-  codemarker_alpha(0xf2);
-  transparent_crc((long)((DAT_0040b0e0 << 3) >> 3),"g_929.f3",local_28);
-  codemarker_alpha(0xf3);
-  transparent_crc(DAT_0040b0e4 & 0x3fff,"g_929.f4",local_28);
-  transparent_crc((long)DAT_0040b0e6,"g_929.f5",local_28);
-  codemarker_alpha(0xf4);
-  transparent_crc((long)((DAT_0040b0e8 << 5) >> 5),"g_929.f6",local_28);
+  transparent_crc(DAT_004130d8,"g_929.f2",local_28);
+  mage_alpha242(0xf2);
+  transparent_crc((long)((DAT_004130e0 << 3) >> 3),"g_929.f3",local_28);
+  mage_alpha243(0xf3);
+  transparent_crc(DAT_004130e4 & 0x3fff,"g_929.f4",local_28);
+  transparent_crc((long)DAT_004130e6,"g_929.f5",local_28);
+  mage_alpha244(0xf4);
+  transparent_crc((long)((DAT_004130e8 << 5) >> 5),"g_929.f6",local_28);
   transparent_crc(g_947,"g_947",local_28);
-  codemarker_alpha(0xf5);
+  mage_alpha245(0xf5);
   for (local_1c = 0; (int)local_1c < 7; local_1c = local_1c + 1) {
-    codemarker_alpha(0xf6);
+    mage_alpha246(0xf6);
     transparent_crc((uint)*(undefined8 *)(g_987 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_987[i].f0",local_28);
-    codemarker_alpha(0xf7);
+    mage_alpha247(0xf7);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_987 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_987[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_987 + (long)(int)local_1c * 0x20 + 8),"g_987[i].f2",local_28);
-    codemarker_alpha(0xf8);
+    mage_alpha248(0xf8);
     transparent_crc((long)((*(int *)(g_987 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_987[i].f3",local_28);
-    codemarker_alpha(0xf9);
+    mage_alpha249(0xf9);
     transparent_crc(*(ushort *)(g_987 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_987[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_987 + (long)(int)local_1c * 0x20 + 0x16),"g_987[i].f5",
                     local_28);
-    codemarker_alpha(0xfa);
+    mage_alpha250(0xfa);
     transparent_crc((long)((*(int *)(g_987 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_987[i].f6",local_28);
-    codemarker_alpha(0xfb);
+    mage_alpha251(0xfb);
     if (local_28 != 0) {
-      codemarker_alpha(0xfc);
+      mage_alpha252(0xfc);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0xfd);
+  mage_alpha253(0xfd);
   transparent_crc((uint)g_992 & 0x3ffff,"g_992.f0",local_28);
-  codemarker_alpha(0xfe);
+  mage_alpha254(0xfe);
   transparent_crc((uint)((ulong)g_992 >> 0x20) & 0x7fffffff,"g_992.f1",local_28);
-  transparent_crc(DAT_0040b0f8,"g_992.f2",local_28);
-  codemarker_alpha(0xff);
-  transparent_crc((long)((DAT_0040b100 << 3) >> 3),"g_992.f3",local_28);
-  codemarker_alpha(0x100);
-  transparent_crc(DAT_0040b104 & 0x3fff,"g_992.f4",local_28);
-  transparent_crc((long)DAT_0040b106,"g_992.f5",local_28);
-  codemarker_alpha(0x101);
-  transparent_crc((long)((DAT_0040b108 << 5) >> 5),"g_992.f6",local_28);
-  codemarker_alpha(0x102);
+  transparent_crc(DAT_004130f8,"g_992.f2",local_28);
+  mage_alpha255(0xff);
+  transparent_crc((long)((DAT_00413100 << 3) >> 3),"g_992.f3",local_28);
+  mage_alpha256(0x100);
+  transparent_crc(DAT_00413104 & 0x3fff,"g_992.f4",local_28);
+  transparent_crc((long)DAT_00413106,"g_992.f5",local_28);
+  mage_alpha257(0x101);
+  transparent_crc((long)((DAT_00413108 << 5) >> 5),"g_992.f6",local_28);
+  mage_alpha258(0x102);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    codemarker_alpha(0x103);
+    mage_alpha259(0x103);
     transparent_crc((long)*(char *)((long)&g_994 + (long)(int)local_1c),"g_994[i]",local_28);
-    codemarker_alpha(0x104);
+    mage_alpha260(0x104);
     if (local_28 != 0) {
-      codemarker_alpha(0x105);
+      mage_alpha261(0x105);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x106);
+  mage_alpha262(0x106);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    codemarker_alpha(0x107);
+    mage_alpha263(0x107);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      codemarker_alpha(0x108);
+      mage_alpha264(0x108);
       transparent_crc((uint)*(undefined8 *)
                              (g_1051 + (long)(int)local_20 * 0x20 + (long)(int)local_1c * 0x120) &
                       0x3ffff,"g_1051[i][j].f0",local_28);
-      codemarker_alpha(0x109);
+      mage_alpha265(0x109);
       transparent_crc((uint)((ulong)*(undefined8 *)
                                      (g_1051 + (long)(int)local_20 * 0x20 +
                                                (long)(int)local_1c * 0x120) >> 0x20) & 0x7fffffff,
@@ -967,198 +4607,198 @@ undefined8 main(int param_1,long param_2)
       transparent_crc(*(undefined8 *)
                        (g_1051 + (long)(int)local_1c * 0x120 + (long)(int)local_20 * 0x20 + 8),
                       "g_1051[i][j].f2",local_28);
-      codemarker_alpha(0x10a);
+      mage_alpha266(0x10a);
       transparent_crc((long)((*(int *)(g_1051 + (long)(int)local_1c * 0x120 +
                                                 (long)(int)local_20 * 0x20 + 0x10) << 3) >> 3),
                       "g_1051[i][j].f3",local_28);
-      codemarker_alpha(0x10b);
+      mage_alpha267(0x10b);
       transparent_crc(*(ushort *)
                        (g_1051 + (long)(int)local_1c * 0x120 + (long)(int)local_20 * 0x20 + 0x14) &
                       0x3fff,"g_1051[i][j].f4",local_28);
       transparent_crc((long)*(short *)(g_1051 + (long)(int)local_1c * 0x120 +
                                                 (long)(int)local_20 * 0x20 + 0x16),"g_1051[i][j].f5"
                       ,local_28);
-      codemarker_alpha(0x10c);
+      mage_alpha268(0x10c);
       transparent_crc((long)((*(int *)(g_1051 + (long)(int)local_1c * 0x120 +
                                                 (long)(int)local_20 * 0x20 + 0x18) << 5) >> 5),
                       "g_1051[i][j].f6",local_28);
-      codemarker_alpha(0x10d);
+      mage_alpha269(0x10d);
       if (local_28 != 0) {
-        codemarker_alpha(0x10e);
+        mage_alpha270(0x10e);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  codemarker_alpha(0x10f);
+  mage_alpha271(0x10f);
   for (local_1c = 0; (int)local_1c < 1; local_1c = local_1c + 1) {
-    codemarker_alpha(0x110);
+    mage_alpha272(0x110);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      codemarker_alpha(0x111);
+      mage_alpha273(0x111);
       transparent_crc((long)*(int *)(g_1103 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x24),
                       "g_1103[i][j]",local_28);
-      codemarker_alpha(0x112);
+      mage_alpha274(0x112);
       if (local_28 != 0) {
-        codemarker_alpha(0x113);
+        mage_alpha275(0x113);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
   transparent_crc((long)g_1105,"g_1105",local_28);
-  codemarker_alpha(0x114);
+  mage_alpha276(0x114);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    codemarker_alpha(0x115);
+    mage_alpha277(0x115);
     transparent_crc((uint)*(undefined8 *)(g_1108 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_1108[i].f0",local_28);
-    codemarker_alpha(0x116);
+    mage_alpha278(0x116);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_1108 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_1108[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_1108 + (long)(int)local_1c * 0x20 + 8),"g_1108[i].f2",local_28
                    );
-    codemarker_alpha(0x117);
+    mage_alpha279(0x117);
     transparent_crc((long)((*(int *)(g_1108 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_1108[i].f3",local_28);
-    codemarker_alpha(0x118);
+    mage_alpha280(0x118);
     transparent_crc(*(ushort *)(g_1108 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_1108[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_1108 + (long)(int)local_1c * 0x20 + 0x16),"g_1108[i].f5",
                     local_28);
-    codemarker_alpha(0x119);
+    mage_alpha281(0x119);
     transparent_crc((long)((*(int *)(g_1108 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_1108[i].f6",local_28);
-    codemarker_alpha(0x11a);
+    mage_alpha282(0x11a);
     if (local_28 != 0) {
-      codemarker_alpha(0x11b);
+      mage_alpha283(0x11b);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x11c);
+  mage_alpha284(0x11c);
   transparent_crc((uint)g_1110 & 0x3ffff,"g_1110.f0",local_28);
-  codemarker_alpha(0x11d);
+  mage_alpha285(0x11d);
   transparent_crc((uint)((ulong)g_1110 >> 0x20) & 0x7fffffff,"g_1110.f1",local_28);
-  transparent_crc(DAT_0040b4d8,"g_1110.f2",local_28);
-  codemarker_alpha(0x11e);
-  transparent_crc((long)((DAT_0040b4e0 << 3) >> 3),"g_1110.f3",local_28);
-  codemarker_alpha(0x11f);
-  transparent_crc(DAT_0040b4e4 & 0x3fff,"g_1110.f4",local_28);
-  transparent_crc((long)DAT_0040b4e6,"g_1110.f5",local_28);
-  codemarker_alpha(0x120);
-  transparent_crc((long)((DAT_0040b4e8 << 5) >> 5),"g_1110.f6",local_28);
+  transparent_crc(DAT_004134d8,"g_1110.f2",local_28);
+  mage_alpha286(0x11e);
+  transparent_crc((long)((DAT_004134e0 << 3) >> 3),"g_1110.f3",local_28);
+  mage_alpha287(0x11f);
+  transparent_crc(DAT_004134e4 & 0x3fff,"g_1110.f4",local_28);
+  transparent_crc((long)DAT_004134e6,"g_1110.f5",local_28);
+  mage_alpha288(0x120);
+  transparent_crc((long)((DAT_004134e8 << 5) >> 5),"g_1110.f6",local_28);
   transparent_crc((long)g_1119,"g_1119",local_28);
-  codemarker_alpha(0x121);
+  mage_alpha289(0x121);
   transparent_crc((uint)g_1139 & 0x3ffff,"g_1139.f0",local_28);
-  codemarker_alpha(0x122);
+  mage_alpha290(0x122);
   transparent_crc((uint)((ulong)g_1139 >> 0x20) & 0x7fffffff,"g_1139.f1",local_28);
-  transparent_crc(DAT_0040b4f8,"g_1139.f2",local_28);
-  codemarker_alpha(0x123);
-  transparent_crc((long)((DAT_0040b500 << 3) >> 3),"g_1139.f3",local_28);
-  codemarker_alpha(0x124);
-  transparent_crc(DAT_0040b504 & 0x3fff,"g_1139.f4",local_28);
-  transparent_crc((long)DAT_0040b506,"g_1139.f5",local_28);
-  codemarker_alpha(0x125);
-  transparent_crc((long)((DAT_0040b508 << 5) >> 5),"g_1139.f6",local_28);
+  transparent_crc(DAT_004134f8,"g_1139.f2",local_28);
+  mage_alpha291(0x123);
+  transparent_crc((long)((DAT_00413500 << 3) >> 3),"g_1139.f3",local_28);
+  mage_alpha292(0x124);
+  transparent_crc(DAT_00413504 & 0x3fff,"g_1139.f4",local_28);
+  transparent_crc((long)DAT_00413506,"g_1139.f5",local_28);
+  mage_alpha293(0x125);
+  transparent_crc((long)((DAT_00413508 << 5) >> 5),"g_1139.f6",local_28);
   transparent_crc(0xa327,"g_1184",local_28);
-  codemarker_alpha(0x126);
+  mage_alpha294(0x126);
   transparent_crc((uint)g_1186 & 0x3ffff,"g_1186.f0",local_28);
-  codemarker_alpha(0x127);
+  mage_alpha295(0x127);
   transparent_crc((uint)((ulong)g_1186 >> 0x20) & 0x7fffffff,"g_1186.f1",local_28);
-  transparent_crc(DAT_0040b518,"g_1186.f2",local_28);
-  codemarker_alpha(0x128);
-  transparent_crc((long)((DAT_0040b520 << 3) >> 3),"g_1186.f3",local_28);
-  codemarker_alpha(0x129);
-  transparent_crc(DAT_0040b524 & 0x3fff,"g_1186.f4",local_28);
-  transparent_crc((long)DAT_0040b526,"g_1186.f5",local_28);
-  codemarker_alpha(0x12a);
-  transparent_crc((long)((DAT_0040b528 << 5) >> 5),"g_1186.f6",local_28);
-  codemarker_alpha(299);
+  transparent_crc(DAT_00413518,"g_1186.f2",local_28);
+  mage_alpha296(0x128);
+  transparent_crc((long)((DAT_00413520 << 3) >> 3),"g_1186.f3",local_28);
+  mage_alpha297(0x129);
+  transparent_crc(DAT_00413524 & 0x3fff,"g_1186.f4",local_28);
+  transparent_crc((long)DAT_00413526,"g_1186.f5",local_28);
+  mage_alpha298(0x12a);
+  transparent_crc((long)((DAT_00413528 << 5) >> 5),"g_1186.f6",local_28);
+  mage_alpha299(299);
   transparent_crc((uint)g_1276 & 0x3ffff,"g_1276.f0",local_28);
-  codemarker_alpha(300);
+  mage_alpha300(300);
   transparent_crc((uint)((ulong)g_1276 >> 0x20) & 0x7fffffff,"g_1276.f1",local_28);
-  transparent_crc(DAT_0040b538,"g_1276.f2",local_28);
-  codemarker_alpha(0x12d);
-  transparent_crc((long)((DAT_0040b540 << 3) >> 3),"g_1276.f3",local_28);
-  codemarker_alpha(0x12e);
-  transparent_crc(DAT_0040b544 & 0x3fff,"g_1276.f4",local_28);
-  transparent_crc((long)DAT_0040b546,"g_1276.f5",local_28);
-  codemarker_alpha(0x12f);
-  transparent_crc((long)((DAT_0040b548 << 5) >> 5),"g_1276.f6",local_28);
-  codemarker_alpha(0x130);
+  transparent_crc(DAT_00413538,"g_1276.f2",local_28);
+  mage_alpha301(0x12d);
+  transparent_crc((long)((DAT_00413540 << 3) >> 3),"g_1276.f3",local_28);
+  mage_alpha302(0x12e);
+  transparent_crc(DAT_00413544 & 0x3fff,"g_1276.f4",local_28);
+  transparent_crc((long)DAT_00413546,"g_1276.f5",local_28);
+  mage_alpha303(0x12f);
+  transparent_crc((long)((DAT_00413548 << 5) >> 5),"g_1276.f6",local_28);
+  mage_alpha304(0x130);
   transparent_crc(0xc2,"g_1287.f0",local_28);
-  codemarker_alpha(0x131);
+  mage_alpha305(0x131);
   transparent_crc(0x1c67,"g_1287.f1",local_28);
   transparent_crc(0,"g_1287.f2",local_28);
-  codemarker_alpha(0x132);
+  mage_alpha306(0x132);
   transparent_crc(0xffffffffffffe1d2,"g_1287.f3",local_28);
-  codemarker_alpha(0x133);
+  mage_alpha307(0x133);
   transparent_crc(0x16,"g_1287.f4",local_28);
   transparent_crc(9,"g_1287.f5",local_28);
-  codemarker_alpha(0x134);
+  mage_alpha308(0x134);
   transparent_crc(0xffffffffffffe16d,"g_1287.f6",local_28);
-  codemarker_alpha(0x135);
+  mage_alpha309(0x135);
   transparent_crc((uint)g_1321 & 0x3ffff,"g_1321.f0",local_28);
-  codemarker_alpha(0x136);
+  mage_alpha310(0x136);
   transparent_crc((uint)((ulong)g_1321 >> 0x20) & 0x7fffffff,"g_1321.f1",local_28);
-  transparent_crc(DAT_0040b558,"g_1321.f2",local_28);
-  codemarker_alpha(0x137);
-  transparent_crc((long)((DAT_0040b560 << 3) >> 3),"g_1321.f3",local_28);
-  codemarker_alpha(0x138);
-  transparent_crc(DAT_0040b564 & 0x3fff,"g_1321.f4",local_28);
-  transparent_crc((long)DAT_0040b566,"g_1321.f5",local_28);
-  codemarker_alpha(0x139);
-  transparent_crc((long)((DAT_0040b568 << 5) >> 5),"g_1321.f6",local_28);
-  codemarker_alpha(0x13a);
+  transparent_crc(DAT_00413558,"g_1321.f2",local_28);
+  mage_alpha311(0x137);
+  transparent_crc((long)((DAT_00413560 << 3) >> 3),"g_1321.f3",local_28);
+  mage_alpha312(0x138);
+  transparent_crc(DAT_00413564 & 0x3fff,"g_1321.f4",local_28);
+  transparent_crc((long)DAT_00413566,"g_1321.f5",local_28);
+  mage_alpha313(0x139);
+  transparent_crc((long)((DAT_00413568 << 5) >> 5),"g_1321.f6",local_28);
+  mage_alpha314(0x13a);
   transparent_crc((uint)g_1352 & 0x3ffff,"g_1352.f0",local_28);
-  codemarker_alpha(0x13b);
+  mage_alpha315(0x13b);
   transparent_crc((uint)((ulong)g_1352 >> 0x20) & 0x7fffffff,"g_1352.f1",local_28);
-  transparent_crc(DAT_0040b578,"g_1352.f2",local_28);
-  codemarker_alpha(0x13c);
-  transparent_crc((long)((DAT_0040b580 << 3) >> 3),"g_1352.f3",local_28);
-  codemarker_alpha(0x13d);
-  transparent_crc(DAT_0040b584 & 0x3fff,"g_1352.f4",local_28);
-  transparent_crc((long)DAT_0040b586,"g_1352.f5",local_28);
-  codemarker_alpha(0x13e);
-  transparent_crc((long)((DAT_0040b588 << 5) >> 5),"g_1352.f6",local_28);
-  codemarker_alpha(0x13f);
+  transparent_crc(DAT_00413578,"g_1352.f2",local_28);
+  mage_alpha316(0x13c);
+  transparent_crc((long)((DAT_00413580 << 3) >> 3),"g_1352.f3",local_28);
+  mage_alpha317(0x13d);
+  transparent_crc(DAT_00413584 & 0x3fff,"g_1352.f4",local_28);
+  transparent_crc((long)DAT_00413586,"g_1352.f5",local_28);
+  mage_alpha318(0x13e);
+  transparent_crc((long)((DAT_00413588 << 5) >> 5),"g_1352.f6",local_28);
+  mage_alpha319(0x13f);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    codemarker_alpha(0x140);
+    mage_alpha320(0x140);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      codemarker_alpha(0x141);
+      mage_alpha321(0x141);
       transparent_crc((long)(char)g_1424[(long)(int)local_20 + (long)(int)local_1c * 9],
                       "g_1424[i][j]",local_28);
-      codemarker_alpha(0x142);
+      mage_alpha322(0x142);
       if (local_28 != 0) {
-        codemarker_alpha(0x143);
+        mage_alpha323(0x143);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  codemarker_alpha(0x144);
+  mage_alpha324(0x144);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    codemarker_alpha(0x145);
+    mage_alpha325(0x145);
     for (local_20 = 0; (int)local_20 < 10; local_20 = local_20 + 1) {
-      codemarker_alpha(0x146);
+      mage_alpha326(0x146);
       for (local_24 = 0; (int)local_24 < 2; local_24 = local_24 + 1) {
-        codemarker_alpha(0x147);
+        mage_alpha327(0x147);
         transparent_crc(*(undefined4 *)
                          (g_1435 + (long)(int)local_24 * 4 +
                                    (long)(int)local_20 * 8 + (long)(int)local_1c * 0x50),
                         "g_1435[i][j][k]",local_28);
-        codemarker_alpha(0x148);
+        mage_alpha328(0x148);
         if (local_28 != 0) {
-          codemarker_alpha(0x149);
+          mage_alpha329(0x149);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  codemarker_alpha(0x14a);
+  mage_alpha330(0x14a);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
-    codemarker_alpha(0x14b);
+    mage_alpha331(0x14b);
     for (local_20 = 0; (int)local_20 < 5; local_20 = local_20 + 1) {
-      codemarker_alpha(0x14c);
+      mage_alpha332(0x14c);
       transparent_crc((uint)*(undefined8 *)
                              (g_1526 + (long)(int)local_20 * 0x20 + (long)(int)local_1c * 0xa0) &
                       0x3ffff,"g_1526[i][j].f0",local_28);
-      codemarker_alpha(0x14d);
+      mage_alpha333(0x14d);
       transparent_crc((uint)((ulong)*(undefined8 *)
                                      (g_1526 + (long)(int)local_20 * 0x20 +
                                                (long)(int)local_1c * 0xa0) >> 0x20) & 0x7fffffff,
@@ -1166,92 +4806,92 @@ undefined8 main(int param_1,long param_2)
       transparent_crc(*(undefined8 *)
                        (g_1526 + (long)(int)local_1c * 0xa0 + (long)(int)local_20 * 0x20 + 8),
                       "g_1526[i][j].f2",local_28);
-      codemarker_alpha(0x14e);
+      mage_alpha334(0x14e);
       transparent_crc((long)((*(int *)(g_1526 + (long)(int)local_1c * 0xa0 +
                                                 (long)(int)local_20 * 0x20 + 0x10) << 3) >> 3),
                       "g_1526[i][j].f3",local_28);
-      codemarker_alpha(0x14f);
+      mage_alpha335(0x14f);
       transparent_crc(*(ushort *)
                        (g_1526 + (long)(int)local_1c * 0xa0 + (long)(int)local_20 * 0x20 + 0x14) &
                       0x3fff,"g_1526[i][j].f4",local_28);
       transparent_crc((long)*(short *)(g_1526 + (long)(int)local_1c * 0xa0 +
                                                 (long)(int)local_20 * 0x20 + 0x16),"g_1526[i][j].f5"
                       ,local_28);
-      codemarker_alpha(0x150);
+      mage_alpha336(0x150);
       transparent_crc((long)((*(int *)(g_1526 + (long)(int)local_1c * 0xa0 +
                                                 (long)(int)local_20 * 0x20 + 0x18) << 5) >> 5),
                       "g_1526[i][j].f6",local_28);
-      codemarker_alpha(0x151);
+      mage_alpha337(0x151);
       if (local_28 != 0) {
-        codemarker_alpha(0x152);
+        mage_alpha338(0x152);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
   transparent_crc((long)g_1535,"g_1535",local_28);
-  codemarker_alpha(0x153);
+  mage_alpha339(0x153);
   transparent_crc((uint)g_1536 & 0x3ffff,"g_1536.f0",local_28);
-  codemarker_alpha(0x154);
+  mage_alpha340(0x154);
   transparent_crc((uint)((ulong)g_1536 >> 0x20) & 0x7fffffff,"g_1536.f1",local_28);
-  transparent_crc(DAT_0040bb38,"g_1536.f2",local_28);
-  codemarker_alpha(0x155);
-  transparent_crc((long)((DAT_0040bb40 << 3) >> 3),"g_1536.f3",local_28);
-  codemarker_alpha(0x156);
-  transparent_crc(DAT_0040bb44 & 0x3fff,"g_1536.f4",local_28);
-  transparent_crc((long)DAT_0040bb46,"g_1536.f5",local_28);
-  codemarker_alpha(0x157);
-  transparent_crc((long)((DAT_0040bb48 << 5) >> 5),"g_1536.f6",local_28);
-  codemarker_alpha(0x158);
+  transparent_crc(DAT_00413b38,"g_1536.f2",local_28);
+  mage_alpha341(0x155);
+  transparent_crc((long)((DAT_00413b40 << 3) >> 3),"g_1536.f3",local_28);
+  mage_alpha342(0x156);
+  transparent_crc(DAT_00413b44 & 0x3fff,"g_1536.f4",local_28);
+  transparent_crc((long)DAT_00413b46,"g_1536.f5",local_28);
+  mage_alpha343(0x157);
+  transparent_crc((long)((DAT_00413b48 << 5) >> 5),"g_1536.f6",local_28);
+  mage_alpha344(0x158);
   transparent_crc((uint)g_1538 & 0x3ffff,"g_1538.f0",local_28);
-  codemarker_alpha(0x159);
+  mage_alpha345(0x159);
   transparent_crc((uint)((ulong)g_1538 >> 0x20) & 0x7fffffff,"g_1538.f1",local_28);
-  transparent_crc(DAT_0040bb58,"g_1538.f2",local_28);
-  codemarker_alpha(0x15a);
-  transparent_crc((long)((DAT_0040bb60 << 3) >> 3),"g_1538.f3",local_28);
-  codemarker_alpha(0x15b);
-  transparent_crc(DAT_0040bb64 & 0x3fff,"g_1538.f4",local_28);
-  transparent_crc((long)DAT_0040bb66,"g_1538.f5",local_28);
-  codemarker_alpha(0x15c);
-  transparent_crc((long)((DAT_0040bb68 << 5) >> 5),"g_1538.f6",local_28);
-  codemarker_alpha(0x15d);
+  transparent_crc(DAT_00413b58,"g_1538.f2",local_28);
+  mage_alpha346(0x15a);
+  transparent_crc((long)((DAT_00413b60 << 3) >> 3),"g_1538.f3",local_28);
+  mage_alpha347(0x15b);
+  transparent_crc(DAT_00413b64 & 0x3fff,"g_1538.f4",local_28);
+  transparent_crc((long)DAT_00413b66,"g_1538.f5",local_28);
+  mage_alpha348(0x15c);
+  transparent_crc((long)((DAT_00413b68 << 5) >> 5),"g_1538.f6",local_28);
+  mage_alpha349(0x15d);
   for (local_1c = 0; (int)local_1c < 8; local_1c = local_1c + 1) {
-    codemarker_alpha(0x15e);
+    mage_alpha350(0x15e);
     transparent_crc((uint)*(undefined8 *)(g_1565 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_1565[i].f0",local_28);
-    codemarker_alpha(0x15f);
+    mage_alpha351(0x15f);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_1565 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_1565[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_1565 + (long)(int)local_1c * 0x20 + 8),"g_1565[i].f2",local_28
                    );
-    codemarker_alpha(0x160);
+    mage_alpha352(0x160);
     transparent_crc((long)((*(int *)(g_1565 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_1565[i].f3",local_28);
-    codemarker_alpha(0x161);
+    mage_alpha353(0x161);
     transparent_crc(*(ushort *)(g_1565 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_1565[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_1565 + (long)(int)local_1c * 0x20 + 0x16),"g_1565[i].f5",
                     local_28);
-    codemarker_alpha(0x162);
+    mage_alpha354(0x162);
     transparent_crc((long)((*(int *)(g_1565 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_1565[i].f6",local_28);
-    codemarker_alpha(0x163);
+    mage_alpha355(0x163);
     if (local_28 != 0) {
-      codemarker_alpha(0x164);
+      mage_alpha356(0x164);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x165);
+  mage_alpha357(0x165);
   for (local_1c = 0; (int)local_1c < 1; local_1c = local_1c + 1) {
-    codemarker_alpha(0x166);
+    mage_alpha358(0x166);
     for (local_20 = 0; (int)local_20 < 7; local_20 = local_20 + 1) {
-      codemarker_alpha(0x167);
+      mage_alpha359(0x167);
       for (local_24 = 0; (int)local_24 < 4; local_24 = local_24 + 1) {
-        codemarker_alpha(0x168);
+        mage_alpha360(0x168);
         transparent_crc((uint)*(undefined8 *)
                                (g_1569 + (long)(int)local_24 * 0x20 +
                                          (long)(int)local_20 * 0x80 + (long)(int)local_1c * 0x380) &
                         0x3ffff,"g_1569[i][j][k].f0",local_28);
-        codemarker_alpha(0x169);
+        mage_alpha361(0x169);
         transparent_crc((uint)((ulong)*(undefined8 *)
                                        (g_1569 + (long)(int)local_24 * 0x20 +
                                                  (long)(int)local_20 * 0x80 +
@@ -1260,12 +4900,12 @@ undefined8 main(int param_1,long param_2)
         transparent_crc(*(undefined8 *)
                          (g_1569 + (long)(int)local_1c * 0x380 + (long)(int)local_20 * 0x80 +
                                    (long)(int)local_24 * 0x20 + 8),"g_1569[i][j][k].f2",local_28);
-        codemarker_alpha(0x16a);
+        mage_alpha362(0x16a);
         transparent_crc((long)((*(int *)(g_1569 + (long)(int)local_1c * 0x380 +
                                                   (long)(int)local_20 * 0x80 +
                                                   (long)(int)local_24 * 0x20 + 0x10) << 3) >> 3),
                         "g_1569[i][j][k].f3",local_28);
-        codemarker_alpha(0x16b);
+        mage_alpha363(0x16b);
         transparent_crc(*(ushort *)
                          (g_1569 + (long)(int)local_1c * 0x380 + (long)(int)local_20 * 0x80 +
                                    (long)(int)local_24 * 0x20 + 0x14) & 0x3fff,"g_1569[i][j][k].f4",
@@ -1274,40 +4914,40 @@ undefined8 main(int param_1,long param_2)
                                                   (long)(int)local_20 * 0x80 +
                                                   (long)(int)local_24 * 0x20 + 0x16),
                         "g_1569[i][j][k].f5",local_28);
-        codemarker_alpha(0x16c);
+        mage_alpha364(0x16c);
         transparent_crc((long)((*(int *)(g_1569 + (long)(int)local_1c * 0x380 +
                                                   (long)(int)local_20 * 0x80 +
                                                   (long)(int)local_24 * 0x20 + 0x18) << 5) >> 5),
                         "g_1569[i][j][k].f6",local_28);
-        codemarker_alpha(0x16d);
+        mage_alpha365(0x16d);
         if (local_28 != 0) {
-          codemarker_alpha(0x16e);
+          mage_alpha366(0x16e);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  codemarker_alpha(0x16f);
+  mage_alpha367(0x16f);
   transparent_crc((uint)g_1617 & 0x3ffff,"g_1617.f0",local_28);
-  codemarker_alpha(0x170);
+  mage_alpha368(0x170);
   transparent_crc((uint)((ulong)g_1617 >> 0x20) & 0x7fffffff,"g_1617.f1",local_28);
-  transparent_crc(DAT_0040bff8,"g_1617.f2",local_28);
-  codemarker_alpha(0x171);
-  transparent_crc((long)((DAT_0040c000 << 3) >> 3),"g_1617.f3",local_28);
-  codemarker_alpha(0x172);
-  transparent_crc(DAT_0040c004 & 0x3fff,"g_1617.f4",local_28);
-  transparent_crc((long)DAT_0040c006,"g_1617.f5",local_28);
-  codemarker_alpha(0x173);
-  transparent_crc((long)((DAT_0040c008 << 5) >> 5),"g_1617.f6",local_28);
-  codemarker_alpha(0x174);
+  transparent_crc(DAT_00413ff8,"g_1617.f2",local_28);
+  mage_alpha369(0x171);
+  transparent_crc((long)((DAT_00414000 << 3) >> 3),"g_1617.f3",local_28);
+  mage_alpha370(0x172);
+  transparent_crc(DAT_00414004 & 0x3fff,"g_1617.f4",local_28);
+  transparent_crc((long)DAT_00414006,"g_1617.f5",local_28);
+  mage_alpha371(0x173);
+  transparent_crc((long)((DAT_00414008 << 5) >> 5),"g_1617.f6",local_28);
+  mage_alpha372(0x174);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    codemarker_alpha(0x175);
+    mage_alpha373(0x175);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      codemarker_alpha(0x176);
+      mage_alpha374(0x176);
       transparent_crc((uint)*(undefined8 *)
                              (g_1721 + (long)(int)local_20 * 0x20 + (long)(int)local_1c * 0x80) &
                       0x3ffff,"g_1721[i][j].f0",local_28);
-      codemarker_alpha(0x177);
+      mage_alpha375(0x177);
       transparent_crc((uint)((ulong)*(undefined8 *)
                                      (g_1721 + (long)(int)local_20 * 0x20 +
                                                (long)(int)local_1c * 0x80) >> 0x20) & 0x7fffffff,
@@ -1315,131 +4955,131 @@ undefined8 main(int param_1,long param_2)
       transparent_crc(*(undefined8 *)
                        (g_1721 + (long)(int)local_1c * 0x80 + (long)(int)local_20 * 0x20 + 8),
                       "g_1721[i][j].f2",local_28);
-      codemarker_alpha(0x178);
+      mage_alpha376(0x178);
       transparent_crc((long)((*(int *)(g_1721 + (long)(int)local_1c * 0x80 +
                                                 (long)(int)local_20 * 0x20 + 0x10) << 3) >> 3),
                       "g_1721[i][j].f3",local_28);
-      codemarker_alpha(0x179);
+      mage_alpha377(0x179);
       transparent_crc(*(ushort *)
                        (g_1721 + (long)(int)local_1c * 0x80 + (long)(int)local_20 * 0x20 + 0x14) &
                       0x3fff,"g_1721[i][j].f4",local_28);
       transparent_crc((long)*(short *)(g_1721 + (long)(int)local_1c * 0x80 +
                                                 (long)(int)local_20 * 0x20 + 0x16),"g_1721[i][j].f5"
                       ,local_28);
-      codemarker_alpha(0x17a);
+      mage_alpha378(0x17a);
       transparent_crc((long)((*(int *)(g_1721 + (long)(int)local_1c * 0x80 +
                                                 (long)(int)local_20 * 0x20 + 0x18) << 5) >> 5),
                       "g_1721[i][j].f6",local_28);
-      codemarker_alpha(0x17b);
+      mage_alpha379(0x17b);
       if (local_28 != 0) {
-        codemarker_alpha(0x17c);
+        mage_alpha380(0x17c);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  codemarker_alpha(0x17d);
+  mage_alpha381(0x17d);
   transparent_crc((uint)g_1934 & 0x3ffff,"g_1934.f0",local_28);
-  codemarker_alpha(0x17e);
+  mage_alpha382(0x17e);
   transparent_crc((uint)((ulong)g_1934 >> 0x20) & 0x7fffffff,"g_1934.f1",local_28);
-  transparent_crc(DAT_0040c118,"g_1934.f2",local_28);
-  codemarker_alpha(0x17f);
-  transparent_crc((long)((DAT_0040c120 << 3) >> 3),"g_1934.f3",local_28);
-  codemarker_alpha(0x180);
-  transparent_crc(DAT_0040c124 & 0x3fff,"g_1934.f4",local_28);
-  transparent_crc((long)DAT_0040c126,"g_1934.f5",local_28);
-  codemarker_alpha(0x181);
-  transparent_crc((long)((DAT_0040c128 << 5) >> 5),"g_1934.f6",local_28);
-  codemarker_alpha(0x182);
+  transparent_crc(DAT_00414118,"g_1934.f2",local_28);
+  mage_alpha383(0x17f);
+  transparent_crc((long)((DAT_00414120 << 3) >> 3),"g_1934.f3",local_28);
+  mage_alpha384(0x180);
+  transparent_crc(DAT_00414124 & 0x3fff,"g_1934.f4",local_28);
+  transparent_crc((long)DAT_00414126,"g_1934.f5",local_28);
+  mage_alpha385(0x181);
+  transparent_crc((long)((DAT_00414128 << 5) >> 5),"g_1934.f6",local_28);
+  mage_alpha386(0x182);
   transparent_crc((uint)g_1974 & 0x3ffff,"g_1974.f0",local_28);
-  codemarker_alpha(0x183);
+  mage_alpha387(0x183);
   transparent_crc((uint)((ulong)g_1974 >> 0x20) & 0x7fffffff,"g_1974.f1",local_28);
-  transparent_crc(DAT_0040c138,"g_1974.f2",local_28);
-  codemarker_alpha(0x184);
-  transparent_crc((long)((DAT_0040c140 << 3) >> 3),"g_1974.f3",local_28);
-  codemarker_alpha(0x185);
-  transparent_crc(DAT_0040c144 & 0x3fff,"g_1974.f4",local_28);
-  transparent_crc((long)DAT_0040c146,"g_1974.f5",local_28);
-  codemarker_alpha(0x186);
-  transparent_crc((long)((DAT_0040c148 << 5) >> 5),"g_1974.f6",local_28);
+  transparent_crc(DAT_00414138,"g_1974.f2",local_28);
+  mage_alpha388(0x184);
+  transparent_crc((long)((DAT_00414140 << 3) >> 3),"g_1974.f3",local_28);
+  mage_alpha389(0x185);
+  transparent_crc(DAT_00414144 & 0x3fff,"g_1974.f4",local_28);
+  transparent_crc((long)DAT_00414146,"g_1974.f5",local_28);
+  mage_alpha390(0x186);
+  transparent_crc((long)((DAT_00414148 << 5) >> 5),"g_1974.f6",local_28);
   transparent_crc((long)g_1997,"g_1997",local_28);
   transparent_crc(g_2005,"g_2005",local_28);
-  codemarker_alpha(0x187);
+  mage_alpha391(0x187);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    codemarker_alpha(0x188);
+    mage_alpha392(0x188);
     transparent_crc((uint)*(undefined8 *)(g_2109 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_2109[i].f0",local_28);
-    codemarker_alpha(0x189);
+    mage_alpha393(0x189);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_2109 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_2109[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_2109 + (long)(int)local_1c * 0x20 + 8),"g_2109[i].f2",local_28
                    );
-    codemarker_alpha(0x18a);
+    mage_alpha394(0x18a);
     transparent_crc((long)((*(int *)(g_2109 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_2109[i].f3",local_28);
-    codemarker_alpha(0x18b);
+    mage_alpha395(0x18b);
     transparent_crc(*(ushort *)(g_2109 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_2109[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_2109 + (long)(int)local_1c * 0x20 + 0x16),"g_2109[i].f5",
                     local_28);
-    codemarker_alpha(0x18c);
+    mage_alpha396(0x18c);
     transparent_crc((long)((*(int *)(g_2109 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_2109[i].f6",local_28);
-    codemarker_alpha(0x18d);
+    mage_alpha397(0x18d);
     if (local_28 != 0) {
-      codemarker_alpha(0x18e);
+      mage_alpha398(0x18e);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(399);
+  mage_alpha399(399);
   transparent_crc((uint)g_2112 & 0x3ffff,"g_2112.f0",local_28);
-  codemarker_alpha(400);
+  mage_alpha400(400);
   transparent_crc((uint)((ulong)g_2112 >> 0x20) & 0x7fffffff,"g_2112.f1",local_28);
-  transparent_crc(DAT_0040c298,"g_2112.f2",local_28);
-  codemarker_alpha(0x191);
-  transparent_crc((long)((DAT_0040c2a0 << 3) >> 3),"g_2112.f3",local_28);
-  codemarker_alpha(0x192);
-  transparent_crc(DAT_0040c2a4 & 0x3fff,"g_2112.f4",local_28);
-  transparent_crc((long)DAT_0040c2a6,"g_2112.f5",local_28);
-  codemarker_alpha(0x193);
-  transparent_crc((long)((DAT_0040c2a8 << 5) >> 5),"g_2112.f6",local_28);
+  transparent_crc(DAT_00414298,"g_2112.f2",local_28);
+  mage_alpha401(0x191);
+  transparent_crc((long)((DAT_004142a0 << 3) >> 3),"g_2112.f3",local_28);
+  mage_alpha402(0x192);
+  transparent_crc(DAT_004142a4 & 0x3fff,"g_2112.f4",local_28);
+  transparent_crc((long)DAT_004142a6,"g_2112.f5",local_28);
+  mage_alpha403(0x193);
+  transparent_crc((long)((DAT_004142a8 << 5) >> 5),"g_2112.f6",local_28);
   transparent_crc(0,"g_2212",local_28);
   transparent_crc(g_2247,"g_2247",local_28);
-  codemarker_alpha(0x194);
+  mage_alpha404(0x194);
   transparent_crc((uint)g_2416 & 0x3ffff,"g_2416.f0",local_28);
-  codemarker_alpha(0x195);
+  mage_alpha405(0x195);
   transparent_crc((uint)((ulong)g_2416 >> 0x20) & 0x7fffffff,"g_2416.f1",local_28);
-  transparent_crc(DAT_0040c2b8,"g_2416.f2",local_28);
-  codemarker_alpha(0x196);
-  transparent_crc((long)((DAT_0040c2c0 << 3) >> 3),"g_2416.f3",local_28);
-  codemarker_alpha(0x197);
-  transparent_crc(DAT_0040c2c4 & 0x3fff,"g_2416.f4",local_28);
-  transparent_crc((long)DAT_0040c2c6,"g_2416.f5",local_28);
-  codemarker_alpha(0x198);
-  transparent_crc((long)((DAT_0040c2c8 << 5) >> 5),"g_2416.f6",local_28);
-  codemarker_alpha(0x199);
+  transparent_crc(DAT_004142b8,"g_2416.f2",local_28);
+  mage_alpha406(0x196);
+  transparent_crc((long)((DAT_004142c0 << 3) >> 3),"g_2416.f3",local_28);
+  mage_alpha407(0x197);
+  transparent_crc(DAT_004142c4 & 0x3fff,"g_2416.f4",local_28);
+  transparent_crc((long)DAT_004142c6,"g_2416.f5",local_28);
+  mage_alpha408(0x198);
+  transparent_crc((long)((DAT_004142c8 << 5) >> 5),"g_2416.f6",local_28);
+  mage_alpha409(0x199);
   transparent_crc((uint)g_2615 & 0x3ffff,"g_2615.f0",local_28);
-  codemarker_alpha(0x19a);
+  mage_alpha410(0x19a);
   transparent_crc((uint)((ulong)g_2615 >> 0x20) & 0x7fffffff,"g_2615.f1",local_28);
-  transparent_crc(DAT_0040c2d8,"g_2615.f2",local_28);
-  codemarker_alpha(0x19b);
-  transparent_crc((long)((DAT_0040c2e0 << 3) >> 3),"g_2615.f3",local_28);
-  codemarker_alpha(0x19c);
-  transparent_crc(DAT_0040c2e4 & 0x3fff,"g_2615.f4",local_28);
-  transparent_crc((long)DAT_0040c2e6,"g_2615.f5",local_28);
-  codemarker_alpha(0x19d);
-  transparent_crc((long)((DAT_0040c2e8 << 5) >> 5),"g_2615.f6",local_28);
-  codemarker_alpha(0x19e);
+  transparent_crc(DAT_004142d8,"g_2615.f2",local_28);
+  mage_alpha411(0x19b);
+  transparent_crc((long)((DAT_004142e0 << 3) >> 3),"g_2615.f3",local_28);
+  mage_alpha412(0x19c);
+  transparent_crc(DAT_004142e4 & 0x3fff,"g_2615.f4",local_28);
+  transparent_crc((long)DAT_004142e6,"g_2615.f5",local_28);
+  mage_alpha413(0x19d);
+  transparent_crc((long)((DAT_004142e8 << 5) >> 5),"g_2615.f6",local_28);
+  mage_alpha414(0x19e);
   for (local_1c = 0; (int)local_1c < 8; local_1c = local_1c + 1) {
-    codemarker_alpha(0x19f);
+    mage_alpha415(0x19f);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      codemarker_alpha(0x1a0);
+      mage_alpha416(0x1a0);
       for (local_24 = 0; (int)local_24 < 3; local_24 = local_24 + 1) {
-        codemarker_alpha(0x1a1);
+        mage_alpha417(0x1a1);
         transparent_crc((uint)*(undefined8 *)
                                (g_2616 + (long)(int)local_24 * 0x20 +
                                          (long)(int)local_20 * 0x60 + (long)(int)local_1c * 0x360) &
                         0x3ffff,"g_2616[i][j][k].f0",local_28);
-        codemarker_alpha(0x1a2);
+        mage_alpha418(0x1a2);
         transparent_crc((uint)((ulong)*(undefined8 *)
                                        (g_2616 + (long)(int)local_24 * 0x20 +
                                                  (long)(int)local_20 * 0x60 +
@@ -1448,12 +5088,12 @@ undefined8 main(int param_1,long param_2)
         transparent_crc(*(undefined8 *)
                          (g_2616 + (long)(int)local_1c * 0x360 + (long)(int)local_20 * 0x60 +
                                    (long)(int)local_24 * 0x20 + 8),"g_2616[i][j][k].f2",local_28);
-        codemarker_alpha(0x1a3);
+        mage_alpha419(0x1a3);
         transparent_crc((long)((*(int *)(g_2616 + (long)(int)local_1c * 0x360 +
                                                   (long)(int)local_20 * 0x60 +
                                                   (long)(int)local_24 * 0x20 + 0x10) << 3) >> 3),
                         "g_2616[i][j][k].f3",local_28);
-        codemarker_alpha(0x1a4);
+        mage_alpha420(0x1a4);
         transparent_crc(*(ushort *)
                          (g_2616 + (long)(int)local_1c * 0x360 + (long)(int)local_20 * 0x60 +
                                    (long)(int)local_24 * 0x20 + 0x14) & 0x3fff,"g_2616[i][j][k].f4",
@@ -1462,109 +5102,109 @@ undefined8 main(int param_1,long param_2)
                                                   (long)(int)local_20 * 0x60 +
                                                   (long)(int)local_24 * 0x20 + 0x16),
                         "g_2616[i][j][k].f5",local_28);
-        codemarker_alpha(0x1a5);
+        mage_alpha421(0x1a5);
         transparent_crc((long)((*(int *)(g_2616 + (long)(int)local_1c * 0x360 +
                                                   (long)(int)local_20 * 0x60 +
                                                   (long)(int)local_24 * 0x20 + 0x18) << 5) >> 5),
                         "g_2616[i][j][k].f6",local_28);
-        codemarker_alpha(0x1a6);
+        mage_alpha422(0x1a6);
         if (local_28 != 0) {
-          codemarker_alpha(0x1a7);
+          mage_alpha423(0x1a7);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
   transparent_crc((long)g_2654,"g_2654",local_28);
-  codemarker_alpha(0x1a8);
+  mage_alpha424(0x1a8);
   transparent_crc((uint)g_2675 & 0x3ffff,"g_2675.f0",local_28);
-  codemarker_alpha(0x1a9);
+  mage_alpha425(0x1a9);
   transparent_crc((uint)((ulong)g_2675 >> 0x20) & 0x7fffffff,"g_2675.f1",local_28);
-  transparent_crc(DAT_0040ddf8,"g_2675.f2",local_28);
-  codemarker_alpha(0x1aa);
-  transparent_crc((long)((DAT_0040de00 << 3) >> 3),"g_2675.f3",local_28);
-  codemarker_alpha(0x1ab);
-  transparent_crc(DAT_0040de04 & 0x3fff,"g_2675.f4",local_28);
-  transparent_crc((long)DAT_0040de06,"g_2675.f5",local_28);
-  codemarker_alpha(0x1ac);
-  transparent_crc((long)((DAT_0040de08 << 5) >> 5),"g_2675.f6",local_28);
-  codemarker_alpha(0x1ad);
+  transparent_crc(DAT_00415df8,"g_2675.f2",local_28);
+  mage_alpha426(0x1aa);
+  transparent_crc((long)((DAT_00415e00 << 3) >> 3),"g_2675.f3",local_28);
+  mage_alpha427(0x1ab);
+  transparent_crc(DAT_00415e04 & 0x3fff,"g_2675.f4",local_28);
+  transparent_crc((long)DAT_00415e06,"g_2675.f5",local_28);
+  mage_alpha428(0x1ac);
+  transparent_crc((long)((DAT_00415e08 << 5) >> 5),"g_2675.f6",local_28);
+  mage_alpha429(0x1ad);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    codemarker_alpha(0x1ae);
+    mage_alpha430(0x1ae);
     transparent_crc((long)*(char *)((long)&g_2690 + (long)(int)local_1c),"g_2690[i]",local_28);
-    codemarker_alpha(0x1af);
+    mage_alpha431(0x1af);
     if (local_28 != 0) {
-      codemarker_alpha(0x1b0);
+      mage_alpha432(0x1b0);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc(0xffffffffffffffff,"g_2691",local_28);
   transparent_crc(g_2709,"g_2709",local_28);
   transparent_crc((long)g_2731,"g_2731",local_28);
-  codemarker_alpha(0x1b1);
+  mage_alpha433(0x1b1);
   transparent_crc((uint)g_2761 & 0x3ffff,"g_2761.f0",local_28);
-  codemarker_alpha(0x1b2);
+  mage_alpha434(0x1b2);
   transparent_crc((uint)((ulong)g_2761 >> 0x20) & 0x7fffffff,"g_2761.f1",local_28);
-  transparent_crc(DAT_0040de18,"g_2761.f2",local_28);
-  codemarker_alpha(0x1b3);
-  transparent_crc((long)((DAT_0040de20 << 3) >> 3),"g_2761.f3",local_28);
-  codemarker_alpha(0x1b4);
-  transparent_crc(DAT_0040de24 & 0x3fff,"g_2761.f4",local_28);
-  transparent_crc((long)DAT_0040de26,"g_2761.f5",local_28);
-  codemarker_alpha(0x1b5);
-  transparent_crc((long)((DAT_0040de28 << 5) >> 5),"g_2761.f6",local_28);
-  codemarker_alpha(0x1b6);
+  transparent_crc(DAT_00415e18,"g_2761.f2",local_28);
+  mage_alpha435(0x1b3);
+  transparent_crc((long)((DAT_00415e20 << 3) >> 3),"g_2761.f3",local_28);
+  mage_alpha436(0x1b4);
+  transparent_crc(DAT_00415e24 & 0x3fff,"g_2761.f4",local_28);
+  transparent_crc((long)DAT_00415e26,"g_2761.f5",local_28);
+  mage_alpha437(0x1b5);
+  transparent_crc((long)((DAT_00415e28 << 5) >> 5),"g_2761.f6",local_28);
+  mage_alpha438(0x1b6);
   transparent_crc((uint)g_2875 & 0x3ffff,"g_2875.f0",local_28);
-  codemarker_alpha(0x1b7);
+  mage_alpha439(0x1b7);
   transparent_crc((uint)((ulong)g_2875 >> 0x20) & 0x7fffffff,"g_2875.f1",local_28);
-  transparent_crc(DAT_0040de38,"g_2875.f2",local_28);
-  codemarker_alpha(0x1b8);
-  transparent_crc((long)((DAT_0040de40 << 3) >> 3),"g_2875.f3",local_28);
-  codemarker_alpha(0x1b9);
-  transparent_crc(DAT_0040de44 & 0x3fff,"g_2875.f4",local_28);
-  transparent_crc((long)DAT_0040de46,"g_2875.f5",local_28);
-  codemarker_alpha(0x1ba);
-  transparent_crc((long)((DAT_0040de48 << 5) >> 5),"g_2875.f6",local_28);
+  transparent_crc(DAT_00415e38,"g_2875.f2",local_28);
+  mage_alpha440(0x1b8);
+  transparent_crc((long)((DAT_00415e40 << 3) >> 3),"g_2875.f3",local_28);
+  mage_alpha441(0x1b9);
+  transparent_crc(DAT_00415e44 & 0x3fff,"g_2875.f4",local_28);
+  transparent_crc((long)DAT_00415e46,"g_2875.f5",local_28);
+  mage_alpha442(0x1ba);
+  transparent_crc((long)((DAT_00415e48 << 5) >> 5),"g_2875.f6",local_28);
   transparent_crc(g_2905,"g_2905",local_28);
   transparent_crc((long)g_2991,"g_2991",local_28);
-  codemarker_alpha(0x1bb);
+  mage_alpha443(0x1bb);
   transparent_crc((uint)g_3009 & 0x3ffff,"g_3009.f0",local_28);
-  codemarker_alpha(0x1bc);
+  mage_alpha444(0x1bc);
   transparent_crc((uint)((ulong)g_3009 >> 0x20) & 0x7fffffff,"g_3009.f1",local_28);
-  transparent_crc(DAT_0040de58,"g_3009.f2",local_28);
-  codemarker_alpha(0x1bd);
-  transparent_crc((long)((DAT_0040de60 << 3) >> 3),"g_3009.f3",local_28);
-  codemarker_alpha(0x1be);
-  transparent_crc(DAT_0040de64 & 0x3fff,"g_3009.f4",local_28);
-  transparent_crc((long)DAT_0040de66,"g_3009.f5",local_28);
-  codemarker_alpha(0x1bf);
-  transparent_crc((long)((DAT_0040de68 << 5) >> 5),"g_3009.f6",local_28);
+  transparent_crc(DAT_00415e58,"g_3009.f2",local_28);
+  mage_alpha445(0x1bd);
+  transparent_crc((long)((DAT_00415e60 << 3) >> 3),"g_3009.f3",local_28);
+  mage_alpha446(0x1be);
+  transparent_crc(DAT_00415e64 & 0x3fff,"g_3009.f4",local_28);
+  transparent_crc((long)DAT_00415e66,"g_3009.f5",local_28);
+  mage_alpha447(0x1bf);
+  transparent_crc((long)((DAT_00415e68 << 5) >> 5),"g_3009.f6",local_28);
   transparent_crc(g_3038,"g_3038",local_28);
   transparent_crc((long)g_3068,"g_3068",local_28);
-  codemarker_alpha(0x1c0);
+  mage_alpha448(0x1c0);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
-    codemarker_alpha(0x1c1);
+    mage_alpha449(0x1c1);
     transparent_crc((uint)*(undefined8 *)(g_3075 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_3075[i].f0",local_28);
-    codemarker_alpha(0x1c2);
+    mage_alpha450(0x1c2);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_3075 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_3075[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_3075 + (long)(int)local_1c * 0x20 + 8),"g_3075[i].f2",local_28
                    );
-    codemarker_alpha(0x1c3);
+    mage_alpha451(0x1c3);
     transparent_crc((long)((*(int *)(g_3075 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_3075[i].f3",local_28);
-    codemarker_alpha(0x1c4);
+    mage_alpha452(0x1c4);
     transparent_crc(*(ushort *)(g_3075 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_3075[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_3075 + (long)(int)local_1c * 0x20 + 0x16),"g_3075[i].f5",
                     local_28);
-    codemarker_alpha(0x1c5);
+    mage_alpha453(0x1c5);
     transparent_crc((long)((*(int *)(g_3075 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_3075[i].f6",local_28);
-    codemarker_alpha(0x1c6);
+    mage_alpha454(0x1c6);
     if (local_28 != 0) {
-      codemarker_alpha(0x1c7);
+      mage_alpha455(0x1c7);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -1796,7 +5436,7 @@ undefined8 func_1(void)
   local_58[1] = 0x4bd3031f;
   local_58[0] = -0x19a60625;
   local_5c = 1;
-  codemarker_alpha(0);
+  mage_alpha0(0);
   local_80 = local_58;
   local_84 = 1;
   local_85 = 1;
@@ -1816,33 +5456,33 @@ undefined8 func_1(void)
   local_110 = &g_341;
   local_114 = 0;
   local_120 = 0;
-  codemarker_alpha(1);
+  mage_alpha1(1);
   local_128 = &g_519;
-  codemarker_alpha(2);
+  mage_alpha2(2);
   local_130 = &g_519;
-  codemarker_alpha(3);
+  mage_alpha3(3);
   local_138 = 0;
-  codemarker_alpha(4);
+  mage_alpha4(4);
   local_140 = &local_130;
-  codemarker_alpha(5);
-  codemarker_alpha(6);
+  mage_alpha5(5);
+  mage_alpha6(6);
   for (local_144 = 0; local_144 < 7; local_144 = local_144 + 1) {
     auStack_48[local_144] = 0xfffffffffffffff6;
   }
-  codemarker_alpha(7);
+  mage_alpha7(7);
   for (local_144 = 0; local_144 < 2; local_144 = local_144 + 1) {
     auStack_78[local_144] = &g_456;
   }
-  codemarker_alpha(8);
+  mage_alpha8(8);
   for (local_144 = 0; local_144 < 9; local_144 = local_144 + 1) {
     auStack_108[local_144] = 1;
   }
-  codemarker_alpha(9);
+  mage_alpha9(9);
   for (g_3 = 5; -1 < g_3; g_3 = g_3 + -1) {
     local_148 = 0x8e8e41d3;
     local_14c = 0x1ddf2fb8;
     local_150 = 0x7b1d92d4;
-    local_158 = 0x40a5b0;
+    local_158 = 0x4125b0;
     memset(&local_188,0,0x30);
     local_188 = 5;
     local_180 = 5;
@@ -1851,7 +5491,7 @@ undefined8 func_1(void)
     local_168 = 5;
     local_160 = 5;
     local_190 = 0xfffffffffffffffd;
-    local_198 = 0x40a190;
+    local_198 = 0x412190;
     local_1a0 = &local_198;
     local_1a4 = 0x6b506c69;
     local_1a8 = 3;
@@ -1864,21 +5504,21 @@ undefined8 func_1(void)
     local_1e0 = 0xfc59df2;
     local_1e1 = 0xaa;
     local_1f0 = 2;
-    local_1f8 = &DAT_0040bb58;
+    local_1f8 = &DAT_00413b58;
     local_200 = 0xffffffffffffffff;
-    memcpy(local_2f8,&PTR_g_733_00406fd8,0x28);
+    memcpy(local_2f8,&PTR_g_733_0040afd8,0x28);
     local_2d0 = &local_50;
     local_2c8 = &g_733;
     local_2c0 = &local_50;
     local_2b8 = &g_733;
     local_2b0 = &local_50;
-    memcpy(auStack_2a8,&PTR_g_733_00407000,0x28);
+    memcpy(auStack_2a8,&PTR_g_733_0040b000,0x28);
     local_280 = &local_50;
     local_278 = &g_733;
     local_270 = 0;
     local_268 = &g_733;
     local_260 = &local_50;
-    memcpy(auStack_258,&PTR_g_733_00407028,0x28);
+    memcpy(auStack_258,&PTR_g_733_0040b028,0x28);
     local_230 = &local_50;
     local_228 = &g_733;
     local_220 = &local_50;
@@ -1886,40 +5526,40 @@ undefined8 func_1(void)
     local_210 = &local_50;
     local_300 = &g_1185;
     local_308 = 0x34810804231bb296;
-    codemarker_alpha(10);
+    mage_alpha10(10);
     local_330 = local_328;
     local_338 = &local_330;
     local_340 = &local_338;
     local_341 = 0xf8;
-    codemarker_alpha(0xb);
-    codemarker_alpha(0xc);
+    mage_alpha11(0xb);
+    mage_alpha12(0xc);
     for (local_348 = 0; local_348 < 1; local_348 = local_348 + 1) {
       (&uStack_30c)[local_348] = 8;
     }
-    codemarker_alpha(0xd);
+    mage_alpha13(0xd);
     for (local_348 = 0; local_348 < 3; local_348 = local_348 + 1) {
       local_328[local_348] = &g_2212;
     }
-    codemarker_alpha(0xe);
+    mage_alpha14(0xe);
     for (g_4 = 6; -1 < g_4; g_4 = g_4 + -1) {
-      codemarker_alpha(0xf);
-      codemarker_alpha(0x10);
+      mage_alpha15(0xf);
+      mage_alpha16(0x10);
       for (g_5 = 5; -1 < g_5; g_5 = g_5 + -1) {
-        codemarker_alpha(0x11);
+        mage_alpha17(0x11);
         for (g_6 = 0; g_6 < 7; g_6 = g_6 + 1) {
           auStack_48[g_6] = 3;
         }
       }
     }
-    codemarker_alpha(0x12);
+    mage_alpha18(0x12);
     for (g_98 = 0; g_98 < 8; g_98 = g_98 + 1) {
-      codemarker_alpha(0x13);
-      local_358 = 0x40b170;
-      memcpy(local_738,&DAT_00407060,0x3d4);
-      memcpy(local_8c8,&DAT_00407440,0x188);
+      mage_alpha19(0x13);
+      local_358 = 0x413170;
+      memcpy(local_738,&DAT_0040b060,0x3d4);
+      memcpy(local_8c8,&DAT_0040b440,0x188);
       local_8ca = 0x145b;
-      memcpy(local_ba8,&DAT_004075d0,0x2d0);
-      memcpy(local_1328,&DAT_004078a0,0x780);
+      memcpy(local_ba8,&DAT_0040b5d0,0x2d0);
+      memcpy(local_1328,&DAT_0040b8a0,0x780);
       local_1330 = 0;
       local_1538 = &local_1330;
       local_1530 = &local_1330;
@@ -1987,19 +5627,19 @@ undefined8 func_1(void)
       local_1340 = &local_1330;
       local_1540 = &local_13f8;
       local_1548 = &local_1540;
-      local_1550 = 0x40a668;
+      local_1550 = 0x412668;
       local_1554 = 0xe5f0bf75;
       local_1560 = 0xffffffffffffffff;
       local_1562 = 0xb862;
       local_1564 = 0xd3fa;
-      codemarker_alpha(0x14);
+      mage_alpha20(0x14);
       local_1570 = &g_519;
-      codemarker_alpha(0x15);
+      mage_alpha21(0x15);
       local_1578 = &local_1570;
-      codemarker_alpha(0x16);
+      mage_alpha22(0x16);
       local_358 = *(undefined8 *)g_455;
     }
-    codemarker_alpha(0x17);
+    mage_alpha23(0x17);
     for (g_2247 = 1; g_2247 < 7; g_2247 = g_2247 + 1) {
       auStack_1594[3] = 0xfffffff6;
       local_15a0 = &g_1105;
@@ -2009,12 +5649,12 @@ undefined8 func_1(void)
       local_15c0 = &local_50;
       local_15c4 = 1;
       local_15c8 = 0;
-      memcpy(local_1668,&DAT_00408020,0xa0);
+      memcpy(local_1668,&DAT_0040c020,0xa0);
       local_1670 = 0x194014f9c21aff5f;
-      memcpy(local_16b8,&DAT_004080c0,0x40);
-      codemarker_alpha(0x18);
-      codemarker_alpha(0x19);
-      codemarker_alpha(0x1a);
+      memcpy(local_16b8,&DAT_0040c0c0,0x40);
+      mage_alpha24(0x18);
+      mage_alpha25(0x19);
+      mage_alpha26(0x1a);
       for (local_19f4 = 0; local_19f4 < 3; local_19f4 = local_19f4 + 1) {
         auStack_1594[local_19f4] = 1;
       }

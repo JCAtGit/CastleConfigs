@@ -278,9 +278,9 @@ typedef struct evp_pkey_ctx_st EVP_PKEY_CTX;
 
 undefined main;
 undefined1 completed.0;
-undefined4 crc32_context;
 undefined DAT_004011ba;
 undefined4 g_4;
+undefined4 crc32_context;
 undefined1[1024] crc32_tab;
 undefined1[48] g_5;
 
@@ -395,7 +395,55 @@ void frame_dummy(void)
 
 
 
-undefined4 codemarker_alpha(undefined4 param_1)
+undefined4 mage_alpha0(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha1(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha2(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha3(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha4(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha5(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha6(undefined4 param_1)
 
 {
   return param_1;
@@ -409,19 +457,19 @@ undefined8 main(int param_1,long param_2)
   int iVar1;
   undefined4 local_20;
   
-  codemarker_alpha(2);
-  codemarker_alpha(3);
+  mage_alpha2(2);
+  mage_alpha3(3);
   local_20 = 0;
-  codemarker_alpha(4);
+  mage_alpha4(4);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_20 = 1;
     }
   }
-  codemarker_alpha(5);
+  mage_alpha5(5);
   platform_main_begin();
-  codemarker_alpha(6);
+  mage_alpha6(6);
   crc32_gentab();
   func_1();
   transparent_crc((long)g_4,&DAT_004011ba,local_20);
@@ -469,8 +517,8 @@ undefined4 func_1(void)
   int local_2cc;
   undefined8 local_38 [6];
   
-  codemarker_alpha(0);
-  codemarker_alpha(1);
+  mage_alpha0(0);
+  mage_alpha1(1);
   for (local_2cc = 0; local_2cc < 6; local_2cc = local_2cc + 1) {
     local_38[local_2cc] = &g_4;
   }

@@ -1,18 +1,18 @@
 {
-    "date": "2026-06-01",
-    "time": "13:17:51",
+    "date": "2026-06-03",
+    "time": "10:36:22",
     "decompParams": {
         "verboseOut": false,
         "keepAllFuncs": false,
         "selectedDecodeOnly": false,
-        "ordinalNumDirectory": "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/ordinals/",
-        "inputFile": "/home/user/Desktop/CASTLE/BuildScaffolder/csmith_mage_clang/0.o",
-        "outputFile": "/home/user/Desktop/CASTLE/DeComScaffolder/csmith_mage_clang_retdec/0.c",
-        "outputBitcodeFile": "/home/user/Desktop/CASTLE/DeComScaffolder/csmith_mage_clang_retdec/0.bc",
-        "outputAsmFile": "/home/user/Desktop/CASTLE/DeComScaffolder/csmith_mage_clang_retdec/0.dsm",
-        "outputLlFile": "/home/user/Desktop/CASTLE/DeComScaffolder/csmith_mage_clang_retdec/0.ll",
-        "outputConfigFile": "/home/user/Desktop/CASTLE/DeComScaffolder/csmith_mage_clang_retdec/0.config.json",
-        "outputUnpackedFile": "/home/user/Desktop/CASTLE/DeComScaffolder/csmith_mage_clang_retdec/0-unpacked",
+        "ordinalNumDirectory": "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/ordinals/",
+        "inputFile": "/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/csmith_mage_clang/0.o",
+        "outputFile": "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/0.c",
+        "outputBitcodeFile": "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/0.bc",
+        "outputAsmFile": "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/0.dsm",
+        "outputLlFile": "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/0.ll",
+        "outputConfigFile": "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/0.config.json",
+        "outputUnpackedFile": "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/0-unpacked",
         "outputFormat": "plain",
         "backendCallInfoObtainer": "optim",
         "backendVarRenamer": "readable",
@@ -30,18 +30,18 @@
         "maxMemoryLimit": 0,
         "maxMemoryLimitHalfRam": true,
         "staticSignPaths": [
-            "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/yara_patterns/static-code/"
+            "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/yara_patterns/static-code/"
         ],
         "libraryTypeInfoPaths": [
-            "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/arm.json",
-            "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/cstdlib.json",
-            "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/linux.json",
-            "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/windows.json",
-            "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/windrivers.json"
+            "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/arm.json",
+            "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/cstdlib.json",
+            "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/linux.json",
+            "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/windows.json",
+            "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/types/windrivers.json"
         ],
         "cryptoPatternPaths": [
-            "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/yara_patterns/signsrch/signsrch.yarac",
-            "/home/user/Desktop/CASTLE/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/yara_patterns/signsrch/signsrch_regex.yarac"
+            "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/yara_patterns/signsrch/signsrch.yarac",
+            "/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/share/retdec/./support/generic/yara_patterns/signsrch/signsrch_regex.yarac"
         ],
         "llvmPasses": [
             "retdec-provider-init",
@@ -188,7 +188,7 @@
             "retdec-llvmir2hll"
         ],
         "entryPoint": "0x400390",
-        "mainAddress": "0x4004a0",
+        "mainAddress": "0x400500",
         "sectionVMA": ""
     },
     "architecture": {
@@ -211,8 +211,8 @@
         {
             "type": "compiler",
             "name": "gcc",
-            "percentage": 16.577540106951873,
-            "identicalSignificantNibbles": 31,
+            "percentage": 17.11229946524064,
+            "identicalSignificantNibbles": 32,
             "totalSignificantNibbles": 187,
             "heuristics": false,
             "version": "4.5.x",
@@ -340,8 +340,8 @@
             "name": "_fini",
             "callingConvention": "x64_os_default",
             "fncType": "decompilerDefined",
-            "startAddr": "0x400618",
-            "endAddr": "0x400625",
+            "startAddr": "0x400678",
+            "endAddr": "0x400685",
             "returnType": {
                 "llvmIr": "i32"
             },
@@ -505,76 +505,11 @@
             ]
         },
         {
-            "name": "codemarker_alpha",
-            "callingConvention": "x64_os_default",
-            "fncType": "decompilerDefined",
-            "startAddr": "0x400480",
-            "endAddr": "0x400492",
-            "returnType": {
-                "llvmIr": "i32"
-            },
-            "locals": [
-                {
-                    "name": "stack_var_-12",
-                    "realName": "stack_var_-12",
-                    "type": {
-                        "llvmIr": "i32*"
-                    },
-                    "storage": {
-                        "type": "stack",
-                        "value": -12
-                    }
-                },
-                {
-                    "name": "stack_var_-16",
-                    "realName": "stack_var_-16",
-                    "type": {
-                        "llvmIr": "i32*"
-                    },
-                    "storage": {
-                        "type": "stack",
-                        "value": -16
-                    }
-                },
-                {
-                    "name": "stack_var_-8",
-                    "realName": "stack_var_-8",
-                    "type": {
-                        "llvmIr": "i64*"
-                    },
-                    "storage": {
-                        "type": "stack",
-                        "value": -8
-                    }
-                },
-                {
-                    "name": "stack_var_0",
-                    "realName": "stack_var_0",
-                    "type": {
-                        "llvmIr": "i64*"
-                    },
-                    "storage": {
-                        "type": "stack",
-                        "value": 0
-                    }
-                }
-            ],
-            "parameters": [
-                {
-                    "name": "arg1",
-                    "isFromDebug": true,
-                    "type": {
-                        "llvmIr": "i32"
-                    }
-                }
-            ]
-        },
-        {
             "name": "crc32_gentab",
             "callingConvention": "x64_os_default",
             "fncType": "decompilerDefined",
-            "startAddr": "0x400550",
-            "endAddr": "0x4005c8",
+            "startAddr": "0x4005b0",
+            "endAddr": "0x400628",
             "returnType": {
                 "llvmIr": "i32"
             },
@@ -671,8 +606,8 @@
             "name": "func_1",
             "callingConvention": "x64_os_default",
             "fncType": "decompilerDefined",
-            "startAddr": "0x4005d0",
-            "endAddr": "0x4005e2",
+            "startAddr": "0x400630",
+            "endAddr": "0x400642",
             "returnType": {
                 "llvmIr": "i32"
             },
@@ -761,11 +696,271 @@
             ]
         },
         {
-            "name": "main",
+            "name": "mage_alpha0",
+            "callingConvention": "x64_os_default",
+            "fncType": "decompilerDefined",
+            "startAddr": "0x400480",
+            "endAddr": "0x400492",
+            "returnType": {
+                "llvmIr": "i32"
+            },
+            "locals": [
+                {
+                    "name": "stack_var_-12",
+                    "realName": "stack_var_-12",
+                    "type": {
+                        "llvmIr": "i32*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -12
+                    }
+                },
+                {
+                    "name": "stack_var_-16",
+                    "realName": "stack_var_-16",
+                    "type": {
+                        "llvmIr": "i32*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -16
+                    }
+                },
+                {
+                    "name": "stack_var_-8",
+                    "realName": "stack_var_-8",
+                    "type": {
+                        "llvmIr": "i64*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -8
+                    }
+                },
+                {
+                    "name": "stack_var_0",
+                    "realName": "stack_var_0",
+                    "type": {
+                        "llvmIr": "i64*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": 0
+                    }
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "arg1",
+                    "isFromDebug": true,
+                    "type": {
+                        "llvmIr": "i32"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "mage_alpha1",
             "callingConvention": "x64_os_default",
             "fncType": "decompilerDefined",
             "startAddr": "0x4004a0",
-            "endAddr": "0x40053b",
+            "endAddr": "0x4004b2",
+            "returnType": {
+                "llvmIr": "i32"
+            },
+            "locals": [
+                {
+                    "name": "stack_var_-12",
+                    "realName": "stack_var_-12",
+                    "type": {
+                        "llvmIr": "i32*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -12
+                    }
+                },
+                {
+                    "name": "stack_var_-16",
+                    "realName": "stack_var_-16",
+                    "type": {
+                        "llvmIr": "i32*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -16
+                    }
+                },
+                {
+                    "name": "stack_var_-8",
+                    "realName": "stack_var_-8",
+                    "type": {
+                        "llvmIr": "i64*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -8
+                    }
+                },
+                {
+                    "name": "stack_var_0",
+                    "realName": "stack_var_0",
+                    "type": {
+                        "llvmIr": "i64*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": 0
+                    }
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "arg1",
+                    "isFromDebug": true,
+                    "type": {
+                        "llvmIr": "i64"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "mage_alpha2",
+            "callingConvention": "x64_os_default",
+            "fncType": "decompilerDefined",
+            "startAddr": "0x4004c0",
+            "endAddr": "0x4004d2",
+            "returnType": {
+                "llvmIr": "i32"
+            },
+            "locals": [
+                {
+                    "name": "stack_var_-12",
+                    "realName": "stack_var_-12",
+                    "type": {
+                        "llvmIr": "i32*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -12
+                    }
+                },
+                {
+                    "name": "stack_var_-16",
+                    "realName": "stack_var_-16",
+                    "type": {
+                        "llvmIr": "i32*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -16
+                    }
+                },
+                {
+                    "name": "stack_var_-8",
+                    "realName": "stack_var_-8",
+                    "type": {
+                        "llvmIr": "i64*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -8
+                    }
+                },
+                {
+                    "name": "stack_var_0",
+                    "realName": "stack_var_0",
+                    "type": {
+                        "llvmIr": "i64*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": 0
+                    }
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "arg1",
+                    "isFromDebug": true,
+                    "type": {
+                        "llvmIr": "i64"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "mage_alpha3",
+            "callingConvention": "x64_os_default",
+            "fncType": "decompilerDefined",
+            "startAddr": "0x4004e0",
+            "endAddr": "0x4004f2",
+            "returnType": {
+                "llvmIr": "i32"
+            },
+            "locals": [
+                {
+                    "name": "stack_var_-12",
+                    "realName": "stack_var_-12",
+                    "type": {
+                        "llvmIr": "i32*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -12
+                    }
+                },
+                {
+                    "name": "stack_var_-16",
+                    "realName": "stack_var_-16",
+                    "type": {
+                        "llvmIr": "i32*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -16
+                    }
+                },
+                {
+                    "name": "stack_var_-8",
+                    "realName": "stack_var_-8",
+                    "type": {
+                        "llvmIr": "i64*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": -8
+                    }
+                },
+                {
+                    "name": "stack_var_0",
+                    "realName": "stack_var_0",
+                    "type": {
+                        "llvmIr": "i64*"
+                    },
+                    "storage": {
+                        "type": "stack",
+                        "value": 0
+                    }
+                }
+            ],
+            "parameters": [
+                {
+                    "name": "arg1",
+                    "isFromDebug": true,
+                    "type": {
+                        "llvmIr": "i64"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "main",
+            "callingConvention": "x64_os_default",
+            "fncType": "decompilerDefined",
+            "startAddr": "0x400500",
+            "endAddr": "0x40059b",
             "returnType": {
                 "llvmIr": "i32"
             },
@@ -871,8 +1066,8 @@
             "name": "platform_main_begin",
             "callingConvention": "x64_os_default",
             "fncType": "decompilerDefined",
-            "startAddr": "0x400540",
-            "endAddr": "0x400546",
+            "startAddr": "0x4005a0",
+            "endAddr": "0x4005a6",
             "returnType": {
                 "llvmIr": "i32"
             },
@@ -905,8 +1100,8 @@
             "name": "platform_main_end",
             "callingConvention": "x64_os_default",
             "fncType": "decompilerDefined",
-            "startAddr": "0x4005f0",
-            "endAddr": "0x400618",
+            "startAddr": "0x400650",
+            "endAddr": "0x400678",
             "returnType": {
                 "llvmIr": "i32"
             },

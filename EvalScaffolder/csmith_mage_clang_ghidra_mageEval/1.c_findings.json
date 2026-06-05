@@ -4,10 +4,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha1",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -118,10 +138,30 @@
       "ASTNode": "CallExpr",
       "children": [],
       "properties": {
+        "arg_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "args": [],
         "contains_errors": false,
+        "direct_callee_name": "mage_alpha3",
         "has_direct_callee": true,
-        "has_markee": false,
+        "has_markee": true,
         "has_side_effects": true,
+        "is_variadic": false,
+        "num_args": 1,
+        "num_params": 1,
+        "param_types": [
+          {
+            "is_const": false,
+            "is_pointer": false,
+            "type": "unsigned int"
+          }
+        ],
+        "params": [],
         "return_type": "undefined4"
       }
     },
@@ -146,7 +186,6 @@
       "ASTNode": "BinaryOperator",
       "children": [],
       "properties": {
-        "contains_errors": false,
         "has_markee": true,
         "lhs_stmt_class": "DeclRefExpr",
         "lhs_types": [

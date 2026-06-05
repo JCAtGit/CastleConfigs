@@ -173,6 +173,7 @@
   },
   "110": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -306,6 +307,7 @@
   },
   "120": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -421,11 +423,9 @@
     "parity_variadicity": false,
     "recovered_construct": false
   },
-  "13": {
-    "GotoStmt": "TODO"
-  },
   "130": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -471,6 +471,7 @@
   },
   "134": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -604,6 +605,7 @@
   },
   "144": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -687,6 +689,7 @@
   },
   "150": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -999,11 +1002,13 @@
   },
   "45": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
   "46": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1328,6 +1333,7 @@
   },
   "77": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": true,
     "recovered_construct": true
   },
@@ -1511,6 +1517,7 @@
   },
   "90": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1572,6 +1579,7 @@
   },
   "95": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   },
@@ -1617,6 +1625,7 @@
   },
   "99": {
     "markee_construct": "IfStmt",
+    "parity_cond_expr_types": true,
     "parity_cond_stmt_class": false,
     "recovered_construct": true
   }

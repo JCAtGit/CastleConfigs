@@ -285,22 +285,22 @@ typedef struct evp_pkey_ctx_st EVP_PKEY_CTX;
 
 undefined main;
 undefined1 completed.0;
-undefined1 DAT_0040ebb0;
-undefined1 DAT_0040ebbc;
-undefined1 DAT_0040ebc8;
-undefined1 DAT_0040ebd4;
-undefined1 DAT_0040ebe0;
-undefined1 DAT_0040ebec;
-undefined DAT_00409240;
-undefined DAT_00409244;
-undefined DAT_00409249;
-undefined DAT_0040924e;
-undefined DAT_00409283;
-undefined DAT_00409288;
-undefined DAT_004092b1;
-undefined DAT_004092d3;
-undefined DAT_0040931e;
-undefined DAT_00409323;
+undefined1 DAT_00410bb0;
+undefined1 DAT_00410bbc;
+undefined1 DAT_00410bc8;
+undefined1 DAT_00410bd4;
+undefined1 DAT_00410be0;
+undefined DAT_00410bec;
+undefined DAT_0040a240;
+undefined DAT_0040a244;
+undefined DAT_0040a249;
+undefined DAT_0040a24e;
+undefined DAT_0040a283;
+undefined DAT_0040a288;
+undefined DAT_0040a2b1;
+undefined DAT_0040a2d3;
+undefined DAT_0040a31e;
+undefined DAT_0040a323;
 undefined8 g_8;
 undefined4 g_26;
 undefined2 g_32;
@@ -319,9 +319,9 @@ undefined4 g_99;
 undefined1 g_106;
 undefined8 g_143;
 undefined1[100] g_232;
-undefined DAT_00409454;
 undefined2 g_289;
 undefined1 g_326;
+undefined DAT_0040a454;
 undefined8 g_348;
 undefined4 g_355;
 undefined4 g_385;
@@ -345,21 +345,21 @@ undefined1[432] g_1312;
 undefined8 g_1323;
 undefined4 crc32_context;
 undefined1[1024] crc32_tab;
-undefined *PTR_g_1211_00409560;
-byte DAT_0040ebbc;
-undefined DAT_0040ebec;
-undefined *PTR_g_1235_004095e0;
-undefined DAT_00409700;
+undefined *PTR_g_1211_0040a560;
+byte DAT_00410bbc;
+undefined4 DAT_00410bec;
 pointer g_147;
-undefined DAT_00409b00;
+undefined *PTR_g_1235_0040a5e0;
 pointer g_1008;
-undefined DAT_00409cb0;
+undefined DAT_0040a700;
 undefined1[160] g_671;
-undefined DAT_00409d50;
+undefined DAT_0040ab00;
 pointer g_388;
-undefined DAT_00409da0;
-undefined DAT_00409ee0;
-undefined DAT_00409fb0;
+undefined DAT_0040acb0;
+undefined DAT_0040ad50;
+undefined DAT_0040ada0;
+undefined DAT_0040aee0;
+undefined DAT_0040afb0;
 undefined1[72] g_126;
 undefined8 g_275;
 undefined8 g_566;
@@ -367,32 +367,32 @@ undefined4 g_1349;
 pointer g_1235;
 pointer g_438;
 undefined8 g_87;
-undefined DAT_0040a008;
-undefined DAT_0040a040;
-undefined DAT_0040a078;
+undefined DAT_0040b008;
+undefined DAT_0040b040;
+undefined DAT_0040b078;
 pointer g_146;
 undefined8 g_836;
 undefined8 g_231;
 pointer g_82;
 pointer g_36;
 pointer g_311;
-undefined DAT_0040a850;
-undefined DAT_0040ac10;
 pointer g_127;
-undefined *PTR_g_26_0040aed0;
+undefined DAT_0040b850;
 pointer g_809;
-undefined DAT_0040b000;
-undefined DAT_0040b1e0;
-pointer PTR_g_96_0040b370;
-undefined8 DAT_0040ec08;
+undefined DAT_0040bc10;
+undefined *PTR_g_26_0040bed0;
+undefined DAT_0040c000;
+undefined DAT_0040c1e0;
+pointer PTR_g_96_0040c370;
+undefined8 DAT_00410c08;
 pointer g_140;
 pointer g_86;
 pointer g_967;
 undefined8 g_1050;
-undefined *PTR_g_32_0040b600;
-undefined *PTR_g_499_0040b640;
-undefined DAT_0040b6a0;
-pointer PTR_DAT_0040eb30;
+undefined *PTR_g_32_0040c600;
+undefined *PTR_g_499_0040c640;
+undefined DAT_0040c6a0;
+pointer PTR_DAT_00410b30;
 
 int _init(EVP_PKEY_CTX *ctx)
 
@@ -531,7 +531,1263 @@ void frame_dummy(void)
 
 
 
-undefined4 codemarker_alpha(undefined4 param_1)
+undefined4 mage_alpha0(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha1(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha2(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha3(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha4(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha5(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha6(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha7(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha8(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha9(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha10(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha11(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha12(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha13(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha14(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha15(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha16(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha17(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha18(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha19(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha20(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha21(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha22(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha23(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha24(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha25(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha26(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha27(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha28(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha29(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha30(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha31(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha32(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha33(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha34(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha35(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha36(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha37(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha38(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha39(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha40(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha41(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha42(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha43(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha44(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha45(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha46(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha47(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha48(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha49(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha50(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha51(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha52(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha53(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha54(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha55(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha56(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha57(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha58(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha59(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha60(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha61(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha62(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha63(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha64(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha65(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha66(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha67(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha68(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha69(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha70(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha71(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha72(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha73(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha74(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha75(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha76(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha77(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha78(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha79(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha80(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha81(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha82(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha83(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha84(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha85(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha86(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha87(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha88(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha89(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha90(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha91(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha92(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha93(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha94(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha95(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha96(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha97(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha98(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha99(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha100(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha101(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha102(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha103(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha104(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha105(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha106(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha107(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha108(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha109(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha110(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha111(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha112(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha113(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha114(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha115(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha116(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha117(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha118(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha119(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha120(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha121(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha122(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha123(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha124(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha125(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha126(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha127(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha128(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha129(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha130(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha131(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha132(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha133(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha134(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha135(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha136(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha137(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha138(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha139(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha140(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha141(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha142(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha143(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha144(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha145(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha146(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha147(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha148(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha149(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha150(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha151(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha152(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha153(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha154(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha155(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha156(undefined4 param_1)
+
+{
+  return param_1;
+}
+
+
+
+undefined4 mage_alpha157(undefined4 param_1)
 
 {
   return param_1;
@@ -548,162 +1804,162 @@ undefined8 main(int param_1,long param_2)
   uint local_20;
   uint local_1c;
   
-  codemarker_alpha(0x4b);
-  codemarker_alpha(0x4c);
+  mage_alpha75(0x4b);
+  mage_alpha76(0x4c);
   local_28 = 0;
-  codemarker_alpha(0x4d);
+  mage_alpha77(0x4d);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_28 = 1;
     }
   }
-  codemarker_alpha(0x4e);
+  mage_alpha78(0x4e);
   platform_main_begin();
-  codemarker_alpha(0x4f);
+  mage_alpha79(0x4f);
   crc32_gentab();
   func_1();
-  transparent_crc(g_8,&DAT_00409240,local_28);
-  transparent_crc((long)g_26,&DAT_00409244,local_28);
-  transparent_crc((long)g_32,&DAT_00409249,local_28);
-  transparent_crc((long)g_37,&DAT_0040924e,local_28);
-  codemarker_alpha(0x50);
+  transparent_crc(g_8,&DAT_0040a240,local_28);
+  transparent_crc((long)g_26,&DAT_0040a244,local_28);
+  transparent_crc((long)g_32,&DAT_0040a249,local_28);
+  transparent_crc((long)g_37,&DAT_0040a24e,local_28);
+  mage_alpha80(0x50);
   transparent_crc((uint)g_44 & 0x7fff,"g_44.f0",local_28);
-  codemarker_alpha(0x51);
+  mage_alpha81(0x51);
   transparent_crc((long)(int)(char)((ulong)(g_44 << 0x29) >> 0x38),"g_44.f1",local_28);
-  codemarker_alpha(0x52);
+  mage_alpha82(0x52);
   transparent_crc((long)(int)((g_44 << 0x16) >> 0x36),"g_44.f2",local_28);
-  codemarker_alpha(0x53);
+  mage_alpha83(0x53);
   transparent_crc((uint)((ulong)g_44 >> 0x2a) & 0x3fff,"g_44.f3",local_28);
-  codemarker_alpha(0x54);
+  mage_alpha84(0x54);
   transparent_crc((byte)((ulong)g_44 >> 0x38) & 0x1f,"g_44.f4",local_28);
-  codemarker_alpha(0x55);
-  transparent_crc(DAT_0040ebb0,"g_44.f5",local_28);
-  transparent_crc((long)g_58,&DAT_00409283,local_28);
-  transparent_crc((long)g_61,&DAT_00409288,local_28);
-  codemarker_alpha(0x56);
+  mage_alpha85(0x55);
+  transparent_crc(DAT_00410bb0,"g_44.f5",local_28);
+  transparent_crc((long)g_58,&DAT_0040a283,local_28);
+  transparent_crc((long)g_61,&DAT_0040a288,local_28);
+  mage_alpha86(0x56);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    codemarker_alpha(0x57);
+    mage_alpha87(0x57);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      codemarker_alpha(0x58);
+      mage_alpha88(0x58);
       for (local_24 = 0; (int)local_24 < 9; local_24 = local_24 + 1) {
-        codemarker_alpha(0x59);
+        mage_alpha89(0x59);
         transparent_crc((long)*(int *)(g_62 + (long)(int)local_24 * 4 +
                                               (long)(int)local_20 * 0x24 +
                                               (long)(int)local_1c * 0x90),"g_62[i][j][k]",local_28);
-        codemarker_alpha(0x5a);
+        mage_alpha90(0x5a);
         if (local_28 != 0) {
-          codemarker_alpha(0x5b);
+          mage_alpha91(0x5b);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  transparent_crc((long)g_63,&DAT_004092b1,local_28);
-  codemarker_alpha(0x5c);
+  transparent_crc((long)g_63,&DAT_0040a2b1,local_28);
+  mage_alpha92(0x5c);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
-    codemarker_alpha(0x5d);
+    mage_alpha93(0x5d);
     for (local_20 = 0; (int)local_20 < 8; local_20 = local_20 + 1) {
-      codemarker_alpha(0x5e);
+      mage_alpha94(0x5e);
       transparent_crc((long)*(int *)(g_64 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x20),
                       "g_64[i][j]",local_28);
-      codemarker_alpha(0x5f);
+      mage_alpha95(0x5f);
       if (local_28 != 0) {
-        codemarker_alpha(0x60);
+        mage_alpha96(0x60);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  transparent_crc((long)g_65,&DAT_004092d3,local_28);
-  codemarker_alpha(0x61);
+  transparent_crc((long)g_65,&DAT_0040a2d3,local_28);
+  mage_alpha97(0x61);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    codemarker_alpha(0x62);
+    mage_alpha98(0x62);
     transparent_crc((&g_83)[(int)local_1c],"g_83[i]",local_28);
-    codemarker_alpha(99);
+    mage_alpha99(99);
     if (local_28 != 0) {
-      codemarker_alpha(100);
+      mage_alpha100(100);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x65);
+  mage_alpha101(0x65);
   transparent_crc((uint)g_91 & 0x7fff,"g_91.f0",local_28);
-  codemarker_alpha(0x66);
+  mage_alpha102(0x66);
   transparent_crc((long)(int)(char)((ulong)(g_91 << 0x29) >> 0x38),"g_91.f1",local_28);
-  codemarker_alpha(0x67);
+  mage_alpha103(0x67);
   transparent_crc((long)(int)((g_91 << 0x16) >> 0x36),"g_91.f2",local_28);
-  codemarker_alpha(0x68);
+  mage_alpha104(0x68);
   transparent_crc((uint)((ulong)g_91 >> 0x2a) & 0x3fff,"g_91.f3",local_28);
-  codemarker_alpha(0x69);
+  mage_alpha105(0x69);
   transparent_crc((byte)((ulong)g_91 >> 0x38) & 0x1f,"g_91.f4",local_28);
-  codemarker_alpha(0x6a);
-  transparent_crc(DAT_0040ebbc,"g_91.f5",local_28);
-  transparent_crc(g_96,&DAT_0040931e,local_28);
-  transparent_crc((long)g_99,&DAT_00409323,local_28);
+  mage_alpha106(0x6a);
+  transparent_crc(DAT_00410bbc,"g_91.f5",local_28);
+  transparent_crc(g_96,&DAT_0040a31e,local_28);
+  transparent_crc((long)g_99,&DAT_0040a323,local_28);
   transparent_crc(g_106,"g_106",local_28);
   transparent_crc(g_143,"g_143",local_28);
-  codemarker_alpha(0x6b);
+  mage_alpha107(0x6b);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    codemarker_alpha(0x6c);
+    mage_alpha108(0x6c);
     for (local_20 = 0; (int)local_20 < 5; local_20 = local_20 + 1) {
-      codemarker_alpha(0x6d);
+      mage_alpha109(0x6d);
       transparent_crc((long)*(short *)(g_232 + (long)(int)local_20 * 2 + (long)(int)local_1c * 10),
                       "g_232[i][j]",local_28);
-      codemarker_alpha(0x6e);
+      mage_alpha110(0x6e);
       if (local_28 != 0) {
-        codemarker_alpha(0x6f);
+        mage_alpha111(0x6f);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
   transparent_crc((long)g_289,"g_289",local_28);
   transparent_crc(g_326,"g_326",local_28);
-  codemarker_alpha(0x70);
+  mage_alpha112(0x70);
   transparent_crc((uint)g_348 & 0x7fff,"g_348.f0",local_28);
-  codemarker_alpha(0x71);
+  mage_alpha113(0x71);
   transparent_crc((long)(int)(char)((ulong)(g_348 << 0x29) >> 0x38),"g_348.f1",local_28);
-  codemarker_alpha(0x72);
+  mage_alpha114(0x72);
   transparent_crc((long)(int)((g_348 << 0x16) >> 0x36),"g_348.f2",local_28);
-  codemarker_alpha(0x73);
+  mage_alpha115(0x73);
   transparent_crc((uint)((ulong)g_348 >> 0x2a) & 0x3fff,"g_348.f3",local_28);
-  codemarker_alpha(0x74);
+  mage_alpha116(0x74);
   transparent_crc((byte)((ulong)g_348 >> 0x38) & 0x1f,"g_348.f4",local_28);
-  codemarker_alpha(0x75);
-  transparent_crc(DAT_0040ebc8,"g_348.f5",local_28);
-  codemarker_alpha(0x76);
+  mage_alpha117(0x75);
+  transparent_crc(DAT_00410bc8,"g_348.f5",local_28);
+  mage_alpha118(0x76);
   for (local_1c = 0; (int)local_1c < 1; local_1c = local_1c + 1) {
-    codemarker_alpha(0x77);
+    mage_alpha119(0x77);
     transparent_crc((&g_355)[(int)local_1c],"g_355[i]",local_28);
-    codemarker_alpha(0x78);
+    mage_alpha120(0x78);
     if (local_28 != 0) {
-      codemarker_alpha(0x79);
+      mage_alpha121(0x79);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc(g_385,"g_385",local_28);
-  codemarker_alpha(0x7a);
+  mage_alpha122(0x7a);
   transparent_crc((uint)g_499 & 0x7fff,"g_499.f0",local_28);
-  codemarker_alpha(0x7b);
+  mage_alpha123(0x7b);
   transparent_crc((long)(int)(char)((ulong)(g_499 << 0x29) >> 0x38),"g_499.f1",local_28);
-  codemarker_alpha(0x7c);
+  mage_alpha124(0x7c);
   transparent_crc((long)(int)((g_499 << 0x16) >> 0x36),"g_499.f2",local_28);
-  codemarker_alpha(0x7d);
+  mage_alpha125(0x7d);
   transparent_crc((uint)((ulong)g_499 >> 0x2a) & 0x3fff,"g_499.f3",local_28);
-  codemarker_alpha(0x7e);
+  mage_alpha126(0x7e);
   transparent_crc((byte)((ulong)g_499 >> 0x38) & 0x1f,"g_499.f4",local_28);
-  codemarker_alpha(0x7f);
-  transparent_crc(DAT_0040ebd4,"g_499.f5",local_28);
+  mage_alpha127(0x7f);
+  transparent_crc(DAT_00410bd4,"g_499.f5",local_28);
   transparent_crc(g_670,"g_670",local_28);
   transparent_crc((long)g_732,"g_732",local_28);
   transparent_crc(g_763,"g_763",local_28);
   transparent_crc(g_821,"g_821",local_28);
   transparent_crc(g_860,"g_860",local_28);
-  codemarker_alpha(0x80);
+  mage_alpha128(0x80);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    codemarker_alpha(0x81);
+    mage_alpha129(0x81);
     transparent_crc((long)*(char *)((long)&g_870 + (long)(int)local_1c),"g_870[i]",local_28);
-    codemarker_alpha(0x82);
+    mage_alpha130(0x82);
     if (local_28 != 0) {
-      codemarker_alpha(0x83);
+      mage_alpha131(0x83);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -711,71 +1967,71 @@ undefined8 main(int param_1,long param_2)
   transparent_crc((long)g_956,"g_956",local_28);
   transparent_crc((long)g_975,"g_975",local_28);
   transparent_crc(g_1006,"g_1006",local_28);
-  codemarker_alpha(0x84);
+  mage_alpha132(0x84);
   for (local_1c = 0; (int)local_1c < 7; local_1c = local_1c + 1) {
-    codemarker_alpha(0x85);
+    mage_alpha133(0x85);
     transparent_crc((long)(char)(&g_1019)[(int)local_1c],"g_1019[i]",local_28);
-    codemarker_alpha(0x86);
+    mage_alpha134(0x86);
     if (local_28 != 0) {
-      codemarker_alpha(0x87);
+      mage_alpha135(0x87);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x88);
+  mage_alpha136(0x88);
   transparent_crc((uint)g_1024 & 0x7fff,"g_1024.f0",local_28);
-  codemarker_alpha(0x89);
+  mage_alpha137(0x89);
   transparent_crc((long)(int)(char)((ulong)(g_1024 << 0x29) >> 0x38),"g_1024.f1",local_28);
-  codemarker_alpha(0x8a);
+  mage_alpha138(0x8a);
   transparent_crc((long)(int)((g_1024 << 0x16) >> 0x36),"g_1024.f2",local_28);
-  codemarker_alpha(0x8b);
+  mage_alpha139(0x8b);
   transparent_crc((uint)((ulong)g_1024 >> 0x2a) & 0x3fff,"g_1024.f3",local_28);
-  codemarker_alpha(0x8c);
+  mage_alpha140(0x8c);
   transparent_crc((byte)((ulong)g_1024 >> 0x38) & 0x1f,"g_1024.f4",local_28);
-  codemarker_alpha(0x8d);
-  transparent_crc(DAT_0040ebe0,"g_1024.f5",local_28);
+  mage_alpha141(0x8d);
+  transparent_crc(DAT_00410be0,"g_1024.f5",local_28);
   transparent_crc(g_1209,"g_1209",local_28);
-  transparent_crc(g_1211,&DAT_00409454,local_28);
-  codemarker_alpha(0x8e);
+  transparent_crc(g_1211,&DAT_0040a454,local_28);
+  mage_alpha142(0x8e);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    codemarker_alpha(0x8f);
+    mage_alpha143(0x8f);
     transparent_crc((&g_1281)[(int)local_1c],"g_1281[i]",local_28);
-    codemarker_alpha(0x90);
+    mage_alpha144(0x90);
     if (local_28 != 0) {
-      codemarker_alpha(0x91);
+      mage_alpha145(0x91);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  codemarker_alpha(0x92);
+  mage_alpha146(0x92);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
-    codemarker_alpha(0x93);
+    mage_alpha147(0x93);
     for (local_20 = 0; (int)local_20 < 8; local_20 = local_20 + 1) {
-      codemarker_alpha(0x94);
+      mage_alpha148(0x94);
       for (local_24 = 0; (int)local_24 < 3; local_24 = local_24 + 1) {
-        codemarker_alpha(0x95);
+        mage_alpha149(0x95);
         transparent_crc(*(undefined2 *)
                          (g_1312 + (long)(int)local_24 * 2 +
                                    (long)(int)local_20 * 6 + (long)(int)local_1c * 0x30),
                         "g_1312[i][j][k]",local_28);
-        codemarker_alpha(0x96);
+        mage_alpha150(0x96);
         if (local_28 != 0) {
-          codemarker_alpha(0x97);
+          mage_alpha151(0x97);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  codemarker_alpha(0x98);
+  mage_alpha152(0x98);
   transparent_crc((uint)g_1323 & 0x7fff,"g_1323.f0",local_28);
-  codemarker_alpha(0x99);
+  mage_alpha153(0x99);
   transparent_crc((long)(int)(char)((ulong)(g_1323 << 0x29) >> 0x38),"g_1323.f1",local_28);
-  codemarker_alpha(0x9a);
+  mage_alpha154(0x9a);
   transparent_crc((long)(int)((g_1323 << 0x16) >> 0x36),"g_1323.f2",local_28);
-  codemarker_alpha(0x9b);
+  mage_alpha155(0x9b);
   transparent_crc((uint)((ulong)g_1323 >> 0x2a) & 0x3fff,"g_1323.f3",local_28);
-  codemarker_alpha(0x9c);
+  mage_alpha156(0x9c);
   transparent_crc((byte)((ulong)g_1323 >> 0x38) & 0x1f,"g_1323.f4",local_28);
-  codemarker_alpha(0x9d);
-  transparent_crc(DAT_0040ebec,"g_1323.f5",local_28);
+  mage_alpha157(0x9d);
+  transparent_crc((undefined1)DAT_00410bec,"g_1323.f5",local_28);
   transparent_crc(0x4eede6b2,"g_1349",local_28);
   platform_main_end(crc32_context ^ 0xffffffff,local_28);
   return 0;
@@ -815,7 +2071,7 @@ void crc32_gentab(void)
 
 
 
-// WARNING: Removing unreachable block (ram,0x004017ac)
+// WARNING: Removing unreachable block (ram,0x00402b4c)
 
 undefined4 func_1(void)
 
@@ -846,9 +2102,9 @@ undefined4 func_1(void)
   local_20 = 0;
   local_28 = &g_8;
   local_38 = &g_1209;
-  memcpy(local_b8,&PTR_g_1211_00409560,0x80);
-  codemarker_alpha(0);
-  codemarker_alpha(1);
+  memcpy(local_b8,&PTR_g_1211_0040a560,0x80);
+  mage_alpha0(0);
+  mage_alpha1(1);
   for (local_d4 = 0; local_d4 < 1; local_d4 = local_d4 + 1) {
     (&local_29)[local_d4] = 0xf9;
   }
@@ -871,15 +2127,15 @@ undefined4 func_1(void)
                       );
     local_eb = true;
     uVar8 = extraout_RDX_01;
-    if (sVar4 != 0) goto LAB_00401719;
+    if (sVar4 != 0) goto LAB_00402ab9;
   }
   local_eb = (int)((g_91 << 0x16) >> 0x36) != 0;
-LAB_00401719:
+LAB_00402ab9:
   safe_mod_func_int16_t_s_s((int)sVar3,local_eb,uVar8,sVar3);
   func_11(0,0x62,local_29,0x6b9db40b81aab662);
   safe_rshift_func_uint64_t_u_s(local_d,g_106);
   g_26 = (uint)local_29;
-  codemarker_alpha(2);
+  mage_alpha2(2);
   g_32 = 0;
   return 1;
 }
@@ -929,8 +2185,7 @@ ulong safe_rshift_func_uint64_t_u_s(ulong param_1,int param_2)
 
 
 
-// WARNING: Removing unreachable block (ram,0x004028ba)
-// WARNING: Globals starting with '_' overlap smaller symbols at the same address
+// WARNING: Removing unreachable block (ram,0x00403c5a)
 
 undefined8 func_11(byte param_1,byte param_2,ulong param_3,uint param_4)
 
@@ -1064,7 +2319,7 @@ undefined8 func_11(byte param_1,byte param_2,ulong param_3,uint param_4)
   local_18 = param_3;
   local_b = param_2;
   local_a = param_1;
-  memcpy(local_168,&PTR_g_1235_004095e0,0x120);
+  memcpy(local_168,&PTR_g_1235_0040a5e0,0x120);
   local_170 = &g_1019;
   local_174 = 0xffffffff;
   local_180 = 0;
@@ -1072,16 +2327,16 @@ undefined8 func_11(byte param_1,byte param_2,ulong param_3,uint param_4)
   local_1a0 = 0xfffffffe;
   local_198 = 0xfffffffe;
   local_190 = 0xfffffffe;
-  memcpy(local_598,&DAT_00409700,0x3f0);
+  memcpy(local_598,&DAT_0040a700,0x3f0);
   local_599 = -2;
   local_5a8 = &g_32;
   local_5b0 = &g_99;
   local_5b8 = &g_1349;
   local_5c0 = &local_5b8;
-  memcpy(local_778,&DAT_00409b00,0x1b0);
+  memcpy(local_778,&DAT_0040ab00,0x1b0);
   local_780 = 0;
-  local_788 = 0x40e3fa;
-  codemarker_alpha(3);
+  local_788 = 0x4103fa;
+  mage_alpha3(3);
   uVar8 = safe_rshift_func_uint16_t_u_u(local_b,0xb);
   uVar14 = local_28;
   bVar5 = safe_unary_minus_func_int8_t_s(0xfffffff6);
@@ -1098,7 +2353,7 @@ undefined8 func_11(byte param_1,byte param_2,ulong param_3,uint param_4)
   bVar5 = safe_add_func_int16_t_s_s(0,local_d05);
   uVar11 = safe_add_func_uint64_t_u_u(uVar8 < 2 & bVar5,9);
   *(undefined4 *)g_147 = uVar11;
-  codemarker_alpha(4);
+  mage_alpha4(4);
   local_7a0 = &g_147;
   local_7a4 = 0x39608e32;
   local_7a8 = 0xce03d2a2;
@@ -1108,9 +2363,9 @@ undefined8 func_11(byte param_1,byte param_2,ulong param_3,uint param_4)
   local_7b8 = 0x9a5b9fa5;
   local_7bc = 0xffffffff;
   local_7c8 = &local_30;
-LAB_00401be2:
+LAB_00402f82:
   *local_7a0 = (undefined *)&local_1c;
-  codemarker_alpha(5);
+  mage_alpha5(5);
   g_1006 = 0;
   do {
     puVar4 = local_5a8;
@@ -1118,9 +2373,9 @@ LAB_00401be2:
       g_956 = *(undefined8 **)*g_566 != local_7c8 ^ g_956;
       uVar13 = func_49(local_18 & 0xffffffff,local_18,local_3ac & 0xff);
       local_5b0 = (uint *)func_45(auStack_588,puVar4,uVar13);
-      codemarker_alpha(0x10);
+      mage_alpha16(0x10);
       for (g_143 = 0; uVar14 = local_18, -1 < g_143; g_143 = g_143 + -1) {
-        codemarker_alpha(0x11);
+        mage_alpha17(0x11);
         cVar7 = safe_sub_func_int8_t_s_s(5,(int)(char)*local_5b0);
         uVar12 = safe_lshift_func_uint64_t_u_u((long)cVar7,0x23);
         uVar15 = (uint)g_44;
@@ -1149,53 +2404,53 @@ LAB_00401be2:
       *local_5b0 = (uint)(0x47ef < (long)((long)(int)*local_5b0 & local_18));
       uVar14 = CONCAT71((int7)((ulong)local_5b0 >> 8),local_a);
       local_9 = local_a;
-LAB_0040290d:
+LAB_00403cad:
       return CONCAT71((int7)(uVar14 >> 8),local_9);
     }
-    codemarker_alpha(6);
+    mage_alpha6(6);
     local_7d0 = &g_1024;
     local_7d4 = 0xffffffff;
     local_7e0 = 1;
     local_7e4 = 0;
-    memcpy(local_888,&DAT_00409cb0,0xa0);
+    memcpy(local_888,&DAT_0040acb0,0xa0);
     local_88a = 0xffff;
     local_898 = &g_26;
-    codemarker_alpha(7);
+    mage_alpha7(7);
     *(undefined8 **)g_1008 = local_7d0;
-    codemarker_alpha(8);
+    mage_alpha8(8);
     for (g_96 = 0; 0x25 < g_96; g_96 = safe_add_func_int16_t_s_s((int)(short)g_96,4)) {
-      memcpy(local_8e8,&DAT_00409d50,0x46);
+      memcpy(local_8e8,&DAT_0040ad50,0x46);
       local_8f0 = g_671;
       local_910 = &local_180;
-      codemarker_alpha(9);
-      codemarker_alpha(10);
+      mage_alpha9(9);
+      mage_alpha10(10);
       for (local_914 = 0; local_914 < 4; local_914 = local_914 + 1) {
         *(undefined4 *)(auStack_904 + (long)local_914 * 4 + -4) = 0x18c56f29;
       }
       lVar1 = **(long **)g_388;
       *local_170 = local_8b1;
       safe_lshift_func_int8_t_s_s((int)(char)local_8b1,4);
-      bVar5 = safe_add_func_int8_t_s_s(0xffffffff,local_8f0 == (undefined1 *)0x40e690);
+      bVar5 = safe_add_func_int8_t_s_s(0xffffffff,local_8f0 == (undefined1 *)0x410690);
       local_b = local_b & bVar5;
       safe_unary_minus_func_uint64_t_u(local_a != 0xfc);
       local_d11 = local_174 != 0 || local_b != 0;
       if (lVar1 == 0 && (local_d11 & (uint)local_190) == 0) {
         uVar14 = (ulong)local_334;
         local_9 = (byte)local_334;
-        goto LAB_0040290d;
+        goto LAB_00403cad;
       }
       local_928 = 0;
-      memcpy(local_a68,&DAT_00409da0,0x140);
-      codemarker_alpha(0xb);
-      codemarker_alpha(0xc);
+      memcpy(local_a68,&DAT_0040ada0,0x140);
+      mage_alpha11(0xb);
+      mage_alpha12(0xc);
       for (local_a8c = 0; local_a8c < 3; local_a8c = local_a8c + 1) {
         auStack_a88[local_a8c] = &g_289;
       }
       if (local_a != 0) {
-        codemarker_alpha(0xd);
-        goto LAB_00401be2;
+        mage_alpha13(0xd);
+        goto LAB_00402f82;
       }
-      codemarker_alpha(0xe);
+      mage_alpha14(0xe);
       for (g_385 = 7; g_385 < 0x22; g_385 = safe_add_func_int32_t_s_s(g_385,2)) {
         local_aa0 = (long *)(g_126 + 0x38);
         local_aa4 = 9;
@@ -1227,9 +2482,9 @@ LAB_0040290d:
         local_ac8 = &g_37;
         local_ac0 = auStack_a34;
         local_ab8 = 0;
-        memcpy(local_c58,&DAT_00409ee0,200);
-        memcpy(local_c98,&DAT_00409fb0,0x38);
-        codemarker_alpha(0xf);
+        memcpy(local_c58,&DAT_0040aee0,200);
+        memcpy(local_c98,&DAT_0040afb0,0x38);
+        mage_alpha15(0xf);
         iVar3 = local_aa4;
         lVar1 = *g_275;
         *local_aa0 = lVar1;
@@ -1252,7 +2507,7 @@ LAB_0040290d:
                ((ulong)((uint)((long)(g_91 << 0x16) >> 0x36) |
                        (uint)(local_190._4_4_ < (local_d21 ^ local_8fc[0]))) & 0x3ff) << 0x20;
         local_599 = local_599 + '\x01';
-        local_8fc[0] = (uint)DAT_0040ebbc;
+        local_8fc[0] = (uint)DAT_00410bbc;
         bVar16 = local_1c != local_8fc[0] < 0xfffa;
         uVar11 = safe_lshift_func_int32_t_s_u(1,0x1b);
         uVar11 = safe_lshift_func_int32_t_s_u(bVar16,uVar11);
@@ -1305,38 +2560,38 @@ int safe_div_func_int32_t_s_s(int param_1,int param_2)
 
 
 
-// WARNING: Removing unreachable block (ram,0x004032d8)
-// WARNING: Removing unreachable block (ram,0x004034a3)
-// WARNING: Removing unreachable block (ram,0x004034ac)
-// WARNING: Removing unreachable block (ram,0x004034ae)
-// WARNING: Removing unreachable block (ram,0x00403400)
-// WARNING: Removing unreachable block (ram,0x00403454)
-// WARNING: Removing unreachable block (ram,0x0040345d)
-// WARNING: Removing unreachable block (ram,0x00403487)
-// WARNING: Removing unreachable block (ram,0x0040349f)
-// WARNING: Removing unreachable block (ram,0x004034a1)
-// WARNING: Removing unreachable block (ram,0x004034b0)
-// WARNING: Removing unreachable block (ram,0x00403553)
-// WARNING: Removing unreachable block (ram,0x00403513)
-// WARNING: Removing unreachable block (ram,0x00402a9c)
-// WARNING: Removing unreachable block (ram,0x00402b22)
-// WARNING: Removing unreachable block (ram,0x00402b2b)
-// WARNING: Removing unreachable block (ram,0x00402b4f)
-// WARNING: Removing unreachable block (ram,0x00402b64)
-// WARNING: Removing unreachable block (ram,0x00402b6e)
-// WARNING: Removing unreachable block (ram,0x00402b9b)
-// WARNING: Removing unreachable block (ram,0x00402c79)
-// WARNING: Removing unreachable block (ram,0x00402c90)
-// WARNING: Removing unreachable block (ram,0x00402ca2)
-// WARNING: Removing unreachable block (ram,0x00402d54)
-// WARNING: Removing unreachable block (ram,0x00402d60)
-// WARNING: Removing unreachable block (ram,0x00402d8c)
-// WARNING: Removing unreachable block (ram,0x00402d9a)
-// WARNING: Removing unreachable block (ram,0x004034dd)
-// WARNING: Removing unreachable block (ram,0x004034fe)
-// WARNING: Removing unreachable block (ram,0x0040352b)
-// WARNING: Removing unreachable block (ram,0x0040354b)
-// WARNING: Removing unreachable block (ram,0x00402dfc)
+// WARNING: Removing unreachable block (ram,0x00404678)
+// WARNING: Removing unreachable block (ram,0x00404843)
+// WARNING: Removing unreachable block (ram,0x0040484c)
+// WARNING: Removing unreachable block (ram,0x0040484e)
+// WARNING: Removing unreachable block (ram,0x004047a0)
+// WARNING: Removing unreachable block (ram,0x004047f4)
+// WARNING: Removing unreachable block (ram,0x004047fd)
+// WARNING: Removing unreachable block (ram,0x00404827)
+// WARNING: Removing unreachable block (ram,0x0040483f)
+// WARNING: Removing unreachable block (ram,0x00404841)
+// WARNING: Removing unreachable block (ram,0x00404850)
+// WARNING: Removing unreachable block (ram,0x004048f3)
+// WARNING: Removing unreachable block (ram,0x004048b3)
+// WARNING: Removing unreachable block (ram,0x00403e3c)
+// WARNING: Removing unreachable block (ram,0x00403ec2)
+// WARNING: Removing unreachable block (ram,0x00403ecb)
+// WARNING: Removing unreachable block (ram,0x00403eef)
+// WARNING: Removing unreachable block (ram,0x00403f04)
+// WARNING: Removing unreachable block (ram,0x00403f0e)
+// WARNING: Removing unreachable block (ram,0x00403f3b)
+// WARNING: Removing unreachable block (ram,0x00404019)
+// WARNING: Removing unreachable block (ram,0x00404030)
+// WARNING: Removing unreachable block (ram,0x00404042)
+// WARNING: Removing unreachable block (ram,0x004040f4)
+// WARNING: Removing unreachable block (ram,0x00404100)
+// WARNING: Removing unreachable block (ram,0x0040412c)
+// WARNING: Removing unreachable block (ram,0x0040413a)
+// WARNING: Removing unreachable block (ram,0x0040487d)
+// WARNING: Removing unreachable block (ram,0x0040489e)
+// WARNING: Removing unreachable block (ram,0x004048cb)
+// WARNING: Removing unreachable block (ram,0x004048eb)
+// WARNING: Removing unreachable block (ram,0x0040419c)
 
 undefined4 func_20(undefined4 param_1)
 
@@ -1360,16 +2615,16 @@ undefined4 func_20(undefined4 param_1)
   local_68 = 0x12c1f1d811b0564d;
   local_60 = 0x38d0b5ebdd8ee182;
   local_58 = 0x12c1f1d811b0564d;
-  codemarker_alpha(0x12);
-  codemarker_alpha(0x13);
+  mage_alpha18(0x12);
+  mage_alpha19(0x13);
   for (local_7c = 0; local_7c < 5; local_7c = local_7c + 1) {
     auStack_28[local_7c] = 0xb9e675cc;
   }
-  codemarker_alpha(0x14);
+  mage_alpha20(0x14);
   for (local_7c = 0; local_7c < 7; local_7c = local_7c + 1) {
     local_48[local_7c] = 0xfffffff6;
   }
-  codemarker_alpha(0x15);
+  mage_alpha21(0x15);
   return (int)local_68;
 }
 
@@ -1619,12 +2874,12 @@ undefined4 * func_45(undefined8 param_1,undefined8 param_2,undefined8 param_3)
   undefined8 local_18;
   undefined8 local_10;
   
-  local_28 = 0x40e3fa;
+  local_28 = 0x4103fa;
   local_20 = param_3;
   local_18 = param_2;
   local_10 = param_1;
   memset(auStack_180,0,0x38);
-  memcpy(auStack_180,&DAT_0040a008,0x38);
+  memcpy(auStack_180,&DAT_0040b008,0x38);
   local_148 = &local_28;
   local_140 = &local_28;
   local_138 = &local_28;
@@ -1633,7 +2888,7 @@ undefined4 * func_45(undefined8 param_1,undefined8 param_2,undefined8 param_3)
   local_120 = &local_28;
   local_118 = &local_28;
   memset(auStack_110,0,0x38);
-  memcpy(auStack_110,&DAT_0040a040,0x38);
+  memcpy(auStack_110,&DAT_0040b040,0x38);
   local_d8 = &local_28;
   local_d0 = &local_28;
   local_c8 = &local_28;
@@ -1642,7 +2897,7 @@ undefined4 * func_45(undefined8 param_1,undefined8 param_2,undefined8 param_3)
   local_b0 = &local_28;
   local_a8 = &local_28;
   memset(auStack_a0,0,0x38);
-  memcpy(auStack_a0,&DAT_0040a078,0x38);
+  memcpy(auStack_a0,&DAT_0040b078,0x38);
   local_68 = &local_28;
   local_60 = &local_28;
   local_58 = &local_28;
@@ -1650,7 +2905,7 @@ undefined4 * func_45(undefined8 param_1,undefined8 param_2,undefined8 param_3)
   local_48 = &local_28;
   local_40 = &local_28;
   local_38 = &local_28;
-  codemarker_alpha(0x3c);
+  mage_alpha60(0x3c);
   return &g_26;
 }
 
@@ -1716,10 +2971,10 @@ int safe_add_func_int32_t_s_s(int param_1,int param_2)
 
 
 
-// WARNING: Removing unreachable block (ram,0x00403d8e)
-// WARNING: Removing unreachable block (ram,0x00403ddb)
-// WARNING: Removing unreachable block (ram,0x00403de8)
-// WARNING: Removing unreachable block (ram,0x00403f98)
+// WARNING: Removing unreachable block (ram,0x0040512e)
+// WARNING: Removing unreachable block (ram,0x0040517b)
+// WARNING: Removing unreachable block (ram,0x00405188)
+// WARNING: Removing unreachable block (ram,0x00405338)
 // WARNING: Restarted to delay deadcode elimination for space: ram
 
 int * func_49(undefined4 param_1,ulong param_2,undefined1 param_3,undefined4 param_4)
@@ -1745,12 +3000,12 @@ int * func_49(undefined4 param_1,ulong param_2,undefined1 param_3,undefined4 par
   local_21 = param_3;
   local_20 = param_2;
   local_14 = param_1;
-  codemarker_alpha(0x3d);
-  codemarker_alpha(0x3e);
+  mage_alpha61(0x3d);
+  mage_alpha62(0x3e);
   for (local_3c = 0; local_3c < 5; local_3c = local_3c + 1) {
     local_2d[local_3c] = 1;
   }
-  codemarker_alpha(0x3f);
+  mage_alpha63(0x3f);
   uVar5 = extraout_RDX;
   for (g_65 = -0xd; uVar1 = g_83, g_65 == 9; g_65 = g_65 + 1) {
     uVar7 = g_821 | 1;
@@ -1769,7 +3024,7 @@ int * func_49(undefined4 param_1,ulong param_2,undefined1 param_3,undefined4 par
     *g_87 = (int)local_20;
     uVar5 = extraout_RDX_00;
   }
-  codemarker_alpha(0x40);
+  mage_alpha64(0x40);
   g_821 = 0x1c;
   return &g_65;
 }
@@ -2225,16 +3480,16 @@ undefined4 func_33(short *param_1)
   local_fc = 0xb2fafb24;
   local_100 = 0xfffffffd;
   local_18 = param_1;
-  memcpy(local_4c8,&DAT_0040a850,0x3c0);
+  memcpy(local_4c8,&DAT_0040b850,0x3c0);
   local_4d0 = (uint *)&g_65;
-  codemarker_alpha(0x23);
-  codemarker_alpha(0x24);
+  mage_alpha35(0x23);
+  mage_alpha36(0x24);
   for (local_4d4 = 0; local_4d4 < 10; local_4d4 = local_4d4 + 1) {
     local_78[local_4d4] = &g_385;
   }
   *(uint *)g_36 = (int)local_1a ^ *(uint *)g_36;
   *(int *)g_36 = (int)local_1a;
-  codemarker_alpha(0x25);
+  mage_alpha37(0x25);
   g_32 = 0;
   do {
     if (0 < g_32) {
@@ -2257,11 +3512,11 @@ undefined4 func_33(short *param_1)
       *local_4d0 = *local_4d0 ^ 0xc2e12560;
       uVar16 = *local_4d0;
       local_9 = (undefined1)uVar16;
-LAB_00406cf0:
+LAB_00408090:
       return CONCAT31((int3)(uVar16 >> 8),local_9);
     }
     local_4e8 = 0;
-    local_4f0 = &DAT_0040ec08;
+    local_4f0 = &DAT_00410c08;
     local_4f4 = 0;
     local_4f8 = 0;
     local_500 = &local_1a;
@@ -2269,12 +3524,12 @@ LAB_00406cf0:
     local_510 = &g_143;
     local_514 = 0x87ab7aed;
     local_515 = -0x55;
-    memcpy(local_7b8,&DAT_0040ac10,0x2a0);
+    memcpy(local_7b8,&DAT_0040bc10,0x2a0);
     local_7c0 = 0xfffffffffffffffa;
     local_7c4 = 0x75ffaaa7;
     local_7c5 = -0x5f;
-    codemarker_alpha(0x26);
-    codemarker_alpha(0x27);
+    mage_alpha38(0x26);
+    mage_alpha39(0x27);
     for (g_37 = 0; g_37 < 1; g_37 = g_37 + 1) {
       local_a58 = 0;
       local_a50 = &local_1a;
@@ -2362,7 +3617,7 @@ LAB_00406cf0:
       local_a60 = 0x3f50a6b03f50a6b;
       local_a7c = 0xcf61bd6f;
       local_a80 = 9;
-      codemarker_alpha(0x28);
+      mage_alpha40(0x28);
       iVar13 = (int)local_1a;
       uVar17 = func_54(local_1a);
       uVar15 = *(undefined4 *)g_147;
@@ -2382,10 +3637,10 @@ LAB_00406cf0:
         local_c40 = &g_975;
         local_c48 = &local_4f4;
         local_c50 = &g_58;
-        memcpy(local_d78,&PTR_g_26_0040aed0,0x120);
+        memcpy(local_d78,&PTR_g_26_0040bed0,0x120);
         local_d80 = 0xb3e43bac35b054;
-        codemarker_alpha(0x34);
-        codemarker_alpha(0x35);
+        mage_alpha52(0x34);
+        mage_alpha53(0x35);
         bVar21 = (int)local_1a < (int)local_c14;
         bVar22 = local_90 == (undefined1 *)0x0;
         *local_c20 = (long)(int)(uint)bVar22;
@@ -2401,14 +3656,14 @@ LAB_00406cf0:
                            (bVar21,((local_c14 & (int)*local_18) == local_a7c) <
                                    ((int)(uint)bVar22 != lVar18) ^ 4 ^ local_4f4);
         if (iVar13 == 0) {
-          memcpy(local_f78,&DAT_0040b000,0x1e0);
+          memcpy(local_f78,&DAT_0040c000,0x1e0);
           local_f80 = &local_c20;
-          memcpy(local_1118,&DAT_0040b1e0,400);
-          memcpy(local_12f8,&PTR_g_96_0040b370,0x1e0);
+          memcpy(local_1118,&DAT_0040c1e0,400);
+          memcpy(local_12f8,&PTR_g_96_0040c370,0x1e0);
           local_1300 = (byte *)((long)&g_870 + 1);
           local_1308 = (uint *)((long)&local_a70 + 4);
-          codemarker_alpha(0x37);
-          codemarker_alpha(0x38);
+          mage_alpha55(0x37);
+          mage_alpha56(0x38);
           for (g_956 = 1; -1 < g_956; g_956 = g_956 + -1) {
             local_1320 = 0;
             local_1328 = &g_61;
@@ -2452,8 +3707,8 @@ LAB_00406cf0:
             local_1358 = &g_975;
             local_1350 = (long)&local_a60 + 4;
             local_1470 = &local_c20;
-            codemarker_alpha(0x39);
-            codemarker_alpha(0x3a);
+            mage_alpha57(0x39);
+            mage_alpha58(0x3a);
             for (local_1b9c = 0; local_1b9c < 2; local_1b9c = local_1b9c + 1) {
               local_1478[local_1b9c] = 2;
             }
@@ -2473,8 +3728,8 @@ LAB_00406cf0:
             cVar4 = safe_mod_func_int8_t_s_s(local_f60 < (iVar13 != local_f1c) != local_4f4,9);
             safe_mul_func_uint32_t_u_u((int)((int)cVar4 & local_1478[0]) < 0x3f,1);
             cVar4 = safe_div_func_int8_t_s_s
-                              (&stack0x00000000 != (undefined1 *)0x40fcd0,(int)(char)local_504,
-                               extraout_RDX_04,&stack0x00000000 != (undefined1 *)0x40fcd0);
+                              (&stack0x00000000 != (undefined1 *)0x411cd0,(int)(char)local_504,
+                               extraout_RDX_04,&stack0x00000000 != (undefined1 *)0x411cd0);
             g_143 = (long)cVar4 & g_143;
             uVar9 = safe_add_func_uint16_t_u_u(uVar10,0x8958);
             *(uint *)g_147 = (uint)uVar9 & *(uint *)g_147;
@@ -2525,9 +3780,9 @@ LAB_00406cf0:
           if (uVar9 == local_d8b) {
             uVar16 = CONCAT22((short)uVar9 >> 0xf,local_1a);
             local_9 = (undefined1)local_1a;
-            goto LAB_00406cf0;
+            goto LAB_00408090;
           }
-          codemarker_alpha(0x36);
+          mage_alpha54(0x36);
           local_d98 = &g_1008;
           cVar4 = safe_unary_minus_func_int8_t_s((int)(char)local_d8a);
           uVar16 = safe_sub_func_int64_t_s_s((long)cVar4,(long)local_a60._4_4_);
@@ -2554,24 +3809,24 @@ LAB_00406cf0:
         local_af8 = &g_956;
         local_b00 = &local_af8;
         local_b08 = &local_b00;
-        codemarker_alpha(0x29);
-        codemarker_alpha(0x2a);
+        mage_alpha41(0x29);
+        mage_alpha42(0x2a);
         for (local_b0c = 0; local_b0c < 2; local_b0c = local_b0c + 1) {
           local_aa8[local_b0c] = &g_58;
         }
-        codemarker_alpha(0x2b);
+        mage_alpha43(0x2b);
         for (local_b0c = 0; local_b0c < 3; local_b0c = local_b0c + 1) {
           alStack_ac8[local_b0c] = -0x46b19cbade204953;
         }
-        codemarker_alpha(0x2c);
+        mage_alpha44(0x2c);
         for (local_b0c = 0; local_b0c < 3; local_b0c = local_b0c + 1) {
           local_ae8[local_b0c] = 0;
         }
         alStack_ac8[1] = alStack_ac8[1] + -1;
-        codemarker_alpha(0x2d);
+        mage_alpha45(0x2d);
         if (*(ushort *)g_127 < 2) {
           *(uint *)g_147 = (uint)(((uint)((ulong)g_44 >> 0x2a) & 0x3fff) == 0);
-          codemarker_alpha(0x2e);
+          mage_alpha46(0x2e);
           if (**(int **)g_809 != 0) break;
         }
         else {
@@ -2581,16 +3836,16 @@ LAB_00406cf0:
           local_b30 = &local_b08;
           local_b80 = local_b78 + 2;
           local_b84 = 0xffffffff;
-          codemarker_alpha(0x2f);
-          codemarker_alpha(0x30);
+          mage_alpha47(0x2f);
+          mage_alpha48(0x30);
           for (local_b88 = 0; local_b88 < 4; local_b88 = local_b88 + 1) {
-            codemarker_alpha(0x31);
+            mage_alpha49(0x31);
             for (local_b8c = 0; local_b8c < 2; local_b8c = local_b8c + 1) {
               local_b78[(long)local_b88 * 2 + (long)local_b8c] = (long)&local_b00;
             }
           }
           *g_87 = 0xffffffff;
-          codemarker_alpha(0x32);
+          mage_alpha50(0x32);
           for (g_65 = 0xe; pppuVar2 = local_b08, g_65 != 8; g_65 = g_65 + -1) {
             local_b98 = 0;
             local_ba0 = &g_670;
@@ -2606,7 +3861,7 @@ LAB_00406cf0:
             local_be0 = 1;
             local_bd8 = 1;
             local_c00 = local_aa8 + 1;
-            codemarker_alpha(0x33);
+            mage_alpha51(0x33);
             puVar1 = local_b18;
             sVar8 = safe_rshift_func_int16_t_s_s((int)*local_18,5);
             uVar9 = (ushort)(sVar8 < 9);
@@ -2747,7 +4002,7 @@ undefined4 func_39(undefined4 *param_1,char param_2)
   char cVar1;
   bool bVar2;
   
-  codemarker_alpha(0x3b);
+  mage_alpha59(0x3b);
   for (g_96 = 0; g_96 < 5; g_96 = safe_add_func_int64_t_s_s(g_96)) {
     bVar2 = false;
     if (*g_438 != '\0') {
@@ -3066,13 +4321,13 @@ long func_54(undefined2 param_1)
   local_11 = 0xd;
   local_70 = 0;
   local_a = param_1;
-  memcpy(local_b8,&PTR_g_32_0040b600,0x40);
+  memcpy(local_b8,&PTR_g_32_0040c600,0x40);
   local_c0 = &g_106;
   local_c8 = 0xe4000dc1baaaeb6f;
   local_d0 = 0;
   local_d8 = 0;
   local_e0 = &g_96;
-  local_e8 = 0x40e6f8;
+  local_e8 = 0x4106f8;
   local_f0 = &local_e8;
   local_f8 = &g_99;
   local_100 = 0;
@@ -3080,7 +4335,7 @@ long func_54(undefined2 param_1)
   local_10c = 0x9c3bf444;
   local_128 = &local_c;
   local_120 = &local_c;
-  local_130 = &PTR_DAT_0040eb30;
+  local_130 = &PTR_DAT_00410b30;
   local_138 = &local_130;
   local_13a = 5;
   local_140 = 0x90b95891;
@@ -3091,19 +4346,19 @@ long func_54(undefined2 param_1)
   local_14a = 0;
   local_150 = 0;
   local_152 = 0xc3c0;
-  codemarker_alpha(0x41);
-  memcpy(local_1b8,&PTR_g_499_0040b640,0x60);
+  mage_alpha65(0x41);
+  memcpy(local_1b8,&PTR_g_499_0040c640,0x60);
   local_1b9 = 0xb5;
-  codemarker_alpha(0x42);
-  codemarker_alpha(0x43);
+  mage_alpha66(0x42);
+  mage_alpha67(0x43);
   for (local_1c0 = 0; local_1c0 < 1; local_1c0 = local_1c0 + 1) {
     (&uStack_10)[local_1c0] = 5;
   }
-  codemarker_alpha(0x44);
+  mage_alpha68(0x44);
   for (local_1c0 = 0; local_1c0 < 10; local_1c0 = local_1c0 + 1) {
     auStack_68[local_1c0] = &g_127;
   }
-  codemarker_alpha(0x45);
+  mage_alpha69(0x45);
   for (local_a = 0xffe5; 0x31 < local_a; local_a = local_a + 1) {
     local_1d0 = 0;
     local_1d1 = 0xff;
@@ -3119,7 +4374,7 @@ long func_54(undefined2 param_1)
     local_1fc = 5;
     local_200 = 0x93b77ad3;
     local_204 = 0;
-    memcpy(local_378,&DAT_0040b6a0,0x168);
+    memcpy(local_378,&DAT_0040c6a0,0x168);
     local_380 = &g_32;
     local_388 = &local_380;
     local_389 = 0x6d;
@@ -3363,8 +4618,8 @@ long func_54(undefined2 param_1)
     local_3b0 = &g_96;
     local_3a8 = &local_c;
     local_3a0 = &g_96;
-    codemarker_alpha(0x46);
-    codemarker_alpha(0x47);
+    mage_alpha70(0x46);
+    mage_alpha71(0x47);
     for (local_b48 = 0; local_b48 < 3; local_b48 = local_b48 + 1) {
       auStack_b38[local_b48] = 0x767e866e5f2a4ef;
     }
