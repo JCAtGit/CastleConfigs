@@ -8,7 +8,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false
+			"active":true
 		},
 		{
 			"name":"csmith_mage_clang_retdec",
@@ -28,7 +28,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": true,
-			"active":true
+			"active":false
 		}
 	]
 }

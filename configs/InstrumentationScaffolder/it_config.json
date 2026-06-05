@@ -6,10 +6,10 @@
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
-			"static_options":[],
+			"static_options":[{"--name_encoded_marker":""}],
 			"outputFlag":"-o",
 			"redirectNull": true,
-			"active":false,
+			"active":true,
 			"run_per_file":true
 		},
 		{

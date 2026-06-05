@@ -5,5 +5,5 @@
 	"update_metadata": false,
 	"save_on_exit":false,
 	"dry_run":false,
-	"backup_before_save":false,
+	"backup_before_save":false
 }
