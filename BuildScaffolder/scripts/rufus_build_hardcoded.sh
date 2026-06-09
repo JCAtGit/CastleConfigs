@@ -20,7 +20,7 @@ echo "=== Running configure ==="
 ./configure --host=x86_64-w64-mingw32 CFLAGS="-O0 -g -fno-lto" CXXFLAGS="-O0 -g -fno-lto" LDFLAGS="-fno-lto"
 
 echo "=== Running make ==="
-make -s
+make 
 
 echo "=== Moving binary to castle build folder ==="
 cp "src/rufus.exe" "../../BuildScaffolder/rufus_mage_build/rufus.exe"

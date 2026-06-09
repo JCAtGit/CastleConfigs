@@ -6,7 +6,7 @@
 			"binPath":"/usr/bin/clang",
 			"run_bin_as_shell":false,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"run_per_file":true
 		},
 		{
@@ -15,9 +15,19 @@
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/rufus_build_hardcoded.sh",
 			"run_bin_as_shell":true,
 			"outputFlag":"-o",
+			"active":false,
+			"run_per_file":false,
+			"comments":"TODO: split up instrumentation and build of rufus, see instrumentation scripts"
+		},
+		{
+			"name":"AvdanOSImager_mage_build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/AvdanOSImager_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/AvdanOSImager_build.sh",
+			"run_bin_as_shell":true,
+			"outputFlag":"-o",
 			"active":true,
 			"run_per_file":false,
-			"comments":"TODO: split up instrumentation and build of rufus, see instrumentation entry"
+			"comments":"Allow to run as program has to be checked or allow execution"
 		},
 		{
 			"name":"csmith_clang",

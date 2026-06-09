@@ -9,7 +9,7 @@
 			"static_options":[{"--name_encoded_marker":""}],
 			"outputFlag":"-o",
 			"redirectNull": true,
-			"active":true,
+			"active":false,
 			"run_per_file":true
 		},
 		{
@@ -21,8 +21,20 @@
 			"static_options":[{"--on-copy":"", "--name_encoded_marker":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"run_per_file":false		
+		},
+		{
+			"name":"AvdanOSImager_mage",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/Imager/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[{"--on-copy":"", "--name_encoded_marker":""}],
+			"outputFlag":"-o",
+			"redirectNull": false,
+			"active":true,
+			"run_per_file":false
 		},
 		{
 			"name":"test_mage",
@@ -71,6 +83,7 @@
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_ghidra/",
 			"binPath":"/usr/bin/clang",
 			"run_bin_as_shell":false,
+			"static_pre_flags":[],
 			"static_options":[
 				{"-E":""}
 			],
@@ -84,9 +97,8 @@
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/",
 			"binPath":"/usr/bin/clang",
 			"run_bin_as_shell":false,
-			"static_options":[
-				{"-w":""},{"-fno-color-diagnostics":""},{"-Xclang":""},{"-ast-dump":""},{"-fsyntax-only":""}
-			],
+			"static_pre_flags":[],
+			"static_options":[{"-w":""},{"-fno-color-diagnostics":""},{"-Xclang":""},{"-ast-dump":""},{"-fsyntax-only":""}],
 			"outputFlag":">",
 			"redirectNull": false,
 			"active":false,
