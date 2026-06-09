@@ -1,16 +1,16 @@
 {
 	"targets":[
 		{
-			"name":"csmith_mage",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/csmith/",
+			"name":"tmux-3.6b_mage",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/tmux-3.6b/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
-			"static_options":[{"--name_encoded_marker":""}],
+			"static_options":[{"--on-copy":"", "--name_encoded_marker":""}],
 			"outputFlag":"-o",
-			"redirectNull": true,
-			"active":false,
-			"run_per_file":true
+			"redirectNull": false,
+			"active":true,
+			"run_per_file":false
 		},
 		{
 			"name":"rufus_mage",
@@ -33,8 +33,20 @@
 			"static_options":[{"--on-copy":"", "--name_encoded_marker":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"run_per_file":false
+		},
+		{
+			"name":"csmith_mage",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/csmith/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[{"--name_encoded_marker":""}],
+			"outputFlag":"-o",
+			"redirectNull": true,
+			"active":false,
+			"run_per_file":true
 		},
 		{
 			"name":"test_mage",

@@ -1,6 +1,26 @@
 {
 	"targets":[
 		{
+			"name":"tmux-3.6b_mage_build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/tmux-3.6b_mage_build/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":true
+		},
+		{
+			"name":"AvdanOSImager_mage_build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/AvdanOSImager_mage_build/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":false
+		},
+		{
 			"name":"rufus_mage_build_ghidra",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/rufus_mage_build/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
@@ -29,16 +49,6 @@
 			"outputFlag":"",
 			"redirectNull": true,
 			"active":false
-		},
-		{
-			"name":"AvdanOSImager_mage_build_ghidra",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/AvdanOSImager_mage_build/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
-			"static_options":[],
-			"run_bin_as_shell":true,
-			"outputFlag":"",
-			"redirectNull": false,
-			"active":true
 		}
 	]
 }

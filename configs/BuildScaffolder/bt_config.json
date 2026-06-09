@@ -1,23 +1,22 @@
 {
 	"targets":[
 		{
-			"name":"csmith_mage_clang",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/csmith_mage/",
-			"binPath":"/usr/bin/clang",
-			"run_bin_as_shell":false,
+			"name":"tmux-3.6b_mage_build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/tmux-3.6b_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/tmux-3.6b_build.sh",
+			"run_bin_as_shell":true,
 			"outputFlag":"-o",
-			"active":false,
-			"run_per_file":true
+			"active":true,
+			"run_per_file":false
 		},
 		{
 			"name":"rufus_mage_build",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/rufus_mage/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/rufus_build_hardcoded.sh",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/rufus_build.sh",
 			"run_bin_as_shell":true,
 			"outputFlag":"-o",
 			"active":false,
-			"run_per_file":false,
-			"comments":"TODO: split up instrumentation and build of rufus, see instrumentation scripts"
+			"run_per_file":false
 		},
 		{
 			"name":"AvdanOSImager_mage_build",
@@ -25,9 +24,18 @@
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/AvdanOSImager_build.sh",
 			"run_bin_as_shell":true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"run_per_file":false,
 			"comments":"Allow to run as program has to be checked or allow execution"
+		},
+		{
+			"name":"csmith_mage_clang",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/csmith_mage/",
+			"binPath":"/usr/bin/clang",
+			"run_bin_as_shell":false,
+			"outputFlag":"-o",
+			"active":false,
+			"run_per_file":true
 		},
 		{
 			"name":"csmith_clang",
