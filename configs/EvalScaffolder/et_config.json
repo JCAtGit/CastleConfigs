@@ -1,6 +1,18 @@
 {
 	"targets":[
 		{
+			"name":"hashcat-7.1.2_mage_build_ghidra_mageEval",
+			"oracleDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/hashcat-7.1.2_mage/",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/hashcat-7.1.2_mage_build_ghidra/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
+			"run_bin_as_shell":false,
+			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
+			"outputFlag":"-o",
+			"redirectNull": false,
+			"active":true,
+			"run_per_file":false
+		},
+		{
 			"name":"tmux-3.6b_mage_build_ghidra_mageEval",
 			"oracleDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/tmux-3.6b_mage/",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/tmux-3.6b_mage_build_ghidra/",
@@ -9,7 +21,7 @@
 			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"run_per_file":false
 		},
 		{

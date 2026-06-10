@@ -1,12 +1,22 @@
 {
 	"targets":[
 		{
+			"name":"hashcat-7.1.2_mage_build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/hashcat-7.1.2_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/hashcat-7.1.2_build.sh",
+			"run_bin_as_shell":true,
+			"outputFlag":"-o",
+			"active":true,
+			"run_per_file":false,
+			"comments":"Clang format breaks the build, so we cant do much here. TODO: Try format safe conservative approach"
+		},
+		{
 			"name":"tmux-3.6b_mage_build",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/tmux-3.6b_mage/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/tmux-3.6b_build.sh",
 			"run_bin_as_shell":true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"run_per_file":false
 		},
 		{
