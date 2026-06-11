@@ -1,6 +1,16 @@
 {
 	"targets":[
 		{
+			"name":"git-2.54.0_mage_build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/git-2.54.0_mage_build/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":true
+		},
+		{
 			"name":"hashcat-7.1.2_mage_build_ghidra",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/hashcat-7.1.2_mage_build/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
@@ -8,7 +18,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":true
+			"active":false
 		},
 		{
 			"name":"tmux-3.6b_mage_build_ghidra",

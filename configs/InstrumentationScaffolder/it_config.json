@@ -1,15 +1,27 @@
 {
 	"targets":[
 		{
+			"name":"git-2.54.0_mage",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/git-2.54.0/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""},{"--clang_format_mode":""}],
+			"outputFlag":"-o",
+			"redirectNull": false,
+			"active":true,
+			"run_per_file":false
+		},
+		{
 			"name":"hashcat-7.1.2_mage",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/hashcat-7.1.2/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
-			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""},{"--exclude_files": "7zCrc.c"}],
+			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""},{"--clang_format_mode":""},{"--exclude_files": "7zCrc.c"}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"run_per_file":false
 		},
 		{

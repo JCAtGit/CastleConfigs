@@ -1,14 +1,24 @@
 {
 	"targets":[
 		{
+			"name":"git-2.54.0_mage_build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/git-2.54.0_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/git-2.54.0_build.sh",
+			"run_bin_as_shell":true,
+			"outputFlag":"-o",
+			"active":true,
+			"run_per_file":false,
+			"comments":"Clang format breaks the build,  a workaround is to exclude the breaking file."
+		},
+		{
 			"name":"hashcat-7.1.2_mage_build",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/hashcat-7.1.2_mage/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/hashcat-7.1.2_build.sh",
 			"run_bin_as_shell":true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"run_per_file":false,
-			"comments":"Clang format breaks the build, so we cant do much here. TODO: Try format safe conservative approach"
+			"comments":"Clang format breaks the build,  a workaround is to exclude the breaking file."
 		},
 		{
 			"name":"tmux-3.6b_mage_build",
