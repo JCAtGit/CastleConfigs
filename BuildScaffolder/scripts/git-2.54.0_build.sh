@@ -15,19 +15,10 @@ make configure
 make all
 
 
-
 # Copy binary
 echo "=== Moving binary to castle build folder ==="
-if cp "./hashcat" "../../BuildScaffolder/hashcat-7.1.2_mage_build/hashcat"; then
-    echo "[OK] Binary copied successfully"
-else
-    echo "[FAIL] Failed to copy binary"
-    exit 1
-fi
+
 
 echo "=== All steps completed successfully ==="
 exit 0 
 
-make configure
-./configure --prefix=/usr
-make all doc info

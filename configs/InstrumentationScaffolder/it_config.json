@@ -6,11 +6,13 @@
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
-			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""},{"--clang_format_mode":""}],
+			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":true,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it":false,
+			"comments":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/git-2.54.0/t/ is a test dir"
 		},
 		{
 			"name":"hashcat-7.1.2_mage",
@@ -22,7 +24,8 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"tmux-3.6b_mage",
@@ -34,7 +37,8 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"rufus_mage",
@@ -46,7 +50,8 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false		
+			"run_per_file":false,
+			"run_as_it": false		
 		},
 		{
 			"name":"AvdanOSImager_mage",
@@ -58,7 +63,8 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage",
@@ -70,7 +76,8 @@
 			"outputFlag":"-o",
 			"redirectNull": true,
 			"active":false,
-			"run_per_file":true
+			"run_per_file":true,
+			"run_as_it": false
 		},
 		{
 			"name":"test_mage",
@@ -82,7 +89,8 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false		
+			"run_per_file":false,
+			"run_as_it": false		
 		},
 		{
 			"name":"csmith_mage_clangAST",
@@ -96,23 +104,21 @@
 			"outputFlag":">",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":true
+			"run_per_file":true,
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage_clang_ghidra_clangAST",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_ghidra/",
 			"binPath":"/usr/bin/clang",
 			"run_bin_as_shell":false,
-			"static_pre_flags":[
-				{"-xc++":""}
-			],
-			"static_options":[
-				{"-fno-color-diagnostics":""},{"-Xclang":""}, {"-ast-dump":""},{"-fsyntax-only":""},{"-ferror-limit=1":""}
-			],
+			"static_pre_flags":[{"-xc++":""}],
+			"static_options":[{"-fno-color-diagnostics":""},{"-Xclang":""}, {"-ast-dump":""},{"-fsyntax-only":""},{"-ferror-limit=1":""}],
 			"outputFlag":">",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":true
+			"run_per_file":true,
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage_clang_ghidra_clangPreprocessor",
@@ -120,13 +126,12 @@
 			"binPath":"/usr/bin/clang",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
-			"static_options":[
-				{"-E":""}
-			],
+			"static_options":[{"-E":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":true
+			"run_per_file":true,
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage_clang_retdec_clangAST",
@@ -138,7 +143,8 @@
 			"outputFlag":">",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":true
+			"run_per_file":true,
+			"run_as_it": false
 		}
 	]
 }

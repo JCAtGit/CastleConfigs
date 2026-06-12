@@ -8,7 +8,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":true
+			"active":true,
 		},
 		{
 			"name":"hashcat-7.1.2_mage_build_ghidra",
@@ -18,7 +18,9 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false
+			"active":false,
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"tmux-3.6b_mage_build_ghidra",
@@ -28,7 +30,9 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false
+			"active":false,
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"AvdanOSImager_mage_build_ghidra",
@@ -38,7 +42,9 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false
+			"active":false,
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"rufus_mage_build_ghidra",
@@ -48,7 +54,9 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false
+			"active":false,
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage_clang_retdec",
@@ -58,7 +66,9 @@
 			"run_bin_as_shell":false,
 			"outputFlag":"--output",
 			"redirectNull": true,
-			"active":false
+			"active":false,
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage_clang_ghidra",
@@ -68,7 +78,11 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": true,
-			"active":false
+			"active":false,
+			"run_per_file":true,
+			"run_as_it": true,
+			"it_begin": 0,
+			"it_end": 10
 		}
 	]
 }

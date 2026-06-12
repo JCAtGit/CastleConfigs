@@ -1,5 +1,6 @@
 
 CodebaseScaffolder/*
+
 InstrumentationScaffolder/*
 
 DeComScaffolder/*
@@ -7,6 +8,7 @@ DeComScaffolder/*
 
 BuildScaffolder/*
 !BuildScaffolder/scripts/
+
 EvalScaffolder/*
-rufus
+
 .project

@@ -6,9 +6,10 @@
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/git-2.54.0_build.sh",
 			"run_bin_as_shell":true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"run_per_file":false,
-			"comments":"Clang format breaks the build,  a workaround is to exclude the breaking file."
+			"run_as_it": false,
+			"comments":""
 		},
 		{
 			"name":"hashcat-7.1.2_mage_build",
@@ -18,6 +19,7 @@
 			"outputFlag":"-o",
 			"active":false,
 			"run_per_file":false,
+			"run_as_it": false,
 			"comments":"Clang format breaks the build,  a workaround is to exclude the breaking file."
 		},
 		{
@@ -27,7 +29,8 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"-o",
 			"active":false,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"rufus_mage_build",
@@ -36,7 +39,8 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"-o",
 			"active":false,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"AvdanOSImager_mage_build",
@@ -46,6 +50,7 @@
 			"outputFlag":"-o",
 			"active":false,
 			"run_per_file":false,
+			"run_as_it": false,
 			"comments":"Allow to run as program has to be checked or allow execution"
 		},
 		{
@@ -54,17 +59,11 @@
 			"binPath":"/usr/bin/clang",
 			"run_bin_as_shell":false,
 			"outputFlag":"-o",
-			"active":false,
-			"run_per_file":true
-		},
-		{
-			"name":"csmith_clang",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodeScaffolder/csmith",
-			"binPath":"/usr/bin/clang",
-			"run_bin_as_shell":false,
-			"outputFlag":"-o",
-			"active":false,
-			"run_per_file":true
+			"active":true,
+			"run_per_file":true,
+			"run_as_it": true,
+			"it_begin": 0,
+			"it_end": 10
 		}
 	]
 }
