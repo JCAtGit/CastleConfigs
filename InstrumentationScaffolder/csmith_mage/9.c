@@ -322,7 +322,6 @@ __attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alph
 __attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha320(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
 __attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha321(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
 __attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha322(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
-__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha323(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
 /*
  * This is a RANDOMLY GENERATED PROGRAM.
  *
@@ -3684,7 +3683,6 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
       return l_974[1];
     }
   lbl_1353:
-    mage_alpha134(134); 
     if ((*g_542)) { /* block id: 559 */
       g_1346 = (l_971, l_1345);
     } else { /* block id: 561 */
@@ -3692,13 +3690,13 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
       (*g_542) = (&g_736 != (*l_1324));
       --l_1348;
     }
-    mage_alpha135(135); 
+    mage_alpha134(134); 
     if ((**g_1337)) { /* block id: 565 */
       uint16_t l_1351 = 1UL;
       int32_t l_1352 = 0x654BFDC1L;
       l_1352 = (l_1351 |= l_1330[2]);
       if (g_308) {
-        mage_alpha136(136); 
+        mage_alpha135(135); 
         goto lbl_1353;
       }
     } else { /* block id: 569 */
@@ -3720,7 +3718,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
                        p_43) == (*p_41)))),
                    l_1347);
     }
-    mage_alpha137(137); 
+    mage_alpha136(136); 
     for (g_1240 = 0; (g_1240 <= 2); g_1240 += 1) { /* block id: 580 */
       uint8_t ***l_1371[8][5][6] = {
           {{&l_1005, &l_1005, (void *)0, &l_1005, &l_1005, &l_1005},
@@ -3781,13 +3779,13 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
       int8_t l_1597 = 9L;
       uint64_t ***l_1666 = &l_1392;
       int8_t *l_1668 = &g_1570;
-      mage_alpha138(138); 
+      mage_alpha137(137); 
       int i, j, k;
-      mage_alpha139(139); 
+      mage_alpha138(138); 
       for (i = 0; i < 4; i++) {
         l_1372[i] = 0L;
       }
-      mage_alpha140(140); 
+      mage_alpha139(139); 
       if ((safe_mod_func_uint8_t_u_u(
               (&g_23 ==
                ((((l_974[g_1240] =
@@ -3819,9 +3817,9 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
         uint16_t **l_1429 = (void *)0;
         uint8_t l_1454 = 4UL;
         int32_t **l_1455 = &l_921[0][0][1];
-        mage_alpha141(141); 
+        mage_alpha140(140); 
         int i;
-        mage_alpha142(142); 
+        mage_alpha141(141); 
         for (g_29 = 2; (g_29 <= 7); g_29 += 1) { /* block id: 585 */
           uint64_t **l_1391[3];
           uint64_t ***l_1390[1];
@@ -3831,13 +3829,13 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
           int8_t *l_1439 = (void *)0;
           int8_t *l_1440 = (void *)0;
           int8_t *l_1441 = &g_1128;
-          mage_alpha143(143); 
+          mage_alpha142(142); 
           int i;
-          mage_alpha144(144); 
+          mage_alpha143(143); 
           for (i = 0; i < 3; i++) {
             l_1391[i] = &g_606;
           }
-          mage_alpha145(145); 
+          mage_alpha144(144); 
           for (i = 0; i < 1; i++) {
             l_1390[i] = &l_1391[2];
           }
@@ -3923,7 +3921,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
                     l_1397) > 0x00L),
                   g_73[1])),
               l_1397));
-          mage_alpha146(146); 
+          mage_alpha145(145); 
           for (g_441 = 0; (g_441 <= 2); g_441 += 1) { /* block id: 607 */
             int64_t l_1448 = 0x1EE00FD9BC7F46BCLL;
             uint16_t *l_1452 = &g_1104;
@@ -3990,7 +3988,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
              {0x93A3F65CL, 0x5CC70462L, 0xA057A45FL, 0UL, 0x4F7D93F1L,
               0x99835682L, 18446744073709551615UL, 2UL, 0xE8A2B064L}}};
         uint16_t **l_1662 = &g_919[2][1][1];
-        mage_alpha147(147); 
+        mage_alpha146(146); 
         int i, j, k;
         l_1456--;
         if (((l_1459[2] ^ ((((void *)0 == g_1460), g_776), (*l_1383))),
@@ -4016,7 +4014,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
           uint32_t l_1519 = 0x768E95F6L;
           uint64_t *l_1530 = &l_1139[0][4];
           int32_t **l_1531 = (void *)0;
-          mage_alpha148(148); 
+          mage_alpha147(147); 
           int i;
           for (l_1347 = 0; (l_1347 <= 1); l_1347 += 1) { /* block id: 622 */
             int16_t *l_1476 = (void *)0;
@@ -4063,7 +4061,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
           if (((void *)0 == l_1516)) { /* block id: 630 */
             (*l_1383) = 0xD6A8645EL;
             (*g_1176) = (*g_241);
-            mage_alpha149(149); 
+            mage_alpha148(148); 
             if ((*p_41)) {
               continue;
             }
@@ -4071,7 +4069,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
             int16_t *l_1522 = &l_1505[4][0];
             int32_t l_1523 = (-9L);
             (*g_1518) = (g_1517, p_41);
-            mage_alpha150(150); 
+            mage_alpha149(149); 
             if ((*g_542)) {
               break;
             }
@@ -4088,12 +4086,12 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
         } else { /* block id: 644 */
           int64_t l_1554 = 0xBC0F4AD5D445886BLL;
           int32_t l_1559 = 1L;
-          mage_alpha151(151); 
+          mage_alpha150(150); 
           if ((safe_sub_func_int8_t_s_s((-3L), (*g_840)))) { /* block id: 645 */
             l_1383 = ((*l_1487) = l_1535);
             return p_43;
           } else { /* block id: 649 */
-            mage_alpha152(152); 
+            mage_alpha151(151); 
             union U0 *l_1546 = (void *)0;
             (*l_1487) = (*g_1176);
             (*l_1535) ^= (safe_sub_func_uint32_t_u_u(
@@ -4130,11 +4128,11 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
                             l_1560))),
                     p_43))));
           }
-          mage_alpha153(153); 
+          mage_alpha152(152); 
           if ((**g_1381)) {
             break;
           }
-          mage_alpha154(154); 
+          mage_alpha153(153); 
           if ((*p_41)) {
             continue;
           }
@@ -4165,7 +4163,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
           int i, j, k;
         }
       }
-      mage_alpha155(155); 
+      mage_alpha154(154); 
       for (g_237 = 0; (g_237 <= 3); g_237 += 1) { /* block id: 712 */
         int32_t l_1685[7] = {6L, 0L, 0L, 6L, 0L, 0L, 6L};
         uint32_t **l_1698 = &g_737;
@@ -4183,9 +4181,9 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
             {{&g_606}, {&l_1516}, {&g_606}, {&g_606}, {&g_606}},
             {{&l_1516}, {&g_606}, {&l_1516}, {(void *)0}, {&l_1516}}};
         int64_t *l_1777[10];
-        mage_alpha156(156); 
+        mage_alpha155(155); 
         int i, j, k;
-        mage_alpha157(157); 
+        mage_alpha156(156); 
         for (i = 0; i < 10; i++) {
           l_1777[i] = &l_1459[5];
         }
@@ -4250,7 +4248,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
           (*g_1489) = (void *)0;
           (*g_1713) = (*g_241);
         }
-        mage_alpha158(158); 
+        mage_alpha157(157); 
         for (g_1239 = 1; (g_1239 <= 4); g_1239 += 1) { /* block id: 738 */
           uint64_t l_1742[8][8][2] = {
               {{4UL, 0x5CFD8BF45EE78BA0LL},
@@ -4319,9 +4317,9 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
                {18446744073709551615UL, 18446744073709551606UL}}};
           int32_t l_1765 = 0x00EC2A94L;
           int32_t l_1766 = 0L;
-          mage_alpha159(159); 
+          mage_alpha158(158); 
           int i, j, k;
-          mage_alpha160(160); 
+          mage_alpha159(159); 
           if (l_1725[3]) {
             break;
           }
@@ -4332,7 +4330,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
               continue;
             }
           }
-          mage_alpha161(161); 
+          mage_alpha160(160); 
           if ((safe_lshift_func_uint64_t_u_u(
                   (!((safe_unary_minus_func_int64_t_s((*g_307))),
                      (p_43 && g_464[g_237]))),
@@ -4342,9 +4340,9 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
             uint16_t ****l_1737 = &g_592;
             uint16_t *****l_1736 = &l_1737;
             int32_t l_1738 = (-1L);
-            mage_alpha162(162); 
+            mage_alpha161(161); 
             volatile union U0 *l_1740 = &g_343;
-            mage_alpha163(163); 
+            mage_alpha162(162); 
             volatile union U0 **l_1739 = &l_1740;
             int32_t l_1741 = (-4L);
             l_1738 =
@@ -4418,19 +4416,19 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
     int32_t l_1850 = 0L;
     int32_t l_1856 = (-1L);
     int32_t l_1860[1][5][6];
-    mage_alpha164(164); 
+    mage_alpha163(163); 
     int i, j, k;
-    mage_alpha165(165); 
+    mage_alpha164(164); 
     for (i = 0; i < 1; i++) {
-      mage_alpha166(166); 
+      mage_alpha165(165); 
       for (j = 0; j < 5; j++) {
-        mage_alpha167(167); 
+        mage_alpha166(166); 
         for (k = 0; k < 6; k++) {
           l_1860[i][j][k] = 0x6602134FL;
         }
       }
     }
-    mage_alpha168(168); 
+    mage_alpha167(167); 
     for (g_130 = 0; (g_130 <= 12);
          g_130 = safe_add_func_uint32_t_u_u(g_130, 6)) { /* block id: 784 */
       uint8_t l_1803 = 2UL;
@@ -4444,7 +4442,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
                                    {(void *)0}}};
       int32_t l_1812 = 0x3E3C2C38L;
       int32_t l_1813 = 7L;
-      mage_alpha169(169); 
+      mage_alpha168(168); 
       int i, j, k;
       --l_1803;
       if ((l_1806 ==
@@ -4463,18 +4461,18 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
         uint8_t **l_1824 = &g_840;
         int32_t l_1845 = 0xA6B16A5EL;
         int32_t l_1859 = 0L;
-        mage_alpha170(170); 
+        mage_alpha169(169); 
         if ((safe_add_func_int8_t_s_s(
                 (safe_rshift_func_uint64_t_u_s(
                     (safe_unary_minus_func_uint32_t_u((*l_1809))), 51)),
                 ((-1L) > p_43)))) { /* block id: 794 */
           int32_t l_1826 = (-1L);
-          mage_alpha171(171); 
+          mage_alpha170(170); 
           for (g_213 = 0; (g_213 <= 1); g_213 += 1) { /* block id: 797 */
             uint8_t ***l_1825 = &l_1824;
-            mage_alpha172(172); 
+            mage_alpha171(171); 
             int i;
-            mage_alpha173(173); 
+            mage_alpha172(172); 
             if (g_73[g_213]) {
               break;
             }
@@ -4582,7 +4580,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
       (*l_1535) = (*l_1809);
     }
   }
-  mage_alpha174(174); 
+  mage_alpha173(173); 
   for (p_43 = 0; (p_43 <= 39);
        p_43 = safe_add_func_int8_t_s_s(p_43, 6)) { /* block id: 819 */
     int64_t l_1871 = (-1L);
@@ -4609,39 +4607,39 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
          &l_1861[2][1][0], &g_13, (void *)0, (void *)0}};
     uint16_t ***const *l_1935[3][1][1];
     uint16_t ***const **l_1934 = &l_1935[0][0][0];
-    mage_alpha175(175); 
+    mage_alpha174(174); 
     int i, j, k;
-    mage_alpha176(176); 
+    mage_alpha175(175); 
     for (i = 0; i < 3; i++) {
-      mage_alpha177(177); 
+      mage_alpha176(176); 
       for (j = 0; j < 1; j++) {
-        mage_alpha178(178); 
+        mage_alpha177(177); 
         for (k = 0; k < 1; k++) {
           l_1935[i][j][k] = &g_592;
         }
       }
     }
-    mage_alpha179(179); 
+    mage_alpha178(178); 
     for (g_237 = 0; (g_237 <= 2); g_237 += 1) { /* block id: 822 */
       int32_t l_1890 = 1L;
       uint64_t ***l_1904 = &l_1721;
       uint16_t ***const *l_1933 = (void *)0;
       uint16_t ***const **l_1932 = &l_1933;
-      mage_alpha180(180); 
+      mage_alpha179(179); 
       int i, j;
       for (l_1853 = 4; (l_1853 >= 0); l_1853 -= 1) { /* block id: 825 */
         volatile union U0 *l_1868 = &g_343;
         volatile union U0 **l_1867 = &l_1868;
         (*l_1867) = &g_1339;
       }
-      mage_alpha181(181); 
+      mage_alpha180(180); 
       if ((safe_mul_func_int8_t_s_s(l_1139[g_237][(g_237 + 3)],
                                     ((*g_463) = l_1871)))) { /* block id: 829 */
         uint16_t l_1872 = 0xF59EL;
         if (l_1872) {
           break;
         }
-        mage_alpha182(182); 
+        mage_alpha181(181); 
         if ((*p_41)) {
           continue;
         }
@@ -4651,16 +4649,16 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
         int32_t l_1893 = (-6L);
         uint32_t l_1896 = 0x4AA1F6FCL;
         uint16_t **l_1899 = &g_919[2][1][1];
-        mage_alpha183(183); 
+        mage_alpha182(182); 
         for (g_208 = 0; (g_208 <= 2); g_208 += 1) { /* block id: 837 */
           int16_t l_1891 = 0x6921L;
           int32_t l_1894 = 0xB24C444EL;
           uint64_t ****l_1905 = &l_1904;
-          mage_alpha184(184); 
+          mage_alpha183(183); 
           union U0 *l_1910 = &g_197;
-          mage_alpha185(185); 
+          mage_alpha184(184); 
           int i, j;
-          mage_alpha186(186); 
+          mage_alpha185(185); 
           for (g_441 = 0; (g_441 <= 2); g_441 += 1) { /* block id: 840 */
             int64_t *l_1884 = &g_1024[2];
             uint16_t *l_1887[10] = {&g_130,    (void *)0, &g_130, &g_130,
@@ -4673,7 +4671,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
             uint16_t ***l_1901 = (void *)0;
             uint16_t ***l_1902 = &g_593;
             int8_t **l_1903 = &l_1527;
-            mage_alpha187(187); 
+            mage_alpha186(186); 
             int i;
             l_1893 = (safe_div_func_uint16_t_u_u(
                 (+(((((p_43 <
@@ -4705,7 +4703,7 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
         if (l_1896) { /* block id: 859 */
           uint64_t l_1913 = 18446744073709551615UL;
           const uint8_t **l_1918 = (void *)0;
-          mage_alpha188(188); 
+          mage_alpha187(187); 
           int i, j;
           if (l_1913) {
             break;
@@ -4742,12 +4740,12 @@ static uint16_t func_40(int32_t *const p_41, uint16_t *p_42, uint32_t p_43,
         return l_1890;
       }
       (*g_1489) = (void *)0;
-      mage_alpha189(189); 
+      mage_alpha188(188); 
       for (g_213 = 0; (g_213 <= 1); g_213 += 1) {      /* block id: 879 */
-        mage_alpha190(190); 
+        mage_alpha189(189); 
         for (g_1104 = 0; (g_1104 <= 8); g_1104 += 1) { /* block id: 882 */
           l_1934 = l_1932;
-          mage_alpha191(191); 
+          mage_alpha190(190); 
           if ((*p_41)) {
             continue;
           }
@@ -4830,9 +4828,9 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
   uint8_t l_890 = 6UL;
   int16_t l_899 = 0x3D00L;
   int32_t **l_918 = &l_588;
-  mage_alpha192(192); 
+  mage_alpha191(191); 
   int i, j, k;
-  mage_alpha193(193); 
+  mage_alpha192(192); 
   for (i = 0; i < 10; i++) {
     l_733[i] = 0L;
   }
@@ -4856,7 +4854,7 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
                    p_49)),
                l_587)),
            g_407)));
-  mage_alpha194(194); 
+  mage_alpha193(193); 
   if ((safe_sub_func_int16_t_s_s(
           ((((*l_594) = (g_592 = l_591)) != l_595) | 0L),
           ((safe_mod_func_int32_t_s_s(
@@ -4927,13 +4925,13 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
     uint16_t *l_781 = (void *)0;
     int64_t l_784 = 1L;
     uint32_t l_821 = 4294967295UL;
-    mage_alpha195(195); 
+    mage_alpha194(194); 
     int i, j, k;
-    mage_alpha196(196); 
+    mage_alpha195(195); 
     for (i = 0; i < 4; i++) {
       l_632[i] = &g_253;
     }
-    mage_alpha197(197); 
+    mage_alpha196(196); 
     for (g_237 = (-10); (g_237 == 15);
          g_237 = safe_add_func_uint8_t_u_u(g_237, 8)) { /* block id: 271 */
       int32_t l_620 = 0x2AE3B669L;
@@ -4972,7 +4970,7 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
       int16_t *l_650[3][3] = {
           {&g_23, &g_23, &g_29}, {&g_23, &g_23, &g_29}, {&g_23, &g_23, &g_29}};
       uint16_t *l_659 = &g_441;
-      mage_alpha198(198); 
+      mage_alpha197(197); 
       int i, j;
       (*l_588) =
           ((safe_add_func_int32_t_s_s(
@@ -5042,25 +5040,25 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
           {&g_593, &g_593, &g_593, &g_593, &g_593, &g_593, &g_593, &g_593},
           {&g_593, &g_593, &g_593, (void *)0, &g_593, &g_593, (void *)0,
            &g_593}};
-      mage_alpha199(199); 
+      mage_alpha198(198); 
       int i, j, k;
-      mage_alpha200(200); 
+      mage_alpha199(199); 
       for (g_320 = 0; (g_320 <= 2); g_320 += 1) { /* block id: 286 */
         int8_t l_715 = 1L;
-        mage_alpha201(201); 
+        mage_alpha200(200); 
         for (g_373 = 0; (g_373 <= 2); g_373 += 1) { /* block id: 289 */
           uint8_t l_672 = 247UL;
           int32_t l_694[1];
           int32_t l_695 = 1L;
           uint32_t l_696 = 4294967289UL;
           int32_t *l_700 = &l_698[1][1];
-          mage_alpha202(202); 
+          mage_alpha201(201); 
           int i;
-          mage_alpha203(203); 
+          mage_alpha202(202); 
           for (i = 0; i < 1; i++) {
             l_694[i] = 8L;
           }
-          mage_alpha204(204); 
+          mage_alpha203(203); 
           for (g_29 = 2; (g_29 >= 0); g_29 -= 1) { /* block id: 292 */
             int8_t *l_671[1];
             int32_t l_693 = 0xE8A61A88L;
@@ -5068,9 +5066,9 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
                                  &l_622[6][0][2], &l_622[6][0][2],
                                  &l_622[6][0][2], &l_622[6][0][2],
                                  &l_622[6][0][2], &l_622[6][0][2]};
-            mage_alpha205(205); 
+            mage_alpha204(204); 
             int i;
-            mage_alpha206(206); 
+            mage_alpha205(205); 
             for (i = 0; i < 1; i++) {
               l_671[i] = &g_208;
             }
@@ -5111,7 +5109,7 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
                   4))) >= 0x18CA361EL)),
           l_733[0]));
     }
-    mage_alpha207(207); 
+    mage_alpha206(206); 
     if (((g_736 = (void *)0) ==
          ((safe_mul_func_uint8_t_u_u(
               (p_49 = ((**l_692) = (safe_sub_func_int16_t_s_s(
@@ -5143,7 +5141,7 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
       int16_t l_777 = 0xDC73L;
       uint16_t **l_797 = &l_780;
       uint32_t **l_820 = &g_737;
-      mage_alpha208(208); 
+      mage_alpha207(207); 
       if ((p_49,
            ((safe_sub_func_int16_t_s_s(
                 ((p_49 >=
@@ -5166,9 +5164,9 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
                 l_778[0])) |
             0x7CE89B1AL))) { /* block id: 321 */
         uint16_t *l_779[9];
-        mage_alpha209(209); 
+        mage_alpha208(208); 
         int i;
-        mage_alpha210(210); 
+        mage_alpha209(209); 
         for (i = 0; i < 9; i++) {
           l_779[i] = &l_617;
         }
@@ -5250,9 +5248,9 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
       uint8_t *****l_831 = &l_832;
       int16_t *l_843 = &g_237;
       uint16_t *l_844[2][2] = {{&g_441, &g_441}, {&g_441, &g_441}};
-      mage_alpha211(211); 
+      mage_alpha210(210); 
       int i, j;
-      mage_alpha212(212); 
+      mage_alpha211(211); 
       for (i = 0; i < 1; i++) {
         l_827[i] = 0x91L;
       }
@@ -5296,7 +5294,7 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
     uint32_t l_879 = 18446744073709551609UL;
     uint32_t l_886 = 0xCC71E6D9L;
     uint16_t ***l_910 = &g_593;
-    mage_alpha213(213); 
+    mage_alpha212(212); 
     int i;
     l_856--;
   lbl_889:
@@ -5304,18 +5302,18 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
     if (l_862) { /* block id: 350 */
       uint64_t l_880 = 18446744073709551609UL;
       int32_t **l_893[2];
-      mage_alpha214(214); 
+      mage_alpha213(213); 
       int i;
-      mage_alpha215(215); 
+      mage_alpha214(214); 
       for (i = 0; i < 2; i++) {
         l_893[i] = &l_851;
       }
-      mage_alpha216(216); 
+      mage_alpha215(215); 
       for (g_436 = (-9); (g_436 <= 15);
            g_436 = safe_add_func_int32_t_s_s(g_436, 5)) { /* block id: 353 */
         int32_t **const l_869[7] = {(void *)0, (void *)0, (void *)0, (void *)0,
                                     (void *)0, (void *)0, (void *)0};
-        mage_alpha217(217); 
+        mage_alpha216(216); 
         int i;
         (*l_851) = (safe_mod_func_int64_t_s_s(
             ((*g_307) =
@@ -5344,14 +5342,14 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
                       1)),
                   l_881)),
             (*l_588)));
-        mage_alpha218(218); 
+        mage_alpha217(217); 
         for (g_407 = (-12); (g_407 == 18);
              g_407 = safe_add_func_int16_t_s_s(g_407, 1)) { /* block id: 359 */
           (*l_851) = p_47;
           if (p_47) {
             break;
           }
-          mage_alpha219(219); 
+          mage_alpha218(218); 
           for (g_308 = (-4); (g_308 > (-29));
                g_308 =
                    safe_sub_func_int16_t_s_s(g_308, 9)) { /* block id: 364 */
@@ -5359,35 +5357,35 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
             (*l_852) ^= l_880;
           }
         }
-        mage_alpha220(220); 
+        mage_alpha219(219); 
         if ((*g_542)) {
           break;
         }
         if (g_373) {
-          mage_alpha221(221); 
+          mage_alpha220(220); 
           goto lbl_889;
         }
       }
       l_850 = ((--l_890), (void *)0);
       l_588 = (l_851 = &l_849);
     } else { /* block id: 376 */
-      mage_alpha222(222); 
+      mage_alpha221(221); 
       for (g_279 = 0; (g_279 < 36);
            g_279 = safe_add_func_uint8_t_u_u(g_279, 9)) { /* block id: 379 */
         int16_t *l_896 = (void *)0;
         const int32_t *l_900 = &g_73[0];
         int32_t l_903 = 0x49BB5301L;
         int32_t l_904[8];
-        mage_alpha223(223); 
+        mage_alpha222(222); 
         int i;
-        mage_alpha224(224); 
+        mage_alpha223(223); 
         for (i = 0; i < 8; i++) {
           l_904[i] = 4L;
         }
         (*l_851) = p_47;
         (*l_851) &= (((g_237 = (65531UL | g_625.f0)), &l_849) ==
                      ((safe_div_func_int64_t_s_s((*l_588), l_899)), l_900));
-        mage_alpha225(225); 
+        mage_alpha224(224); 
         for (g_441 = 25; (g_441 != 55);
              g_441 = safe_add_func_int32_t_s_s(g_441, 6)) { /* block id: 385 */
           g_905--;
@@ -5405,7 +5403,7 @@ static uint16_t * __attribute__((optimize("O0"), optnone))func_45(uint64_t *p_46
           p_47) ^
          4UL)));
   }
-  mage_alpha226(226); 
+  mage_alpha225(225); 
   for (g_237 = 15; (g_237 < (-10));
        g_237 = safe_sub_func_uint16_t_u_u(g_237, 9)) { /* block id: 397 */
     int32_t **l_917 = &g_12[0][6][2];
@@ -5444,9 +5442,9 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
   uint16_t l_537 = 0x3807L;
   int32_t l_555 = 0L;
   uint32_t l_556 = 0xA5B256BEL;
-  mage_alpha227(227); 
+  mage_alpha226(226); 
   int i, j;
-  mage_alpha228(228); 
+  mage_alpha227(227); 
   for (g_279 = 0; (g_279 <= 1); g_279 += 1) { /* block id: 174 */
     int16_t *l_420 = &g_320;
     int32_t l_439[1][7] = {{1L, 1L, 1L, 1L, 1L, 1L, 1L}};
@@ -5455,13 +5453,13 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
     int32_t *l_529 = &l_507;
     int32_t *l_530[2];
     uint8_t l_532[4] = {1UL, 1UL, 1UL, 1UL};
-    mage_alpha229(229); 
+    mage_alpha228(228); 
     int i, j;
-    mage_alpha230(230); 
+    mage_alpha229(229); 
     for (i = 0; i < 2; i++) {
       l_530[i] = (void *)0;
     }
-    mage_alpha231(231); 
+    mage_alpha230(230); 
     for (g_373 = 0; (g_373 <= 4); g_373 += 1) { /* block id: 177 */
       int32_t l_438 = 1L;
       uint16_t *l_440 = &g_441;
@@ -5473,7 +5471,7 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
       int32_t l_514 = (-3L);
       int32_t l_515 = 0xBBC51471L;
       int32_t l_516[4] = {0x340FF7BCL, 0x340FF7BCL, 0x340FF7BCL, 0x340FF7BCL};
-      mage_alpha232(232); 
+      mage_alpha231(231); 
       int i;
       g_73[g_279] &= (safe_unary_minus_func_uint64_t_u((safe_lshift_func_uint8_t_u_s(
           ((((*p_56) = 0xEF9BL) && ((void *)0 == l_420)),
@@ -5510,7 +5508,7 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
                 18)) > 0x82ECB3F208D0039ALL)),
           g_237))));
       (*l_442) &= l_439[0][5];
-      mage_alpha233(233); 
+      mage_alpha232(232); 
       for (p_57 = 0; (p_57 <= 1); p_57 += 1) { /* block id: 188 */
         int32_t *l_444[3][1];
         uint32_t l_447[6] = {0x6103671FL, 0x6103671FL, 0x6B628475L,
@@ -5519,21 +5517,21 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
         uint32_t *l_466 = &g_253;
         uint32_t **l_465 = &l_466;
         uint32_t *l_467 = &g_253;
-        mage_alpha234(234); 
+        mage_alpha233(233); 
         int i, j;
-        mage_alpha235(235); 
+        mage_alpha234(234); 
         for (i = 0; i < 3; i++) {
-          mage_alpha236(236); 
+          mage_alpha235(235); 
           for (j = 0; j < 1; j++) {
             l_444[i][j] = &g_73[0];
           }
         }
         (*g_443) = &l_438;
-        mage_alpha237(237); 
+        mage_alpha236(236); 
         for (g_213 = 0; (g_213 <= 8); g_213 += 1) { /* block id: 192 */
           int32_t **l_445[9] = {&g_88, &g_88, &g_88, &g_88, &g_88,
                                 &g_88, &g_88, &g_88, &g_88};
-          mage_alpha238(238); 
+          mage_alpha237(237); 
           int i;
           l_446 = l_444[0][0];
           (*l_442) = (g_73[g_279] |= ((l_447[4], 255UL) | (l_448 = p_57)));
@@ -5567,7 +5565,7 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
               p_57) != (*l_442))) { /* block id: 202 */
           int16_t l_468 = 0L;
           int32_t **l_471 = &l_446;
-          mage_alpha239(239); 
+          mage_alpha238(238); 
           for (g_413 = 0; (g_413 <= 4); g_413 += 1) { /* block id: 205 */
             if (l_468) {
               break;
@@ -5579,9 +5577,9 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
           (*l_471) = l_446;
         } else { /* block id: 213 */
           int32_t l_472[7] = {(-5L), (-5L), (-5L), (-5L), (-5L), (-5L), (-5L)};
-          mage_alpha240(240); 
+          mage_alpha239(239); 
           int i;
-          mage_alpha241(241); 
+          mage_alpha240(240); 
           if (((void *)0 != &g_179[(p_57 + 5)])) { /* block id: 214 */
             if ((*l_442)) {
               break;
@@ -5658,7 +5656,7 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
     (*g_526) = &l_439[0][6];
     l_532[0]++;
   }
-  mage_alpha242(242); 
+  mage_alpha241(241); 
   for (g_436 = 0; (g_436 <= 1); g_436 += 1) { /* block id: 237 */
     int32_t l_535 = 0x54D5B6AFL;
     int32_t *l_536[2][3][4] = {
@@ -5668,11 +5666,11 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
         {{&l_510, &l_513[4][7], &g_73[1], (void *)0},
          {&l_510, &g_73[1], &l_510, &l_510},
          {&l_513[4][7], &l_510, &l_513[4][7], &l_513[4][7]}}};
-    mage_alpha243(243); 
+    mage_alpha242(242); 
     int i, j, k;
     l_537--;
   }
-  mage_alpha244(244); 
+  mage_alpha243(243); 
   for (g_253 = 1; (g_253 <= 4); g_253 += 1) { /* block id: 242 */
     uint32_t l_541 = 4294967295UL;
     int32_t *l_543 = &l_513[4][4];
@@ -5705,15 +5703,15 @@ static const uint16_t * __attribute__((optimize("O0"), optnone))func_53(const in
          {(void *)0, &l_513[3][0], &l_513[3][0], (void *)0}}};
     int32_t l_553[10];
     int16_t l_554[1][2];
-    mage_alpha245(245); 
+    mage_alpha244(244); 
     int i, j, k;
-    mage_alpha246(246); 
+    mage_alpha245(245); 
     for (i = 0; i < 10; i++) {
       l_553[i] = 0x21604B2AL;
     }
-    mage_alpha247(247); 
+    mage_alpha246(246); 
     for (i = 0; i < 1; i++) {
-      mage_alpha248(248); 
+      mage_alpha247(247); 
       for (j = 0; j < 2; j++) {
         l_554[i][j] = 0L;
       }
@@ -5761,9 +5759,9 @@ static int16_t func_59(uint64_t *p_60, int16_t *p_61,
   uint64_t l_409[6] = {18446744073709551614UL, 18446744073709551614UL,
                        18446744073709551614UL, 18446744073709551614UL,
                        18446744073709551614UL, 18446744073709551614UL};
-  mage_alpha249(249); 
+  mage_alpha248(248); 
   int i;
-  mage_alpha250(250); 
+  mage_alpha249(249); 
   for (i = 0; i < 4; i++) {
     l_406[i] = &g_407;
   }
@@ -5825,17 +5823,17 @@ static uint64_t * __attribute__((optimize("O0"), optnone))func_63(const int32_t 
   uint32_t *l_380 = &l_77[0][2][2];
   uint32_t **l_379 = &l_380;
   uint64_t l_381 = 0x7EE75F0E6FBD6F84LL;
-  mage_alpha251(251); 
+  mage_alpha250(250); 
   int i, j, k;
-  mage_alpha252(252); 
+  mage_alpha251(251); 
   for (i = 0; i < 7; i++) {
     l_74[i] = &g_73[0];
   }
-  mage_alpha253(253); 
+  mage_alpha252(252); 
   for (i = 0; i < 1; i++) {
     l_76[i] = 5L;
   }
-  mage_alpha254(254); 
+  mage_alpha253(253); 
   for (i = 0; i < 6; i++) {
     l_80[i] = 18446744073709551615UL;
   }
@@ -6398,46 +6396,46 @@ lbl_146:
 
 /* ---------------------------------------- */
 int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
-  mage_alpha255(255); 
+  mage_alpha254(254); 
   int i, j, k;
-  mage_alpha256(256); 
+  mage_alpha255(255); 
   int print_hash_value = 0;
-  mage_alpha257(257); 
+  mage_alpha256(256); 
   if (argc == 2 && strcmp(argv[1], "1") == 0) {
     print_hash_value = 1;
   }
-  mage_alpha258(258); 
+  mage_alpha257(257); 
   platform_main_begin();
-  mage_alpha259(259); 
+  mage_alpha258(258); 
   crc32_gentab();
   func_1();
   transparent_crc(g_13, "g_13", print_hash_value);
   transparent_crc(g_23, "g_23", print_hash_value);
   transparent_crc(g_29, "g_29", print_hash_value);
   transparent_crc(g_39, "g_39", print_hash_value);
-  mage_alpha260(260); 
+  mage_alpha259(259); 
   for (i = 0; i < 3; i++) {
-    mage_alpha261(261); 
+    mage_alpha260(260); 
     for (j = 0; j < 5; j++) {
-      mage_alpha262(262); 
+      mage_alpha261(261); 
       for (k = 0; k < 1; k++) {
-        mage_alpha263(263); 
+        mage_alpha262(262); 
         transparent_crc(g_51[i][j][k], "g_51[i][j][k]", print_hash_value);
-        mage_alpha264(264); 
+        mage_alpha263(263); 
         if (print_hash_value) {
-          mage_alpha265(265); 
+          mage_alpha264(264); 
           printf("index = [%d][%d][%d]\n", i, j, k);
         }
       }
     }
   }
-  mage_alpha266(266); 
+  mage_alpha265(265); 
   for (i = 0; i < 2; i++) {
-    mage_alpha267(267); 
+    mage_alpha266(266); 
     transparent_crc(g_73[i], "g_73[i]", print_hash_value);
-    mage_alpha268(268); 
+    mage_alpha267(267); 
     if (print_hash_value) {
-      mage_alpha269(269); 
+      mage_alpha268(268); 
       printf("index = [%d]\n", i);
     }
   }
@@ -6459,24 +6457,24 @@ int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
   transparent_crc(g_435, "g_435", print_hash_value);
   transparent_crc(g_436, "g_436", print_hash_value);
   transparent_crc(g_441, "g_441", print_hash_value);
-  mage_alpha270(270); 
+  mage_alpha269(269); 
   for (i = 0; i < 5; i++) {
-    mage_alpha271(271); 
+    mage_alpha270(270); 
     transparent_crc(g_464[i], "g_464[i]", print_hash_value);
-    mage_alpha272(272); 
+    mage_alpha271(271); 
     if (print_hash_value) {
-      mage_alpha273(273); 
+      mage_alpha272(272); 
       printf("index = [%d]\n", i);
     }
   }
   transparent_crc(g_531, "g_531", print_hash_value);
-  mage_alpha274(274); 
+  mage_alpha273(273); 
   for (i = 0; i < 3; i++) {
-    mage_alpha275(275); 
+    mage_alpha274(274); 
     transparent_crc(g_584[i], "g_584[i]", print_hash_value);
-    mage_alpha276(276); 
+    mage_alpha275(275); 
     if (print_hash_value) {
-      mage_alpha277(277); 
+      mage_alpha276(276); 
       printf("index = [%d]\n", i);
     }
   }
@@ -6486,23 +6484,23 @@ int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
   transparent_crc(g_940, "g_940", print_hash_value);
   transparent_crc(g_980, "g_980", print_hash_value);
   transparent_crc(g_992, "g_992", print_hash_value);
-  mage_alpha278(278); 
+  mage_alpha277(277); 
   for (i = 0; i < 3; i++) {
-    mage_alpha279(279); 
+    mage_alpha278(278); 
     transparent_crc(g_1024[i], "g_1024[i]", print_hash_value);
-    mage_alpha280(280); 
+    mage_alpha279(279); 
     if (print_hash_value) {
-      mage_alpha281(281); 
+      mage_alpha280(280); 
       printf("index = [%d]\n", i);
     }
   }
-  mage_alpha282(282); 
+  mage_alpha281(281); 
   for (i = 0; i < 10; i++) {
-    mage_alpha283(283); 
+    mage_alpha282(282); 
     transparent_crc(g_1061[i], "g_1061[i]", print_hash_value);
-    mage_alpha284(284); 
+    mage_alpha283(283); 
     if (print_hash_value) {
-      mage_alpha285(285); 
+      mage_alpha284(284); 
       printf("index = [%d]\n", i);
     }
   }
@@ -6530,28 +6528,28 @@ int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
   transparent_crc(g_2208, "g_2208", print_hash_value);
   transparent_crc(g_2259.f0, "g_2259.f0", print_hash_value);
   transparent_crc(g_2270, "g_2270", print_hash_value);
-  mage_alpha286(286); 
+  mage_alpha285(285); 
   for (i = 0; i < 10; i++) {
-    mage_alpha287(287); 
+    mage_alpha286(286); 
     for (j = 0; j < 9; j++) {
-      mage_alpha288(288); 
+      mage_alpha287(287); 
       for (k = 0; k < 2; k++) {
         transparent_crc(g_2275[i][j][k].f0, "g_2275[i][j][k].f0",
                         print_hash_value);
-        mage_alpha289(289); 
+        mage_alpha288(288); 
         if (print_hash_value) {
-          mage_alpha290(290); 
+          mage_alpha289(289); 
           printf("index = [%d][%d][%d]\n", i, j, k);
         }
       }
     }
   }
-  mage_alpha291(291); 
+  mage_alpha290(290); 
   for (i = 0; i < 9; i++) {
     transparent_crc(g_2343[i].f0, "g_2343[i].f0", print_hash_value);
-    mage_alpha292(292); 
+    mage_alpha291(291); 
     if (print_hash_value) {
-      mage_alpha293(293); 
+      mage_alpha292(292); 
       printf("index = [%d]\n", i);
     }
   }
@@ -6560,50 +6558,50 @@ int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
   transparent_crc(g_2501, "g_2501", print_hash_value);
   transparent_crc(g_2519, "g_2519", print_hash_value);
   transparent_crc(g_2572.f0, "g_2572.f0", print_hash_value);
-  mage_alpha294(294); 
+  mage_alpha293(293); 
   for (i = 0; i < 10; i++) {
-    mage_alpha295(295); 
+    mage_alpha294(294); 
     transparent_crc(g_2633[i], "g_2633[i]", print_hash_value);
-    mage_alpha296(296); 
+    mage_alpha295(295); 
     if (print_hash_value) {
-      mage_alpha297(297); 
+      mage_alpha296(296); 
       printf("index = [%d]\n", i);
     }
   }
-  mage_alpha298(298); 
+  mage_alpha297(297); 
   for (i = 0; i < 2; i++) {
-    mage_alpha299(299); 
+    mage_alpha298(298); 
     for (j = 0; j < 10; j++) {
-      mage_alpha300(300); 
+      mage_alpha299(299); 
       transparent_crc(g_2742[i][j], "g_2742[i][j]", print_hash_value);
-      mage_alpha301(301); 
+      mage_alpha300(300); 
       if (print_hash_value) {
-        mage_alpha302(302); 
+        mage_alpha301(301); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
-  mage_alpha303(303); 
+  mage_alpha302(302); 
   for (i = 0; i < 4; i++) {
-    mage_alpha304(304); 
+    mage_alpha303(303); 
     transparent_crc(g_2786[i], "g_2786[i]", print_hash_value);
-    mage_alpha305(305); 
+    mage_alpha304(304); 
     if (print_hash_value) {
-      mage_alpha306(306); 
+      mage_alpha305(305); 
       printf("index = [%d]\n", i);
     }
   }
-  mage_alpha307(307); 
+  mage_alpha306(306); 
   for (i = 0; i < 6; i++) {
-    mage_alpha308(308); 
+    mage_alpha307(307); 
     for (j = 0; j < 2; j++) {
-      mage_alpha309(309); 
+      mage_alpha308(308); 
       for (k = 0; k < 2; k++) {
-        mage_alpha310(310); 
+        mage_alpha309(309); 
         transparent_crc(g_2810[i][j][k], "g_2810[i][j][k]", print_hash_value);
-        mage_alpha311(311); 
+        mage_alpha310(310); 
         if (print_hash_value) {
-          mage_alpha312(312); 
+          mage_alpha311(311); 
           printf("index = [%d][%d][%d]\n", i, j, k);
         }
       }
@@ -6615,35 +6613,35 @@ int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
   transparent_crc(g_2864.f0, "g_2864.f0", print_hash_value);
   transparent_crc(g_2895.f0, "g_2895.f0", print_hash_value);
   transparent_crc(g_2897.f0, "g_2897.f0", print_hash_value);
-  mage_alpha313(313); 
+  mage_alpha312(312); 
   for (i = 0; i < 4; i++) {
     transparent_crc(g_2900[i].f0, "g_2900[i].f0", print_hash_value);
-    mage_alpha314(314); 
+    mage_alpha313(313); 
     if (print_hash_value) {
-      mage_alpha315(315); 
+      mage_alpha314(314); 
       printf("index = [%d]\n", i);
     }
   }
   transparent_crc(g_2901.f0, "g_2901.f0", print_hash_value);
-  mage_alpha316(316); 
+  mage_alpha315(315); 
   for (i = 0; i < 10; i++) {
-    mage_alpha317(317); 
+    mage_alpha316(316); 
     for (j = 0; j < 1; j++) {
       transparent_crc(g_2902[i][j].f0, "g_2902[i][j].f0", print_hash_value);
-      mage_alpha318(318); 
+      mage_alpha317(317); 
       if (print_hash_value) {
-        mage_alpha319(319); 
+        mage_alpha318(318); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
-  mage_alpha320(320); 
+  mage_alpha319(319); 
   for (i = 0; i < 2; i++) {
-    mage_alpha321(321); 
+    mage_alpha320(320); 
     transparent_crc(g_2921[i], "g_2921[i]", print_hash_value);
-    mage_alpha322(322); 
+    mage_alpha321(321); 
     if (print_hash_value) {
-      mage_alpha323(323); 
+      mage_alpha322(322); 
       printf("index = [%d]\n", i);
     }
   }

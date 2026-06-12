@@ -2,15 +2,17 @@
     "targets": [
         {
             "binPath": "/usr/bin/csmith",
-			"run_bin_as_shell":false,
-            "details": {},
-            "it_begin": 10,
-            "it_end": 10000,
+			"run_bin_as_shell":false,            
             "name": "csmith",
             "outputFlag": "--output",
+			"static_pre_flags":[],
+			"static_options":[],
+			"redirectNull": false,
             "seedFlag": "--seed",
             "timestamp": 1777658365,
-			"active": true
+			"active": true,
+			"it_begin": 0,
+            "it_end": 1
         }
     ]
 }

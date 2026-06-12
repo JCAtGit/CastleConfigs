@@ -454,7 +454,6 @@ __attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alph
 __attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha452(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
 __attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha453(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
 __attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha454(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
-__attribute__((noinline, used, noipa, optnone, optimize("-O0"))) void  mage_alpha455(int id){volatile int dummy = id; __asm__ volatile(""::"r"(id):"memory");};
 /*
  * This is a RANDOMLY GENERATED PROGRAM.
  *
@@ -4520,7 +4519,6 @@ static uint64_t func_76(uint32_t p_77) { /* block id: 32 */
       }
       (*g_887) = g_886;
     lbl_970:
-      mage_alpha171(171); 
       if ((safe_rshift_func_uint16_t_u_u(
               (((**l_878),
                 (((((safe_mod_func_int64_t_s_s(
@@ -4719,59 +4717,59 @@ static uint64_t func_76(uint32_t p_77) { /* block id: 32 */
 
 /* ---------------------------------------- */
 int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
-  mage_alpha172(172); 
+  mage_alpha171(171); 
   int i, j, k;
-  mage_alpha173(173); 
+  mage_alpha172(172); 
   int print_hash_value = 0;
-  mage_alpha174(174); 
+  mage_alpha173(173); 
   if (argc == 2 && strcmp(argv[1], "1") == 0) {
     print_hash_value = 1;
   }
-  mage_alpha175(175); 
+  mage_alpha174(174); 
   platform_main_begin();
-  mage_alpha176(176); 
+  mage_alpha175(175); 
   crc32_gentab();
   func_1();
   transparent_crc(g_3, "g_3", print_hash_value);
   transparent_crc(g_4, "g_4", print_hash_value);
   transparent_crc(g_5, "g_5", print_hash_value);
   transparent_crc(g_6, "g_6", print_hash_value);
-  mage_alpha177(177); 
+  mage_alpha176(176); 
   for (i = 0; i < 2; i++) {
-    mage_alpha178(178); 
+    mage_alpha177(177); 
     for (j = 0; j < 9; j++) {
-      mage_alpha179(179); 
+      mage_alpha178(178); 
       transparent_crc(g_45[i][j], "g_45[i][j]", print_hash_value);
-      mage_alpha180(180); 
+      mage_alpha179(179); 
       if (print_hash_value) {
-        mage_alpha181(181); 
+        mage_alpha180(180); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
   transparent_crc(g_59, "g_59", print_hash_value);
-  mage_alpha182(182); 
+  mage_alpha181(181); 
   for (i = 0; i < 3; i++) {
-    mage_alpha183(183); 
+    mage_alpha182(182); 
     for (j = 0; j < 4; j++) {
-      mage_alpha184(184); 
+      mage_alpha183(183); 
       transparent_crc(g_65[i][j], "g_65[i][j]", print_hash_value);
-      mage_alpha185(185); 
+      mage_alpha184(184); 
       if (print_hash_value) {
-        mage_alpha186(186); 
+        mage_alpha185(185); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
-  mage_alpha187(187); 
+  mage_alpha186(186); 
   for (i = 0; i < 5; i++) {
-    mage_alpha188(188); 
+    mage_alpha187(187); 
     for (j = 0; j < 4; j++) {
-      mage_alpha189(189); 
+      mage_alpha188(188); 
       transparent_crc(g_85[i][j], "g_85[i][j]", print_hash_value);
-      mage_alpha190(190); 
+      mage_alpha189(189); 
       if (print_hash_value) {
-        mage_alpha191(191); 
+        mage_alpha190(190); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
@@ -4779,13 +4777,13 @@ int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
   transparent_crc(g_97, "g_97", print_hash_value);
   transparent_crc(g_98, "g_98", print_hash_value);
   transparent_crc(g_101, "g_101", print_hash_value);
-  mage_alpha192(192); 
+  mage_alpha191(191); 
   for (i = 0; i < 5; i++) {
-    mage_alpha193(193); 
+    mage_alpha192(192); 
     transparent_crc(g_102[i], "g_102[i]", print_hash_value);
-    mage_alpha194(194); 
+    mage_alpha193(193); 
     if (print_hash_value) {
-      mage_alpha195(195); 
+      mage_alpha194(194); 
       printf("index = [%d]\n", i);
     }
   }
@@ -4793,690 +4791,690 @@ int __attribute__((optimize("O0"), optnone)) main(int argc, char *argv[]) {
   transparent_crc(g_120.f0, "g_120.f0", print_hash_value);
   transparent_crc(g_124, "g_124", print_hash_value);
   transparent_crc(g_142.f0, "g_142.f0", print_hash_value);
-  mage_alpha196(196); 
+  mage_alpha195(195); 
   transparent_crc(g_184.f0, "g_184.f0", print_hash_value);
-  mage_alpha197(197); 
+  mage_alpha196(196); 
   transparent_crc(g_184.f1, "g_184.f1", print_hash_value);
   transparent_crc(g_184.f2, "g_184.f2", print_hash_value);
-  mage_alpha198(198); 
+  mage_alpha197(197); 
   transparent_crc(g_184.f3, "g_184.f3", print_hash_value);
-  mage_alpha199(199); 
+  mage_alpha198(198); 
   transparent_crc(g_184.f4, "g_184.f4", print_hash_value);
   transparent_crc(g_184.f5, "g_184.f5", print_hash_value);
-  mage_alpha200(200); 
+  mage_alpha199(199); 
   transparent_crc(g_184.f6, "g_184.f6", print_hash_value);
   transparent_crc(g_299, "g_299", print_hash_value);
   transparent_crc(g_392, "g_392", print_hash_value);
   transparent_crc(g_425.f0, "g_425.f0", print_hash_value);
-  mage_alpha201(201); 
+  mage_alpha200(200); 
   transparent_crc(g_502.f0, "g_502.f0", print_hash_value);
-  mage_alpha202(202); 
+  mage_alpha201(201); 
   transparent_crc(g_502.f1, "g_502.f1", print_hash_value);
   transparent_crc(g_502.f2, "g_502.f2", print_hash_value);
-  mage_alpha203(203); 
+  mage_alpha202(202); 
   transparent_crc(g_502.f3, "g_502.f3", print_hash_value);
-  mage_alpha204(204); 
+  mage_alpha203(203); 
   transparent_crc(g_502.f4, "g_502.f4", print_hash_value);
   transparent_crc(g_502.f5, "g_502.f5", print_hash_value);
-  mage_alpha205(205); 
+  mage_alpha204(204); 
   transparent_crc(g_502.f6, "g_502.f6", print_hash_value);
-  mage_alpha206(206); 
+  mage_alpha205(205); 
   for (i = 0; i < 2; i++) {
-    mage_alpha207(207); 
+    mage_alpha206(206); 
     for (j = 0; j < 6; j++) {
-      mage_alpha208(208); 
+      mage_alpha207(207); 
       for (k = 0; k < 6; k++) {
-        mage_alpha209(209); 
+        mage_alpha208(208); 
         transparent_crc(g_562[i][j][k].f0, "g_562[i][j][k].f0",
                         print_hash_value);
-        mage_alpha210(210); 
+        mage_alpha209(209); 
         transparent_crc(g_562[i][j][k].f1, "g_562[i][j][k].f1",
                         print_hash_value);
         transparent_crc(g_562[i][j][k].f2, "g_562[i][j][k].f2",
                         print_hash_value);
-        mage_alpha211(211); 
+        mage_alpha210(210); 
         transparent_crc(g_562[i][j][k].f3, "g_562[i][j][k].f3",
                         print_hash_value);
-        mage_alpha212(212); 
+        mage_alpha211(211); 
         transparent_crc(g_562[i][j][k].f4, "g_562[i][j][k].f4",
                         print_hash_value);
         transparent_crc(g_562[i][j][k].f5, "g_562[i][j][k].f5",
                         print_hash_value);
-        mage_alpha213(213); 
+        mage_alpha212(212); 
         transparent_crc(g_562[i][j][k].f6, "g_562[i][j][k].f6",
                         print_hash_value);
-        mage_alpha214(214); 
+        mage_alpha213(213); 
         if (print_hash_value) {
-          mage_alpha215(215); 
+          mage_alpha214(214); 
           printf("index = [%d][%d][%d]\n", i, j, k);
         }
       }
     }
   }
-  mage_alpha216(216); 
+  mage_alpha215(215); 
   transparent_crc(g_616.f0, "g_616.f0", print_hash_value);
-  mage_alpha217(217); 
+  mage_alpha216(216); 
   transparent_crc(g_616.f1, "g_616.f1", print_hash_value);
   transparent_crc(g_616.f2, "g_616.f2", print_hash_value);
-  mage_alpha218(218); 
+  mage_alpha217(217); 
   transparent_crc(g_616.f3, "g_616.f3", print_hash_value);
-  mage_alpha219(219); 
+  mage_alpha218(218); 
   transparent_crc(g_616.f4, "g_616.f4", print_hash_value);
   transparent_crc(g_616.f5, "g_616.f5", print_hash_value);
-  mage_alpha220(220); 
+  mage_alpha219(219); 
   transparent_crc(g_616.f6, "g_616.f6", print_hash_value);
   transparent_crc(g_646, "g_646", print_hash_value);
   transparent_crc(g_700, "g_700", print_hash_value);
-  mage_alpha221(221); 
+  mage_alpha220(220); 
   transparent_crc(g_805.f0, "g_805.f0", print_hash_value);
-  mage_alpha222(222); 
+  mage_alpha221(221); 
   transparent_crc(g_805.f1, "g_805.f1", print_hash_value);
   transparent_crc(g_805.f2, "g_805.f2", print_hash_value);
-  mage_alpha223(223); 
+  mage_alpha222(222); 
   transparent_crc(g_805.f3, "g_805.f3", print_hash_value);
-  mage_alpha224(224); 
+  mage_alpha223(223); 
   transparent_crc(g_805.f4, "g_805.f4", print_hash_value);
   transparent_crc(g_805.f5, "g_805.f5", print_hash_value);
-  mage_alpha225(225); 
+  mage_alpha224(224); 
   transparent_crc(g_805.f6, "g_805.f6", print_hash_value);
-  mage_alpha226(226); 
+  mage_alpha225(225); 
   for (i = 0; i < 5; i++) {
-    mage_alpha227(227); 
+    mage_alpha226(226); 
     transparent_crc(g_816[i], "g_816[i]", print_hash_value);
-    mage_alpha228(228); 
+    mage_alpha227(227); 
     if (print_hash_value) {
-      mage_alpha229(229); 
+      mage_alpha228(228); 
       printf("index = [%d]\n", i);
     }
   }
   transparent_crc(g_822, "g_822", print_hash_value);
-  mage_alpha230(230); 
+  mage_alpha229(229); 
   transparent_crc(g_909.f0, "g_909.f0", print_hash_value);
-  mage_alpha231(231); 
+  mage_alpha230(230); 
   transparent_crc(g_909.f1, "g_909.f1", print_hash_value);
   transparent_crc(g_909.f2, "g_909.f2", print_hash_value);
-  mage_alpha232(232); 
+  mage_alpha231(231); 
   transparent_crc(g_909.f3, "g_909.f3", print_hash_value);
-  mage_alpha233(233); 
+  mage_alpha232(232); 
   transparent_crc(g_909.f4, "g_909.f4", print_hash_value);
   transparent_crc(g_909.f5, "g_909.f5", print_hash_value);
-  mage_alpha234(234); 
+  mage_alpha233(233); 
   transparent_crc(g_909.f6, "g_909.f6", print_hash_value);
-  mage_alpha235(235); 
+  mage_alpha234(234); 
   transparent_crc(g_917.f0, "g_917.f0", print_hash_value);
-  mage_alpha236(236); 
+  mage_alpha235(235); 
   transparent_crc(g_917.f1, "g_917.f1", print_hash_value);
   transparent_crc(g_917.f2, "g_917.f2", print_hash_value);
-  mage_alpha237(237); 
+  mage_alpha236(236); 
   transparent_crc(g_917.f3, "g_917.f3", print_hash_value);
-  mage_alpha238(238); 
+  mage_alpha237(237); 
   transparent_crc(g_917.f4, "g_917.f4", print_hash_value);
   transparent_crc(g_917.f5, "g_917.f5", print_hash_value);
-  mage_alpha239(239); 
+  mage_alpha238(238); 
   transparent_crc(g_917.f6, "g_917.f6", print_hash_value);
-  mage_alpha240(240); 
+  mage_alpha239(239); 
   transparent_crc(g_929.f0, "g_929.f0", print_hash_value);
-  mage_alpha241(241); 
+  mage_alpha240(240); 
   transparent_crc(g_929.f1, "g_929.f1", print_hash_value);
   transparent_crc(g_929.f2, "g_929.f2", print_hash_value);
-  mage_alpha242(242); 
+  mage_alpha241(241); 
   transparent_crc(g_929.f3, "g_929.f3", print_hash_value);
-  mage_alpha243(243); 
+  mage_alpha242(242); 
   transparent_crc(g_929.f4, "g_929.f4", print_hash_value);
   transparent_crc(g_929.f5, "g_929.f5", print_hash_value);
-  mage_alpha244(244); 
+  mage_alpha243(243); 
   transparent_crc(g_929.f6, "g_929.f6", print_hash_value);
   transparent_crc(g_947, "g_947", print_hash_value);
-  mage_alpha245(245); 
+  mage_alpha244(244); 
   for (i = 0; i < 7; i++) {
-    mage_alpha246(246); 
+    mage_alpha245(245); 
     transparent_crc(g_987[i].f0, "g_987[i].f0", print_hash_value);
-    mage_alpha247(247); 
+    mage_alpha246(246); 
     transparent_crc(g_987[i].f1, "g_987[i].f1", print_hash_value);
     transparent_crc(g_987[i].f2, "g_987[i].f2", print_hash_value);
-    mage_alpha248(248); 
+    mage_alpha247(247); 
     transparent_crc(g_987[i].f3, "g_987[i].f3", print_hash_value);
-    mage_alpha249(249); 
+    mage_alpha248(248); 
     transparent_crc(g_987[i].f4, "g_987[i].f4", print_hash_value);
     transparent_crc(g_987[i].f5, "g_987[i].f5", print_hash_value);
-    mage_alpha250(250); 
+    mage_alpha249(249); 
     transparent_crc(g_987[i].f6, "g_987[i].f6", print_hash_value);
-    mage_alpha251(251); 
+    mage_alpha250(250); 
     if (print_hash_value) {
-      mage_alpha252(252); 
+      mage_alpha251(251); 
       printf("index = [%d]\n", i);
     }
   }
-  mage_alpha253(253); 
+  mage_alpha252(252); 
   transparent_crc(g_992.f0, "g_992.f0", print_hash_value);
-  mage_alpha254(254); 
+  mage_alpha253(253); 
   transparent_crc(g_992.f1, "g_992.f1", print_hash_value);
   transparent_crc(g_992.f2, "g_992.f2", print_hash_value);
-  mage_alpha255(255); 
+  mage_alpha254(254); 
   transparent_crc(g_992.f3, "g_992.f3", print_hash_value);
-  mage_alpha256(256); 
+  mage_alpha255(255); 
   transparent_crc(g_992.f4, "g_992.f4", print_hash_value);
   transparent_crc(g_992.f5, "g_992.f5", print_hash_value);
-  mage_alpha257(257); 
+  mage_alpha256(256); 
   transparent_crc(g_992.f6, "g_992.f6", print_hash_value);
-  mage_alpha258(258); 
+  mage_alpha257(257); 
   for (i = 0; i < 4; i++) {
-    mage_alpha259(259); 
+    mage_alpha258(258); 
     transparent_crc(g_994[i], "g_994[i]", print_hash_value);
-    mage_alpha260(260); 
+    mage_alpha259(259); 
     if (print_hash_value) {
-      mage_alpha261(261); 
+      mage_alpha260(260); 
       printf("index = [%d]\n", i);
     }
   }
-  mage_alpha262(262); 
+  mage_alpha261(261); 
   for (i = 0; i < 3; i++) {
-    mage_alpha263(263); 
+    mage_alpha262(262); 
     for (j = 0; j < 9; j++) {
-      mage_alpha264(264); 
+      mage_alpha263(263); 
       transparent_crc(g_1051[i][j].f0, "g_1051[i][j].f0", print_hash_value);
-      mage_alpha265(265); 
+      mage_alpha264(264); 
       transparent_crc(g_1051[i][j].f1, "g_1051[i][j].f1", print_hash_value);
       transparent_crc(g_1051[i][j].f2, "g_1051[i][j].f2", print_hash_value);
-      mage_alpha266(266); 
+      mage_alpha265(265); 
       transparent_crc(g_1051[i][j].f3, "g_1051[i][j].f3", print_hash_value);
-      mage_alpha267(267); 
+      mage_alpha266(266); 
       transparent_crc(g_1051[i][j].f4, "g_1051[i][j].f4", print_hash_value);
       transparent_crc(g_1051[i][j].f5, "g_1051[i][j].f5", print_hash_value);
-      mage_alpha268(268); 
+      mage_alpha267(267); 
       transparent_crc(g_1051[i][j].f6, "g_1051[i][j].f6", print_hash_value);
-      mage_alpha269(269); 
+      mage_alpha268(268); 
       if (print_hash_value) {
-        mage_alpha270(270); 
+        mage_alpha269(269); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
-  mage_alpha271(271); 
+  mage_alpha270(270); 
   for (i = 0; i < 1; i++) {
-    mage_alpha272(272); 
+    mage_alpha271(271); 
     for (j = 0; j < 9; j++) {
-      mage_alpha273(273); 
+      mage_alpha272(272); 
       transparent_crc(g_1103[i][j], "g_1103[i][j]", print_hash_value);
-      mage_alpha274(274); 
+      mage_alpha273(273); 
       if (print_hash_value) {
-        mage_alpha275(275); 
+        mage_alpha274(274); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
   transparent_crc(g_1105, "g_1105", print_hash_value);
-  mage_alpha276(276); 
+  mage_alpha275(275); 
   for (i = 0; i < 3; i++) {
-    mage_alpha277(277); 
+    mage_alpha276(276); 
     transparent_crc(g_1108[i].f0, "g_1108[i].f0", print_hash_value);
-    mage_alpha278(278); 
+    mage_alpha277(277); 
     transparent_crc(g_1108[i].f1, "g_1108[i].f1", print_hash_value);
     transparent_crc(g_1108[i].f2, "g_1108[i].f2", print_hash_value);
-    mage_alpha279(279); 
+    mage_alpha278(278); 
     transparent_crc(g_1108[i].f3, "g_1108[i].f3", print_hash_value);
-    mage_alpha280(280); 
+    mage_alpha279(279); 
     transparent_crc(g_1108[i].f4, "g_1108[i].f4", print_hash_value);
     transparent_crc(g_1108[i].f5, "g_1108[i].f5", print_hash_value);
-    mage_alpha281(281); 
+    mage_alpha280(280); 
     transparent_crc(g_1108[i].f6, "g_1108[i].f6", print_hash_value);
-    mage_alpha282(282); 
+    mage_alpha281(281); 
     if (print_hash_value) {
-      mage_alpha283(283); 
+      mage_alpha282(282); 
       printf("index = [%d]\n", i);
     }
   }
-  mage_alpha284(284); 
+  mage_alpha283(283); 
   transparent_crc(g_1110.f0, "g_1110.f0", print_hash_value);
-  mage_alpha285(285); 
+  mage_alpha284(284); 
   transparent_crc(g_1110.f1, "g_1110.f1", print_hash_value);
   transparent_crc(g_1110.f2, "g_1110.f2", print_hash_value);
-  mage_alpha286(286); 
+  mage_alpha285(285); 
   transparent_crc(g_1110.f3, "g_1110.f3", print_hash_value);
-  mage_alpha287(287); 
+  mage_alpha286(286); 
   transparent_crc(g_1110.f4, "g_1110.f4", print_hash_value);
   transparent_crc(g_1110.f5, "g_1110.f5", print_hash_value);
-  mage_alpha288(288); 
+  mage_alpha287(287); 
   transparent_crc(g_1110.f6, "g_1110.f6", print_hash_value);
   transparent_crc(g_1119, "g_1119", print_hash_value);
-  mage_alpha289(289); 
+  mage_alpha288(288); 
   transparent_crc(g_1139.f0, "g_1139.f0", print_hash_value);
-  mage_alpha290(290); 
+  mage_alpha289(289); 
   transparent_crc(g_1139.f1, "g_1139.f1", print_hash_value);
   transparent_crc(g_1139.f2, "g_1139.f2", print_hash_value);
-  mage_alpha291(291); 
+  mage_alpha290(290); 
   transparent_crc(g_1139.f3, "g_1139.f3", print_hash_value);
-  mage_alpha292(292); 
+  mage_alpha291(291); 
   transparent_crc(g_1139.f4, "g_1139.f4", print_hash_value);
   transparent_crc(g_1139.f5, "g_1139.f5", print_hash_value);
-  mage_alpha293(293); 
+  mage_alpha292(292); 
   transparent_crc(g_1139.f6, "g_1139.f6", print_hash_value);
   transparent_crc(g_1184, "g_1184", print_hash_value);
-  mage_alpha294(294); 
+  mage_alpha293(293); 
   transparent_crc(g_1186.f0, "g_1186.f0", print_hash_value);
-  mage_alpha295(295); 
+  mage_alpha294(294); 
   transparent_crc(g_1186.f1, "g_1186.f1", print_hash_value);
   transparent_crc(g_1186.f2, "g_1186.f2", print_hash_value);
-  mage_alpha296(296); 
+  mage_alpha295(295); 
   transparent_crc(g_1186.f3, "g_1186.f3", print_hash_value);
-  mage_alpha297(297); 
+  mage_alpha296(296); 
   transparent_crc(g_1186.f4, "g_1186.f4", print_hash_value);
   transparent_crc(g_1186.f5, "g_1186.f5", print_hash_value);
-  mage_alpha298(298); 
+  mage_alpha297(297); 
   transparent_crc(g_1186.f6, "g_1186.f6", print_hash_value);
-  mage_alpha299(299); 
+  mage_alpha298(298); 
   transparent_crc(g_1276.f0, "g_1276.f0", print_hash_value);
-  mage_alpha300(300); 
+  mage_alpha299(299); 
   transparent_crc(g_1276.f1, "g_1276.f1", print_hash_value);
   transparent_crc(g_1276.f2, "g_1276.f2", print_hash_value);
-  mage_alpha301(301); 
+  mage_alpha300(300); 
   transparent_crc(g_1276.f3, "g_1276.f3", print_hash_value);
-  mage_alpha302(302); 
+  mage_alpha301(301); 
   transparent_crc(g_1276.f4, "g_1276.f4", print_hash_value);
   transparent_crc(g_1276.f5, "g_1276.f5", print_hash_value);
-  mage_alpha303(303); 
+  mage_alpha302(302); 
   transparent_crc(g_1276.f6, "g_1276.f6", print_hash_value);
-  mage_alpha304(304); 
+  mage_alpha303(303); 
   transparent_crc(g_1287.f0, "g_1287.f0", print_hash_value);
-  mage_alpha305(305); 
+  mage_alpha304(304); 
   transparent_crc(g_1287.f1, "g_1287.f1", print_hash_value);
   transparent_crc(g_1287.f2, "g_1287.f2", print_hash_value);
-  mage_alpha306(306); 
+  mage_alpha305(305); 
   transparent_crc(g_1287.f3, "g_1287.f3", print_hash_value);
-  mage_alpha307(307); 
+  mage_alpha306(306); 
   transparent_crc(g_1287.f4, "g_1287.f4", print_hash_value);
   transparent_crc(g_1287.f5, "g_1287.f5", print_hash_value);
-  mage_alpha308(308); 
+  mage_alpha307(307); 
   transparent_crc(g_1287.f6, "g_1287.f6", print_hash_value);
-  mage_alpha309(309); 
+  mage_alpha308(308); 
   transparent_crc(g_1321.f0, "g_1321.f0", print_hash_value);
-  mage_alpha310(310); 
+  mage_alpha309(309); 
   transparent_crc(g_1321.f1, "g_1321.f1", print_hash_value);
   transparent_crc(g_1321.f2, "g_1321.f2", print_hash_value);
-  mage_alpha311(311); 
+  mage_alpha310(310); 
   transparent_crc(g_1321.f3, "g_1321.f3", print_hash_value);
-  mage_alpha312(312); 
+  mage_alpha311(311); 
   transparent_crc(g_1321.f4, "g_1321.f4", print_hash_value);
   transparent_crc(g_1321.f5, "g_1321.f5", print_hash_value);
-  mage_alpha313(313); 
+  mage_alpha312(312); 
   transparent_crc(g_1321.f6, "g_1321.f6", print_hash_value);
-  mage_alpha314(314); 
+  mage_alpha313(313); 
   transparent_crc(g_1352.f0, "g_1352.f0", print_hash_value);
-  mage_alpha315(315); 
+  mage_alpha314(314); 
   transparent_crc(g_1352.f1, "g_1352.f1", print_hash_value);
   transparent_crc(g_1352.f2, "g_1352.f2", print_hash_value);
-  mage_alpha316(316); 
+  mage_alpha315(315); 
   transparent_crc(g_1352.f3, "g_1352.f3", print_hash_value);
-  mage_alpha317(317); 
+  mage_alpha316(316); 
   transparent_crc(g_1352.f4, "g_1352.f4", print_hash_value);
   transparent_crc(g_1352.f5, "g_1352.f5", print_hash_value);
-  mage_alpha318(318); 
+  mage_alpha317(317); 
   transparent_crc(g_1352.f6, "g_1352.f6", print_hash_value);
-  mage_alpha319(319); 
+  mage_alpha318(318); 
   for (i = 0; i < 5; i++) {
-    mage_alpha320(320); 
+    mage_alpha319(319); 
     for (j = 0; j < 9; j++) {
-      mage_alpha321(321); 
+      mage_alpha320(320); 
       transparent_crc(g_1424[i][j], "g_1424[i][j]", print_hash_value);
-      mage_alpha322(322); 
+      mage_alpha321(321); 
       if (print_hash_value) {
-        mage_alpha323(323); 
+        mage_alpha322(322); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
-  mage_alpha324(324); 
+  mage_alpha323(323); 
   for (i = 0; i < 10; i++) {
-    mage_alpha325(325); 
+    mage_alpha324(324); 
     for (j = 0; j < 10; j++) {
-      mage_alpha326(326); 
+      mage_alpha325(325); 
       for (k = 0; k < 2; k++) {
-        mage_alpha327(327); 
+        mage_alpha326(326); 
         transparent_crc(g_1435[i][j][k], "g_1435[i][j][k]", print_hash_value);
-        mage_alpha328(328); 
+        mage_alpha327(327); 
         if (print_hash_value) {
-          mage_alpha329(329); 
+          mage_alpha328(328); 
           printf("index = [%d][%d][%d]\n", i, j, k);
         }
       }
     }
   }
-  mage_alpha330(330); 
+  mage_alpha329(329); 
   for (i = 0; i < 9; i++) {
-    mage_alpha331(331); 
+    mage_alpha330(330); 
     for (j = 0; j < 5; j++) {
-      mage_alpha332(332); 
+      mage_alpha331(331); 
       transparent_crc(g_1526[i][j].f0, "g_1526[i][j].f0", print_hash_value);
-      mage_alpha333(333); 
+      mage_alpha332(332); 
       transparent_crc(g_1526[i][j].f1, "g_1526[i][j].f1", print_hash_value);
       transparent_crc(g_1526[i][j].f2, "g_1526[i][j].f2", print_hash_value);
-      mage_alpha334(334); 
+      mage_alpha333(333); 
       transparent_crc(g_1526[i][j].f3, "g_1526[i][j].f3", print_hash_value);
-      mage_alpha335(335); 
+      mage_alpha334(334); 
       transparent_crc(g_1526[i][j].f4, "g_1526[i][j].f4", print_hash_value);
       transparent_crc(g_1526[i][j].f5, "g_1526[i][j].f5", print_hash_value);
-      mage_alpha336(336); 
+      mage_alpha335(335); 
       transparent_crc(g_1526[i][j].f6, "g_1526[i][j].f6", print_hash_value);
-      mage_alpha337(337); 
+      mage_alpha336(336); 
       if (print_hash_value) {
-        mage_alpha338(338); 
+        mage_alpha337(337); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
   transparent_crc(g_1535, "g_1535", print_hash_value);
-  mage_alpha339(339); 
+  mage_alpha338(338); 
   transparent_crc(g_1536.f0, "g_1536.f0", print_hash_value);
-  mage_alpha340(340); 
+  mage_alpha339(339); 
   transparent_crc(g_1536.f1, "g_1536.f1", print_hash_value);
   transparent_crc(g_1536.f2, "g_1536.f2", print_hash_value);
-  mage_alpha341(341); 
+  mage_alpha340(340); 
   transparent_crc(g_1536.f3, "g_1536.f3", print_hash_value);
-  mage_alpha342(342); 
+  mage_alpha341(341); 
   transparent_crc(g_1536.f4, "g_1536.f4", print_hash_value);
   transparent_crc(g_1536.f5, "g_1536.f5", print_hash_value);
-  mage_alpha343(343); 
+  mage_alpha342(342); 
   transparent_crc(g_1536.f6, "g_1536.f6", print_hash_value);
-  mage_alpha344(344); 
+  mage_alpha343(343); 
   transparent_crc(g_1538.f0, "g_1538.f0", print_hash_value);
-  mage_alpha345(345); 
+  mage_alpha344(344); 
   transparent_crc(g_1538.f1, "g_1538.f1", print_hash_value);
   transparent_crc(g_1538.f2, "g_1538.f2", print_hash_value);
-  mage_alpha346(346); 
+  mage_alpha345(345); 
   transparent_crc(g_1538.f3, "g_1538.f3", print_hash_value);
-  mage_alpha347(347); 
+  mage_alpha346(346); 
   transparent_crc(g_1538.f4, "g_1538.f4", print_hash_value);
   transparent_crc(g_1538.f5, "g_1538.f5", print_hash_value);
-  mage_alpha348(348); 
+  mage_alpha347(347); 
   transparent_crc(g_1538.f6, "g_1538.f6", print_hash_value);
-  mage_alpha349(349); 
+  mage_alpha348(348); 
   for (i = 0; i < 8; i++) {
-    mage_alpha350(350); 
+    mage_alpha349(349); 
     transparent_crc(g_1565[i].f0, "g_1565[i].f0", print_hash_value);
-    mage_alpha351(351); 
+    mage_alpha350(350); 
     transparent_crc(g_1565[i].f1, "g_1565[i].f1", print_hash_value);
     transparent_crc(g_1565[i].f2, "g_1565[i].f2", print_hash_value);
-    mage_alpha352(352); 
+    mage_alpha351(351); 
     transparent_crc(g_1565[i].f3, "g_1565[i].f3", print_hash_value);
-    mage_alpha353(353); 
+    mage_alpha352(352); 
     transparent_crc(g_1565[i].f4, "g_1565[i].f4", print_hash_value);
     transparent_crc(g_1565[i].f5, "g_1565[i].f5", print_hash_value);
-    mage_alpha354(354); 
+    mage_alpha353(353); 
     transparent_crc(g_1565[i].f6, "g_1565[i].f6", print_hash_value);
-    mage_alpha355(355); 
+    mage_alpha354(354); 
     if (print_hash_value) {
-      mage_alpha356(356); 
+      mage_alpha355(355); 
       printf("index = [%d]\n", i);
     }
   }
-  mage_alpha357(357); 
+  mage_alpha356(356); 
   for (i = 0; i < 1; i++) {
-    mage_alpha358(358); 
+    mage_alpha357(357); 
     for (j = 0; j < 7; j++) {
-      mage_alpha359(359); 
+      mage_alpha358(358); 
       for (k = 0; k < 4; k++) {
-        mage_alpha360(360); 
+        mage_alpha359(359); 
         transparent_crc(g_1569[i][j][k].f0, "g_1569[i][j][k].f0",
                         print_hash_value);
-        mage_alpha361(361); 
+        mage_alpha360(360); 
         transparent_crc(g_1569[i][j][k].f1, "g_1569[i][j][k].f1",
                         print_hash_value);
         transparent_crc(g_1569[i][j][k].f2, "g_1569[i][j][k].f2",
                         print_hash_value);
-        mage_alpha362(362); 
+        mage_alpha361(361); 
         transparent_crc(g_1569[i][j][k].f3, "g_1569[i][j][k].f3",
                         print_hash_value);
-        mage_alpha363(363); 
+        mage_alpha362(362); 
         transparent_crc(g_1569[i][j][k].f4, "g_1569[i][j][k].f4",
                         print_hash_value);
         transparent_crc(g_1569[i][j][k].f5, "g_1569[i][j][k].f5",
                         print_hash_value);
-        mage_alpha364(364); 
+        mage_alpha363(363); 
         transparent_crc(g_1569[i][j][k].f6, "g_1569[i][j][k].f6",
                         print_hash_value);
-        mage_alpha365(365); 
+        mage_alpha364(364); 
         if (print_hash_value) {
-          mage_alpha366(366); 
+          mage_alpha365(365); 
           printf("index = [%d][%d][%d]\n", i, j, k);
         }
       }
     }
   }
-  mage_alpha367(367); 
+  mage_alpha366(366); 
   transparent_crc(g_1617.f0, "g_1617.f0", print_hash_value);
-  mage_alpha368(368); 
+  mage_alpha367(367); 
   transparent_crc(g_1617.f1, "g_1617.f1", print_hash_value);
   transparent_crc(g_1617.f2, "g_1617.f2", print_hash_value);
-  mage_alpha369(369); 
+  mage_alpha368(368); 
   transparent_crc(g_1617.f3, "g_1617.f3", print_hash_value);
-  mage_alpha370(370); 
+  mage_alpha369(369); 
   transparent_crc(g_1617.f4, "g_1617.f4", print_hash_value);
   transparent_crc(g_1617.f5, "g_1617.f5", print_hash_value);
-  mage_alpha371(371); 
+  mage_alpha370(370); 
   transparent_crc(g_1617.f6, "g_1617.f6", print_hash_value);
-  mage_alpha372(372); 
+  mage_alpha371(371); 
   for (i = 0; i < 2; i++) {
-    mage_alpha373(373); 
+    mage_alpha372(372); 
     for (j = 0; j < 4; j++) {
-      mage_alpha374(374); 
+      mage_alpha373(373); 
       transparent_crc(g_1721[i][j].f0, "g_1721[i][j].f0", print_hash_value);
-      mage_alpha375(375); 
+      mage_alpha374(374); 
       transparent_crc(g_1721[i][j].f1, "g_1721[i][j].f1", print_hash_value);
       transparent_crc(g_1721[i][j].f2, "g_1721[i][j].f2", print_hash_value);
-      mage_alpha376(376); 
+      mage_alpha375(375); 
       transparent_crc(g_1721[i][j].f3, "g_1721[i][j].f3", print_hash_value);
-      mage_alpha377(377); 
+      mage_alpha376(376); 
       transparent_crc(g_1721[i][j].f4, "g_1721[i][j].f4", print_hash_value);
       transparent_crc(g_1721[i][j].f5, "g_1721[i][j].f5", print_hash_value);
-      mage_alpha378(378); 
+      mage_alpha377(377); 
       transparent_crc(g_1721[i][j].f6, "g_1721[i][j].f6", print_hash_value);
-      mage_alpha379(379); 
+      mage_alpha378(378); 
       if (print_hash_value) {
-        mage_alpha380(380); 
+        mage_alpha379(379); 
         printf("index = [%d][%d]\n", i, j);
       }
     }
   }
-  mage_alpha381(381); 
+  mage_alpha380(380); 
   transparent_crc(g_1934.f0, "g_1934.f0", print_hash_value);
-  mage_alpha382(382); 
+  mage_alpha381(381); 
   transparent_crc(g_1934.f1, "g_1934.f1", print_hash_value);
   transparent_crc(g_1934.f2, "g_1934.f2", print_hash_value);
-  mage_alpha383(383); 
+  mage_alpha382(382); 
   transparent_crc(g_1934.f3, "g_1934.f3", print_hash_value);
-  mage_alpha384(384); 
+  mage_alpha383(383); 
   transparent_crc(g_1934.f4, "g_1934.f4", print_hash_value);
   transparent_crc(g_1934.f5, "g_1934.f5", print_hash_value);
-  mage_alpha385(385); 
+  mage_alpha384(384); 
   transparent_crc(g_1934.f6, "g_1934.f6", print_hash_value);
-  mage_alpha386(386); 
+  mage_alpha385(385); 
   transparent_crc(g_1974.f0, "g_1974.f0", print_hash_value);
-  mage_alpha387(387); 
+  mage_alpha386(386); 
   transparent_crc(g_1974.f1, "g_1974.f1", print_hash_value);
   transparent_crc(g_1974.f2, "g_1974.f2", print_hash_value);
-  mage_alpha388(388); 
+  mage_alpha387(387); 
   transparent_crc(g_1974.f3, "g_1974.f3", print_hash_value);
-  mage_alpha389(389); 
+  mage_alpha388(388); 
   transparent_crc(g_1974.f4, "g_1974.f4", print_hash_value);
   transparent_crc(g_1974.f5, "g_1974.f5", print_hash_value);
-  mage_alpha390(390); 
+  mage_alpha389(389); 
   transparent_crc(g_1974.f6, "g_1974.f6", print_hash_value);
   transparent_crc(g_1997, "g_1997", print_hash_value);
   transparent_crc(g_2005, "g_2005", print_hash_value);
-  mage_alpha391(391); 
+  mage_alpha390(390); 
   for (i = 0; i < 10; i++) {
-    mage_alpha392(392); 
+    mage_alpha391(391); 
     transparent_crc(g_2109[i].f0, "g_2109[i].f0", print_hash_value);
-    mage_alpha393(393); 
+    mage_alpha392(392); 
     transparent_crc(g_2109[i].f1, "g_2109[i].f1", print_hash_value);
     transparent_crc(g_2109[i].f2, "g_2109[i].f2", print_hash_value);
-    mage_alpha394(394); 
+    mage_alpha393(393); 
     transparent_crc(g_2109[i].f3, "g_2109[i].f3", print_hash_value);
-    mage_alpha395(395); 
+    mage_alpha394(394); 
     transparent_crc(g_2109[i].f4, "g_2109[i].f4", print_hash_value);
     transparent_crc(g_2109[i].f5, "g_2109[i].f5", print_hash_value);
-    mage_alpha396(396); 
+    mage_alpha395(395); 
     transparent_crc(g_2109[i].f6, "g_2109[i].f6", print_hash_value);
-    mage_alpha397(397); 
+    mage_alpha396(396); 
     if (print_hash_value) {
-      mage_alpha398(398); 
+      mage_alpha397(397); 
       printf("index = [%d]\n", i);
     }
   }
-  mage_alpha399(399); 
+  mage_alpha398(398); 
   transparent_crc(g_2112.f0, "g_2112.f0", print_hash_value);
-  mage_alpha400(400); 
+  mage_alpha399(399); 
   transparent_crc(g_2112.f1, "g_2112.f1", print_hash_value);
   transparent_crc(g_2112.f2, "g_2112.f2", print_hash_value);
-  mage_alpha401(401); 
+  mage_alpha400(400); 
   transparent_crc(g_2112.f3, "g_2112.f3", print_hash_value);
-  mage_alpha402(402); 
+  mage_alpha401(401); 
   transparent_crc(g_2112.f4, "g_2112.f4", print_hash_value);
   transparent_crc(g_2112.f5, "g_2112.f5", print_hash_value);
-  mage_alpha403(403); 
+  mage_alpha402(402); 
   transparent_crc(g_2112.f6, "g_2112.f6", print_hash_value);
   transparent_crc(g_2212, "g_2212", print_hash_value);
   transparent_crc(g_2247, "g_2247", print_hash_value);
-  mage_alpha404(404); 
+  mage_alpha403(403); 
   transparent_crc(g_2416.f0, "g_2416.f0", print_hash_value);
-  mage_alpha405(405); 
+  mage_alpha404(404); 
   transparent_crc(g_2416.f1, "g_2416.f1", print_hash_value);
   transparent_crc(g_2416.f2, "g_2416.f2", print_hash_value);
-  mage_alpha406(406); 
+  mage_alpha405(405); 
   transparent_crc(g_2416.f3, "g_2416.f3", print_hash_value);
-  mage_alpha407(407); 
+  mage_alpha406(406); 
   transparent_crc(g_2416.f4, "g_2416.f4", print_hash_value);
   transparent_crc(g_2416.f5, "g_2416.f5", print_hash_value);
-  mage_alpha408(408); 
+  mage_alpha407(407); 
   transparent_crc(g_2416.f6, "g_2416.f6", print_hash_value);
-  mage_alpha409(409); 
+  mage_alpha408(408); 
   transparent_crc(g_2615.f0, "g_2615.f0", print_hash_value);
-  mage_alpha410(410); 
+  mage_alpha409(409); 
   transparent_crc(g_2615.f1, "g_2615.f1", print_hash_value);
   transparent_crc(g_2615.f2, "g_2615.f2", print_hash_value);
-  mage_alpha411(411); 
+  mage_alpha410(410); 
   transparent_crc(g_2615.f3, "g_2615.f3", print_hash_value);
-  mage_alpha412(412); 
+  mage_alpha411(411); 
   transparent_crc(g_2615.f4, "g_2615.f4", print_hash_value);
   transparent_crc(g_2615.f5, "g_2615.f5", print_hash_value);
-  mage_alpha413(413); 
+  mage_alpha412(412); 
   transparent_crc(g_2615.f6, "g_2615.f6", print_hash_value);
-  mage_alpha414(414); 
+  mage_alpha413(413); 
   for (i = 0; i < 8; i++) {
-    mage_alpha415(415); 
+    mage_alpha414(414); 
     for (j = 0; j < 9; j++) {
-      mage_alpha416(416); 
+      mage_alpha415(415); 
       for (k = 0; k < 3; k++) {
-        mage_alpha417(417); 
+        mage_alpha416(416); 
         transparent_crc(g_2616[i][j][k].f0, "g_2616[i][j][k].f0",
                         print_hash_value);
-        mage_alpha418(418); 
+        mage_alpha417(417); 
         transparent_crc(g_2616[i][j][k].f1, "g_2616[i][j][k].f1",
                         print_hash_value);
         transparent_crc(g_2616[i][j][k].f2, "g_2616[i][j][k].f2",
                         print_hash_value);
-        mage_alpha419(419); 
+        mage_alpha418(418); 
         transparent_crc(g_2616[i][j][k].f3, "g_2616[i][j][k].f3",
                         print_hash_value);
-        mage_alpha420(420); 
+        mage_alpha419(419); 
         transparent_crc(g_2616[i][j][k].f4, "g_2616[i][j][k].f4",
                         print_hash_value);
         transparent_crc(g_2616[i][j][k].f5, "g_2616[i][j][k].f5",
                         print_hash_value);
-        mage_alpha421(421); 
+        mage_alpha420(420); 
         transparent_crc(g_2616[i][j][k].f6, "g_2616[i][j][k].f6",
                         print_hash_value);
-        mage_alpha422(422); 
+        mage_alpha421(421); 
         if (print_hash_value) {
-          mage_alpha423(423); 
+          mage_alpha422(422); 
           printf("index = [%d][%d][%d]\n", i, j, k);
         }
       }
     }
   }
   transparent_crc(g_2654, "g_2654", print_hash_value);
-  mage_alpha424(424); 
+  mage_alpha423(423); 
   transparent_crc(g_2675.f0, "g_2675.f0", print_hash_value);
-  mage_alpha425(425); 
+  mage_alpha424(424); 
   transparent_crc(g_2675.f1, "g_2675.f1", print_hash_value);
   transparent_crc(g_2675.f2, "g_2675.f2", print_hash_value);
-  mage_alpha426(426); 
+  mage_alpha425(425); 
   transparent_crc(g_2675.f3, "g_2675.f3", print_hash_value);
-  mage_alpha427(427); 
+  mage_alpha426(426); 
   transparent_crc(g_2675.f4, "g_2675.f4", print_hash_value);
   transparent_crc(g_2675.f5, "g_2675.f5", print_hash_value);
-  mage_alpha428(428); 
+  mage_alpha427(427); 
   transparent_crc(g_2675.f6, "g_2675.f6", print_hash_value);
-  mage_alpha429(429); 
+  mage_alpha428(428); 
   for (i = 0; i < 2; i++) {
-    mage_alpha430(430); 
+    mage_alpha429(429); 
     transparent_crc(g_2690[i], "g_2690[i]", print_hash_value);
-    mage_alpha431(431); 
+    mage_alpha430(430); 
     if (print_hash_value) {
-      mage_alpha432(432); 
+      mage_alpha431(431); 
       printf("index = [%d]\n", i);
     }
   }
   transparent_crc(g_2691, "g_2691", print_hash_value);
   transparent_crc(g_2709, "g_2709", print_hash_value);
   transparent_crc(g_2731, "g_2731", print_hash_value);
-  mage_alpha433(433); 
+  mage_alpha432(432); 
   transparent_crc(g_2761.f0, "g_2761.f0", print_hash_value);
-  mage_alpha434(434); 
+  mage_alpha433(433); 
   transparent_crc(g_2761.f1, "g_2761.f1", print_hash_value);
   transparent_crc(g_2761.f2, "g_2761.f2", print_hash_value);
-  mage_alpha435(435); 
+  mage_alpha434(434); 
   transparent_crc(g_2761.f3, "g_2761.f3", print_hash_value);
-  mage_alpha436(436); 
+  mage_alpha435(435); 
   transparent_crc(g_2761.f4, "g_2761.f4", print_hash_value);
   transparent_crc(g_2761.f5, "g_2761.f5", print_hash_value);
-  mage_alpha437(437); 
+  mage_alpha436(436); 
   transparent_crc(g_2761.f6, "g_2761.f6", print_hash_value);
-  mage_alpha438(438); 
+  mage_alpha437(437); 
   transparent_crc(g_2875.f0, "g_2875.f0", print_hash_value);
-  mage_alpha439(439); 
+  mage_alpha438(438); 
   transparent_crc(g_2875.f1, "g_2875.f1", print_hash_value);
   transparent_crc(g_2875.f2, "g_2875.f2", print_hash_value);
-  mage_alpha440(440); 
+  mage_alpha439(439); 
   transparent_crc(g_2875.f3, "g_2875.f3", print_hash_value);
-  mage_alpha441(441); 
+  mage_alpha440(440); 
   transparent_crc(g_2875.f4, "g_2875.f4", print_hash_value);
   transparent_crc(g_2875.f5, "g_2875.f5", print_hash_value);
-  mage_alpha442(442); 
+  mage_alpha441(441); 
   transparent_crc(g_2875.f6, "g_2875.f6", print_hash_value);
   transparent_crc(g_2905, "g_2905", print_hash_value);
   transparent_crc(g_2991, "g_2991", print_hash_value);
-  mage_alpha443(443); 
+  mage_alpha442(442); 
   transparent_crc(g_3009.f0, "g_3009.f0", print_hash_value);
-  mage_alpha444(444); 
+  mage_alpha443(443); 
   transparent_crc(g_3009.f1, "g_3009.f1", print_hash_value);
   transparent_crc(g_3009.f2, "g_3009.f2", print_hash_value);
-  mage_alpha445(445); 
+  mage_alpha444(444); 
   transparent_crc(g_3009.f3, "g_3009.f3", print_hash_value);
-  mage_alpha446(446); 
+  mage_alpha445(445); 
   transparent_crc(g_3009.f4, "g_3009.f4", print_hash_value);
   transparent_crc(g_3009.f5, "g_3009.f5", print_hash_value);
-  mage_alpha447(447); 
+  mage_alpha446(446); 
   transparent_crc(g_3009.f6, "g_3009.f6", print_hash_value);
   transparent_crc(g_3038, "g_3038", print_hash_value);
   transparent_crc(g_3068, "g_3068", print_hash_value);
-  mage_alpha448(448); 
+  mage_alpha447(447); 
   for (i = 0; i < 9; i++) {
-    mage_alpha449(449); 
+    mage_alpha448(448); 
     transparent_crc(g_3075[i].f0, "g_3075[i].f0", print_hash_value);
-    mage_alpha450(450); 
+    mage_alpha449(449); 
     transparent_crc(g_3075[i].f1, "g_3075[i].f1", print_hash_value);
     transparent_crc(g_3075[i].f2, "g_3075[i].f2", print_hash_value);
-    mage_alpha451(451); 
+    mage_alpha450(450); 
     transparent_crc(g_3075[i].f3, "g_3075[i].f3", print_hash_value);
-    mage_alpha452(452); 
+    mage_alpha451(451); 
     transparent_crc(g_3075[i].f4, "g_3075[i].f4", print_hash_value);
     transparent_crc(g_3075[i].f5, "g_3075[i].f5", print_hash_value);
-    mage_alpha453(453); 
+    mage_alpha452(452); 
     transparent_crc(g_3075[i].f6, "g_3075[i].f6", print_hash_value);
-    mage_alpha454(454); 
+    mage_alpha453(453); 
     if (print_hash_value) {
-      mage_alpha455(455); 
+      mage_alpha454(454); 
       printf("index = [%d]\n", i);
     }
   }
