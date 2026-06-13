@@ -117,6 +117,17 @@ typedef enum Elf64_DynTag {
     DT_FILTER=2147483647
 } Elf64_DynTag;
 
+typedef struct GnuBuildAttribute_8_16 GnuBuildAttribute_8_16, *PGnuBuildAttribute_8_16;
+
+struct GnuBuildAttribute_8_16 {
+    dword namesz; // Length of name field
+    dword descsz; // Length of description field
+    dword type; // Vendor specific type
+    char name[8];
+    pointer start;
+    pointer end;
+};
+
 typedef enum Elf_ProgramHeaderType {
     PT_NULL=0,
     PT_LOAD=1,
@@ -3184,14 +3195,6 @@ undefined4 mage_alpha322(undefined4 param_1)
 
 
 
-undefined4 mage_alpha323(undefined4 param_1)
-
-{
-  return param_1;
-}
-
-
-
 undefined8 main(int param_1,long param_2)
 
 {
@@ -3201,49 +3204,49 @@ undefined8 main(int param_1,long param_2)
   uint local_20;
   uint local_1c;
   
+  mage_alpha254(0xfe);
   mage_alpha255(0xff);
-  mage_alpha256(0x100);
   local_28 = 0;
-  mage_alpha257(0x101);
+  mage_alpha256(0x100);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_28 = 1;
     }
   }
-  mage_alpha258(0x102);
+  mage_alpha257(0x101);
   platform_main_begin();
-  mage_alpha259(0x103);
+  mage_alpha258(0x102);
   crc32_gentab();
   func_1();
   transparent_crc((long)g_13,&DAT_0040f240,local_28);
   transparent_crc((long)g_23,&DAT_0040f245,local_28);
   transparent_crc((long)g_29,&DAT_0040f24a,local_28);
   transparent_crc(g_39,&DAT_0040f24f,local_28);
-  mage_alpha260(0x104);
+  mage_alpha259(0x103);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    mage_alpha261(0x105);
+    mage_alpha260(0x104);
     for (local_20 = 0; (int)local_20 < 5; local_20 = local_20 + 1) {
-      mage_alpha262(0x106);
+      mage_alpha261(0x105);
       for (local_24 = 0; (int)local_24 < 1; local_24 = local_24 + 1) {
-        mage_alpha263(0x107);
+        mage_alpha262(0x106);
         transparent_crc((&g_51)[(long)(int)local_1c * 5 + (long)(int)local_20 + (long)(int)local_24]
                         ,"g_51[i][j][k]",local_28);
-        mage_alpha264(0x108);
+        mage_alpha263(0x107);
         if (local_28 != 0) {
-          mage_alpha265(0x109);
+          mage_alpha264(0x108);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  mage_alpha266(0x10a);
+  mage_alpha265(0x109);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    mage_alpha267(0x10b);
+    mage_alpha266(0x10a);
     transparent_crc((long)(int)(&g_73)[(int)local_1c],"g_73[i]",local_28);
-    mage_alpha268(0x10c);
+    mage_alpha267(0x10b);
     if (local_28 != 0) {
-      mage_alpha269(0x10d);
+      mage_alpha268(0x10c);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -3265,24 +3268,24 @@ undefined8 main(int param_1,long param_2)
   transparent_crc((long)g_435,"g_435",local_28);
   transparent_crc(g_436,"g_436",local_28);
   transparent_crc(g_441,"g_441",local_28);
-  mage_alpha270(0x10e);
+  mage_alpha269(0x10d);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    mage_alpha271(0x10f);
+    mage_alpha270(0x10e);
     transparent_crc(*(undefined1 *)((long)&g_464 + (long)(int)local_1c),"g_464[i]",local_28);
-    mage_alpha272(0x110);
+    mage_alpha271(0x10f);
     if (local_28 != 0) {
-      mage_alpha273(0x111);
+      mage_alpha272(0x110);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc((long)g_531,"g_531",local_28);
-  mage_alpha274(0x112);
+  mage_alpha273(0x111);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    mage_alpha275(0x113);
+    mage_alpha274(0x112);
     transparent_crc((&g_584)[(int)local_1c],"g_584[i]",local_28);
-    mage_alpha276(0x114);
+    mage_alpha275(0x113);
     if (local_28 != 0) {
-      mage_alpha277(0x115);
+      mage_alpha276(0x114);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -3292,23 +3295,23 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_940,"g_940",local_28);
   transparent_crc(g_980,"g_980",local_28);
   transparent_crc(g_992,"g_992",local_28);
-  mage_alpha278(0x116);
+  mage_alpha277(0x115);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    mage_alpha279(0x117);
+    mage_alpha278(0x116);
     transparent_crc(*(undefined8 *)(g_1024 + (long)(int)local_1c * 8),"g_1024[i]",local_28);
-    mage_alpha280(0x118);
+    mage_alpha279(0x117);
     if (local_28 != 0) {
-      mage_alpha281(0x119);
+      mage_alpha280(0x118);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  mage_alpha282(0x11a);
+  mage_alpha281(0x119);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    mage_alpha283(0x11b);
+    mage_alpha282(0x11a);
     transparent_crc((long)*(int *)(g_1061 + (long)(int)local_1c * 4),"g_1061[i]",local_28);
-    mage_alpha284(0x11c);
+    mage_alpha283(0x11b);
     if (local_28 != 0) {
-      mage_alpha285(0x11d);
+      mage_alpha284(0x11c);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -3336,30 +3339,30 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(0,"g_2208",local_28);
   transparent_crc(0x1a392462f065795f,"g_2259.f0",local_28);
   transparent_crc((long)g_2270,"g_2270",local_28);
-  mage_alpha286(0x11e);
+  mage_alpha285(0x11d);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    mage_alpha287(0x11f);
+    mage_alpha286(0x11e);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      mage_alpha288(0x120);
+      mage_alpha287(0x11f);
       for (local_24 = 0; (int)local_24 < 2; local_24 = local_24 + 1) {
         transparent_crc(*(undefined8 *)
                          (g_2275 + (long)(int)local_24 * 8 +
                                    (long)(int)local_20 * 0x10 + (long)(int)local_1c * 0x90),
                         "g_2275[i][j][k].f0",local_28);
-        mage_alpha289(0x121);
+        mage_alpha288(0x120);
         if (local_28 != 0) {
-          mage_alpha290(0x122);
+          mage_alpha289(0x121);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  mage_alpha291(0x123);
+  mage_alpha290(0x122);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
     transparent_crc((&g_2343)[(int)local_1c],"g_2343[i].f0",local_28);
-    mage_alpha292(0x124);
+    mage_alpha291(0x123);
     if (local_28 != 0) {
-      mage_alpha293(0x125);
+      mage_alpha292(0x124);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -3368,53 +3371,53 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_2501,&DAT_0040f43e,local_28);
   transparent_crc(g_2519,"g_2519",local_28);
   transparent_crc(g_2572,"g_2572.f0",local_28);
-  mage_alpha294(0x126);
+  mage_alpha293(0x125);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    mage_alpha295(0x127);
+    mage_alpha294(0x126);
     transparent_crc(*(undefined4 *)(g_2633 + (long)(int)local_1c * 4),"g_2633[i]",local_28);
-    mage_alpha296(0x128);
+    mage_alpha295(0x127);
     if (local_28 != 0) {
-      mage_alpha297(0x129);
+      mage_alpha296(0x128);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  mage_alpha298(0x12a);
+  mage_alpha297(0x129);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    mage_alpha299(299);
+    mage_alpha298(0x12a);
     for (local_20 = 0; (int)local_20 < 10; local_20 = local_20 + 1) {
-      mage_alpha300(300);
+      mage_alpha299(299);
       transparent_crc(*(undefined8 *)(g_2742 + (long)(int)local_20 * 8 + (long)(int)local_1c * 0x50)
                       ,"g_2742[i][j]",local_28);
-      mage_alpha301(0x12d);
+      mage_alpha300(300);
       if (local_28 != 0) {
-        mage_alpha302(0x12e);
+        mage_alpha301(0x12d);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha303(0x12f);
+  mage_alpha302(0x12e);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    mage_alpha304(0x130);
+    mage_alpha303(0x12f);
     transparent_crc((long)*(int *)(g_2786 + (long)(int)local_1c * 4),"g_2786[i]",local_28);
-    mage_alpha305(0x131);
+    mage_alpha304(0x130);
     if (local_28 != 0) {
-      mage_alpha306(0x132);
+      mage_alpha305(0x131);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  mage_alpha307(0x133);
+  mage_alpha306(0x132);
   for (local_1c = 0; (int)local_1c < 6; local_1c = local_1c + 1) {
-    mage_alpha308(0x134);
+    mage_alpha307(0x133);
     for (local_20 = 0; (int)local_20 < 2; local_20 = local_20 + 1) {
-      mage_alpha309(0x135);
+      mage_alpha308(0x134);
       for (local_24 = 0; (int)local_24 < 2; local_24 = local_24 + 1) {
-        mage_alpha310(0x136);
+        mage_alpha309(0x135);
         transparent_crc((long)*(int *)(g_2810 + (long)(int)local_24 * 4 +
                                                 (long)(int)local_20 * 8 + (long)(int)local_1c * 0x10
                                       ),"g_2810[i][j][k]",local_28);
-        mage_alpha311(0x137);
+        mage_alpha310(0x136);
         if (local_28 != 0) {
-          mage_alpha312(0x138);
+          mage_alpha311(0x137);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
@@ -3426,36 +3429,36 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_2864,"g_2864.f0",local_28);
   transparent_crc(g_2895,"g_2895.f0",local_28);
   transparent_crc(g_2897,"g_2897.f0",local_28);
-  mage_alpha313(0x139);
+  mage_alpha312(0x138);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
     transparent_crc(*(undefined8 *)(g_2900 + (long)(int)local_1c * 8),"g_2900[i].f0",local_28);
-    mage_alpha314(0x13a);
+    mage_alpha313(0x139);
     if (local_28 != 0) {
-      mage_alpha315(0x13b);
+      mage_alpha314(0x13a);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc(g_2901,"g_2901.f0",local_28);
-  mage_alpha316(0x13c);
+  mage_alpha315(0x13b);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    mage_alpha317(0x13d);
+    mage_alpha316(0x13c);
     for (local_20 = 0; (int)local_20 < 1; local_20 = local_20 + 1) {
       transparent_crc(*(undefined8 *)(g_2902 + (long)(int)local_20 * 8 + (long)(int)local_1c * 8),
                       "g_2902[i][j].f0",local_28);
-      mage_alpha318(0x13e);
+      mage_alpha317(0x13d);
       if (local_28 != 0) {
-        mage_alpha319(0x13f);
+        mage_alpha318(0x13e);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha320(0x140);
+  mage_alpha319(0x13f);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    mage_alpha321(0x141);
+    mage_alpha320(0x140);
     transparent_crc((long)*(short *)((long)&g_2921 + (long)(int)local_1c * 2),"g_2921[i]",local_28);
-    mage_alpha322(0x142);
+    mage_alpha321(0x141);
     if (local_28 != 0) {
-      mage_alpha323(0x143);
+      mage_alpha322(0x142);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -3503,112 +3506,112 @@ void crc32_gentab(void)
 
 
 
-// WARNING: Removing unreachable block (ram,0x00409458)
-// WARNING: Removing unreachable block (ram,0x004086bb)
-// WARNING: Removing unreachable block (ram,0x00405ddb)
-// WARNING: Removing unreachable block (ram,0x00405ded)
-// WARNING: Removing unreachable block (ram,0x00405dfe)
-// WARNING: Removing unreachable block (ram,0x004069e5)
-// WARNING: Removing unreachable block (ram,0x004069f2)
+// WARNING: Removing unreachable block (ram,0x00409438)
+// WARNING: Removing unreachable block (ram,0x0040869b)
+// WARNING: Removing unreachable block (ram,0x00405dbb)
+// WARNING: Removing unreachable block (ram,0x00405dcd)
+// WARNING: Removing unreachable block (ram,0x00405dde)
+// WARNING: Removing unreachable block (ram,0x004069c5)
+// WARNING: Removing unreachable block (ram,0x004069d2)
+// WARNING: Removing unreachable block (ram,0x00406a1b)
+// WARNING: Removing unreachable block (ram,0x00406af9)
+// WARNING: Removing unreachable block (ram,0x00406b1f)
+// WARNING: Removing unreachable block (ram,0x00406b38)
+// WARNING: Removing unreachable block (ram,0x00406c4d)
+// WARNING: Removing unreachable block (ram,0x00406c57)
 // WARNING: Removing unreachable block (ram,0x00406a3b)
-// WARNING: Removing unreachable block (ram,0x00406b19)
-// WARNING: Removing unreachable block (ram,0x00406b3f)
-// WARNING: Removing unreachable block (ram,0x00406b58)
-// WARNING: Removing unreachable block (ram,0x00406c6d)
-// WARNING: Removing unreachable block (ram,0x00406c77)
-// WARNING: Removing unreachable block (ram,0x00406a5b)
-// WARNING: Removing unreachable block (ram,0x00406cb0)
-// WARNING: Removing unreachable block (ram,0x00406cc4)
-// WARNING: Removing unreachable block (ram,0x00406cd5)
-// WARNING: Removing unreachable block (ram,0x00407ab4)
-// WARNING: Removing unreachable block (ram,0x00407ac5)
-// WARNING: Removing unreachable block (ram,0x00407cdc)
-// WARNING: Removing unreachable block (ram,0x00407b98)
-// WARNING: Removing unreachable block (ram,0x00407bb6)
-// WARNING: Removing unreachable block (ram,0x00407bbf)
-// WARNING: Removing unreachable block (ram,0x00407be3)
-// WARNING: Removing unreachable block (ram,0x00407dc0)
-// WARNING: Removing unreachable block (ram,0x00407dde)
-// WARNING: Removing unreachable block (ram,0x00407de7)
-// WARNING: Removing unreachable block (ram,0x00407e0a)
-// WARNING: Removing unreachable block (ram,0x00407f32)
-// WARNING: Removing unreachable block (ram,0x00407f49)
-// WARNING: Removing unreachable block (ram,0x00407dac)
-// WARNING: Removing unreachable block (ram,0x00407db6)
-// WARNING: Removing unreachable block (ram,0x00407dbb)
-// WARNING: Removing unreachable block (ram,0x00407fd7)
-// WARNING: Removing unreachable block (ram,0x00408102)
-// WARNING: Removing unreachable block (ram,0x00407fe4)
-// WARNING: Removing unreachable block (ram,0x00408034)
-// WARNING: Removing unreachable block (ram,0x00408041)
-// WARNING: Removing unreachable block (ram,0x00408055)
-// WARNING: Removing unreachable block (ram,0x0040805e)
-// WARNING: Removing unreachable block (ram,0x00408072)
-// WARNING: Removing unreachable block (ram,0x0040807b)
-// WARNING: Removing unreachable block (ram,0x004080c4)
-// WARNING: Removing unreachable block (ram,0x004080da)
-// WARNING: Removing unreachable block (ram,0x004080f0)
-// WARNING: Removing unreachable block (ram,0x0040811a)
-// WARNING: Removing unreachable block (ram,0x00408131)
-// WARNING: Removing unreachable block (ram,0x004081c4)
-// WARNING: Removing unreachable block (ram,0x004081dc)
-// WARNING: Removing unreachable block (ram,0x004082a8)
-// WARNING: Removing unreachable block (ram,0x004082c1)
-// WARNING: Removing unreachable block (ram,0x00409697)
-// WARNING: Removing unreachable block (ram,0x0040972c)
-// WARNING: Removing unreachable block (ram,0x00409756)
-// WARNING: Removing unreachable block (ram,0x00409760)
-// WARNING: Removing unreachable block (ram,0x004097b3)
-// WARNING: Removing unreachable block (ram,0x004097d6)
-// WARNING: Removing unreachable block (ram,0x004082d3)
-// WARNING: Removing unreachable block (ram,0x004082e4)
-// WARNING: Removing unreachable block (ram,0x0040840f)
-// WARNING: Removing unreachable block (ram,0x00408420)
-// WARNING: Removing unreachable block (ram,0x0040847c)
-// WARNING: Removing unreachable block (ram,0x00408493)
-// WARNING: Removing unreachable block (ram,0x00408519)
-// WARNING: Removing unreachable block (ram,0x0040851e)
-// WARNING: Removing unreachable block (ram,0x0040931d)
-// WARNING: Removing unreachable block (ram,0x00409344)
-// WARNING: Removing unreachable block (ram,0x0040934d)
-// WARNING: Removing unreachable block (ram,0x00409371)
-// WARNING: Removing unreachable block (ram,0x00409385)
-// WARNING: Removing unreachable block (ram,0x0040938e)
-// WARNING: Removing unreachable block (ram,0x004093bc)
-// WARNING: Removing unreachable block (ram,0x004093d1)
-// WARNING: Removing unreachable block (ram,0x004093df)
-// WARNING: Removing unreachable block (ram,0x00409573)
-// WARNING: Removing unreachable block (ram,0x00409580)
-// WARNING: Removing unreachable block (ram,0x004095b1)
-// WARNING: Removing unreachable block (ram,0x004095e8)
-// WARNING: Removing unreachable block (ram,0x00409601)
-// WARNING: Removing unreachable block (ram,0x004095ff)
-// WARNING: Removing unreachable block (ram,0x004095c5)
-// WARNING: Removing unreachable block (ram,0x004095e6)
-// WARNING: Removing unreachable block (ram,0x00409613)
-// WARNING: Removing unreachable block (ram,0x0040961d)
-// WARNING: Removing unreachable block (ram,0x0040962c)
-// WARNING: Removing unreachable block (ram,0x004095e4)
-// WARNING: Removing unreachable block (ram,0x0040962e)
-// WARNING: Removing unreachable block (ram,0x00409644)
-// WARNING: Removing unreachable block (ram,0x00409663)
-// WARNING: Removing unreachable block (ram,0x00408553)
-// WARNING: Removing unreachable block (ram,0x00408648)
-// WARNING: Removing unreachable block (ram,0x00408651)
-// WARNING: Removing unreachable block (ram,0x00408678)
-// WARNING: Removing unreachable block (ram,0x0040868d)
-// WARNING: Removing unreachable block (ram,0x00408697)
-// WARNING: Removing unreachable block (ram,0x004086a4)
-// WARNING: Removing unreachable block (ram,0x004086d0)
-// WARNING: Removing unreachable block (ram,0x004086da)
-// WARNING: Removing unreachable block (ram,0x004086e7)
-// WARNING: Removing unreachable block (ram,0x004092f5)
-// WARNING: Removing unreachable block (ram,0x0040981c)
-// WARNING: Removing unreachable block (ram,0x00405771)
-// WARNING: Removing unreachable block (ram,0x00404b14)
-// WARNING: Removing unreachable block (ram,0x0040578c)
-// WARNING: Removing unreachable block (ram,0x00409835)
-// WARNING: Removing unreachable block (ram,0x004057a4)
+// WARNING: Removing unreachable block (ram,0x00406c90)
+// WARNING: Removing unreachable block (ram,0x00406ca4)
+// WARNING: Removing unreachable block (ram,0x00406cb5)
+// WARNING: Removing unreachable block (ram,0x00407a94)
+// WARNING: Removing unreachable block (ram,0x00407aa5)
+// WARNING: Removing unreachable block (ram,0x00407cbc)
+// WARNING: Removing unreachable block (ram,0x00407b78)
+// WARNING: Removing unreachable block (ram,0x00407b96)
+// WARNING: Removing unreachable block (ram,0x00407b9f)
+// WARNING: Removing unreachable block (ram,0x00407bc3)
+// WARNING: Removing unreachable block (ram,0x00407da0)
+// WARNING: Removing unreachable block (ram,0x00407dbe)
+// WARNING: Removing unreachable block (ram,0x00407dc7)
+// WARNING: Removing unreachable block (ram,0x00407dea)
+// WARNING: Removing unreachable block (ram,0x00407f12)
+// WARNING: Removing unreachable block (ram,0x00407f29)
+// WARNING: Removing unreachable block (ram,0x00407d8c)
+// WARNING: Removing unreachable block (ram,0x00407d96)
+// WARNING: Removing unreachable block (ram,0x00407d9b)
+// WARNING: Removing unreachable block (ram,0x00407fb7)
+// WARNING: Removing unreachable block (ram,0x004080e2)
+// WARNING: Removing unreachable block (ram,0x00407fc4)
+// WARNING: Removing unreachable block (ram,0x00408014)
+// WARNING: Removing unreachable block (ram,0x00408021)
+// WARNING: Removing unreachable block (ram,0x00408035)
+// WARNING: Removing unreachable block (ram,0x0040803e)
+// WARNING: Removing unreachable block (ram,0x00408052)
+// WARNING: Removing unreachable block (ram,0x0040805b)
+// WARNING: Removing unreachable block (ram,0x004080a4)
+// WARNING: Removing unreachable block (ram,0x004080ba)
+// WARNING: Removing unreachable block (ram,0x004080d0)
+// WARNING: Removing unreachable block (ram,0x004080fa)
+// WARNING: Removing unreachable block (ram,0x00408111)
+// WARNING: Removing unreachable block (ram,0x004081a4)
+// WARNING: Removing unreachable block (ram,0x004081bc)
+// WARNING: Removing unreachable block (ram,0x00408288)
+// WARNING: Removing unreachable block (ram,0x004082a1)
+// WARNING: Removing unreachable block (ram,0x00409677)
+// WARNING: Removing unreachable block (ram,0x0040970c)
+// WARNING: Removing unreachable block (ram,0x00409736)
+// WARNING: Removing unreachable block (ram,0x00409740)
+// WARNING: Removing unreachable block (ram,0x00409793)
+// WARNING: Removing unreachable block (ram,0x004097b6)
+// WARNING: Removing unreachable block (ram,0x004082b3)
+// WARNING: Removing unreachable block (ram,0x004082c4)
+// WARNING: Removing unreachable block (ram,0x004083ef)
+// WARNING: Removing unreachable block (ram,0x00408400)
+// WARNING: Removing unreachable block (ram,0x0040845c)
+// WARNING: Removing unreachable block (ram,0x00408473)
+// WARNING: Removing unreachable block (ram,0x004084f9)
+// WARNING: Removing unreachable block (ram,0x004084fe)
+// WARNING: Removing unreachable block (ram,0x004092fd)
+// WARNING: Removing unreachable block (ram,0x00409324)
+// WARNING: Removing unreachable block (ram,0x0040932d)
+// WARNING: Removing unreachable block (ram,0x00409351)
+// WARNING: Removing unreachable block (ram,0x00409365)
+// WARNING: Removing unreachable block (ram,0x0040936e)
+// WARNING: Removing unreachable block (ram,0x0040939c)
+// WARNING: Removing unreachable block (ram,0x004093b1)
+// WARNING: Removing unreachable block (ram,0x004093bf)
+// WARNING: Removing unreachable block (ram,0x00409553)
+// WARNING: Removing unreachable block (ram,0x00409560)
+// WARNING: Removing unreachable block (ram,0x00409591)
+// WARNING: Removing unreachable block (ram,0x004095c8)
+// WARNING: Removing unreachable block (ram,0x004095e1)
+// WARNING: Removing unreachable block (ram,0x004095df)
+// WARNING: Removing unreachable block (ram,0x004095a5)
+// WARNING: Removing unreachable block (ram,0x004095c6)
+// WARNING: Removing unreachable block (ram,0x004095f3)
+// WARNING: Removing unreachable block (ram,0x004095fd)
+// WARNING: Removing unreachable block (ram,0x0040960c)
+// WARNING: Removing unreachable block (ram,0x004095c4)
+// WARNING: Removing unreachable block (ram,0x0040960e)
+// WARNING: Removing unreachable block (ram,0x00409624)
+// WARNING: Removing unreachable block (ram,0x00409643)
+// WARNING: Removing unreachable block (ram,0x00408533)
+// WARNING: Removing unreachable block (ram,0x00408628)
+// WARNING: Removing unreachable block (ram,0x00408631)
+// WARNING: Removing unreachable block (ram,0x00408658)
+// WARNING: Removing unreachable block (ram,0x0040866d)
+// WARNING: Removing unreachable block (ram,0x00408677)
+// WARNING: Removing unreachable block (ram,0x00408684)
+// WARNING: Removing unreachable block (ram,0x004086b0)
+// WARNING: Removing unreachable block (ram,0x004086ba)
+// WARNING: Removing unreachable block (ram,0x004086c7)
+// WARNING: Removing unreachable block (ram,0x004092d5)
+// WARNING: Removing unreachable block (ram,0x004097fc)
+// WARNING: Removing unreachable block (ram,0x00405751)
+// WARNING: Removing unreachable block (ram,0x00404af4)
+// WARNING: Removing unreachable block (ram,0x0040576c)
+// WARNING: Removing unreachable block (ram,0x00409815)
+// WARNING: Removing unreachable block (ram,0x00405784)
 // WARNING: Globals starting with '_' overlap smaller symbols at the same address
 
 undefined8 func_1(void)
@@ -4101,7 +4104,7 @@ void platform_main_end(uint param_1)
 
 
 
-// WARNING: Removing unreachable block (ram,0x0040abbe)
+// WARNING: Removing unreachable block (ram,0x0040ab9e)
 
 undefined * func_2(uint param_1,long param_2,ulong param_3,byte param_4)
 
@@ -4662,17 +4665,17 @@ undefined8 func_8(void)
 
 
 
-// WARNING: Removing unreachable block (ram,0x0040bfec)
-// WARNING: Removing unreachable block (ram,0x0040bbc9)
-// WARNING: Removing unreachable block (ram,0x0040bc88)
-// WARNING: Removing unreachable block (ram,0x0040bc9c)
-// WARNING: Removing unreachable block (ram,0x0040bcf4)
-// WARNING: Removing unreachable block (ram,0x0040bcfe)
-// WARNING: Removing unreachable block (ram,0x0040bd8f)
-// WARNING: Removing unreachable block (ram,0x0040bda5)
-// WARNING: Removing unreachable block (ram,0x0040bdb3)
-// WARNING: Removing unreachable block (ram,0x0040bddb)
-// WARNING: Removing unreachable block (ram,0x0040c003)
+// WARNING: Removing unreachable block (ram,0x0040bfcc)
+// WARNING: Removing unreachable block (ram,0x0040bba9)
+// WARNING: Removing unreachable block (ram,0x0040bc68)
+// WARNING: Removing unreachable block (ram,0x0040bc7c)
+// WARNING: Removing unreachable block (ram,0x0040bcd4)
+// WARNING: Removing unreachable block (ram,0x0040bcde)
+// WARNING: Removing unreachable block (ram,0x0040bd6f)
+// WARNING: Removing unreachable block (ram,0x0040bd85)
+// WARNING: Removing unreachable block (ram,0x0040bd93)
+// WARNING: Removing unreachable block (ram,0x0040bdbb)
+// WARNING: Removing unreachable block (ram,0x0040bfe3)
 
 undefined8 func_14(undefined8 param_1)
 

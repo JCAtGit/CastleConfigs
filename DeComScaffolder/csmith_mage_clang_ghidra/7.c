@@ -115,6 +115,17 @@ typedef enum Elf64_DynTag {
     DT_FILTER=2147483647
 } Elf64_DynTag;
 
+typedef struct GnuBuildAttribute_8_16 GnuBuildAttribute_8_16, *PGnuBuildAttribute_8_16;
+
+struct GnuBuildAttribute_8_16 {
+    dword namesz; // Length of name field
+    dword descsz; // Length of description field
+    dword type; // Vendor specific type
+    char name[8];
+    pointer start;
+    pointer end;
+};
+
 typedef enum Elf_ProgramHeaderType {
     PT_NULL=0,
     PT_LOAD=1,
@@ -2272,14 +2283,6 @@ undefined4 mage_alpha219(undefined4 param_1)
 
 
 
-undefined4 mage_alpha220(undefined4 param_1)
-
-{
-  return param_1;
-}
-
-
-
 undefined8 main(int param_1,long param_2)
 
 {
@@ -2289,19 +2292,19 @@ undefined8 main(int param_1,long param_2)
   uint local_20;
   uint local_1c;
   
+  mage_alpha123(0x7b);
   mage_alpha124(0x7c);
-  mage_alpha125(0x7d);
   local_28 = 0;
-  mage_alpha126(0x7e);
+  mage_alpha125(0x7d);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_28 = 1;
     }
   }
-  mage_alpha127(0x7f);
+  mage_alpha126(0x7e);
   platform_main_begin();
-  mage_alpha128(0x80);
+  mage_alpha127(0x7f);
   crc32_gentab();
   func_1();
   transparent_crc(g_4,&DAT_00404240,local_28);
@@ -2310,16 +2313,16 @@ undefined8 main(int param_1,long param_2)
   transparent_crc((long)g_40,&DAT_0040424e,local_28);
   transparent_crc((long)g_59,&DAT_00404253,local_28);
   transparent_crc((long)g_62,&DAT_00404258,local_28);
-  mage_alpha129(0x81);
+  mage_alpha128(0x80);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    mage_alpha130(0x82);
+    mage_alpha129(0x81);
     for (local_20 = 0; (int)local_20 < 10; local_20 = local_20 + 1) {
-      mage_alpha131(0x83);
+      mage_alpha130(0x82);
       transparent_crc(*(undefined2 *)(g_64 + (long)(int)local_20 * 2 + (long)(int)local_1c * 0x14),
                       "g_64[i][j]",local_28);
-      mage_alpha132(0x84);
+      mage_alpha131(0x83);
       if (local_28 != 0) {
-        mage_alpha133(0x85);
+        mage_alpha132(0x84);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
@@ -2329,16 +2332,16 @@ undefined8 main(int param_1,long param_2)
   transparent_crc((long)g_115,"g_115",local_28);
   transparent_crc(g_133,"g_133",local_28);
   transparent_crc((long)g_136,"g_136",local_28);
-  mage_alpha134(0x86);
+  mage_alpha133(0x85);
   for (local_1c = 0; (int)local_1c < 8; local_1c = local_1c + 1) {
-    mage_alpha135(0x87);
+    mage_alpha134(0x86);
     for (local_20 = 0; (int)local_20 < 6; local_20 = local_20 + 1) {
-      mage_alpha136(0x88);
+      mage_alpha135(0x87);
       transparent_crc(*(undefined4 *)(g_138 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x18),
                       "g_138[i][j]",local_28);
-      mage_alpha137(0x89);
+      mage_alpha136(0x88);
       if (local_28 != 0) {
-        mage_alpha138(0x8a);
+        mage_alpha137(0x89);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
@@ -2349,47 +2352,47 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_158,"g_158",local_28);
   transparent_crc(g_163,"g_163",local_28);
   transparent_crc((long)g_167,"g_167",local_28);
-  mage_alpha139(0x8b);
+  mage_alpha138(0x8a);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
-    mage_alpha140(0x8c);
+    mage_alpha139(0x8b);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      mage_alpha141(0x8d);
+      mage_alpha140(0x8c);
       transparent_crc(*(undefined4 *)(g_168 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x10),
                       "g_168[i][j]",local_28);
-      mage_alpha142(0x8e);
+      mage_alpha141(0x8d);
       if (local_28 != 0) {
-        mage_alpha143(0x8f);
+        mage_alpha142(0x8e);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha144(0x90);
+  mage_alpha143(0x8f);
   for (local_1c = 0; (int)local_1c < 7; local_1c = local_1c + 1) {
-    mage_alpha145(0x91);
+    mage_alpha144(0x90);
     for (local_20 = 0; (int)local_20 < 7; local_20 = local_20 + 1) {
       transparent_crc(*(undefined2 *)(g_174 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x1c),
                       "g_174[i][j].f0",local_28);
-      mage_alpha146(0x92);
+      mage_alpha145(0x91);
       if (local_28 != 0) {
-        mage_alpha147(0x93);
+        mage_alpha146(0x92);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
   transparent_crc(g_193,"g_193",local_28);
-  mage_alpha148(0x94);
+  mage_alpha147(0x93);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    mage_alpha149(0x95);
+    mage_alpha148(0x94);
     for (local_20 = 0; (int)local_20 < 10; local_20 = local_20 + 1) {
-      mage_alpha150(0x96);
+      mage_alpha149(0x95);
       for (local_24 = 0; (int)local_24 < 2; local_24 = local_24 + 1) {
-        mage_alpha151(0x97);
+        mage_alpha150(0x96);
         transparent_crc((long)(char)g_243[(long)(int)local_24 +
                                           (long)(int)local_20 * 2 + (long)(int)local_1c * 0x14],
                         "g_243[i][j][k]",local_28);
-        mage_alpha152(0x98);
+        mage_alpha151(0x97);
         if (local_28 != 0) {
-          mage_alpha153(0x99);
+          mage_alpha152(0x98);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
@@ -2397,13 +2400,13 @@ undefined8 main(int param_1,long param_2)
   }
   transparent_crc(g_399,"g_399",local_28);
   transparent_crc((long)g_404,"g_404",local_28);
-  mage_alpha154(0x9a);
+  mage_alpha153(0x99);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    mage_alpha155(0x9b);
+    mage_alpha154(0x9a);
     transparent_crc((long)*(int *)(g_406 + (long)(int)local_1c * 4),"g_406[i]",local_28);
-    mage_alpha156(0x9c);
+    mage_alpha155(0x9b);
     if (local_28 != 0) {
-      mage_alpha157(0x9d);
+      mage_alpha156(0x9c);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -2415,19 +2418,19 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_642,"g_642.f0",local_28);
   transparent_crc(g_690,"g_690",local_28);
   transparent_crc(g_727,"g_727",local_28);
-  mage_alpha158(0x9e);
+  mage_alpha157(0x9d);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    mage_alpha159(0x9f);
+    mage_alpha158(0x9e);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      mage_alpha160(0xa0);
+      mage_alpha159(0x9f);
       for (local_24 = 0; (int)local_24 < 2; local_24 = local_24 + 1) {
         transparent_crc(*(undefined2 *)
                          (g_822 + (long)(int)local_24 * 4 +
                                   (long)(int)local_20 * 8 + (long)(int)local_1c * 0x20),
                         "g_822[i][j][k].f0",local_28);
-        mage_alpha161(0xa1);
+        mage_alpha160(0xa0);
         if (local_28 != 0) {
-          mage_alpha162(0xa2);
+          mage_alpha161(0xa1);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
@@ -2436,19 +2439,19 @@ undefined8 main(int param_1,long param_2)
   transparent_crc((long)g_836,"g_836",local_28);
   transparent_crc(g_837,"g_837",local_28);
   transparent_crc((long)g_904,"g_904",local_28);
-  mage_alpha163(0xa3);
+  mage_alpha162(0xa2);
   for (local_1c = 0; (int)local_1c < 1; local_1c = local_1c + 1) {
-    mage_alpha164(0xa4);
+    mage_alpha163(0xa3);
     for (local_20 = 0; (int)local_20 < 7; local_20 = local_20 + 1) {
-      mage_alpha165(0xa5);
+      mage_alpha164(0xa4);
       for (local_24 = 0; (int)local_24 < 9; local_24 = local_24 + 1) {
-        mage_alpha166(0xa6);
+        mage_alpha165(0xa5);
         transparent_crc(g_1025[(long)(int)local_24 +
                                (long)(int)local_20 * 9 + (long)(int)local_1c * 0x3f],
                         "g_1025[i][j][k]",local_28);
-        mage_alpha167(0xa7);
+        mage_alpha166(0xa6);
         if (local_28 != 0) {
-          mage_alpha168(0xa8);
+          mage_alpha167(0xa7);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
@@ -2457,34 +2460,34 @@ undefined8 main(int param_1,long param_2)
   transparent_crc((long)g_1177,"g_1177",local_28);
   transparent_crc(g_1207,"g_1207",local_28);
   transparent_crc(g_1287,"g_1287.f0",local_28);
-  mage_alpha169(0xa9);
+  mage_alpha168(0xa8);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    mage_alpha170(0xaa);
+    mage_alpha169(0xa9);
     for (local_20 = 0; (int)local_20 < 7; local_20 = local_20 + 1) {
-      mage_alpha171(0xab);
+      mage_alpha170(0xaa);
       transparent_crc((long)*(int *)(g_1312 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x1c),
                       "g_1312[i][j]",local_28);
-      mage_alpha172(0xac);
+      mage_alpha171(0xab);
       if (local_28 != 0) {
-        mage_alpha173(0xad);
+        mage_alpha172(0xac);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
   transparent_crc((long)g_1345,"g_1345",local_28);
-  mage_alpha174(0xae);
+  mage_alpha173(0xad);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    mage_alpha175(0xaf);
+    mage_alpha174(0xae);
     for (local_20 = 0; (int)local_20 < 6; local_20 = local_20 + 1) {
-      mage_alpha176(0xb0);
+      mage_alpha175(0xaf);
       for (local_24 = 0; (int)local_24 < 4; local_24 = local_24 + 1) {
-        mage_alpha177(0xb1);
+        mage_alpha176(0xb0);
         transparent_crc(g_1354[(long)(int)local_24 +
                                (long)(int)local_20 * 4 + (long)(int)local_1c * 0x18],
                         "g_1354[i][j][k]",local_28);
-        mage_alpha178(0xb2);
+        mage_alpha177(0xb1);
         if (local_28 != 0) {
-          mage_alpha179(0xb3);
+          mage_alpha178(0xb2);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
@@ -2492,34 +2495,34 @@ undefined8 main(int param_1,long param_2)
   }
   transparent_crc(g_1368,"g_1368",local_28);
   transparent_crc(g_1371,"g_1371.f0",local_28);
-  mage_alpha180(0xb4);
+  mage_alpha179(0xb3);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    mage_alpha181(0xb5);
+    mage_alpha180(0xb4);
     for (local_20 = 0; (int)local_20 < 7; local_20 = local_20 + 1) {
-      mage_alpha182(0xb6);
+      mage_alpha181(0xb5);
       for (local_24 = 0; (int)local_24 < 7; local_24 = local_24 + 1) {
         transparent_crc(*(undefined2 *)
                          (g_1377 + (long)(int)local_24 * 4 +
                                    (long)(int)local_20 * 0x1c + (long)(int)local_1c * 0xc4),
                         "g_1377[i][j][k].f0",local_28);
-        mage_alpha183(0xb7);
+        mage_alpha182(0xb6);
         if (local_28 != 0) {
-          mage_alpha184(0xb8);
+          mage_alpha183(0xb7);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
   transparent_crc(g_1399,"g_1399.f0",local_28);
-  mage_alpha185(0xb9);
+  mage_alpha184(0xb8);
   for (local_1c = 0; (int)local_1c < 6; local_1c = local_1c + 1) {
-    mage_alpha186(0xba);
+    mage_alpha185(0xb9);
     for (local_20 = 0; (int)local_20 < 1; local_20 = local_20 + 1) {
       transparent_crc(*(undefined2 *)(g_1411 + (long)(int)local_20 * 4 + (long)(int)local_1c * 4),
                       "g_1411[i][j].f0",local_28);
-      mage_alpha187(0xbb);
+      mage_alpha186(0xba);
       if (local_28 != 0) {
-        mage_alpha188(0xbc);
+        mage_alpha187(0xbb);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
@@ -2527,32 +2530,32 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_1439,"g_1439.f0",local_28);
   transparent_crc((long)g_1440,"g_1440",local_28);
   transparent_crc(g_1491,"g_1491",local_28);
-  mage_alpha189(0xbd);
+  mage_alpha188(0xbc);
   for (local_1c = 0; (int)local_1c < 6; local_1c = local_1c + 1) {
-    mage_alpha190(0xbe);
+    mage_alpha189(0xbd);
     for (local_20 = 0; (int)local_20 < 10; local_20 = local_20 + 1) {
       transparent_crc(*(undefined2 *)(g_1504 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x28)
                       ,"g_1504[i][j].f0",local_28);
-      mage_alpha191(0xbf);
+      mage_alpha190(0xbe);
       if (local_28 != 0) {
-        mage_alpha192(0xc0);
+        mage_alpha191(0xbf);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha193(0xc1);
+  mage_alpha192(0xc0);
   for (local_1c = 0; (int)local_1c < 8; local_1c = local_1c + 1) {
-    mage_alpha194(0xc2);
+    mage_alpha193(0xc1);
     for (local_20 = 0; (int)local_20 < 1; local_20 = local_20 + 1) {
-      mage_alpha195(0xc3);
+      mage_alpha194(0xc2);
       for (local_24 = 0; (int)local_24 < 7; local_24 = local_24 + 1) {
         transparent_crc(*(undefined2 *)
                          (g_1522 + (long)(int)local_24 * 4 +
                                    (long)(int)local_20 * 0x1c + (long)(int)local_1c * 0x1c),
                         "g_1522[i][j][k].f0",local_28);
-        mage_alpha196(0xc4);
+        mage_alpha195(0xc3);
         if (local_28 != 0) {
-          mage_alpha197(0xc5);
+          mage_alpha196(0xc4);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
@@ -2564,42 +2567,42 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_1711,"g_1711.f0",local_28);
   transparent_crc(g_1719,"g_1719.f0",local_28);
   transparent_crc(g_1808,"g_1808.f0",local_28);
-  mage_alpha198(0xc6);
+  mage_alpha197(0xc5);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
     transparent_crc(*(undefined2 *)(g_1860 + (long)(int)local_1c * 4),"g_1860[i].f0",local_28);
-    mage_alpha199(199);
+    mage_alpha198(0xc6);
     if (local_28 != 0) {
-      mage_alpha200(200);
+      mage_alpha199(199);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc(g_1894,"g_1894.f0",local_28);
   transparent_crc(g_1944,"g_1944",local_28);
-  mage_alpha201(0xc9);
+  mage_alpha200(200);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    mage_alpha202(0xca);
+    mage_alpha201(0xc9);
     for (local_20 = 0; (int)local_20 < 5; local_20 = local_20 + 1) {
-      mage_alpha203(0xcb);
+      mage_alpha202(0xca);
       for (local_24 = 0; (int)local_24 < 8; local_24 = local_24 + 1) {
-        mage_alpha204(0xcc);
+        mage_alpha203(0xcb);
         transparent_crc(*(undefined4 *)
                          (g_1946 + (long)(int)local_24 * 4 +
                                    (long)(int)local_20 * 0x20 + (long)(int)local_1c * 0xa0),
                         "g_1946[i][j][k]",local_28);
-        mage_alpha205(0xcd);
+        mage_alpha204(0xcc);
         if (local_28 != 0) {
-          mage_alpha206(0xce);
+          mage_alpha205(0xcd);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  mage_alpha207(0xcf);
+  mage_alpha206(0xce);
   for (local_1c = 0; (int)local_1c < 6; local_1c = local_1c + 1) {
     transparent_crc(*(undefined2 *)(g_1972 + (long)(int)local_1c * 4),"g_1972[i].f0",local_28);
-    mage_alpha208(0xd0);
+    mage_alpha207(0xcf);
     if (local_28 != 0) {
-      mage_alpha209(0xd1);
+      mage_alpha208(0xd0);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -2607,38 +2610,38 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_2034,"g_2034.f0",local_28);
   transparent_crc(g_2086,"g_2086.f0",local_28);
   transparent_crc((long)g_2172,"g_2172",local_28);
-  mage_alpha210(0xd2);
+  mage_alpha209(0xd1);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    mage_alpha211(0xd3);
+    mage_alpha210(0xd2);
     for (local_20 = 0; (int)local_20 < 10; local_20 = local_20 + 1) {
-      mage_alpha212(0xd4);
+      mage_alpha211(0xd3);
       transparent_crc((long)(char)g_2194[(long)(int)local_20 + (long)(int)local_1c * 10],
                       "g_2194[i][j]",local_28);
-      mage_alpha213(0xd5);
+      mage_alpha212(0xd4);
       if (local_28 != 0) {
-        mage_alpha214(0xd6);
+        mage_alpha213(0xd5);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha215(0xd7);
+  mage_alpha214(0xd6);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
     transparent_crc(*(undefined2 *)(g_2200 + (long)(int)local_1c * 4),"g_2200[i].f0",local_28);
-    mage_alpha216(0xd8);
+    mage_alpha215(0xd7);
     if (local_28 != 0) {
-      mage_alpha217(0xd9);
+      mage_alpha216(0xd8);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc(0xfffc,"g_2203.f0",local_28);
   transparent_crc(g_2255,"g_2255.f0",local_28);
   transparent_crc(g_2361,&DAT_0040451f,local_28);
-  mage_alpha218(0xda);
+  mage_alpha217(0xd9);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
     transparent_crc(*(undefined2 *)(g_2380 + (long)(int)local_1c * 4),"g_2380[i].f0",local_28);
-    mage_alpha219(0xdb);
+    mage_alpha218(0xda);
     if (local_28 != 0) {
-      mage_alpha220(0xdc);
+      mage_alpha219(0xdb);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }

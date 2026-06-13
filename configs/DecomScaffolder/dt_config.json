@@ -8,7 +8,9 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"hashcat-7.1.2_mage_build_ghidra",
@@ -78,7 +80,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": true,
-			"active":false,
+			"active":true,
 			"run_per_file":true,
 			"run_as_it": true,
 			"it_begin": 0,

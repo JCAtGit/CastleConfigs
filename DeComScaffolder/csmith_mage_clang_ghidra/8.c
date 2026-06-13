@@ -115,6 +115,17 @@ typedef enum Elf64_DynTag {
     DT_FILTER=2147483647
 } Elf64_DynTag;
 
+typedef struct GnuBuildAttribute_8_16 GnuBuildAttribute_8_16, *PGnuBuildAttribute_8_16;
+
+struct GnuBuildAttribute_8_16 {
+    dword namesz; // Length of name field
+    dword descsz; // Length of description field
+    dword type; // Vendor specific type
+    char name[8];
+    pointer start;
+    pointer end;
+};
+
 typedef enum Elf_ProgramHeaderType {
     PT_NULL=0,
     PT_LOAD=1,
@@ -4300,14 +4311,6 @@ undefined4 mage_alpha454(undefined4 param_1)
 
 
 
-undefined4 mage_alpha455(undefined4 param_1)
-
-{
-  return param_1;
-}
-
-
-
 undefined8 main(int param_1,long param_2)
 
 {
@@ -4317,63 +4320,63 @@ undefined8 main(int param_1,long param_2)
   uint local_20;
   uint local_1c;
   
+  mage_alpha171(0xab);
   mage_alpha172(0xac);
-  mage_alpha173(0xad);
   local_28 = 0;
-  mage_alpha174(0xae);
+  mage_alpha173(0xad);
   if (param_1 == 2) {
     iVar1 = strcmp(*(char **)(param_2 + 8),"1");
     if (iVar1 == 0) {
       local_28 = 1;
     }
   }
-  mage_alpha175(0xaf);
+  mage_alpha174(0xae);
   platform_main_begin();
-  mage_alpha176(0xb0);
+  mage_alpha175(0xaf);
   crc32_gentab();
   func_1();
   transparent_crc((long)g_3,&DAT_0040a240,local_28);
   transparent_crc((long)g_4,&DAT_0040a244,local_28);
   transparent_crc((long)g_5,&DAT_0040a248,local_28);
   transparent_crc((long)g_6,&DAT_0040a24c,local_28);
-  mage_alpha177(0xb1);
+  mage_alpha176(0xb0);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    mage_alpha178(0xb2);
+    mage_alpha177(0xb1);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      mage_alpha179(0xb3);
+      mage_alpha178(0xb2);
       transparent_crc((long)*(int *)(g_45 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x24),
                       "g_45[i][j]",local_28);
-      mage_alpha180(0xb4);
+      mage_alpha179(0xb3);
       if (local_28 != 0) {
-        mage_alpha181(0xb5);
+        mage_alpha180(0xb4);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
   transparent_crc(g_59,&DAT_0040a26d,local_28);
-  mage_alpha182(0xb6);
+  mage_alpha181(0xb5);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    mage_alpha183(0xb7);
+    mage_alpha182(0xb6);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      mage_alpha184(0xb8);
+      mage_alpha183(0xb7);
       transparent_crc(g_65[(long)(int)local_20 + (long)(int)local_1c * 4],"g_65[i][j]",local_28);
-      mage_alpha185(0xb9);
+      mage_alpha184(0xb8);
       if (local_28 != 0) {
-        mage_alpha186(0xba);
+        mage_alpha185(0xb9);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha187(0xbb);
+  mage_alpha186(0xba);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    mage_alpha188(0xbc);
+    mage_alpha187(0xbb);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      mage_alpha189(0xbd);
+      mage_alpha188(0xbc);
       transparent_crc(*(undefined8 *)(g_85 + (long)(int)local_20 * 8 + (long)(int)local_1c * 0x20),
                       "g_85[i][j]",local_28);
-      mage_alpha190(0xbe);
+      mage_alpha189(0xbd);
       if (local_28 != 0) {
-        mage_alpha191(0xbf);
+        mage_alpha190(0xbe);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
@@ -4381,13 +4384,13 @@ undefined8 main(int param_1,long param_2)
   transparent_crc((long)g_97,&DAT_0040a288,local_28);
   transparent_crc((long)g_98,&DAT_0040a28d,local_28);
   transparent_crc(g_101,&DAT_0040a292,local_28);
-  mage_alpha192(0xc0);
+  mage_alpha191(0xbf);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    mage_alpha193(0xc1);
+    mage_alpha192(0xc0);
     transparent_crc((long)*(int *)(g_102 + (long)(int)local_1c * 4),"g_102[i]",local_28);
-    mage_alpha194(0xc2);
+    mage_alpha193(0xc1);
     if (local_28 != 0) {
-      mage_alpha195(0xc3);
+      mage_alpha194(0xc2);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
@@ -4395,45 +4398,45 @@ undefined8 main(int param_1,long param_2)
   transparent_crc(g_120,"g_120.f0",local_28);
   transparent_crc(g_124,"g_124",local_28);
   transparent_crc(g_142,"g_142.f0",local_28);
-  mage_alpha196(0xc4);
+  mage_alpha195(0xc3);
   transparent_crc((uint)g_184 & 0x3ffff,"g_184.f0",local_28);
-  mage_alpha197(0xc5);
+  mage_alpha196(0xc4);
   transparent_crc((uint)((ulong)g_184 >> 0x20) & 0x7fffffff,"g_184.f1",local_28);
   transparent_crc(DAT_00412718,"g_184.f2",local_28);
-  mage_alpha198(0xc6);
+  mage_alpha197(0xc5);
   transparent_crc((long)((DAT_00412720 << 3) >> 3),"g_184.f3",local_28);
-  mage_alpha199(199);
+  mage_alpha198(0xc6);
   transparent_crc(DAT_00412724 & 0x3fff,"g_184.f4",local_28);
   transparent_crc((long)DAT_00412726,"g_184.f5",local_28);
-  mage_alpha200(200);
+  mage_alpha199(199);
   transparent_crc((long)((DAT_00412728 << 5) >> 5),"g_184.f6",local_28);
   transparent_crc(g_299,"g_299",local_28);
   transparent_crc(0xffffffffb358915a,"g_392",local_28);
   transparent_crc(0,"g_425.f0",local_28);
-  mage_alpha201(0xc9);
+  mage_alpha200(200);
   transparent_crc((uint)g_502 & 0x3ffff,"g_502.f0",local_28);
-  mage_alpha202(0xca);
+  mage_alpha201(0xc9);
   transparent_crc((uint)((ulong)g_502 >> 0x20) & 0x7fffffff,"g_502.f1",local_28);
   transparent_crc(DAT_00412738,"g_502.f2",local_28);
-  mage_alpha203(0xcb);
+  mage_alpha202(0xca);
   transparent_crc((long)((DAT_00412740 << 3) >> 3),"g_502.f3",local_28);
-  mage_alpha204(0xcc);
+  mage_alpha203(0xcb);
   transparent_crc(DAT_00412744 & 0x3fff,"g_502.f4",local_28);
   transparent_crc((long)DAT_00412746,"g_502.f5",local_28);
-  mage_alpha205(0xcd);
+  mage_alpha204(0xcc);
   transparent_crc((long)((DAT_00412748 << 5) >> 5),"g_502.f6",local_28);
-  mage_alpha206(0xce);
+  mage_alpha205(0xcd);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    mage_alpha207(0xcf);
+    mage_alpha206(0xce);
     for (local_20 = 0; (int)local_20 < 6; local_20 = local_20 + 1) {
-      mage_alpha208(0xd0);
+      mage_alpha207(0xcf);
       for (local_24 = 0; (int)local_24 < 6; local_24 = local_24 + 1) {
-        mage_alpha209(0xd1);
+        mage_alpha208(0xd0);
         transparent_crc((uint)*(undefined8 *)
                                (g_562 + (long)(int)local_24 * 0x20 +
                                         (long)(int)local_20 * 0xc0 + (long)(int)local_1c * 0x480) &
                         0x3ffff,"g_562[i][j][k].f0",local_28);
-        mage_alpha210(0xd2);
+        mage_alpha209(0xd1);
         transparent_crc((uint)((ulong)*(undefined8 *)
                                        (g_562 + (long)(int)local_24 * 0x20 +
                                                 (long)(int)local_20 * 0xc0 +
@@ -4442,12 +4445,12 @@ undefined8 main(int param_1,long param_2)
         transparent_crc(*(undefined8 *)
                          (g_562 + (long)(int)local_1c * 0x480 + (long)(int)local_20 * 0xc0 +
                                   (long)(int)local_24 * 0x20 + 8),"g_562[i][j][k].f2",local_28);
-        mage_alpha211(0xd3);
+        mage_alpha210(0xd2);
         transparent_crc((long)((*(int *)(g_562 + (long)(int)local_1c * 0x480 +
                                                  (long)(int)local_20 * 0xc0 +
                                                  (long)(int)local_24 * 0x20 + 0x10) << 3) >> 3),
                         "g_562[i][j][k].f3",local_28);
-        mage_alpha212(0xd4);
+        mage_alpha211(0xd3);
         transparent_crc(*(ushort *)
                          (g_562 + (long)(int)local_1c * 0x480 + (long)(int)local_20 * 0xc0 +
                                   (long)(int)local_24 * 0x20 + 0x14) & 0x3fff,"g_562[i][j][k].f4",
@@ -4456,150 +4459,150 @@ undefined8 main(int param_1,long param_2)
                                                  (long)(int)local_20 * 0xc0 +
                                                  (long)(int)local_24 * 0x20 + 0x16),
                         "g_562[i][j][k].f5",local_28);
-        mage_alpha213(0xd5);
+        mage_alpha212(0xd4);
         transparent_crc((long)((*(int *)(g_562 + (long)(int)local_1c * 0x480 +
                                                  (long)(int)local_20 * 0xc0 +
                                                  (long)(int)local_24 * 0x20 + 0x18) << 5) >> 5),
                         "g_562[i][j][k].f6",local_28);
-        mage_alpha214(0xd6);
+        mage_alpha213(0xd5);
         if (local_28 != 0) {
-          mage_alpha215(0xd7);
+          mage_alpha214(0xd6);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  mage_alpha216(0xd8);
+  mage_alpha215(0xd7);
   transparent_crc((uint)g_616 & 0x3ffff,"g_616.f0",local_28);
-  mage_alpha217(0xd9);
+  mage_alpha216(0xd8);
   transparent_crc((uint)((ulong)g_616 >> 0x20) & 0x7fffffff,"g_616.f1",local_28);
   transparent_crc(DAT_00413058,"g_616.f2",local_28);
-  mage_alpha218(0xda);
+  mage_alpha217(0xd9);
   transparent_crc((long)((DAT_00413060 << 3) >> 3),"g_616.f3",local_28);
-  mage_alpha219(0xdb);
+  mage_alpha218(0xda);
   transparent_crc(DAT_00413064 & 0x3fff,"g_616.f4",local_28);
   transparent_crc((long)DAT_00413066,"g_616.f5",local_28);
-  mage_alpha220(0xdc);
+  mage_alpha219(0xdb);
   transparent_crc((long)((DAT_00413068 << 5) >> 5),"g_616.f6",local_28);
   transparent_crc(g_646,"g_646",local_28);
   transparent_crc((long)g_700,"g_700",local_28);
-  mage_alpha221(0xdd);
+  mage_alpha220(0xdc);
   transparent_crc((uint)g_805 & 0x3ffff,"g_805.f0",local_28);
-  mage_alpha222(0xde);
+  mage_alpha221(0xdd);
   transparent_crc((uint)((ulong)g_805 >> 0x20) & 0x7fffffff,"g_805.f1",local_28);
   transparent_crc(DAT_00413078,"g_805.f2",local_28);
-  mage_alpha223(0xdf);
+  mage_alpha222(0xde);
   transparent_crc((long)((DAT_00413080 << 3) >> 3),"g_805.f3",local_28);
-  mage_alpha224(0xe0);
+  mage_alpha223(0xdf);
   transparent_crc(DAT_00413084 & 0x3fff,"g_805.f4",local_28);
   transparent_crc((long)DAT_00413086,"g_805.f5",local_28);
-  mage_alpha225(0xe1);
+  mage_alpha224(0xe0);
   transparent_crc((long)((DAT_00413088 << 5) >> 5),"g_805.f6",local_28);
-  mage_alpha226(0xe2);
+  mage_alpha225(0xe1);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    mage_alpha227(0xe3);
+    mage_alpha226(0xe2);
     transparent_crc((long)*(short *)(g_816 + (long)(int)local_1c * 2),"g_816[i]",local_28);
-    mage_alpha228(0xe4);
+    mage_alpha227(0xe3);
     if (local_28 != 0) {
-      mage_alpha229(0xe5);
+      mage_alpha228(0xe4);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc((long)g_822,"g_822",local_28);
-  mage_alpha230(0xe6);
+  mage_alpha229(0xe5);
   transparent_crc((uint)g_909 & 0x3ffff,"g_909.f0",local_28);
-  mage_alpha231(0xe7);
+  mage_alpha230(0xe6);
   transparent_crc((uint)((ulong)g_909 >> 0x20) & 0x7fffffff,"g_909.f1",local_28);
   transparent_crc(DAT_00413098,"g_909.f2",local_28);
-  mage_alpha232(0xe8);
+  mage_alpha231(0xe7);
   transparent_crc((long)((DAT_004130a0 << 3) >> 3),"g_909.f3",local_28);
-  mage_alpha233(0xe9);
+  mage_alpha232(0xe8);
   transparent_crc(DAT_004130a4 & 0x3fff,"g_909.f4",local_28);
   transparent_crc((long)DAT_004130a6,"g_909.f5",local_28);
-  mage_alpha234(0xea);
+  mage_alpha233(0xe9);
   transparent_crc((long)((DAT_004130a8 << 5) >> 5),"g_909.f6",local_28);
-  mage_alpha235(0xeb);
+  mage_alpha234(0xea);
   transparent_crc((uint)g_917 & 0x3ffff,"g_917.f0",local_28);
-  mage_alpha236(0xec);
+  mage_alpha235(0xeb);
   transparent_crc((uint)((ulong)g_917 >> 0x20) & 0x7fffffff,"g_917.f1",local_28);
   transparent_crc(DAT_004130b8,"g_917.f2",local_28);
-  mage_alpha237(0xed);
+  mage_alpha236(0xec);
   transparent_crc((long)((DAT_004130c0 << 3) >> 3),"g_917.f3",local_28);
-  mage_alpha238(0xee);
+  mage_alpha237(0xed);
   transparent_crc(DAT_004130c4 & 0x3fff,"g_917.f4",local_28);
   transparent_crc((long)DAT_004130c6,"g_917.f5",local_28);
-  mage_alpha239(0xef);
+  mage_alpha238(0xee);
   transparent_crc((long)((DAT_004130c8 << 5) >> 5),"g_917.f6",local_28);
-  mage_alpha240(0xf0);
+  mage_alpha239(0xef);
   transparent_crc((uint)g_929 & 0x3ffff,"g_929.f0",local_28);
-  mage_alpha241(0xf1);
+  mage_alpha240(0xf0);
   transparent_crc((uint)((ulong)g_929 >> 0x20) & 0x7fffffff,"g_929.f1",local_28);
   transparent_crc(DAT_004130d8,"g_929.f2",local_28);
-  mage_alpha242(0xf2);
+  mage_alpha241(0xf1);
   transparent_crc((long)((DAT_004130e0 << 3) >> 3),"g_929.f3",local_28);
-  mage_alpha243(0xf3);
+  mage_alpha242(0xf2);
   transparent_crc(DAT_004130e4 & 0x3fff,"g_929.f4",local_28);
   transparent_crc((long)DAT_004130e6,"g_929.f5",local_28);
-  mage_alpha244(0xf4);
+  mage_alpha243(0xf3);
   transparent_crc((long)((DAT_004130e8 << 5) >> 5),"g_929.f6",local_28);
   transparent_crc(g_947,"g_947",local_28);
-  mage_alpha245(0xf5);
+  mage_alpha244(0xf4);
   for (local_1c = 0; (int)local_1c < 7; local_1c = local_1c + 1) {
-    mage_alpha246(0xf6);
+    mage_alpha245(0xf5);
     transparent_crc((uint)*(undefined8 *)(g_987 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_987[i].f0",local_28);
-    mage_alpha247(0xf7);
+    mage_alpha246(0xf6);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_987 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_987[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_987 + (long)(int)local_1c * 0x20 + 8),"g_987[i].f2",local_28);
-    mage_alpha248(0xf8);
+    mage_alpha247(0xf7);
     transparent_crc((long)((*(int *)(g_987 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_987[i].f3",local_28);
-    mage_alpha249(0xf9);
+    mage_alpha248(0xf8);
     transparent_crc(*(ushort *)(g_987 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_987[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_987 + (long)(int)local_1c * 0x20 + 0x16),"g_987[i].f5",
                     local_28);
-    mage_alpha250(0xfa);
+    mage_alpha249(0xf9);
     transparent_crc((long)((*(int *)(g_987 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_987[i].f6",local_28);
-    mage_alpha251(0xfb);
+    mage_alpha250(0xfa);
     if (local_28 != 0) {
-      mage_alpha252(0xfc);
+      mage_alpha251(0xfb);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  mage_alpha253(0xfd);
+  mage_alpha252(0xfc);
   transparent_crc((uint)g_992 & 0x3ffff,"g_992.f0",local_28);
-  mage_alpha254(0xfe);
+  mage_alpha253(0xfd);
   transparent_crc((uint)((ulong)g_992 >> 0x20) & 0x7fffffff,"g_992.f1",local_28);
   transparent_crc(DAT_004130f8,"g_992.f2",local_28);
-  mage_alpha255(0xff);
+  mage_alpha254(0xfe);
   transparent_crc((long)((DAT_00413100 << 3) >> 3),"g_992.f3",local_28);
-  mage_alpha256(0x100);
+  mage_alpha255(0xff);
   transparent_crc(DAT_00413104 & 0x3fff,"g_992.f4",local_28);
   transparent_crc((long)DAT_00413106,"g_992.f5",local_28);
-  mage_alpha257(0x101);
+  mage_alpha256(0x100);
   transparent_crc((long)((DAT_00413108 << 5) >> 5),"g_992.f6",local_28);
-  mage_alpha258(0x102);
+  mage_alpha257(0x101);
   for (local_1c = 0; (int)local_1c < 4; local_1c = local_1c + 1) {
-    mage_alpha259(0x103);
+    mage_alpha258(0x102);
     transparent_crc((long)*(char *)((long)&g_994 + (long)(int)local_1c),"g_994[i]",local_28);
-    mage_alpha260(0x104);
+    mage_alpha259(0x103);
     if (local_28 != 0) {
-      mage_alpha261(0x105);
+      mage_alpha260(0x104);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  mage_alpha262(0x106);
+  mage_alpha261(0x105);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    mage_alpha263(0x107);
+    mage_alpha262(0x106);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      mage_alpha264(0x108);
+      mage_alpha263(0x107);
       transparent_crc((uint)*(undefined8 *)
                              (g_1051 + (long)(int)local_20 * 0x20 + (long)(int)local_1c * 0x120) &
                       0x3ffff,"g_1051[i][j].f0",local_28);
-      mage_alpha265(0x109);
+      mage_alpha264(0x108);
       transparent_crc((uint)((ulong)*(undefined8 *)
                                      (g_1051 + (long)(int)local_20 * 0x20 +
                                                (long)(int)local_1c * 0x120) >> 0x20) & 0x7fffffff,
@@ -4607,198 +4610,198 @@ undefined8 main(int param_1,long param_2)
       transparent_crc(*(undefined8 *)
                        (g_1051 + (long)(int)local_1c * 0x120 + (long)(int)local_20 * 0x20 + 8),
                       "g_1051[i][j].f2",local_28);
-      mage_alpha266(0x10a);
+      mage_alpha265(0x109);
       transparent_crc((long)((*(int *)(g_1051 + (long)(int)local_1c * 0x120 +
                                                 (long)(int)local_20 * 0x20 + 0x10) << 3) >> 3),
                       "g_1051[i][j].f3",local_28);
-      mage_alpha267(0x10b);
+      mage_alpha266(0x10a);
       transparent_crc(*(ushort *)
                        (g_1051 + (long)(int)local_1c * 0x120 + (long)(int)local_20 * 0x20 + 0x14) &
                       0x3fff,"g_1051[i][j].f4",local_28);
       transparent_crc((long)*(short *)(g_1051 + (long)(int)local_1c * 0x120 +
                                                 (long)(int)local_20 * 0x20 + 0x16),"g_1051[i][j].f5"
                       ,local_28);
-      mage_alpha268(0x10c);
+      mage_alpha267(0x10b);
       transparent_crc((long)((*(int *)(g_1051 + (long)(int)local_1c * 0x120 +
                                                 (long)(int)local_20 * 0x20 + 0x18) << 5) >> 5),
                       "g_1051[i][j].f6",local_28);
-      mage_alpha269(0x10d);
+      mage_alpha268(0x10c);
       if (local_28 != 0) {
-        mage_alpha270(0x10e);
+        mage_alpha269(0x10d);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha271(0x10f);
+  mage_alpha270(0x10e);
   for (local_1c = 0; (int)local_1c < 1; local_1c = local_1c + 1) {
-    mage_alpha272(0x110);
+    mage_alpha271(0x10f);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      mage_alpha273(0x111);
+      mage_alpha272(0x110);
       transparent_crc((long)*(int *)(g_1103 + (long)(int)local_20 * 4 + (long)(int)local_1c * 0x24),
                       "g_1103[i][j]",local_28);
-      mage_alpha274(0x112);
+      mage_alpha273(0x111);
       if (local_28 != 0) {
-        mage_alpha275(0x113);
+        mage_alpha274(0x112);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
   transparent_crc((long)g_1105,"g_1105",local_28);
-  mage_alpha276(0x114);
+  mage_alpha275(0x113);
   for (local_1c = 0; (int)local_1c < 3; local_1c = local_1c + 1) {
-    mage_alpha277(0x115);
+    mage_alpha276(0x114);
     transparent_crc((uint)*(undefined8 *)(g_1108 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_1108[i].f0",local_28);
-    mage_alpha278(0x116);
+    mage_alpha277(0x115);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_1108 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_1108[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_1108 + (long)(int)local_1c * 0x20 + 8),"g_1108[i].f2",local_28
                    );
-    mage_alpha279(0x117);
+    mage_alpha278(0x116);
     transparent_crc((long)((*(int *)(g_1108 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_1108[i].f3",local_28);
-    mage_alpha280(0x118);
+    mage_alpha279(0x117);
     transparent_crc(*(ushort *)(g_1108 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_1108[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_1108 + (long)(int)local_1c * 0x20 + 0x16),"g_1108[i].f5",
                     local_28);
-    mage_alpha281(0x119);
+    mage_alpha280(0x118);
     transparent_crc((long)((*(int *)(g_1108 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_1108[i].f6",local_28);
-    mage_alpha282(0x11a);
+    mage_alpha281(0x119);
     if (local_28 != 0) {
-      mage_alpha283(0x11b);
+      mage_alpha282(0x11a);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  mage_alpha284(0x11c);
+  mage_alpha283(0x11b);
   transparent_crc((uint)g_1110 & 0x3ffff,"g_1110.f0",local_28);
-  mage_alpha285(0x11d);
+  mage_alpha284(0x11c);
   transparent_crc((uint)((ulong)g_1110 >> 0x20) & 0x7fffffff,"g_1110.f1",local_28);
   transparent_crc(DAT_004134d8,"g_1110.f2",local_28);
-  mage_alpha286(0x11e);
+  mage_alpha285(0x11d);
   transparent_crc((long)((DAT_004134e0 << 3) >> 3),"g_1110.f3",local_28);
-  mage_alpha287(0x11f);
+  mage_alpha286(0x11e);
   transparent_crc(DAT_004134e4 & 0x3fff,"g_1110.f4",local_28);
   transparent_crc((long)DAT_004134e6,"g_1110.f5",local_28);
-  mage_alpha288(0x120);
+  mage_alpha287(0x11f);
   transparent_crc((long)((DAT_004134e8 << 5) >> 5),"g_1110.f6",local_28);
   transparent_crc((long)g_1119,"g_1119",local_28);
-  mage_alpha289(0x121);
+  mage_alpha288(0x120);
   transparent_crc((uint)g_1139 & 0x3ffff,"g_1139.f0",local_28);
-  mage_alpha290(0x122);
+  mage_alpha289(0x121);
   transparent_crc((uint)((ulong)g_1139 >> 0x20) & 0x7fffffff,"g_1139.f1",local_28);
   transparent_crc(DAT_004134f8,"g_1139.f2",local_28);
-  mage_alpha291(0x123);
+  mage_alpha290(0x122);
   transparent_crc((long)((DAT_00413500 << 3) >> 3),"g_1139.f3",local_28);
-  mage_alpha292(0x124);
+  mage_alpha291(0x123);
   transparent_crc(DAT_00413504 & 0x3fff,"g_1139.f4",local_28);
   transparent_crc((long)DAT_00413506,"g_1139.f5",local_28);
-  mage_alpha293(0x125);
+  mage_alpha292(0x124);
   transparent_crc((long)((DAT_00413508 << 5) >> 5),"g_1139.f6",local_28);
   transparent_crc(0xa327,"g_1184",local_28);
-  mage_alpha294(0x126);
+  mage_alpha293(0x125);
   transparent_crc((uint)g_1186 & 0x3ffff,"g_1186.f0",local_28);
-  mage_alpha295(0x127);
+  mage_alpha294(0x126);
   transparent_crc((uint)((ulong)g_1186 >> 0x20) & 0x7fffffff,"g_1186.f1",local_28);
   transparent_crc(DAT_00413518,"g_1186.f2",local_28);
-  mage_alpha296(0x128);
+  mage_alpha295(0x127);
   transparent_crc((long)((DAT_00413520 << 3) >> 3),"g_1186.f3",local_28);
-  mage_alpha297(0x129);
+  mage_alpha296(0x128);
   transparent_crc(DAT_00413524 & 0x3fff,"g_1186.f4",local_28);
   transparent_crc((long)DAT_00413526,"g_1186.f5",local_28);
-  mage_alpha298(0x12a);
+  mage_alpha297(0x129);
   transparent_crc((long)((DAT_00413528 << 5) >> 5),"g_1186.f6",local_28);
-  mage_alpha299(299);
+  mage_alpha298(0x12a);
   transparent_crc((uint)g_1276 & 0x3ffff,"g_1276.f0",local_28);
-  mage_alpha300(300);
+  mage_alpha299(299);
   transparent_crc((uint)((ulong)g_1276 >> 0x20) & 0x7fffffff,"g_1276.f1",local_28);
   transparent_crc(DAT_00413538,"g_1276.f2",local_28);
-  mage_alpha301(0x12d);
+  mage_alpha300(300);
   transparent_crc((long)((DAT_00413540 << 3) >> 3),"g_1276.f3",local_28);
-  mage_alpha302(0x12e);
+  mage_alpha301(0x12d);
   transparent_crc(DAT_00413544 & 0x3fff,"g_1276.f4",local_28);
   transparent_crc((long)DAT_00413546,"g_1276.f5",local_28);
-  mage_alpha303(0x12f);
+  mage_alpha302(0x12e);
   transparent_crc((long)((DAT_00413548 << 5) >> 5),"g_1276.f6",local_28);
-  mage_alpha304(0x130);
+  mage_alpha303(0x12f);
   transparent_crc(0xc2,"g_1287.f0",local_28);
-  mage_alpha305(0x131);
+  mage_alpha304(0x130);
   transparent_crc(0x1c67,"g_1287.f1",local_28);
   transparent_crc(0,"g_1287.f2",local_28);
-  mage_alpha306(0x132);
+  mage_alpha305(0x131);
   transparent_crc(0xffffffffffffe1d2,"g_1287.f3",local_28);
-  mage_alpha307(0x133);
+  mage_alpha306(0x132);
   transparent_crc(0x16,"g_1287.f4",local_28);
   transparent_crc(9,"g_1287.f5",local_28);
-  mage_alpha308(0x134);
+  mage_alpha307(0x133);
   transparent_crc(0xffffffffffffe16d,"g_1287.f6",local_28);
-  mage_alpha309(0x135);
+  mage_alpha308(0x134);
   transparent_crc((uint)g_1321 & 0x3ffff,"g_1321.f0",local_28);
-  mage_alpha310(0x136);
+  mage_alpha309(0x135);
   transparent_crc((uint)((ulong)g_1321 >> 0x20) & 0x7fffffff,"g_1321.f1",local_28);
   transparent_crc(DAT_00413558,"g_1321.f2",local_28);
-  mage_alpha311(0x137);
+  mage_alpha310(0x136);
   transparent_crc((long)((DAT_00413560 << 3) >> 3),"g_1321.f3",local_28);
-  mage_alpha312(0x138);
+  mage_alpha311(0x137);
   transparent_crc(DAT_00413564 & 0x3fff,"g_1321.f4",local_28);
   transparent_crc((long)DAT_00413566,"g_1321.f5",local_28);
-  mage_alpha313(0x139);
+  mage_alpha312(0x138);
   transparent_crc((long)((DAT_00413568 << 5) >> 5),"g_1321.f6",local_28);
-  mage_alpha314(0x13a);
+  mage_alpha313(0x139);
   transparent_crc((uint)g_1352 & 0x3ffff,"g_1352.f0",local_28);
-  mage_alpha315(0x13b);
+  mage_alpha314(0x13a);
   transparent_crc((uint)((ulong)g_1352 >> 0x20) & 0x7fffffff,"g_1352.f1",local_28);
   transparent_crc(DAT_00413578,"g_1352.f2",local_28);
-  mage_alpha316(0x13c);
+  mage_alpha315(0x13b);
   transparent_crc((long)((DAT_00413580 << 3) >> 3),"g_1352.f3",local_28);
-  mage_alpha317(0x13d);
+  mage_alpha316(0x13c);
   transparent_crc(DAT_00413584 & 0x3fff,"g_1352.f4",local_28);
   transparent_crc((long)DAT_00413586,"g_1352.f5",local_28);
-  mage_alpha318(0x13e);
+  mage_alpha317(0x13d);
   transparent_crc((long)((DAT_00413588 << 5) >> 5),"g_1352.f6",local_28);
-  mage_alpha319(0x13f);
+  mage_alpha318(0x13e);
   for (local_1c = 0; (int)local_1c < 5; local_1c = local_1c + 1) {
-    mage_alpha320(0x140);
+    mage_alpha319(0x13f);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      mage_alpha321(0x141);
+      mage_alpha320(0x140);
       transparent_crc((long)(char)g_1424[(long)(int)local_20 + (long)(int)local_1c * 9],
                       "g_1424[i][j]",local_28);
-      mage_alpha322(0x142);
+      mage_alpha321(0x141);
       if (local_28 != 0) {
-        mage_alpha323(0x143);
+        mage_alpha322(0x142);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha324(0x144);
+  mage_alpha323(0x143);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    mage_alpha325(0x145);
+    mage_alpha324(0x144);
     for (local_20 = 0; (int)local_20 < 10; local_20 = local_20 + 1) {
-      mage_alpha326(0x146);
+      mage_alpha325(0x145);
       for (local_24 = 0; (int)local_24 < 2; local_24 = local_24 + 1) {
-        mage_alpha327(0x147);
+        mage_alpha326(0x146);
         transparent_crc(*(undefined4 *)
                          (g_1435 + (long)(int)local_24 * 4 +
                                    (long)(int)local_20 * 8 + (long)(int)local_1c * 0x50),
                         "g_1435[i][j][k]",local_28);
-        mage_alpha328(0x148);
+        mage_alpha327(0x147);
         if (local_28 != 0) {
-          mage_alpha329(0x149);
+          mage_alpha328(0x148);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  mage_alpha330(0x14a);
+  mage_alpha329(0x149);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
-    mage_alpha331(0x14b);
+    mage_alpha330(0x14a);
     for (local_20 = 0; (int)local_20 < 5; local_20 = local_20 + 1) {
-      mage_alpha332(0x14c);
+      mage_alpha331(0x14b);
       transparent_crc((uint)*(undefined8 *)
                              (g_1526 + (long)(int)local_20 * 0x20 + (long)(int)local_1c * 0xa0) &
                       0x3ffff,"g_1526[i][j].f0",local_28);
-      mage_alpha333(0x14d);
+      mage_alpha332(0x14c);
       transparent_crc((uint)((ulong)*(undefined8 *)
                                      (g_1526 + (long)(int)local_20 * 0x20 +
                                                (long)(int)local_1c * 0xa0) >> 0x20) & 0x7fffffff,
@@ -4806,92 +4809,92 @@ undefined8 main(int param_1,long param_2)
       transparent_crc(*(undefined8 *)
                        (g_1526 + (long)(int)local_1c * 0xa0 + (long)(int)local_20 * 0x20 + 8),
                       "g_1526[i][j].f2",local_28);
-      mage_alpha334(0x14e);
+      mage_alpha333(0x14d);
       transparent_crc((long)((*(int *)(g_1526 + (long)(int)local_1c * 0xa0 +
                                                 (long)(int)local_20 * 0x20 + 0x10) << 3) >> 3),
                       "g_1526[i][j].f3",local_28);
-      mage_alpha335(0x14f);
+      mage_alpha334(0x14e);
       transparent_crc(*(ushort *)
                        (g_1526 + (long)(int)local_1c * 0xa0 + (long)(int)local_20 * 0x20 + 0x14) &
                       0x3fff,"g_1526[i][j].f4",local_28);
       transparent_crc((long)*(short *)(g_1526 + (long)(int)local_1c * 0xa0 +
                                                 (long)(int)local_20 * 0x20 + 0x16),"g_1526[i][j].f5"
                       ,local_28);
-      mage_alpha336(0x150);
+      mage_alpha335(0x14f);
       transparent_crc((long)((*(int *)(g_1526 + (long)(int)local_1c * 0xa0 +
                                                 (long)(int)local_20 * 0x20 + 0x18) << 5) >> 5),
                       "g_1526[i][j].f6",local_28);
-      mage_alpha337(0x151);
+      mage_alpha336(0x150);
       if (local_28 != 0) {
-        mage_alpha338(0x152);
+        mage_alpha337(0x151);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
   transparent_crc((long)g_1535,"g_1535",local_28);
-  mage_alpha339(0x153);
+  mage_alpha338(0x152);
   transparent_crc((uint)g_1536 & 0x3ffff,"g_1536.f0",local_28);
-  mage_alpha340(0x154);
+  mage_alpha339(0x153);
   transparent_crc((uint)((ulong)g_1536 >> 0x20) & 0x7fffffff,"g_1536.f1",local_28);
   transparent_crc(DAT_00413b38,"g_1536.f2",local_28);
-  mage_alpha341(0x155);
+  mage_alpha340(0x154);
   transparent_crc((long)((DAT_00413b40 << 3) >> 3),"g_1536.f3",local_28);
-  mage_alpha342(0x156);
+  mage_alpha341(0x155);
   transparent_crc(DAT_00413b44 & 0x3fff,"g_1536.f4",local_28);
   transparent_crc((long)DAT_00413b46,"g_1536.f5",local_28);
-  mage_alpha343(0x157);
+  mage_alpha342(0x156);
   transparent_crc((long)((DAT_00413b48 << 5) >> 5),"g_1536.f6",local_28);
-  mage_alpha344(0x158);
+  mage_alpha343(0x157);
   transparent_crc((uint)g_1538 & 0x3ffff,"g_1538.f0",local_28);
-  mage_alpha345(0x159);
+  mage_alpha344(0x158);
   transparent_crc((uint)((ulong)g_1538 >> 0x20) & 0x7fffffff,"g_1538.f1",local_28);
   transparent_crc(DAT_00413b58,"g_1538.f2",local_28);
-  mage_alpha346(0x15a);
+  mage_alpha345(0x159);
   transparent_crc((long)((DAT_00413b60 << 3) >> 3),"g_1538.f3",local_28);
-  mage_alpha347(0x15b);
+  mage_alpha346(0x15a);
   transparent_crc(DAT_00413b64 & 0x3fff,"g_1538.f4",local_28);
   transparent_crc((long)DAT_00413b66,"g_1538.f5",local_28);
-  mage_alpha348(0x15c);
+  mage_alpha347(0x15b);
   transparent_crc((long)((DAT_00413b68 << 5) >> 5),"g_1538.f6",local_28);
-  mage_alpha349(0x15d);
+  mage_alpha348(0x15c);
   for (local_1c = 0; (int)local_1c < 8; local_1c = local_1c + 1) {
-    mage_alpha350(0x15e);
+    mage_alpha349(0x15d);
     transparent_crc((uint)*(undefined8 *)(g_1565 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_1565[i].f0",local_28);
-    mage_alpha351(0x15f);
+    mage_alpha350(0x15e);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_1565 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_1565[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_1565 + (long)(int)local_1c * 0x20 + 8),"g_1565[i].f2",local_28
                    );
-    mage_alpha352(0x160);
+    mage_alpha351(0x15f);
     transparent_crc((long)((*(int *)(g_1565 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_1565[i].f3",local_28);
-    mage_alpha353(0x161);
+    mage_alpha352(0x160);
     transparent_crc(*(ushort *)(g_1565 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_1565[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_1565 + (long)(int)local_1c * 0x20 + 0x16),"g_1565[i].f5",
                     local_28);
-    mage_alpha354(0x162);
+    mage_alpha353(0x161);
     transparent_crc((long)((*(int *)(g_1565 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_1565[i].f6",local_28);
-    mage_alpha355(0x163);
+    mage_alpha354(0x162);
     if (local_28 != 0) {
-      mage_alpha356(0x164);
+      mage_alpha355(0x163);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  mage_alpha357(0x165);
+  mage_alpha356(0x164);
   for (local_1c = 0; (int)local_1c < 1; local_1c = local_1c + 1) {
-    mage_alpha358(0x166);
+    mage_alpha357(0x165);
     for (local_20 = 0; (int)local_20 < 7; local_20 = local_20 + 1) {
-      mage_alpha359(0x167);
+      mage_alpha358(0x166);
       for (local_24 = 0; (int)local_24 < 4; local_24 = local_24 + 1) {
-        mage_alpha360(0x168);
+        mage_alpha359(0x167);
         transparent_crc((uint)*(undefined8 *)
                                (g_1569 + (long)(int)local_24 * 0x20 +
                                          (long)(int)local_20 * 0x80 + (long)(int)local_1c * 0x380) &
                         0x3ffff,"g_1569[i][j][k].f0",local_28);
-        mage_alpha361(0x169);
+        mage_alpha360(0x168);
         transparent_crc((uint)((ulong)*(undefined8 *)
                                        (g_1569 + (long)(int)local_24 * 0x20 +
                                                  (long)(int)local_20 * 0x80 +
@@ -4900,12 +4903,12 @@ undefined8 main(int param_1,long param_2)
         transparent_crc(*(undefined8 *)
                          (g_1569 + (long)(int)local_1c * 0x380 + (long)(int)local_20 * 0x80 +
                                    (long)(int)local_24 * 0x20 + 8),"g_1569[i][j][k].f2",local_28);
-        mage_alpha362(0x16a);
+        mage_alpha361(0x169);
         transparent_crc((long)((*(int *)(g_1569 + (long)(int)local_1c * 0x380 +
                                                   (long)(int)local_20 * 0x80 +
                                                   (long)(int)local_24 * 0x20 + 0x10) << 3) >> 3),
                         "g_1569[i][j][k].f3",local_28);
-        mage_alpha363(0x16b);
+        mage_alpha362(0x16a);
         transparent_crc(*(ushort *)
                          (g_1569 + (long)(int)local_1c * 0x380 + (long)(int)local_20 * 0x80 +
                                    (long)(int)local_24 * 0x20 + 0x14) & 0x3fff,"g_1569[i][j][k].f4",
@@ -4914,40 +4917,40 @@ undefined8 main(int param_1,long param_2)
                                                   (long)(int)local_20 * 0x80 +
                                                   (long)(int)local_24 * 0x20 + 0x16),
                         "g_1569[i][j][k].f5",local_28);
-        mage_alpha364(0x16c);
+        mage_alpha363(0x16b);
         transparent_crc((long)((*(int *)(g_1569 + (long)(int)local_1c * 0x380 +
                                                   (long)(int)local_20 * 0x80 +
                                                   (long)(int)local_24 * 0x20 + 0x18) << 5) >> 5),
                         "g_1569[i][j][k].f6",local_28);
-        mage_alpha365(0x16d);
+        mage_alpha364(0x16c);
         if (local_28 != 0) {
-          mage_alpha366(0x16e);
+          mage_alpha365(0x16d);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
-  mage_alpha367(0x16f);
+  mage_alpha366(0x16e);
   transparent_crc((uint)g_1617 & 0x3ffff,"g_1617.f0",local_28);
-  mage_alpha368(0x170);
+  mage_alpha367(0x16f);
   transparent_crc((uint)((ulong)g_1617 >> 0x20) & 0x7fffffff,"g_1617.f1",local_28);
   transparent_crc(DAT_00413ff8,"g_1617.f2",local_28);
-  mage_alpha369(0x171);
+  mage_alpha368(0x170);
   transparent_crc((long)((DAT_00414000 << 3) >> 3),"g_1617.f3",local_28);
-  mage_alpha370(0x172);
+  mage_alpha369(0x171);
   transparent_crc(DAT_00414004 & 0x3fff,"g_1617.f4",local_28);
   transparent_crc((long)DAT_00414006,"g_1617.f5",local_28);
-  mage_alpha371(0x173);
+  mage_alpha370(0x172);
   transparent_crc((long)((DAT_00414008 << 5) >> 5),"g_1617.f6",local_28);
-  mage_alpha372(0x174);
+  mage_alpha371(0x173);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    mage_alpha373(0x175);
+    mage_alpha372(0x174);
     for (local_20 = 0; (int)local_20 < 4; local_20 = local_20 + 1) {
-      mage_alpha374(0x176);
+      mage_alpha373(0x175);
       transparent_crc((uint)*(undefined8 *)
                              (g_1721 + (long)(int)local_20 * 0x20 + (long)(int)local_1c * 0x80) &
                       0x3ffff,"g_1721[i][j].f0",local_28);
-      mage_alpha375(0x177);
+      mage_alpha374(0x176);
       transparent_crc((uint)((ulong)*(undefined8 *)
                                      (g_1721 + (long)(int)local_20 * 0x20 +
                                                (long)(int)local_1c * 0x80) >> 0x20) & 0x7fffffff,
@@ -4955,131 +4958,131 @@ undefined8 main(int param_1,long param_2)
       transparent_crc(*(undefined8 *)
                        (g_1721 + (long)(int)local_1c * 0x80 + (long)(int)local_20 * 0x20 + 8),
                       "g_1721[i][j].f2",local_28);
-      mage_alpha376(0x178);
+      mage_alpha375(0x177);
       transparent_crc((long)((*(int *)(g_1721 + (long)(int)local_1c * 0x80 +
                                                 (long)(int)local_20 * 0x20 + 0x10) << 3) >> 3),
                       "g_1721[i][j].f3",local_28);
-      mage_alpha377(0x179);
+      mage_alpha376(0x178);
       transparent_crc(*(ushort *)
                        (g_1721 + (long)(int)local_1c * 0x80 + (long)(int)local_20 * 0x20 + 0x14) &
                       0x3fff,"g_1721[i][j].f4",local_28);
       transparent_crc((long)*(short *)(g_1721 + (long)(int)local_1c * 0x80 +
                                                 (long)(int)local_20 * 0x20 + 0x16),"g_1721[i][j].f5"
                       ,local_28);
-      mage_alpha378(0x17a);
+      mage_alpha377(0x179);
       transparent_crc((long)((*(int *)(g_1721 + (long)(int)local_1c * 0x80 +
                                                 (long)(int)local_20 * 0x20 + 0x18) << 5) >> 5),
                       "g_1721[i][j].f6",local_28);
-      mage_alpha379(0x17b);
+      mage_alpha378(0x17a);
       if (local_28 != 0) {
-        mage_alpha380(0x17c);
+        mage_alpha379(0x17b);
         printf("index = [%d][%d]\n",(ulong)local_1c,(ulong)local_20);
       }
     }
   }
-  mage_alpha381(0x17d);
+  mage_alpha380(0x17c);
   transparent_crc((uint)g_1934 & 0x3ffff,"g_1934.f0",local_28);
-  mage_alpha382(0x17e);
+  mage_alpha381(0x17d);
   transparent_crc((uint)((ulong)g_1934 >> 0x20) & 0x7fffffff,"g_1934.f1",local_28);
   transparent_crc(DAT_00414118,"g_1934.f2",local_28);
-  mage_alpha383(0x17f);
+  mage_alpha382(0x17e);
   transparent_crc((long)((DAT_00414120 << 3) >> 3),"g_1934.f3",local_28);
-  mage_alpha384(0x180);
+  mage_alpha383(0x17f);
   transparent_crc(DAT_00414124 & 0x3fff,"g_1934.f4",local_28);
   transparent_crc((long)DAT_00414126,"g_1934.f5",local_28);
-  mage_alpha385(0x181);
+  mage_alpha384(0x180);
   transparent_crc((long)((DAT_00414128 << 5) >> 5),"g_1934.f6",local_28);
-  mage_alpha386(0x182);
+  mage_alpha385(0x181);
   transparent_crc((uint)g_1974 & 0x3ffff,"g_1974.f0",local_28);
-  mage_alpha387(0x183);
+  mage_alpha386(0x182);
   transparent_crc((uint)((ulong)g_1974 >> 0x20) & 0x7fffffff,"g_1974.f1",local_28);
   transparent_crc(DAT_00414138,"g_1974.f2",local_28);
-  mage_alpha388(0x184);
+  mage_alpha387(0x183);
   transparent_crc((long)((DAT_00414140 << 3) >> 3),"g_1974.f3",local_28);
-  mage_alpha389(0x185);
+  mage_alpha388(0x184);
   transparent_crc(DAT_00414144 & 0x3fff,"g_1974.f4",local_28);
   transparent_crc((long)DAT_00414146,"g_1974.f5",local_28);
-  mage_alpha390(0x186);
+  mage_alpha389(0x185);
   transparent_crc((long)((DAT_00414148 << 5) >> 5),"g_1974.f6",local_28);
   transparent_crc((long)g_1997,"g_1997",local_28);
   transparent_crc(g_2005,"g_2005",local_28);
-  mage_alpha391(0x187);
+  mage_alpha390(0x186);
   for (local_1c = 0; (int)local_1c < 10; local_1c = local_1c + 1) {
-    mage_alpha392(0x188);
+    mage_alpha391(0x187);
     transparent_crc((uint)*(undefined8 *)(g_2109 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_2109[i].f0",local_28);
-    mage_alpha393(0x189);
+    mage_alpha392(0x188);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_2109 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_2109[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_2109 + (long)(int)local_1c * 0x20 + 8),"g_2109[i].f2",local_28
                    );
-    mage_alpha394(0x18a);
+    mage_alpha393(0x189);
     transparent_crc((long)((*(int *)(g_2109 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_2109[i].f3",local_28);
-    mage_alpha395(0x18b);
+    mage_alpha394(0x18a);
     transparent_crc(*(ushort *)(g_2109 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_2109[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_2109 + (long)(int)local_1c * 0x20 + 0x16),"g_2109[i].f5",
                     local_28);
-    mage_alpha396(0x18c);
+    mage_alpha395(0x18b);
     transparent_crc((long)((*(int *)(g_2109 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_2109[i].f6",local_28);
-    mage_alpha397(0x18d);
+    mage_alpha396(0x18c);
     if (local_28 != 0) {
-      mage_alpha398(0x18e);
+      mage_alpha397(0x18d);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
-  mage_alpha399(399);
+  mage_alpha398(0x18e);
   transparent_crc((uint)g_2112 & 0x3ffff,"g_2112.f0",local_28);
-  mage_alpha400(400);
+  mage_alpha399(399);
   transparent_crc((uint)((ulong)g_2112 >> 0x20) & 0x7fffffff,"g_2112.f1",local_28);
   transparent_crc(DAT_00414298,"g_2112.f2",local_28);
-  mage_alpha401(0x191);
+  mage_alpha400(400);
   transparent_crc((long)((DAT_004142a0 << 3) >> 3),"g_2112.f3",local_28);
-  mage_alpha402(0x192);
+  mage_alpha401(0x191);
   transparent_crc(DAT_004142a4 & 0x3fff,"g_2112.f4",local_28);
   transparent_crc((long)DAT_004142a6,"g_2112.f5",local_28);
-  mage_alpha403(0x193);
+  mage_alpha402(0x192);
   transparent_crc((long)((DAT_004142a8 << 5) >> 5),"g_2112.f6",local_28);
   transparent_crc(0,"g_2212",local_28);
   transparent_crc(g_2247,"g_2247",local_28);
-  mage_alpha404(0x194);
+  mage_alpha403(0x193);
   transparent_crc((uint)g_2416 & 0x3ffff,"g_2416.f0",local_28);
-  mage_alpha405(0x195);
+  mage_alpha404(0x194);
   transparent_crc((uint)((ulong)g_2416 >> 0x20) & 0x7fffffff,"g_2416.f1",local_28);
   transparent_crc(DAT_004142b8,"g_2416.f2",local_28);
-  mage_alpha406(0x196);
+  mage_alpha405(0x195);
   transparent_crc((long)((DAT_004142c0 << 3) >> 3),"g_2416.f3",local_28);
-  mage_alpha407(0x197);
+  mage_alpha406(0x196);
   transparent_crc(DAT_004142c4 & 0x3fff,"g_2416.f4",local_28);
   transparent_crc((long)DAT_004142c6,"g_2416.f5",local_28);
-  mage_alpha408(0x198);
+  mage_alpha407(0x197);
   transparent_crc((long)((DAT_004142c8 << 5) >> 5),"g_2416.f6",local_28);
-  mage_alpha409(0x199);
+  mage_alpha408(0x198);
   transparent_crc((uint)g_2615 & 0x3ffff,"g_2615.f0",local_28);
-  mage_alpha410(0x19a);
+  mage_alpha409(0x199);
   transparent_crc((uint)((ulong)g_2615 >> 0x20) & 0x7fffffff,"g_2615.f1",local_28);
   transparent_crc(DAT_004142d8,"g_2615.f2",local_28);
-  mage_alpha411(0x19b);
+  mage_alpha410(0x19a);
   transparent_crc((long)((DAT_004142e0 << 3) >> 3),"g_2615.f3",local_28);
-  mage_alpha412(0x19c);
+  mage_alpha411(0x19b);
   transparent_crc(DAT_004142e4 & 0x3fff,"g_2615.f4",local_28);
   transparent_crc((long)DAT_004142e6,"g_2615.f5",local_28);
-  mage_alpha413(0x19d);
+  mage_alpha412(0x19c);
   transparent_crc((long)((DAT_004142e8 << 5) >> 5),"g_2615.f6",local_28);
-  mage_alpha414(0x19e);
+  mage_alpha413(0x19d);
   for (local_1c = 0; (int)local_1c < 8; local_1c = local_1c + 1) {
-    mage_alpha415(0x19f);
+    mage_alpha414(0x19e);
     for (local_20 = 0; (int)local_20 < 9; local_20 = local_20 + 1) {
-      mage_alpha416(0x1a0);
+      mage_alpha415(0x19f);
       for (local_24 = 0; (int)local_24 < 3; local_24 = local_24 + 1) {
-        mage_alpha417(0x1a1);
+        mage_alpha416(0x1a0);
         transparent_crc((uint)*(undefined8 *)
                                (g_2616 + (long)(int)local_24 * 0x20 +
                                          (long)(int)local_20 * 0x60 + (long)(int)local_1c * 0x360) &
                         0x3ffff,"g_2616[i][j][k].f0",local_28);
-        mage_alpha418(0x1a2);
+        mage_alpha417(0x1a1);
         transparent_crc((uint)((ulong)*(undefined8 *)
                                        (g_2616 + (long)(int)local_24 * 0x20 +
                                                  (long)(int)local_20 * 0x60 +
@@ -5088,12 +5091,12 @@ undefined8 main(int param_1,long param_2)
         transparent_crc(*(undefined8 *)
                          (g_2616 + (long)(int)local_1c * 0x360 + (long)(int)local_20 * 0x60 +
                                    (long)(int)local_24 * 0x20 + 8),"g_2616[i][j][k].f2",local_28);
-        mage_alpha419(0x1a3);
+        mage_alpha418(0x1a2);
         transparent_crc((long)((*(int *)(g_2616 + (long)(int)local_1c * 0x360 +
                                                   (long)(int)local_20 * 0x60 +
                                                   (long)(int)local_24 * 0x20 + 0x10) << 3) >> 3),
                         "g_2616[i][j][k].f3",local_28);
-        mage_alpha420(0x1a4);
+        mage_alpha419(0x1a3);
         transparent_crc(*(ushort *)
                          (g_2616 + (long)(int)local_1c * 0x360 + (long)(int)local_20 * 0x60 +
                                    (long)(int)local_24 * 0x20 + 0x14) & 0x3fff,"g_2616[i][j][k].f4",
@@ -5102,109 +5105,109 @@ undefined8 main(int param_1,long param_2)
                                                   (long)(int)local_20 * 0x60 +
                                                   (long)(int)local_24 * 0x20 + 0x16),
                         "g_2616[i][j][k].f5",local_28);
-        mage_alpha421(0x1a5);
+        mage_alpha420(0x1a4);
         transparent_crc((long)((*(int *)(g_2616 + (long)(int)local_1c * 0x360 +
                                                   (long)(int)local_20 * 0x60 +
                                                   (long)(int)local_24 * 0x20 + 0x18) << 5) >> 5),
                         "g_2616[i][j][k].f6",local_28);
-        mage_alpha422(0x1a6);
+        mage_alpha421(0x1a5);
         if (local_28 != 0) {
-          mage_alpha423(0x1a7);
+          mage_alpha422(0x1a6);
           printf("index = [%d][%d][%d]\n",(ulong)local_1c,(ulong)local_20,(ulong)local_24);
         }
       }
     }
   }
   transparent_crc((long)g_2654,"g_2654",local_28);
-  mage_alpha424(0x1a8);
+  mage_alpha423(0x1a7);
   transparent_crc((uint)g_2675 & 0x3ffff,"g_2675.f0",local_28);
-  mage_alpha425(0x1a9);
+  mage_alpha424(0x1a8);
   transparent_crc((uint)((ulong)g_2675 >> 0x20) & 0x7fffffff,"g_2675.f1",local_28);
   transparent_crc(DAT_00415df8,"g_2675.f2",local_28);
-  mage_alpha426(0x1aa);
+  mage_alpha425(0x1a9);
   transparent_crc((long)((DAT_00415e00 << 3) >> 3),"g_2675.f3",local_28);
-  mage_alpha427(0x1ab);
+  mage_alpha426(0x1aa);
   transparent_crc(DAT_00415e04 & 0x3fff,"g_2675.f4",local_28);
   transparent_crc((long)DAT_00415e06,"g_2675.f5",local_28);
-  mage_alpha428(0x1ac);
+  mage_alpha427(0x1ab);
   transparent_crc((long)((DAT_00415e08 << 5) >> 5),"g_2675.f6",local_28);
-  mage_alpha429(0x1ad);
+  mage_alpha428(0x1ac);
   for (local_1c = 0; (int)local_1c < 2; local_1c = local_1c + 1) {
-    mage_alpha430(0x1ae);
+    mage_alpha429(0x1ad);
     transparent_crc((long)*(char *)((long)&g_2690 + (long)(int)local_1c),"g_2690[i]",local_28);
-    mage_alpha431(0x1af);
+    mage_alpha430(0x1ae);
     if (local_28 != 0) {
-      mage_alpha432(0x1b0);
+      mage_alpha431(0x1af);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }
   transparent_crc(0xffffffffffffffff,"g_2691",local_28);
   transparent_crc(g_2709,"g_2709",local_28);
   transparent_crc((long)g_2731,"g_2731",local_28);
-  mage_alpha433(0x1b1);
+  mage_alpha432(0x1b0);
   transparent_crc((uint)g_2761 & 0x3ffff,"g_2761.f0",local_28);
-  mage_alpha434(0x1b2);
+  mage_alpha433(0x1b1);
   transparent_crc((uint)((ulong)g_2761 >> 0x20) & 0x7fffffff,"g_2761.f1",local_28);
   transparent_crc(DAT_00415e18,"g_2761.f2",local_28);
-  mage_alpha435(0x1b3);
+  mage_alpha434(0x1b2);
   transparent_crc((long)((DAT_00415e20 << 3) >> 3),"g_2761.f3",local_28);
-  mage_alpha436(0x1b4);
+  mage_alpha435(0x1b3);
   transparent_crc(DAT_00415e24 & 0x3fff,"g_2761.f4",local_28);
   transparent_crc((long)DAT_00415e26,"g_2761.f5",local_28);
-  mage_alpha437(0x1b5);
+  mage_alpha436(0x1b4);
   transparent_crc((long)((DAT_00415e28 << 5) >> 5),"g_2761.f6",local_28);
-  mage_alpha438(0x1b6);
+  mage_alpha437(0x1b5);
   transparent_crc((uint)g_2875 & 0x3ffff,"g_2875.f0",local_28);
-  mage_alpha439(0x1b7);
+  mage_alpha438(0x1b6);
   transparent_crc((uint)((ulong)g_2875 >> 0x20) & 0x7fffffff,"g_2875.f1",local_28);
   transparent_crc(DAT_00415e38,"g_2875.f2",local_28);
-  mage_alpha440(0x1b8);
+  mage_alpha439(0x1b7);
   transparent_crc((long)((DAT_00415e40 << 3) >> 3),"g_2875.f3",local_28);
-  mage_alpha441(0x1b9);
+  mage_alpha440(0x1b8);
   transparent_crc(DAT_00415e44 & 0x3fff,"g_2875.f4",local_28);
   transparent_crc((long)DAT_00415e46,"g_2875.f5",local_28);
-  mage_alpha442(0x1ba);
+  mage_alpha441(0x1b9);
   transparent_crc((long)((DAT_00415e48 << 5) >> 5),"g_2875.f6",local_28);
   transparent_crc(g_2905,"g_2905",local_28);
   transparent_crc((long)g_2991,"g_2991",local_28);
-  mage_alpha443(0x1bb);
+  mage_alpha442(0x1ba);
   transparent_crc((uint)g_3009 & 0x3ffff,"g_3009.f0",local_28);
-  mage_alpha444(0x1bc);
+  mage_alpha443(0x1bb);
   transparent_crc((uint)((ulong)g_3009 >> 0x20) & 0x7fffffff,"g_3009.f1",local_28);
   transparent_crc(DAT_00415e58,"g_3009.f2",local_28);
-  mage_alpha445(0x1bd);
+  mage_alpha444(0x1bc);
   transparent_crc((long)((DAT_00415e60 << 3) >> 3),"g_3009.f3",local_28);
-  mage_alpha446(0x1be);
+  mage_alpha445(0x1bd);
   transparent_crc(DAT_00415e64 & 0x3fff,"g_3009.f4",local_28);
   transparent_crc((long)DAT_00415e66,"g_3009.f5",local_28);
-  mage_alpha447(0x1bf);
+  mage_alpha446(0x1be);
   transparent_crc((long)((DAT_00415e68 << 5) >> 5),"g_3009.f6",local_28);
   transparent_crc(g_3038,"g_3038",local_28);
   transparent_crc((long)g_3068,"g_3068",local_28);
-  mage_alpha448(0x1c0);
+  mage_alpha447(0x1bf);
   for (local_1c = 0; (int)local_1c < 9; local_1c = local_1c + 1) {
-    mage_alpha449(0x1c1);
+    mage_alpha448(0x1c0);
     transparent_crc((uint)*(undefined8 *)(g_3075 + (long)(int)local_1c * 0x20) & 0x3ffff,
                     "g_3075[i].f0",local_28);
-    mage_alpha450(0x1c2);
+    mage_alpha449(0x1c1);
     transparent_crc((uint)((ulong)*(undefined8 *)(g_3075 + (long)(int)local_1c * 0x20) >> 0x20) &
                     0x7fffffff,"g_3075[i].f1",local_28);
     transparent_crc(*(undefined8 *)(g_3075 + (long)(int)local_1c * 0x20 + 8),"g_3075[i].f2",local_28
                    );
-    mage_alpha451(0x1c3);
+    mage_alpha450(0x1c2);
     transparent_crc((long)((*(int *)(g_3075 + (long)(int)local_1c * 0x20 + 0x10) << 3) >> 3),
                     "g_3075[i].f3",local_28);
-    mage_alpha452(0x1c4);
+    mage_alpha451(0x1c3);
     transparent_crc(*(ushort *)(g_3075 + (long)(int)local_1c * 0x20 + 0x14) & 0x3fff,"g_3075[i].f4",
                     local_28);
     transparent_crc((long)*(short *)(g_3075 + (long)(int)local_1c * 0x20 + 0x16),"g_3075[i].f5",
                     local_28);
-    mage_alpha453(0x1c5);
+    mage_alpha452(0x1c4);
     transparent_crc((long)((*(int *)(g_3075 + (long)(int)local_1c * 0x20 + 0x18) << 5) >> 5),
                     "g_3075[i].f6",local_28);
-    mage_alpha454(0x1c6);
+    mage_alpha453(0x1c5);
     if (local_28 != 0) {
-      mage_alpha455(0x1c7);
+      mage_alpha454(0x1c6);
       printf("index = [%d]\n",(ulong)local_1c);
     }
   }

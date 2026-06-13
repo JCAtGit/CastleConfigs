@@ -118,6 +118,17 @@ typedef enum Elf64_DynTag {
     DT_FILTER=2147483647
 } Elf64_DynTag;
 
+typedef struct GnuBuildAttribute_8_16 GnuBuildAttribute_8_16, *PGnuBuildAttribute_8_16;
+
+struct GnuBuildAttribute_8_16 {
+    dword namesz; // Length of name field
+    dword descsz; // Length of description field
+    dword type; // Vendor specific type
+    char name[8];
+    pointer start;
+    pointer end;
+};
+
 typedef enum Elf_ProgramHeaderType {
     PT_NULL=0,
     PT_LOAD=1,
@@ -290,7 +301,7 @@ undefined1 DAT_00410bbc;
 undefined1 DAT_00410bc8;
 undefined1 DAT_00410bd4;
 undefined1 DAT_00410be0;
-undefined DAT_00410bec;
+undefined1 DAT_00410bec;
 undefined DAT_0040a240;
 undefined DAT_0040a244;
 undefined DAT_0040a249;
@@ -347,7 +358,7 @@ undefined4 crc32_context;
 undefined1[1024] crc32_tab;
 undefined *PTR_g_1211_0040a560;
 byte DAT_00410bbc;
-undefined4 DAT_00410bec;
+undefined DAT_00410bec;
 pointer g_147;
 undefined *PTR_g_1235_0040a5e0;
 pointer g_1008;
@@ -2031,7 +2042,7 @@ undefined8 main(int param_1,long param_2)
   mage_alpha156(0x9c);
   transparent_crc((byte)((ulong)g_1323 >> 0x38) & 0x1f,"g_1323.f4",local_28);
   mage_alpha157(0x9d);
-  transparent_crc((undefined1)DAT_00410bec,"g_1323.f5",local_28);
+  transparent_crc(DAT_00410bec,"g_1323.f5",local_28);
   transparent_crc(0x4eede6b2,"g_1349",local_28);
   platform_main_end(crc32_context ^ 0xffffffff,local_28);
   return 0;
@@ -2186,6 +2197,7 @@ ulong safe_rshift_func_uint64_t_u_s(ulong param_1,int param_2)
 
 
 // WARNING: Removing unreachable block (ram,0x00403c5a)
+// WARNING: Globals starting with '_' overlap smaller symbols at the same address
 
 undefined8 func_11(byte param_1,byte param_2,ulong param_3,uint param_4)
 

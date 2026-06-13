@@ -75,13 +75,13 @@
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
 			"static_options":[],
-			"redirectNull": false,
+			"redirectNull": true,
 			"outputFlag":"-o",
 			"active":true,
 			"run_per_file":true,
 			"run_as_it": true,
-			"it_begin": 0,
-			"it_end": 11
+			"it_begin": 1,
+			"it_end": 5
 		}
 	]
 }

@@ -78,8 +78,8 @@
 			"active":true,
 			"run_per_file":true,
 			"run_as_it": true,
-			"it_begin": 10000,
-            "it_end": 10000
+			"it_begin": 1000,
+            "it_end": 1000
 		},
 		{
 			"name":"test_mage",

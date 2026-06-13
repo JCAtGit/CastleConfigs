@@ -115,6 +115,17 @@ typedef enum Elf64_DynTag {
     DT_FILTER=2147483647
 } Elf64_DynTag;
 
+typedef struct GnuBuildAttribute_8_16 GnuBuildAttribute_8_16, *PGnuBuildAttribute_8_16;
+
+struct GnuBuildAttribute_8_16 {
+    dword namesz; // Length of name field
+    dword descsz; // Length of description field
+    dword type; // Vendor specific type
+    char name[8];
+    pointer start;
+    pointer end;
+};
+
 typedef enum Elf_ProgramHeaderType {
     PT_NULL=0,
     PT_LOAD=1,
