@@ -10,6 +10,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it":false,
 			"comments":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/git-2.54.0/t/ is a test dir"
@@ -24,6 +25,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
 		},
@@ -37,6 +39,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
 		},
@@ -50,6 +53,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false		
 		},
@@ -63,6 +67,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
 		},
@@ -76,6 +81,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":true,
+			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": true,
 			"it_begin": 1000,
@@ -91,6 +97,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false		
 		},
@@ -106,6 +113,7 @@
 			"outputFlag":">",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": false
 		},
@@ -119,6 +127,7 @@
 			"outputFlag":">",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": false
 		},
@@ -132,6 +141,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": false
 		},
@@ -145,6 +155,7 @@
 			"outputFlag":">",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": false
 		}

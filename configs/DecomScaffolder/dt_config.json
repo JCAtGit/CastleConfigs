@@ -9,6 +9,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":true,
+			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": false
 		},
@@ -21,6 +22,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
 		},
@@ -33,6 +35,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
 		},
@@ -45,6 +48,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
 		},
@@ -57,6 +61,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
 		},
@@ -69,6 +74,7 @@
 			"outputFlag":"--output",
 			"redirectNull": true,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":"1/2: Dont forget to run the cleanup script after this one to ensure correct functioning of eval programs"
@@ -82,6 +88,7 @@
 			"outputFlag":"",
 			"redirectNull": true,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":"2/2: Cleanup script required for retdec"
@@ -95,6 +102,7 @@
 			"outputFlag":"",
 			"redirectNull": true,
 			"active":false,
+			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": true,
 			"it_begin": 0,
