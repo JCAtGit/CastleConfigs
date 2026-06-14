@@ -1,0 +1,19 @@
+{
+	"targets":[
+		{
+			"name":"TODO...",
+			"tgtDir":"",
+			"binPath":"",
+			"run_bin_as_shell":true,
+			"static_pre_flags":[],
+			"static_options":[],
+			"redirectNull": false,
+			"outputFlag":"-o",
+			"active":false,
+			"continue_checkpoint":true,
+			"run_per_file":false,
+			"run_as_it": false,
+			"comments":""
+		}
+	]
+}
