@@ -8,8 +8,8 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false,
-			"run_per_file":false,
+			"active":true,
+			"run_per_file":true,
 			"run_as_it": false
 		},
 		{
@@ -70,7 +70,21 @@
 			"redirectNull": true,
 			"active":false,
 			"run_per_file":false,
-			"run_as_it": false
+			"run_as_it": false,
+			"comments":"1/2: Dont forget to run the cleanup script after this one to ensure correct functioning of eval programs"
+		},
+		{
+			"name":"csmith_mage_clang_retdec_cleanup",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DecomScaffolder/csmith_mage_clang_retdec/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/retdec_decompile_cleanup.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": true,
+			"active":false,
+			"run_per_file":false,
+			"run_as_it": false,
+			"comments":"2/2: Cleanup script required for retdec"
 		},
 		{
 			"name":"csmith_mage_clang_ghidra",
@@ -80,7 +94,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": true,
-			"active":true,
+			"active":false,
 			"run_per_file":true,
 			"run_as_it": true,
 			"it_begin": 0,

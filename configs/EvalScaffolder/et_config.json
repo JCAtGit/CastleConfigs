@@ -6,11 +6,17 @@
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/git-2.54.0_mage_build_ghidra/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
 			"run_bin_as_shell":false,
-			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
+			"static_options":[
+				{"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/git-2.54.0_mage/":""},
+				{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, 
+				{"--name_encoded_marker":""}
+			],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":true,
-			"run_per_file":false
+			"active":false,
+			"run_per_file":false,
+			"run_as_it": false,
+			"comments":"TODO"
 		},
 		{
 			"name":"hashcat-7.1.2_mage_build_ghidra_mageEval",
@@ -18,23 +24,32 @@
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/hashcat-7.1.2_mage_build_ghidra/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
 			"run_bin_as_shell":false,
-			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
+			"static_options":[
+				{"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/hashcat-7.1.2_mage/":""},
+				{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, 
+				{"--name_encoded_marker":""}
+			],
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"tmux-3.6b_mage_build_ghidra_mageEval",
-			"oracleDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/tmux-3.6b_mage/",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/tmux-3.6b_mage_build_ghidra/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
 			"run_bin_as_shell":false,
-			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
+			"static_options":[
+				{"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/tmux-3.6b_mage/":""},
+				{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, 
+				{"--name_encoded_marker":""}
+			],
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"rufus_mage_build_ghidra_mageEval",
@@ -42,11 +57,33 @@
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/rufus_mage_build_ghidra/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
 			"run_bin_as_shell":false,
-			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
+			"static_options":[
+				{"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/rufus_mage":""},
+				{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, 
+				{"--name_encoded_marker":""}
+			],
+			"outputFlag":"-o",
+			"redirectNull": false,
+			"active":true,
+			"run_per_file":false,
+			"run_as_it": false
+		},
+		{
+			"name":"rufus_mage_clang_retdec_mageEval",
+			"oracleDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/rufus_mage/",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
+			"run_bin_as_shell":false,
+			"static_options":[
+				{"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/rufus_mage":""},
+				{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, 
+				{"--name_encoded_marker":""}
+			],
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"AvdanOSImager_mage_build_ghidra_mageEval",
@@ -54,23 +91,16 @@
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/AvdanOSImager_mage_build_ghidra/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
 			"run_bin_as_shell":false,
-			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
+			"static_options":[
+				{"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/AvdanOSImager_mage/":""},
+				{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"},
+				{"--name_encoded_marker":""}
+			],
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":false,
-			"run_per_file":false
-		},
-		{
-			"name":"rufus_mage_clang_retdec_mageEval",
-			"oracleDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/csmith_mage/",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
-			"run_bin_as_shell":false,
-			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
-			"outputFlag":"-o",
-			"redirectNull": false,
-			"active":false,
-			"run_per_file":true
+			"run_per_file":false,
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage_clang_ghidra_mageEval",
@@ -78,11 +108,18 @@
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_ghidra/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
 			"run_bin_as_shell":false,
-			"static_options":[{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, {"--name_encoded_marker":""}],
+			"static_options":[
+				{"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/csmith_mage/":""},
+				{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, 
+				{"--name_encoded_marker":""}
+			],
 			"outputFlag":"-o",
-			"redirectNull": false,
+			"redirectNull": true,
 			"active":false,
-			"run_per_file":true
+			"run_per_file":true,
+			"run_as_it": true,
+			"it_begin": 1000,
+			"it_end": 1000
 		}
 	]
 }
