@@ -67,7 +67,7 @@
 			],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
