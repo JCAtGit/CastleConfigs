@@ -1,7 +1,9 @@
 
 CodebaseScaffolder/*
+!CodebaseScaffolder/scripts/
 
 InstrumentationScaffolder/*
+!InstrumentationScaffolder/scripts/
 
 DeComScaffolder/*
 !DeComScaffolder/scripts/
@@ -10,5 +12,8 @@ BuildScaffolder/*
 !BuildScaffolder/scripts/
 
 EvalScaffolder/*
+
+AnalysisScaffolder/*
+!AnalysisScaffolder/scripts/
 
 .project

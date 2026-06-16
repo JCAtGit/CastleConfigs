@@ -7,9 +7,9 @@
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
 			"static_options":[
-				{"--processMode":"0"}
+				{"--processMode":"2"}, {"--it_begin":"0"}, {"--it_end":"10"}
 			],
-			"redirectNull": false,
+			"redirectNull": true,
 			"outputFlag":"-o",
 			"active":true,
 			"continue_checkpoint":true,
