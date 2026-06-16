@@ -67,7 +67,7 @@
 			],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
@@ -120,8 +120,8 @@
 				{"--name_encoded_marker":""}
 			],
 			"outputFlag":"-o",
-			"redirectNull": true,
-			"active":false,
+			"redirectNull": false,
+			"active": false,
 			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": true,
