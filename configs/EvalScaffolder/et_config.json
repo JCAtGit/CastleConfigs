@@ -12,12 +12,12 @@
 				{"--name_encoded_marker":""}
 			],
 			"outputFlag":"-o",
-			"redirectNull": false,
-			"active":false,
-			"continue_checkpoint":true,
+			"redirectNull": true,
+			"active":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
-			"comments":"TODO"
+			"comments":"Een ALT versie is aanwezig om een codewijziging te checken "
 		},
 		{
 			"name":"hashcat-7.1.2_mage_build_ghidra_mageEval",
@@ -31,7 +31,7 @@
 				{"--name_encoded_marker":""}
 			],
 			"outputFlag":"-o",
-			"redirectNull": false,
+			"redirectNull": true,
 			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
@@ -48,7 +48,7 @@
 				{"--name_encoded_marker":""}
 			],
 			"outputFlag":"-o",
-			"redirectNull": false,
+			"redirectNull": true,
 			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
@@ -66,8 +66,8 @@
 				{"--name_encoded_marker":""}
 			],
 			"outputFlag":"-o",
-			"redirectNull": false,
-			"active":true,
+			"redirectNull": true,
+			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false
