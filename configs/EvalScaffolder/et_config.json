@@ -13,7 +13,7 @@
 			],
 			"outputFlag":"-o",
 			"redirectNull": true,
-			"active":true,
+			"active":false,
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -75,7 +75,7 @@
 		{
 			"name":"rufus_mage_clang_retdec_mageEval",
 			"oracleDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/rufus_mage/",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/csmith_mage_clang_retdec/",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/rufus_mage_build_retdec/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
 			"run_bin_as_shell":false,
 			"static_options":[

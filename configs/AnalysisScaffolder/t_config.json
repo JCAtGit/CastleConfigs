@@ -1,8 +1,8 @@
 {
 	"targets":[
 		{
-			"name":"TODO HashCat",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/rufus_mage_build_ghidra_mageEval/",
+			"name":"tmux-3.6b_mage_build_ghidra_mageEval_MageEvalAnalyzer",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/tmux-3.6b_mage_build_ghidra_mageEval/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
@@ -18,8 +18,8 @@
 			"comments":""
 		},
 		{
-			"name":"TODO Tmux",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/rufus_mage_build_ghidra_mageEval/",
+			"name":"hashcat-7.1.2_mage_build_ghidra_mageEval_MageEvalAnalyzer",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/hashcat-7.1.2_mage_build_ghidra_mageEval/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
@@ -35,8 +35,8 @@
 			"comments":""
 		},
 		{
-			"name":"TODO Avdan",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/rufus_mage_build_ghidra_mageEval/",
+			"name":"AvdanOSImager_mage_build_ghidra_mageEval_MageEvalAnalyzer",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/AvdanOSImager_mage_build_ghidra_mageEval/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
@@ -52,8 +52,8 @@
 			"comments":""
 		},
 		{
-			"name":"TODO Git",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/rufus_mage_build_ghidra_mageEval/",
+			"name":"git-2.54.0_mage_build_ghidra_mageEval_MageEvalAnalyzer",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/git-2.54.0_mage_build_ghidra_mageEval/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
@@ -126,7 +126,11 @@
 			"run_bin_as_shell":false,
 			"static_pre_flags":[
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/rufus_mage_build_ghidra_mageEval_mageEvalAnalyzer/":""},
-				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/csmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerSummary/":""}
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/csmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerSummary/":""},
+				{"":""},
+				{"":""},
+				{"":""},
+				{"":""}
 			],
 			"static_options":[],
 			"redirectNull": false,

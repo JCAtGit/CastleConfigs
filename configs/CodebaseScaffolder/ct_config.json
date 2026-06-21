@@ -11,8 +11,12 @@
             "seedFlag": "--seed",
             "timestamp": 1777658365,
 			"active": true,
+			"continue_checkpoint":true,
+			"run_per_file":true,
+			"run_as_it": true,
 			"it_begin": 0,
-            "it_end": 1000
+            "it_end": 1000,
+			"it_ext":".c"
         }
     ]
 }

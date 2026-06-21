@@ -8,7 +8,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": false
@@ -21,9 +21,9 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
-			"run_per_file":false,
+			"run_per_file":true,
 			"run_as_it": false
 		},
 		{
@@ -34,9 +34,9 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
-			"run_per_file":false,
+			"run_per_file":true,
 			"run_as_it": false
 		},
 		{
@@ -47,9 +47,9 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
-			"run_per_file":false,
+			"run_per_file":true,
 			"run_as_it": false
 		},
 		{
@@ -60,38 +60,23 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
-			"run_per_file":false,
+			"run_per_file":true,
 			"run_as_it": false
 		},
 		{
-			"name":"csmith_mage_clang_retdec",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/csmith_mage_clang/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/RetDec-v5.0-Linux-Release/bin/retdec-decompiler",
-			"static_options":[{"--cleanup":""}, {"--silent":""}],
-			"run_bin_as_shell":false,
-			"outputFlag":"--output",
-			"redirectNull": true,
-			"active":false,
-			"continue_checkpoint":true,
-			"run_per_file":false,
-			"run_as_it": false,
-			"comments":"1/2: Dont forget to run the cleanup script after this one to ensure correct functioning of eval programs"
-		},
-		{
-			"name":"csmith_mage_clang_retdec_cleanup",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DecomScaffolder/csmith_mage_clang_retdec/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/retdec_decompile_cleanup.sh",
+			"name":"rufus_mage_build_retdec",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/rufus_mage_build/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/retdec_decompile_and_cleanup.sh",
 			"static_options":[],
 			"run_bin_as_shell":true,
-			"outputFlag":"",
-			"redirectNull": true,
-			"active":false,
+			"outputFlag":"--output",
+			"redirectNull": false,
+			"active":true,
 			"continue_checkpoint":true,
-			"run_per_file":false,
-			"run_as_it": false,
-			"comments":"2/2: Cleanup script required for retdec"
+			"run_per_file":true,
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage_clang_ghidra",
@@ -100,12 +85,13 @@
 			"static_options":[],
 			"run_bin_as_shell":true,
 			"outputFlag":"",
-			"redirectNull": true,
-			"active":false,
+			"redirectNull": false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": true,
-			"it_begin": 0,
+			"it_ext": ".o",
+			"it_begin": 10,
 			"it_end": 10
 		}
 	]
