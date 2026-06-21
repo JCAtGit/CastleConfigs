@@ -117,7 +117,7 @@
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
-			"comments":"kunnen ook een compleet plaatje maken"
+			"comments":"Deze is summarizer genoemd omdat deze over verschillende bestanden een summary heeft. TODO: it optie toevoegen?"
 		},
 		{
 			"name":"ZTest_case0",
