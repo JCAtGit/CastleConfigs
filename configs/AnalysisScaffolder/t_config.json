@@ -11,7 +11,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -28,7 +28,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -45,7 +45,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -62,7 +62,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -79,7 +79,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -100,7 +100,7 @@
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
-			"comments":"geef in dit geval de it args door in de static_preoptions"
+			"comments":"Geef in dit geval de it args door in de static_preoptions, TODO: rework dit in de normal iterator params."
 		},
 		{
 			"name":"csmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerSummary",
@@ -117,20 +117,20 @@
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
-			"comments":"Deze is summarizer genoemd omdat deze over verschillende bestanden een summary heeft. TODO: it optie toevoegen?"
+			"comments":"Deze is summarizer genoemd omdat deze over verschillende bestanden een summary heeft."
 		},
 		{
-			"name":"ZTest_case0",
+			"name":"ZTestForProportions",
 			"tgtDir":"",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalComparer",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[
-				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/rufus_mage_build_ghidra_mageEval_mageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/csmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerSummary/":""},
-				{"":""},
-				{"":""},
-				{"":""},
-				{"":""}
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/rufus_mage_build_ghidra_mageEval_mageEvalAnalyzer/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/tmux-3.6b_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/hashcat-7.1.2_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/AvdanOSImager_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/git-2.54.0_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""}
 			],
 			"static_options":[],
 			"redirectNull": false,
@@ -139,7 +139,7 @@
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
-			"comments":"Moet na de meegegeven entries in de preflag komen bij de verwerking. Deze berust op de gemaakte summaries"
+			"comments":"Moet na de meegegeven entries in de preflag komen bij de verwerking. Deze berust op de gemaakte summaries. De gegeven preflags moeten op een '/' eindigen."
 		}
 	]
 }
