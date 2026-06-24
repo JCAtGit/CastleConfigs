@@ -1,6 +1,19 @@
 {
 	"targets":[
 		{
+			"name":"redis-8.8.0_mage_build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/redis-8.8.0_mage_build",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":true,
+			"continue_checkpoint":true,
+			"run_per_file":true,
+			"run_as_it": false
+		},
+		{
 			"name":"git-2.54.0_mage_build_ghidra",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/git-2.54.0_mage_build/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
@@ -92,7 +105,8 @@
 			"run_as_it": true,
 			"it_ext": ".o",
 			"it_begin": 10,
-			"it_end": 10
+			"it_end": 10,
+			"it_ext":".c"
 		}
 	]
 }

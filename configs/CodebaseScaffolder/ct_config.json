@@ -1,5 +1,28 @@
 {
     "targets": [
+		{
+			"binPath": "/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/scripts/yarpgen-codegen.sh",
+			"run_bin_as_shell":true,            
+            "name": "yarpgen-codegen",
+            "outputFlag": "",
+			"static_pre_flags":[],
+			"static_options":[
+				{"--std=c":""},
+				{"-o":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/yarpgen-codegen/"}
+			],
+			"redirectNull": false,
+            "seedFlag": "-s",
+            "timestamp": 0,
+			"active": true,
+			"continue_checkpoint":true,
+			"run_per_file":true,
+			"run_as_it": true,
+			"it_begin": 1,
+            "it_end": 2,
+			"it_ext":".c",
+			"output_arg":false,
+			"seed_as_dir":true
+		},
         {
             "binPath": "/usr/bin/csmith",
 			"run_bin_as_shell":false,            
@@ -14,9 +37,11 @@
 			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": true,
-			"it_begin": 0,
+			"it_begin": 999,
             "it_end": 1000,
-			"it_ext":".c"
+			"it_ext":".c",
+			"output_arg":true,
+			"seed_as_dir":false
         }
     ]
 }

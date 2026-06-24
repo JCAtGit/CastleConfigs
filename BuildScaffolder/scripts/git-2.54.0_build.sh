@@ -15,7 +15,7 @@ make configure
 make all
 
 # Copy all binaries to the castle build folder
-echo "=== Moving binary to castle build folder ==="
+echo "=== Moving binaries to castle build folder ==="
 
 target_dir="../../BuildScaffolder/git-2.54.0_mage_build"
 mkdir -p "$target_dir" || { echo "Failed to create target directory"; exit 1; }
