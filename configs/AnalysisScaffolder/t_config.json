@@ -1,8 +1,8 @@
 {
 	"targets":[
 		{
-			"name":"tmux-3.6b_mage_build_ghidra_mageEval_MageEvalAnalyzer",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/tmux-3.6b_mage_build_ghidra_mageEval/",
+			"name":"redis-8.8.0_mage_build_ghidra_mageEval_MageEvalAnalyzer",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/redis-8.8.0_mage_build_ghidra_mageEval/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
@@ -11,41 +11,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":false,
-			"continue_checkpoint":true,
-			"run_per_file":false,
-			"run_as_it": false,
-			"comments":""
-		},
-		{
-			"name":"hashcat-7.1.2_mage_build_ghidra_mageEval_MageEvalAnalyzer",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/hashcat-7.1.2_mage_build_ghidra_mageEval/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
-			"run_bin_as_shell":false,
-			"static_pre_flags":[],
-			"static_options":[
-				{"--processMode":"0"}
-			],
-			"redirectNull": true,
-			"outputFlag":"-o",
-			"active":false,
-			"continue_checkpoint":true,
-			"run_per_file":false,
-			"run_as_it": false,
-			"comments":""
-		},
-		{
-			"name":"AvdanOSImager_mage_build_ghidra_mageEval_MageEvalAnalyzer",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/AvdanOSImager_mage_build_ghidra_mageEval/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
-			"run_bin_as_shell":false,
-			"static_pre_flags":[],
-			"static_options":[
-				{"--processMode":"0"}
-			],
-			"redirectNull": true,
-			"outputFlag":"-o",
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -62,7 +28,58 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":false,
+			"active":true,
+			"continue_checkpoint":true,
+			"run_per_file":false,
+			"run_as_it": false,
+			"comments":""
+		},
+		{
+			"name":"tmux-3.6b_mage_build_ghidra_mageEval_MageEvalAnalyzer",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/tmux-3.6b_mage_build_ghidra_mageEval/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[
+				{"--processMode":"0"}
+			],
+			"redirectNull": true,
+			"outputFlag":"-o",
+			"active":true,
+			"continue_checkpoint":true,
+			"run_per_file":false,
+			"run_as_it": false,
+			"comments":""
+		},
+		{
+			"name":"hashcat-7.1.2_mage_build_ghidra_mageEval_MageEvalAnalyzer",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/hashcat-7.1.2_mage_build_ghidra_mageEval/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[
+				{"--processMode":"0"}
+			],
+			"redirectNull": true,
+			"outputFlag":"-o",
+			"active":true,
+			"continue_checkpoint":true,
+			"run_per_file":false,
+			"run_as_it": false,
+			"comments":""
+		},
+		{
+			"name":"AvdanOSImager_mage_build_ghidra_mageEval_MageEvalAnalyzer",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/AvdanOSImager_mage_build_ghidra_mageEval/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[
+				{"--processMode":"0"}
+			],
+			"redirectNull": true,
+			"outputFlag":"-o",
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -79,7 +96,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -113,7 +130,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
 			"run_as_it": false,
@@ -130,7 +147,8 @@
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/tmux-3.6b_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/hashcat-7.1.2_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/AvdanOSImager_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
-				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/git-2.54.0_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""}
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/git-2.54.0_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/redis-8.8.0_mage_build_ghidra_mageEval_MageEvalAnalyzer":""}
 			],
 			"static_options":[],
 			"redirectNull": false,

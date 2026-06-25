@@ -1,6 +1,21 @@
 {
 	"targets":[
 		{
+			"name":"radare2-6.1.8_mage_build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/radare2-6.1.8_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/ ... .sh",
+			"run_bin_as_shell":true,
+			"static_pre_flags":[],
+			"static_options":[],
+			"redirectNull": false,
+			"outputFlag":"",
+			"active":false,
+			"continue_checkpoint":true,
+			"run_per_file":false,
+			"run_as_it": false,
+			"comments":""
+		},
+		{
 			"name":"redis-8.8.0_mage_build",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/redis-8.8.0_mage/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/redis_build.sh",

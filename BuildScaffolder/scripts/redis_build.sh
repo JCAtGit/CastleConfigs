@@ -6,6 +6,7 @@ cd /home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/redis-8.8.0_
 
 export BUILD_TLS=yes BUILD_WITH_MODULES=yes INSTALL_RUST_TOOLCHAIN=yes DISABLE_WERRORS=yes
    make -j "$(nproc)" all IGNORE_MISSING_DEPS=1
+# make -j "$(nproc)" all IGNORE_MISSING_DEPS=1 CFLAGS="-O0 -g -fno-lto" CXXFLAGS="-O0 -g -fno-lto" LDFLAGS="-fno-lto"
 
 # Copy all binaries to the castle build folder
 echo "=== Moving binaries to castle build folder ==="

@@ -1,6 +1,25 @@
 {
 	"targets":[
 		{
+			"name":"redis-8.8.0_mage_build_ghidra_mageEval",
+			"oracleDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/redis-8.8.0_mage/",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/redis-8.8.0_mage_build_ghidra/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEval",
+			"run_bin_as_shell":false,
+			"static_options":[
+				{"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/redis-8.8.0_mage/":""},
+				{"--marker_formats_path":"/home/user/Desktop/CCastle/CCastleData/configs/CCastlePipeline/formats.json"}, 
+				{"--name_encoded_marker":""}
+			],
+			"outputFlag":"-o",
+			"redirectNull": true,
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":false,
+			"run_as_it": false,
+			"comments":"TODO: alleen deze straks nog los evalueren, de rest niet!"
+		},
+		{
 			"name":"git-2.54.0_mage_build_ghidra_mageEval",
 			"oracleDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/git-2.54.0_mage/",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/git-2.54.0_mage_build_ghidra/",
@@ -17,7 +36,7 @@
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
-			"comments":"Een ALT versie is aanwezig om een codewijziging te checken "
+			"comments":"Een ALT versie is aanwezig om een codewijziging te checken. De dir in de static_options is de oracle dir."
 		},
 		{
 			"name":"hashcat-7.1.2_mage_build_ghidra_mageEval",
@@ -67,7 +86,7 @@
 			],
 			"outputFlag":"-o",
 			"redirectNull": true,
-			"active":true,
+			"active":false,
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false
@@ -125,7 +144,7 @@
 			"continue_checkpoint":true,
 			"run_per_file":true,
 			"run_as_it": true,
-			"it_begin": 1000,
+			"it_begin": 0,
 			"it_end": 1000,
 			"it_ext": ".c"
 		}
