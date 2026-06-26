@@ -11,8 +11,8 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":""
@@ -28,8 +28,8 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":""
@@ -45,8 +45,8 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":""
@@ -62,8 +62,8 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":""
@@ -79,8 +79,8 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":""
@@ -96,8 +96,8 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":""
@@ -130,8 +130,8 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_as_it": false,
 			"comments":"Deze is summarizer genoemd omdat deze over verschillende bestanden een summary heeft."
@@ -146,9 +146,9 @@
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/rufus_mage_build_ghidra_mageEval_mageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/tmux-3.6b_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/hashcat-7.1.2_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
-				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/AvdanOSImager_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/AvdanOSImager_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},				
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/git-2.54.0_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
-				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/redis-8.8.0_mage_build_ghidra_mageEval_MageEvalAnalyzer":""}
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/redis-8.8.0_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""}
 			],
 			"static_options":[],
 			"redirectNull": false,
