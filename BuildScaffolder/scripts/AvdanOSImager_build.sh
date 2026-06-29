@@ -9,7 +9,9 @@ echo "PATH: $PATH"
 
 cd "/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/AvdanOSImager_mage/" || exit 1
 echo "=== Build directory after cd ==="
-mkdir build && cd build
+rm -rf build
+mkdir -p build
+cd build
 cmake ..
 cmake --build .
 

@@ -1,8 +1,8 @@
 {
 	"targets":[
 		{
-			"name":"yarpgen-main_mage",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/yarpgen-main/",
+			"name":"yarpgen-codegen_mage",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/yarpgen-codegen/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
 			"run_bin_as_shell":false,
 			"static_pre_flags":[],
@@ -12,8 +12,11 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
-			"run_as_it":false,
-			"comments":""
+			"run_per_dir":true,
+			"run_as_it":true,
+			"it_begin": 1000,
+			"it_end": 1000,
+			"comments":"0 is reserved for the random seed."
 		},
 		{
 			"name":"DIE-engine_mage",
@@ -27,6 +30,7 @@
 			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":false,
+			"run_per_dir":false,
 			"run_as_it":false,
 			"comments":""
 		},
@@ -42,8 +46,9 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
+			"run_per_dir":false,
 			"run_as_it":false,
-			"comments":""
+			"comments":"TODO: In progress but not finished?"
 		},
 		{
 			"name":"redis-8.8.0_mage",
@@ -54,9 +59,10 @@
 			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
+			"run_per_dir":false,
 			"run_as_it":false,
 			"comments":""
 		},
@@ -69,9 +75,10 @@
 			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
+			"run_per_dir":false,
 			"run_as_it":false,
 			"comments":"/home/user/Desktop/CCastle/CCastleData/CodebaseScaffolder/git-2.54.0/t/ is a test dir"
 		},
@@ -84,9 +91,10 @@
 			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""},{"--clang_format_mode":""},{"--exclude_files": "7zCrc.c"}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -98,9 +106,10 @@
 			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""}, {"--clang_format_mode":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -112,9 +121,10 @@
 			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""}, {"--clang_format_mode":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
+			"run_per_dir":false,
 			"run_as_it": false		
 		},
 		{
@@ -126,9 +136,10 @@
 			"static_options":[{"--on-copy":""}, {"--name_encoded_marker":""}, {"--clang_format_mode":""}],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":false,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -143,23 +154,10 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": true,
 			"it_begin": 1000,
             "it_end": 1000
-		},
-		{
-			"name":"test_mage",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleRepository/test-examples/constructs/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/Mage",
-			"run_bin_as_shell":false,
-			"static_pre_flags":[],
-			"static_options":[{"--on-copy":""}],
-			"outputFlag":"-o",
-			"redirectNull": false,
-			"active":false,
-			"continue_checkpoint":true,
-			"run_per_file":false,
-			"run_as_it": false		
 		},
 		{
 			"name":"csmith_mage_clangAST",
@@ -175,6 +173,7 @@
 			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -189,6 +188,7 @@
 			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -203,6 +203,7 @@
 			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -217,6 +218,7 @@
 			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		}
 	]

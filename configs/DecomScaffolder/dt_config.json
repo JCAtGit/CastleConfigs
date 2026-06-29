@@ -11,6 +11,7 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -24,6 +25,7 @@
 			"active":false,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -37,6 +39,7 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -50,6 +53,7 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -63,6 +67,7 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -76,6 +81,7 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -89,6 +95,7 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": false
 		},
 		{
@@ -102,6 +109,7 @@
 			"active":true,
 			"continue_checkpoint":true,
 			"run_per_file":true,
+			"run_per_dir":false,
 			"run_as_it": true,
 			"it_ext": ".o",
 			"it_begin": 10,
