@@ -1,22 +1,64 @@
 {
 	"targets":[
 		{
-			"name":"radare2-6.1.8_mage_build",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/radare2-6.1.8_mage/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/generic_configure_make.sh",
+			"name":"sqlite-amalgamation-3530300_mage_build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/sqlite-amalgamation-3530300_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/sqlite-amalgamation-3530300_build.sh",
 			"run_bin_as_shell":true,
 			"static_pre_flags":[],
-			"static_options":[
-				{"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/radare2-6.1.8_mage_build/":""}
-			],
+			"static_options":[],
+			"redirectNull": false,
+			"outputFlag":"",
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":false,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
+			"name":"sqlite-amalgamation-3530300_mage_win32build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/sqlite_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/sqlite-amalgamation-3530300_win32build.sh",
+			"run_bin_as_shell":true,
+			"static_pre_flags":[],
+			"static_options":[],
+			"redirectNull": false,
+			"outputFlag":"",
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":false,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
+			"name":"sqlite-amalgamation-3530300_mage_win64build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/sqlite_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/sqlite-amalgamation-3530300_win64build.sh",
+			"run_bin_as_shell":true,
+			"static_pre_flags":[],
+			"static_options":[],
+			"redirectNull": false,
+			"outputFlag":"",
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":false,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
+			"name":"radare2-6.1.8_mage_build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/radare2-6.1.8_mage/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/scripts/radare2_build.sh",
+			"run_bin_as_shell":true,
+			"static_pre_flags":[],
+			"static_options":[],
 			"redirectNull": false,
 			"outputFlag":"",
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":"TODO: Wait until instrumentation is done!"
+			"run_as_it": false
 		},
 		{
 			"name":"redis-8.8.0_mage_build",
@@ -28,7 +70,7 @@
 			"redirectNull": false,
 			"outputFlag":"",
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false,
@@ -44,11 +86,10 @@
 			"redirectNull": false,
 			"outputFlag":"-o",
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
+			"run_as_it": false
 		},
 		{
 			"name":"hashcat-7.1.2_mage_build",
@@ -60,7 +101,7 @@
 			"redirectNull": false,
 			"outputFlag":"-o",
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false,
@@ -76,7 +117,7 @@
 			"redirectNull": false,
 			"outputFlag":"-o",
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -91,7 +132,7 @@
 			"redirectNull": false,
 			"outputFlag":"-o",
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -105,8 +146,8 @@
 			"static_options":[],
 			"redirectNull": false,
 			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false,
@@ -119,15 +160,15 @@
 			"run_bin_as_shell":true,
 			"static_pre_flags":[],
 			"static_options":[],
-			"redirectNull": true,
+			"redirectNull": false,
 			"outputFlag":"-o",
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false,
 			"it_begin": 1,
-			"it_end": 2,
+			"it_end": 1000,
 			"it_ext":".o",
 			"comments":"TODO: complete the build script and account/implement dir iteration"
 		},
@@ -141,13 +182,14 @@
 			"redirectNull": true,
 			"outputFlag":"-o",
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": true,
-			"it_begin": 1,
-			"it_end": 2,
-			"it_ext":".o"
+			"it_begin": 0,
+			"it_end": 1000,
+			"it_ext":".c",
+			"comments":"it_ext should be 'c' to allow iteration"
 		}
 	]
 }

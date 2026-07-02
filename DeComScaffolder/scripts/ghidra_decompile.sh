@@ -46,7 +46,9 @@ echo "Project name: $PROJECT_NAME"
     -import "$BINARY" \
     -scriptPath "$SCRIPT_DIR" \
     -postScript "$SCRIPT_NAME" "$OUTPUT_C" \
-    -deleteProject
+	-max-cpu 4 \
+    -deleteProject 
+
 
 if [ $? -eq 0 ] && [ -f "$OUTPUT_C" ]; then
     echo "Success: Decompiled C written to $OUTPUT_C"

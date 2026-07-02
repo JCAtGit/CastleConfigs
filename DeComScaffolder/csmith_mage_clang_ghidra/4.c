@@ -3611,7 +3611,7 @@ undefined4 mage_alpha394(undefined4 param_1)
 
 /*
 Unable to decompile 'main'
-Cause: Exception while decompiling 00403600: process: timeout
+Cause: Exception while decompiling 00403600: Response buffer size exceeded for: 4.c
 
 */
 

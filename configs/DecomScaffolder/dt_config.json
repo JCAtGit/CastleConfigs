@@ -1,6 +1,48 @@
 {
 	"targets":[
 		{
+			"name":"sqlite-amalgamation-3530300_mage_build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/sqlite-amalgamation-3530300_mage_build",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":true,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
+			"name":"sqlite-amalgamation-3530300_mage_win32build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/sqlite-amalgamation-3530300_mage_win32build",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":true,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
+			"name":"sqlite-amalgamation-3530300_mage_win64build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/sqlite-amalgamation-3530300_mage_build_mage_win64build",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":true,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
 			"name":"redis-8.8.0_mage_build_ghidra",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/redis-8.8.0_mage_build",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
@@ -8,8 +50,8 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":true,
-			"continue_checkpoint":true,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -23,7 +65,35 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":false,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
+			"run_per_file":true,
+			"run_per_dir":false,
+			"run_as_it": false
+		},		
+		{
+			"name":"git-2.54.0_mage_win32build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/git-2.54.0_mage_win32build/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":false,
+			"continue_checkpoint":false,
+			"run_per_file":true,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
+			"name":"git-2.54.0_mage_win64build_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/git-2.54.0_mage_win64build/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":false,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -37,7 +107,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -51,7 +121,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -65,7 +135,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -79,7 +149,7 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -93,7 +163,7 @@
 			"outputFlag":"--output",
 			"redirectNull": false,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -107,13 +177,12 @@
 			"outputFlag":"",
 			"redirectNull": false,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
 			"run_as_it": true,
-			"it_ext": ".o",
-			"it_begin": 10,
-			"it_end": 10,
+			"it_begin": 0,
+			"it_end": 1000,
 			"it_ext":".c"
 		}
 	]

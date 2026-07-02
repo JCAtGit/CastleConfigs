@@ -11,8 +11,8 @@ cd "/home/user/Desktop/CCastle/CCastleData/InstrumentationScaffolder/git-2.54.0_
 
 echo "=== Running make ==="
 make configure
-./configure --prefix=/usr CFLAGS="-g -O0"
-make all
+./configure CFLAGS="-g -O0"
+make all -j 4
 
 # Copy all binaries to the castle build folder
 echo "=== Moving binaries to castle build folder ==="

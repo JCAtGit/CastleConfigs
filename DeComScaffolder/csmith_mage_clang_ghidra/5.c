@@ -364,7 +364,7 @@ pointer g_168;
 pointer g_379;
 pointer g_368;
 undefined DAT_0040a680;
-short DAT_0041003a;
+undefined DAT_0041003a;
 undefined1 DAT_00410061;
 undefined8 DAT_00410059;
 short DAT_00410042;
@@ -3827,7 +3827,7 @@ func_36(ushort param_1,ulong param_2,char param_3,ulong param_4,byte param_5,cha
           local_19b5 = 1;
           if (g_58._4_2_ == 0) {
             local_19b5 = (((long)(int)((long)(g_73 << 6) >> 0x25) | 0xfffffffffffffff6U) ^
-                         0x3b0092db2509b59b) != (long)DAT_0041003a ^ 0xff;
+                         0x3b0092db2509b59b) != (long)_DAT_0041003a ^ 0xff;
           }
           *local_1130 = *local_1130 &
                         (0xffffffff <
