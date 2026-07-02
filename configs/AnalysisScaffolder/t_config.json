@@ -15,8 +15,7 @@
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
+			"run_as_it": false
 		},
 		{
 			"name":"git-2.54.0_mage_build_ghidra_mageEval_MageEvalAnalyzer",
@@ -33,44 +32,7 @@
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
-		},
-		{
-			"name":"git-2.54.0_mage_win64build_ghidra_mageEval_MageEvalAnalyzer",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/git-2.54.0_mage_win64build_ghidra_mageEval/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
-			"run_bin_as_shell":false,
-			"static_pre_flags":[],
-			"static_options":[
-				{"--processMode":"0"}
-			],
-			"redirectNull": true,
-			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":false,
-			"run_per_file":false,
-			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
-		},
-		{
-			"name":"git-2.54.0_mage_win32build_ghidra_mageEval_MageEvalAnalyzer",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/git-2.54.0_mage_win32build_ghidra_mageEval/",
-			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
-			"run_bin_as_shell":false,
-			"static_pre_flags":[],
-			"static_options":[
-				{"--processMode":"0"}
-			],
-			"redirectNull": true,
-			"outputFlag":"-o",
-			"active":true,
-			"continue_checkpoint":false,
-			"run_per_file":false,
-			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
+			"run_as_it": false
 		},
 		{
 			"name":"tmux-3.6b_mage_build_ghidra_mageEval_MageEvalAnalyzer",
@@ -87,8 +49,7 @@
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
+			"run_as_it": false
 		},
 		{
 			"name":"hashcat-7.1.2_mage_build_ghidra_mageEval_MageEvalAnalyzer",
@@ -105,8 +66,7 @@
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
+			"run_as_it": false
 		},
 		{
 			"name":"AvdanOSImager_mage_build_ghidra_mageEval_MageEvalAnalyzer",
@@ -123,8 +83,7 @@
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
+			"run_as_it": false
 		},
 		{
 			"name":"rufus_mage_build_ghidra_mageEval_mageEvalAnalyzer",
@@ -141,8 +100,7 @@
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
-			"run_as_it": false,
-			"comments":""
+			"run_as_it": false
 		},
 		{
 			"name":"csmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerIterated",
