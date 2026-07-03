@@ -50,7 +50,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
@@ -173,7 +173,7 @@
 		},
 		{
 			"name":"csmith_mage_win32clang_ghidra",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/csmith_mage_clang/",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/csmith_mage_win32clang/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
 			"static_options":[],
 			"run_bin_as_shell":true,
@@ -190,7 +190,7 @@
 		},
 		{
 			"name":"dsmith_mage_clang_ghidra",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/csmith_mage_clang/",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/dsmith_mage_clang/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
 			"static_options":[],
 			"run_bin_as_shell":true,
@@ -207,7 +207,7 @@
 		},
 		{
 			"name":"dsmith_mage_win32clang_ghidra",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/csmith_mage_clang/",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/dsmith_mage_win32clang/",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
 			"static_options":[],
 			"run_bin_as_shell":true,
