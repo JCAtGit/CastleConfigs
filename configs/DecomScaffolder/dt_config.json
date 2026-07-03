@@ -1,6 +1,20 @@
 {
 	"targets":[
 		{
+			"name":"yarpgen-codegen_mage_clang_ghidra",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/yarpgen-codegen_mage_clang",
+			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
+			"static_options":[],
+			"run_bin_as_shell":true,
+			"outputFlag":"",
+			"redirectNull": false,
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":true,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
 			"name":"sqlite-amalgamation-3530300_mage_build_ghidra",
 			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/sqlite-amalgamation-3530300_mage_build",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
@@ -30,13 +44,13 @@
 		},
 		{
 			"name":"sqlite-amalgamation-3530300_mage_win64build_ghidra",
-			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/sqlite-amalgamation-3530300_mage_build_mage_win64build",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/sqlite-amalgamation-3530300_mage_win64build",
 			"binPath":"/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_decompile.sh",
 			"static_options":[],
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
