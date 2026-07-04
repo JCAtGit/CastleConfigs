@@ -162,7 +162,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":false,
+			"active":true,
 			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
@@ -179,7 +179,7 @@
 			"run_bin_as_shell":true,
 			"outputFlag":"",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"continue_checkpoint":false,
 			"run_per_file":true,
 			"run_per_dir":false,
@@ -203,7 +203,7 @@
 			"run_as_it": true,
 			"it_begin": 0,
 			"it_end": 1000,
-			"it_ext":".c"
+			"it_ext":""
 		},
 		{
 			"name":"dsmith_mage_win32clang_ghidra",
@@ -220,7 +220,7 @@
 			"run_as_it": true,
 			"it_begin": 0,
 			"it_end": 1000,
-			"it_ext":".c"
+			"it_ext":".exe"
 		}
 	]
 }
