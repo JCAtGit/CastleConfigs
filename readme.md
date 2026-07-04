@@ -7,26 +7,21 @@ The general outline of the pipeline is as follows:
 
 ```
 
-1. Codebase.
-
+#####1. Codebase.
 The codebase directory holds the unaltered codebase of a repository or the generated code of a code generator.
 The instrumentation process/scaffolder targets collections of code in this directory and outputs newly instrumented code along with any related files to the instrumentation dir. 
 
-2. Instrumentation.
-
+#####2. Instrumentation.
 The instrumentation directory holds the instrumented codebase. Collections within this directory are targeted by the build processor/scaffolder and outputs, or should output, any resulting binary to its corresponding directory in the decompilation directory.
 
-3. Build.
-
+#####3. Build.
 Automated building happens in this phase using a (self-written) script that facilites the automation or the use of some binary.
 The build scaffolder inputs the paths from the instrumentation directory as instructed by the configurations and output the compiled files in their corresponding paths within the pipeline build directory.
 
-4. Decompilation.
-
+#####4. Decompilation.
 The decompilation phase takes the files from the pipeline build directory and outputs the results to corresponding path inside the decom directory.
 
-5. Evaluation.
-
+#####5. Evaluation.
 Evaluation input consists of files taken from the instrumentation directory (oracle) to use as oracle and the decompilation directory to evaluate.
 This phase produces generalized and rudimentary observation results, that are intended to be used for further analysis.
 These results are split into 3 parts:
@@ -34,15 +29,15 @@ These results are split into 3 parts:
 - eval,		rudimentary comparison of findings are found here
 - dev, 		anything that could be of potential interest to dev
 
-6. Analysis
-
+#####6. Analysis
 The analysis phase uses the files from the evaluation phases.
 Odds are calulcated and a z-test for proportions can be made here for various sets. 
 
 ### Pipeline configuration
-The pipeline configuration consists of 2 types of files:
-1. Scaffolder configuration file.
-2. Tool       configuration file.
+The pipeline uses different  configuration files:
+1. Scaffolder phase config file.
+2. Tool       task config file.
+3. Marker 	  format config file.
 
 #### Tool Config Format.
 
