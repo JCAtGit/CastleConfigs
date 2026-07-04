@@ -186,7 +186,7 @@
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false,
-			"comments":"Geef in dit geval de it args door in de static_preoptions, TODO: rework dit in de normal iterator params."
+			"comments":"Geef in dit geval de it args door in de static_preoptions, TODO: rework dit in de normal iterator params en test."
 		},
 		{
 			"name":"csmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerSummary",
@@ -207,6 +207,58 @@
 			"comments":"Deze is summarizer genoemd omdat deze over verschillende bestanden een summary heeft."
 		},
 		{
+			"name":"csmith_mage_win32clang_ghidra_mageEval_mageEvalAnalyzerSummary",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/csmith_mage_win32clang_ghidra_mageEval/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[
+				{"--processMode":"0"}
+			],
+			"redirectNull": true,
+			"outputFlag":"-o",
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":false,
+			"run_per_dir":false,
+			"run_as_it": false,
+			"comments":"Deze is summarizer genoemd omdat deze over verschillende bestanden een summary heeft."
+		},
+		{
+			"name":"dsmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerSummary",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/dsmith_mage_clang_ghidra_mageEval/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[
+				{"--processMode":"0"}
+			],
+			"redirectNull": true,
+			"outputFlag":"-o",
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":false,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
+			"name":"dsmith_mage_win32clang_ghidra_mageEval_mageEvalAnalyzerSummary",
+			"tgtDir":"/home/user/Desktop/CCastle/CCastleData/EvalScaffolder/dsmith_mage_win32clang_ghidra_mageEval/",
+			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalAnalyzer",
+			"run_bin_as_shell":false,
+			"static_pre_flags":[],
+			"static_options":[
+				{"--processMode":"0"}
+			],
+			"redirectNull": true,
+			"outputFlag":"-o",
+			"active":true,
+			"continue_checkpoint":false,
+			"run_per_file":false,
+			"run_per_dir":false,
+			"run_as_it": false
+		},
+		{
 			"name":"ZTestForProportions",
 			"tgtDir":"",
 			"binPath":"/home/user/Desktop/CCastle/CCastleRepository/build/cmake.run.linux.x86_64.Local/MageEvalComparer",
@@ -216,6 +268,10 @@
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/sqlite-amalgamation-3530300_mage_win32build_ghidra_mageEval_MageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/sqlite-amalgamation-3530300_mage_win64build_ghidra_mageEval_MageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/csmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerSummary/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/csmith_mage_win32clang_ghidra_mageEval_mageEvalAnalyzerSummary/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/dsmith_mage_clang_ghidra_mageEval_mageEvalAnalyzerSummary/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/dsmith_mage_win32clang_ghidra_mageEval_mageEvalAnalyzerSummary/":""},
+				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/yarpgen-codegen_mage_clang_ghidra_mageEval_MageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/rufus_mage_build_ghidra_mageEval_mageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/tmux-3.6b_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
 				{"/home/user/Desktop/CCastle/CCastleData/AnalysisScaffolder/hashcat-7.1.2_mage_build_ghidra_mageEval_MageEvalAnalyzer/":""},
