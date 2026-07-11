@@ -123,7 +123,7 @@
 			"outputFlag":"-o",
 			"redirectNull": true,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -141,7 +141,7 @@
 			"outputFlag":"-o",
 			"redirectNull": true,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -177,7 +177,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false
@@ -195,7 +195,7 @@
 			"outputFlag":"-o",
 			"redirectNull": false,
 			"active":true,
-			"continue_checkpoint":true,
+			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false
