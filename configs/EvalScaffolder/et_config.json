@@ -11,7 +11,7 @@
 				{"--name_encoded_marker":""}
 			],
 			"outputFlag":"-o",
-			"redirectNull": true,
+			"redirectNull": false,
 			"active":true,
 			"continue_checkpoint":false,
 			"run_per_file":false,
