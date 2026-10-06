@@ -17,3 +17,4 @@ cmake --build .
 
 echo "=== binary to castle build folder ==="
 cp "imager" "../../../BuildScaffolder/AvdanOSImager_mage_build/imager"
+cp "imager-gui" "../../../BuildScaffolder/AvdanOSImager_mage_build/imager-gui"

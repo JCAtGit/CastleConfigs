@@ -176,7 +176,7 @@
 			],
 			"outputFlag":"-o",
 			"redirectNull": false,
-			"active":true,
+			"active":false,
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
@@ -305,7 +305,7 @@
 			"it_begin": 1,
 			"it_end": 1000,
 			"it_ext": "",
-			"comments":"For chiral matching, the ext is set to blank"
+			"comments":"For matching, the ext is set to blank"
 		}
 	]
 }

@@ -93,14 +93,14 @@ All the other pipeline phases follow:
 
 ```
 	{
-		"timestamp":0,																	//
-		"version":0,																	//
-		"outputDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/", //
-		"output_ext":"",																//
-		"update_metadata": false,													//
-		"save_on_exit":false,															//
-		"backup_before_save":false,													//
-		"dry_run":false																//
+		"timestamp":0,																	// Is used to timestamp a scaffolder run, this timestamp will only update if save_on_exit is enabled
+		"version":0,																	// Is used to version the scaffolder pipeline if necessary (currently unused).
+		"outputDir":"/home/user/Desktop/CCastle/CCastleData/BuildScaffolder/", // Determines/specifies output folder of scaffolder run. 
+		"output_ext":"",																// Determines output extension of files within certain scaffolder runs.
+		"update_metadata": false,													// Was planned to update statistics on the scaffolder itself (currently unused).
+		"save_on_exit":false,															// Determines if generated (metadata) should be saved or discarded.
+		"backup_before_save":false,													// Creates backup of this configuration file before overwriting the data. 
+		"dry_run":false																// Outputs which tasks it plans to run without actually running it (currently unused). 
 	}
 ```
 
@@ -135,3 +135,10 @@ The entries of interest for users are, which influence the marker appearance and
 		"memBarrier": "__asm__ volatile(\"\" ::: \"memory\");\n"
 	}
 ```
+
+#### Decompiler Scripts
+
+Decompilers and their scripts can be found at:
+- /home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers
+- /home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts
+

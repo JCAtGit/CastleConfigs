@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Fixed paths (always provided)
+# Fixed paths
 ANALYZE_HEADLESS="/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/Decompilers/ghidra_12.1.2_PUBLIC_20260605/ghidra_12.1.2_PUBLIC/support/analyzeHeadless"
 DECOMPILE_SCRIPT="/home/user/Desktop/CCastle/CCastleData/DeComScaffolder/scripts/ghidra_postscript.java"
 
