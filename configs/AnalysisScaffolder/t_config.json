@@ -198,7 +198,7 @@
 			],
 			"redirectNull": true,
 			"outputFlag":"-o",
-			"active":true,
+			"active":false,
 			"continue_checkpoint":false,
 			"run_per_file":false,
 			"run_per_dir":false,
@@ -305,7 +305,7 @@
 			"run_per_file":false,
 			"run_per_dir":false,
 			"run_as_it": false,
-			"comments":"Moet bij de entries in de preflag komen bij de verwerking. Deze berust op de gemaakte summaries. De gegeven preflags moeten op een '/' eindigen."
+			"comments":"Sets komen bij de entries in de preflag tijdens de verwerking. Deze berust op eerder gemaakte individuele summaries. De gegeven paden in preflags moeten op een '/' eindigen."
 		},
 		{
 			"name":"ZTestForProportionsRealWorld",
